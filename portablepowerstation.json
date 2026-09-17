@@ -1,0 +1,327 @@
+[
+  {
+    "id": "ecoflow-trail-plus-300-dc",
+    "brand": "EcoFlow",
+    "model": "TRAIL Plus 300 DC",
+    "name": "EcoFlow TRAIL Plus 300 DC",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/trail-series?variant=54553980141641&view=trail-plus-300",
+    "image": "/images/products/ecoflow-trail-plus-300-dc.webp",
+
+    "price": {
+      "currency": "USD",
+      "current": 199,
+      "original": 199
+    },
+
+    "capacity": {
+      "nominalWh": 288,
+      "expandable": false,
+      "extraBattery": null,
+      "maxWh": 288
+    },
+
+    "power": {
+      "continuousW": 300,
+      "surgeW": null,
+      "xBoostW": null
+    },
+
+    "battery": {
+      "chemistry": "NCM",
+      "cycleLife": []
+    },
+
+    "charging": {
+      "acInputW": 0,
+      "solar": {
+        "maxW": 110,
+        "minV": null,
+        "maxV": null,
+        "maxA": null
+      },
+      "car": {
+        "supportedV": null,
+        "maxA": null
+      },
+      "maxCombinedW": null
+    },
+
+    "physical": {
+      "weightKg": 2.26,
+      "dimensionsCm": {
+        "length": 12.3,
+        "width": 11.5,
+        "height": 20.6
+      }
+    },
+
+    "ports": {
+      "ac": {
+        "count": 0,
+        "voltageV": null,
+        "totalMaxW": 0
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 12
+      },
+      "usbAFast": {
+        "count": 0,
+        "maxWPerPort": 0
+      },
+      "usbC": {
+        "count": 3,
+        "maxWPerPort": 140
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12,
+        "maxWPerPort": 120
+      },
+      "dc5521": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": 0
+      },
+      "anderson": {
+        "count": 0,
+        "voltageV": null,
+        "maxA": null
+      }
+    },
+
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true,
+      "wheels": false,
+      "telescopicHandle": false
+    },
+
+    "warrantyYears": 3,
+    "lastChecked": "2026-09-16"
+  },
+  {
+    "id": "ecoflow-river-3-plus",
+    "brand": "EcoFlow",
+    "model": "RIVER 3 Plus",
+    "name": "EcoFlow RIVER 3 Plus",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/ecoflow-river-3-plus-portable-power-station-flash-sale",
+    "image": "/images/products/ecoflow-river-3-plus.webp",
+
+    "price": {
+      "currency": "USD",
+      "current": 299,
+      "original": 299
+    },
+
+    "capacity": {
+      "nominalWh": 286,
+      "expandable": true,
+      "extraBattery": {
+        "model": "EcoFlow RIVER 3 Extra Battery EB600",
+        "capacityWh": 572,
+        "maxCount": 1
+      },
+      "maxWh": 858
+    },
+
+    "power": {
+      "continuousW": 600,
+      "surgeW": 1200,
+      "xBoostW": 1200
+    },
+
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        { "cycles": 3000, "retentionPct": 80 }
+      ]
+    },
+
+    "charging": {
+      "acInputW": 380,
+      "solar": {
+        "maxW": 220,
+        "minV": null,
+        "maxV": null,
+        "maxA": null
+      },
+      "car": {
+        "supportedV": [12, 24],
+        "maxA": null
+      },
+      "maxCombinedW": null
+    },
+
+    "physical": {
+      "weightKg": 4.7,
+      "dimensionsCm": {
+        "length": 23.4,
+        "width": 23.1,
+        "height": 14.7
+      }
+    },
+
+    "ports": {
+      "ac": {
+        "count": 3,
+        "voltageV": 120,
+        "totalMaxW": 600
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 12
+      },
+      "usbAFast": {
+        "count": 0,
+        "maxWPerPort": 0
+      },
+      "usbC": {
+        "count": 1,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": 0
+      },
+      "dc5521": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": 0
+      },
+      "anderson": {
+        "count": 0,
+        "voltageV": null,
+        "maxA": null
+      }
+    },
+
+    "features": {
+      "wifi": null,
+      "bluetooth": null,
+      "app": true,
+      "wheels": false,
+      "telescopicHandle": false
+    },
+
+    "warrantyYears": null,
+    "lastChecked": "2026-09-16"
+  },
+   {
+    "id": "ecoflow-delta-pro",
+    "brand": "EcoFlow",
+    "model": "DELTA Pro",
+    "name": "EcoFlow DELTA Pro",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://au.ecoflow.com/products/delta-pro-portable-power-station",
+    "image": "/images/products/ecoflow-delta-pro.webp",
+
+    "price": {
+      "currency": "USD",
+      "current": 2999,
+      "original": 3999
+    },
+
+    "capacity": {
+      "nominalWh": 3600,
+      "expandable": true,
+      "extraBattery": {
+        "model": "DELTA Pro Smart Extra Battery",
+        "capacityWh": 3600,
+        "maxCount": 2
+      },
+      "maxWh": 25000
+    },
+
+    "power": {
+      "continuousW": 3600,
+      "surgeW": 7200,
+      "xBoostW": 4500
+    },
+
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        { "cycles": 3500, "retentionPct": 80 },
+        { "cycles": 6500, "retentionPct": 50 }
+      ]
+    },
+
+    "charging": {
+      "acInputW": 2300,
+      "solar": {
+        "maxW": 1600,
+        "minV": 11,
+        "maxV": 150,
+        "maxA": 15
+      },
+      "car": {
+        "supportedV": [12, 24],
+        "maxA": 8
+      },
+      "maxCombinedW": 6600
+    },
+
+    "physical": {
+      "weightKg": 45,
+      "dimensionsCm": {
+        "length": 63.5,
+        "width": 28.4,
+        "height": 42
+      }
+    },
+
+    "ports": {
+      "ac": {
+        "count": 4,
+        "voltageV": 230,
+        "totalMaxW": 3600
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 12
+      },
+      "usbAFast": {
+        "count": 2,
+        "maxWPerPort": 18
+      },
+      "usbC": {
+        "count": 2,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12.6,
+        "maxWPerPort": 126
+      },
+      "dc5521": {
+        "count": 2,
+        "voltageV": 12.6,
+        "maxWPerPort": 38
+      },
+      "anderson": {
+        "count": 1,
+        "voltageV": 12.6,
+        "maxA": 30
+      }
+    },
+
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true,
+      "wheels": true,
+      "telescopicHandle": true
+    },
+
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-16"
+  }
+]
