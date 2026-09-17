@@ -95,9 +95,7 @@
     "features": {
       "wifi": true,
       "bluetooth": true,
-      "app": true,
-      "wheels": false,
-      "telescopicHandle": false
+      "app": true
     },
 
     "warrantyYears": 3,
@@ -205,9 +203,7 @@
     "features": {
       "wifi": null,
       "bluetooth": null,
-      "app": true,
-      "wheels": false,
-      "telescopicHandle": false
+      "app": true
     },
 
     "warrantyYears": null,
@@ -316,9 +312,7 @@
     "features": {
       "wifi": true,
       "bluetooth": true,
-      "app": true,
-      "wheels": true,
-      "telescopicHandle": true
+      "app": true
     },
 
     "warrantyYears": 5,
