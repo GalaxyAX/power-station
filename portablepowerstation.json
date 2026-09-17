@@ -7,7 +7,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://us.ecoflow.com/products/trail-series?variant=54553980141641&view=trail-plus-300",
-    "image": "/images/products/ecoflow-trail-plus-300-dc.webp",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TRAIL%20Plus%20300%20DC.webp",
 
     "price": {
       "currency": "USD",
@@ -111,7 +111,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://us.ecoflow.com/products/ecoflow-river-3-plus-portable-power-station-flash-sale",
-    "image": "/images/products/ecoflow-river-3-plus.webp",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%203%20Plus.webp",
 
     "price": {
       "currency": "USD",
@@ -221,7 +221,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://au.ecoflow.com/products/delta-pro-portable-power-station",
-    "image": "/images/products/ecoflow-delta-pro.webp",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro.webp",
 
     "price": {
       "currency": "USD",
