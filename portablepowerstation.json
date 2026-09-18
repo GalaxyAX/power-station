@@ -8,31 +8,26 @@
     "region": "US",
     "url": "https://us.ecoflow.com/products/trail-series?variant=54553980141641&view=trail-plus-300",
     "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TRAIL%20Plus%20300%20DC.webp",
-
     "price": {
       "currency": "USD",
       "current": 199,
       "original": 199
     },
-
     "capacity": {
       "nominalWh": 288,
       "expandable": false,
       "extraBattery": null,
       "maxWh": 288
     },
-
     "power": {
       "continuousW": 300,
       "surgeW": null,
       "xBoostW": null
     },
-
     "battery": {
       "chemistry": "NCM",
       "cycleLife": []
     },
-
     "charging": {
       "acInputW": 0,
       "solar": {
@@ -47,7 +42,6 @@
       },
       "maxCombinedW": null
     },
-
     "physical": {
       "weightKg": 2.26,
       "dimensionsCm": {
@@ -56,7 +50,6 @@
         "height": 20.6
       }
     },
-
     "ports": {
       "ac": {
         "count": 0,
@@ -91,13 +84,11 @@
         "maxA": null
       }
     },
-
     "features": {
       "wifi": true,
       "bluetooth": true,
       "app": true
     },
-
     "warrantyYears": 3,
     "lastChecked": "2026-09-16"
   },
@@ -110,13 +101,11 @@
     "region": "US",
     "url": "https://us.ecoflow.com/products/ecoflow-river-3-plus-portable-power-station-flash-sale",
     "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%203%20Plus.webp",
-
     "price": {
       "currency": "USD",
       "current": 299,
       "original": 299
     },
-
     "capacity": {
       "nominalWh": 286,
       "expandable": true,
@@ -127,20 +116,20 @@
       },
       "maxWh": 858
     },
-
     "power": {
       "continuousW": 600,
       "surgeW": 1200,
       "xBoostW": 1200
     },
-
     "battery": {
       "chemistry": "LFP",
       "cycleLife": [
-        { "cycles": 3000, "retentionPct": 80 }
+        {
+          "cycles": 3000,
+          "retentionPct": 80
+        }
       ]
     },
-
     "charging": {
       "acInputW": 380,
       "solar": {
@@ -150,12 +139,14 @@
         "maxA": null
       },
       "car": {
-        "supportedV": [12, 24],
+        "supportedV": [
+          12,
+          24
+        ],
         "maxA": null
       },
       "maxCombinedW": null
     },
-
     "physical": {
       "weightKg": 4.7,
       "dimensionsCm": {
@@ -164,7 +155,6 @@
         "height": 14.7
       }
     },
-
     "ports": {
       "ac": {
         "count": 3,
@@ -199,17 +189,15 @@
         "maxA": null
       }
     },
-
     "features": {
       "wifi": null,
       "bluetooth": null,
       "app": true
     },
-
     "warrantyYears": null,
     "lastChecked": "2026-09-16"
   },
-   {
+  {
     "id": "ecoflow-delta-pro",
     "brand": "EcoFlow",
     "model": "DELTA Pro",
@@ -218,13 +206,11 @@
     "region": "US",
     "url": "https://au.ecoflow.com/products/delta-pro-portable-power-station",
     "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro.webp",
-
     "price": {
       "currency": "USD",
       "current": 2999,
       "original": 3999
     },
-
     "capacity": {
       "nominalWh": 3600,
       "expandable": true,
@@ -235,21 +221,24 @@
       },
       "maxWh": 25000
     },
-
     "power": {
       "continuousW": 3600,
       "surgeW": 7200,
       "xBoostW": 4500
     },
-
     "battery": {
       "chemistry": "LFP",
       "cycleLife": [
-        { "cycles": 3500, "retentionPct": 80 },
-        { "cycles": 6500, "retentionPct": 50 }
+        {
+          "cycles": 3500,
+          "retentionPct": 80
+        },
+        {
+          "cycles": 6500,
+          "retentionPct": 50
+        }
       ]
     },
-
     "charging": {
       "acInputW": 2300,
       "solar": {
@@ -259,12 +248,14 @@
         "maxA": 15
       },
       "car": {
-        "supportedV": [12, 24],
+        "supportedV": [
+          12,
+          24
+        ],
         "maxA": 8
       },
       "maxCombinedW": 6600
     },
-
     "physical": {
       "weightKg": 45,
       "dimensionsCm": {
@@ -273,7 +264,6 @@
         "height": 42
       }
     },
-
     "ports": {
       "ac": {
         "count": 4,
@@ -308,14 +298,106 @@
         "maxA": 30
       }
     },
-
     "features": {
       "wifi": true,
       "bluetooth": true,
       "app": true
     },
-
     "warrantyYears": 5,
     "lastChecked": "2026-09-16"
+  },
+  {
+    "id": "ecoflow-delta-pro-ultra",
+    "brand": "EcoFlow",
+    "model": "DELTA Pro Ultra",
+    "name": "EcoFlow DELTA Pro Ultra",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=40758830071881",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra.webp",
+    "price": {
+      "currency": "USD",
+      "current": 4199,
+      "original": 5799
+    },
+    "capacity": {
+      "nominalWh": 6144,
+      "expandable": true,
+      "extraBattery": {
+        "model": "DELTA Pro Ultra Smart Extra Battery",
+        "capacityWh": 6144,
+        "maxCount": 4
+      },
+      "maxWh": 30000
+    },
+    "power": {
+      "continuousW": 7200,
+      "surgeW": 10800,
+      "xBoostW": null
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 3500,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 5600,
+        "minV": 30,
+        "maxV": 450,
+        "maxA": 15
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": null
+      },
+      "maxCombinedW": 7400
+    },
+    "physical": {
+      "weightKg": 82.4,
+      "dimensionsCm": {
+        "length": 69,
+        "width": 48.1,
+        "height": 21.4
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 3,
+        "voltageV": [
+          120,
+          240
+        ],
+        "totalMaxW": 7200
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 12
+      },
+      "usbC": {
+        "count": 2,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12.6,
+        "maxWPerPort": 378
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-18"
   }
 ]
