@@ -372,10 +372,7 @@
     "ports": {
       "ac": {
         "count": 3,
-        "voltageV": [
-          120,
-          240
-        ],
+        "voltageV": 120,
         "totalMaxW": 7200
       },
       "usbA": {
