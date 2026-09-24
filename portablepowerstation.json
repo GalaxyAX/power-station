@@ -204,12 +204,12 @@
     "name": "EcoFlow DELTA Pro",
     "category": "portable-power-station",
     "region": "US",
-    "url": "https://au.ecoflow.com/products/delta-pro-portable-power-station",
+    "url": "https://us.ecoflow.com/products/delta-pro-portable-power-station",
     "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro.webp",
     "price": {
       "currency": "USD",
-      "current": 2999,
-      "original": 3999
+      "current": 1899,
+      "original": 2799
     },
     "capacity": {
       "nominalWh": 3600,
@@ -267,7 +267,7 @@
     "ports": {
       "ac": {
         "count": 4,
-        "voltageV": 230,
+        "voltageV": 240,
         "totalMaxW": 3600
       },
       "usbA": {
@@ -304,7 +304,7 @@
       "app": true
     },
     "warrantyYears": 5,
-    "lastChecked": "2026-09-16"
+    "lastChecked": "2026-09-24"
   },
   {
     "id": "ecoflow-delta-pro-ultra",
