@@ -1209,7 +1209,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=42015827492937",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203.webp",
     "price": {
       "currency": "USD",
       "current": 599,
