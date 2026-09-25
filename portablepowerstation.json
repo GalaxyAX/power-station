@@ -575,5 +575,96 @@
     },
     "warrantyYears": 5,
     "lastChecked": "2026-09-24"
+  },
+  {
+    "id": "ecoflow-delta-3-max-plus",
+    "brand": "EcoFlow",
+    "model": "DELTA 3 Max Plus",
+    "name": "EcoFlow DELTA 3 Max Plus",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54718699962441",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 1149,
+      "original": 1599
+    },
+    "capacity": {
+      "nominalWh": 2048,
+      "expandable": true,
+      "extraBattery": {
+        "model": "DELTA 3 Max Plus Smart Extra Battery",
+        "capacityWh": 2048,
+        "maxCount": 2
+      },
+      "maxWh": 6144
+    },
+    "power": {
+      "continuousW": 3000,
+      "surgeW": 6000,
+      "xBoostW": 3800
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 3000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 1000,
+        "minV": 11,
+        "maxV": 60,
+        "maxA": 18
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": 8
+      },
+      "maxCombinedW": null
+    },
+    "physical": {
+      "weightKg": 22.1,
+      "dimensionsCm": {
+        "length": 49.4,
+        "width": 24.2,
+        "height": 30.5
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 4,
+        "voltageV": 120,
+        "totalMaxW": 3000
+      },
+      "usbA": {
+        "count": 1,
+        "maxWPerPort": 18
+      },
+      "usbC": {
+        "count": 3,
+        "maxWPerPort": 140
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12.6,
+        "maxWPerPort": 126
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-25"
   }
 ]
