@@ -666,5 +666,92 @@
     },
     "warrantyYears": 5,
     "lastChecked": "2026-09-25"
+  },
+  {
+    "id": "ecoflow-delta-3-max",
+    "brand": "EcoFlow",
+    "model": "DELTA 3 Max",
+    "name": "EcoFlow DELTA 3 Max",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54692162764873",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max.webp",
+    "price": {
+      "currency": "USD",
+      "current": 879,
+      "original": 1199
+    },
+    "capacity": {
+      "nominalWh": 2048,
+      "expandable": false,
+      "extraBattery": null,
+      "maxWh": 2048
+    },
+    "power": {
+      "continuousW": 2400,
+      "surgeW": 4800,
+      "xBoostW": 3400
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 3000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 500,
+        "minV": 11,
+        "maxV": 60,
+        "maxA": 13
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": 8
+      },
+      "maxCombinedW": null
+    },
+    "physical": {
+      "weightKg": 20.3,
+      "dimensionsCm": {
+        "length": 49.4,
+        "width": 23.9,
+        "height": 30.5
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 4,
+        "voltageV": 120,
+        "totalMaxW": 2400
+      },
+      "usbA": {
+        "count": 1,
+        "maxWPerPort": 18
+      },
+      "usbC": {
+        "count": 3,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12.6,
+        "maxWPerPort": 126
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-25"
   }
 ]
