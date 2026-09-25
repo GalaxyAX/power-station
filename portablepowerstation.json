@@ -940,7 +940,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://us.ecoflow.com/products/delta-2-max-portable-power-station?variant=54615943512137",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max.webp",
     "price": {
       "currency": "USD",
       "current": 1029,
