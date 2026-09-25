@@ -762,7 +762,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station-3072wh?variant=55612118532169",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20Plus.webp",
     "price": {
       "currency": "USD",
       "current": 1579,
