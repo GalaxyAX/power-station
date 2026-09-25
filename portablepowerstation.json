@@ -844,5 +844,92 @@
     },
     "warrantyYears": 5,
     "lastChecked": "2026-09-25"
+  },
+  {
+    "id": "ecoflow-delta-3-ultra",
+    "brand": "EcoFlow",
+    "model": "DELTA 3 Ultra",
+    "name": "EcoFlow DELTA 3 Ultra",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-portable-power-station-3072wh?variant=55609357140041",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 1369,
+      "original": 1599
+    },
+    "capacity": {
+      "nominalWh": 3072,
+      "expandable": false,
+      "extraBattery": null,
+      "maxWh": 3072
+    },
+    "power": {
+      "continuousW": 3600,
+      "surgeW": 7200,
+      "xBoostW": 4600
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 3500,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 800,
+        "minV": 11,
+        "maxV": 60,
+        "maxA": 18
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": 8
+      },
+      "maxCombinedW": null
+    },
+    "physical": {
+      "weightKg": 32.7,
+      "dimensionsCm": {
+        "length": 62.6,
+        "width": 32.8,
+        "height": 39.5
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 5,
+        "voltageV": 120,
+        "totalMaxW": 3600
+      },
+      "usbA": {
+        "count": 1,
+        "maxWPerPort": 18
+      },
+      "usbC": {
+        "count": 3,
+        "maxWPerPort": 140
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12.6,
+        "maxWPerPort": 126
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-25"
   }
 ]
