@@ -1022,5 +1022,92 @@
     },
     "warrantyYears": 5,
     "lastChecked": "2026-09-25"
+  },
+  {
+    "id": "ecoflow-delta-3-classic",
+    "brand": "EcoFlow",
+    "model": "DELTA 3 Classic",
+    "name": "EcoFlow DELTA 3 Classic",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/delta-3-classic-portable-power-station?variant=55808520650825",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 499,
+      "original": 749
+    },
+    "capacity": {
+      "nominalWh": 1024,
+      "expandable": false,
+      "extraBattery": null,
+      "maxWh": 1024
+    },
+    "power": {
+      "continuousW": 1800,
+      "surgeW": 3600,
+      "xBoostW": 2600
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 4000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1400,
+      "solar": {
+        "maxW": 500,
+        "minV": 11,
+        "maxV": 60,
+        "maxA": 15
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": 8
+      },
+      "maxCombinedW": null
+    },
+    "physical": {
+      "weightKg": 12.1,
+      "dimensionsCm": {
+        "length": 39.8,
+        "width": 20,
+        "height": 28.3
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 3,
+        "voltageV": 120,
+        "totalMaxW": 1800
+      },
+      "usbA": {
+        "count": 1,
+        "maxWPerPort": 18
+      },
+      "usbC": {
+        "count": 2,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-25"
   }
 ]
