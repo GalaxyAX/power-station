@@ -307,6 +307,97 @@
     "lastChecked": "2026-09-24"
   },
   {
+    "id": "ecoflow-delta-pro-3",
+    "brand": "EcoFlow",
+    "model": "DELTA Pro 3",
+    "name": "EcoFlow DELTA Pro 3",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station?variant=41385721004105",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 2799,
+      "original": 3699
+    },
+    "capacity": {
+      "nominalWh": 4096,
+      "expandable": true,
+      "extraBattery": {
+        "model": "DELTA Pro 3 Smart Extra Battery",
+        "capacityWh": 4096,
+        "maxCount": 2
+      },
+      "maxWh": 12288
+    },
+    "power": {
+      "continuousW": 4000,
+      "surgeW": 8000,
+      "xBoostW": 6000
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 4000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 2600,
+        "minV": 11,
+        "maxV": 150,
+        "maxA": 20
+      },
+      "car": {
+        "supportedV": [
+          12,
+          48
+        ],
+        "maxA": 20
+      },
+      "maxCombinedW": 7000
+    },
+    "physical": {
+      "weightKg": 51.5,
+      "dimensionsCm": {
+        "length": 69.3,
+        "width": 34.1,
+        "height": 41
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 7,
+        "voltageV": 120,
+        "totalMaxW": 4000
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 18
+      },
+      "usbC": {
+        "count": 2,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-25"
+  },
+  {
     "id": "ecoflow-delta-pro-ultra",
     "brand": "EcoFlow",
     "model": "DELTA Pro Ultra",
