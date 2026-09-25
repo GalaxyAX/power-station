@@ -753,5 +753,96 @@
     },
     "warrantyYears": 5,
     "lastChecked": "2026-09-25"
+  },
+  {
+    "id": "ecoflow-delta-3-ultra-plus",
+    "brand": "EcoFlow",
+    "model": "DELTA 3 Ultra Plus",
+    "name": "EcoFlow DELTA 3 Ultra Plus",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station-3072wh?variant=55612118532169",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 1579,
+      "original": 2199
+    },
+    "capacity": {
+      "nominalWh": 3072,
+      "expandable": true,
+      "extraBattery": {
+        "model": "DELTA 3 Max Plus Smart Extra Battery",
+        "capacityWh": 2048,
+        "maxCount": 2
+      },
+      "maxWh": 7168
+    },
+    "power": {
+      "continuousW": 3600,
+      "surgeW": 7200,
+      "xBoostW": 4600
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 3500,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 1600,
+        "minV": 11,
+        "maxV": 60,
+        "maxA": 18
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": 8
+      },
+      "maxCombinedW": null
+    },
+    "physical": {
+      "weightKg": 33.7,
+      "dimensionsCm": {
+        "length": 61.3,
+        "width": 32.8,
+        "height": 39.5
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 5,
+        "voltageV": 120,
+        "totalMaxW": 3600
+      },
+      "usbA": {
+        "count": 1,
+        "maxWPerPort": 18
+      },
+      "usbC": {
+        "count": 3,
+        "maxWPerPort": 140
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12.6,
+        "maxWPerPort": 126
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-25"
   }
 ]
