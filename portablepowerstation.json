@@ -1561,7 +1561,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://us.ecoflow.com/products/river-2-240-portable-power-station?variant=40957077487689",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%202.webp",
     "price": {
       "currency": "USD",
       "current": 209,
@@ -1638,6 +1638,85 @@
       "app": true
     },
     "warrantyYears": 5,
+    "lastChecked": "2026-09-26"
+  },
+  {
+    "id": "ecoflow-trail-200-dc",
+    "brand": "EcoFlow",
+    "model": "TRAIL 200 DC",
+    "name": "EcoFlow TRAIL 200 DC",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/trail-series?variant=54553979682889",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 109,
+      "original": null
+    },
+    "capacity": {
+      "nominalWh": 192,
+      "expandable": false,
+      "extraBattery": null,
+      "maxWh": 192
+    },
+    "power": {
+      "continuousW": 220,
+      "surgeW": null,
+      "xBoostW": null
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": []
+    },
+    "charging": {
+      "acInputW": null,
+      "solar": {
+        "maxW": null,
+        "minV": null,
+        "maxV": null,
+        "maxA": null
+      },
+      "car": {
+        "supportedV": [],
+        "maxA": null
+      },
+      "maxCombinedW": 200
+    },
+    "physical": {
+      "weightKg": 1.83,
+      "dimensionsCm": {
+        "length": 16.7,
+        "width": 11.5,
+        "height": 12.6
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 0,
+        "voltageV": null,
+        "totalMaxW": null
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 12
+      },
+      "usbC": {
+        "count": 2,
+        "maxWPerPort": 140
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": false,
+      "bluetooth": false,
+      "app": false
+    },
+    "warrantyYears": null,
     "lastChecked": "2026-09-26"
   }
 ]
