@@ -1727,7 +1727,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://us.ecoflow.com/products/trail-series?variant=54553980043337",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TRAIL%20300%20DC.webp",
     "price": {
       "currency": "USD",
       "current": 159,
@@ -1798,6 +1798,94 @@
       "app": false
     },
     "warrantyYears": 3,
+    "lastChecked": "2026-09-26"
+  },
+  {
+    "id": "ecoflow-delta-pro-ultra-x-shp3",
+    "brand": "EcoFlow",
+    "model": "DELTA Pro Ultra X + Smart Home Panel 3",
+    "name": "EcoFlow DELTA Pro Ultra X + Smart Home Panel 3",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=54714781204553",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 10999,
+      "original": null
+    },
+    "capacity": {
+      "nominalWh": 12288,
+      "expandable": true,
+      "extraBattery": {
+        "model": "DELTA Pro Ultra X Smart Extra Battery",
+        "capacityWh": 6144,
+        "maxCount": 8
+      },
+      "maxWh": 61440
+    },
+    "power": {
+      "continuousW": 12000,
+      "surgeW": null,
+      "xBoostW": null
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 3500,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 12000,
+      "solar": {
+        "maxW": 10000,
+        "minV": 80,
+        "maxV": 500,
+        "maxA": 15
+      },
+      "car": {
+        "supportedV": [],
+        "maxA": null
+      },
+      "maxCombinedW": null
+    },
+    "physical": {
+      "weightKg": 135.5,
+      "dimensionsCm": {
+        "length": 67.6,
+        "width": 47.9,
+        "height": 23.4
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 4,
+        "voltageV": 120,
+        "totalMaxW": 12000
+      },
+      "usbA": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "usbC": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
     "lastChecked": "2026-09-26"
   }
 ]
