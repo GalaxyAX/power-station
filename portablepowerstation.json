@@ -2348,7 +2348,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://www.bluettipower.com/products/apex-300-2-b300k?variant=47353679315163",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%202×B300K.webp",
     "price": {
       "currency": "USD",
       "current": 3699,
@@ -2408,6 +2408,97 @@
         "count": 6,
         "voltageV": 120,
         "totalMaxW": 3840
+      },
+      "usbA": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "usbC": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-26"
+  },
+  {
+    "id": "bluetti-2x-apex-300-2x-b300k-hub-a1",
+    "brand": "BLUETTI",
+    "model": "2×Apex 300 + 2×B300K + Hub A1",
+    "name": "BLUETTI 2×Apex 300 + 2×B300K + Hub A1",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/2-apex-300-2-b300k-hub-a1?variant=6889c1e7d941837ed3457dd1",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 6099,
+      "original": null
+    },
+    "capacity": {
+      "nominalWh": 11059.2,
+      "expandable": true,
+      "extraBattery": {
+        "model": "BLUETTI B300K",
+        "capacityWh": 2764.8,
+        "maxCount": 10
+      },
+      "maxWh": 38707.2
+    },
+    "power": {
+      "continuousW": 7680,
+      "surgeW": null,
+      "xBoostW": null
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 4000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 3600,
+      "solar": {
+        "maxW": 4800,
+        "minV": 12,
+        "maxV": 60,
+        "maxA": 20
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": null
+      },
+      "maxCombinedW": 12480
+    },
+    "physical": {
+      "weightKg": 136,
+      "dimensionsCm": {
+        "length": 52.5,
+        "width": 32,
+        "height": 32.7
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 12,
+        "voltageV": 120,
+        "totalMaxW": 7680
       },
       "usbA": {
         "count": 0,
