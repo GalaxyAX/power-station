@@ -1387,7 +1387,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://us.ecoflow.com/products/river-2-pro-portable-power-station?variant=54320636198985",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%202%20Pro.webp",
     "price": {
       "currency": "USD",
       "current": 349,
@@ -1443,6 +1443,93 @@
         "count": 4,
         "voltageV": 120,
         "totalMaxW": 800
+      },
+      "usbA": {
+        "count": 3,
+        "maxWPerPort": 12
+      },
+      "usbC": {
+        "count": 1,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12.6,
+        "maxWPerPort": 126
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-26"
+  },
+  {
+    "id": "ecoflow-river-2-max",
+    "brand": "EcoFlow",
+    "model": "RIVER 2 Max",
+    "name": "EcoFlow RIVER 2 Max",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/river-2-max-portable-power-station?variant=40396926451785",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 289,
+      "original": 299
+    },
+    "capacity": {
+      "nominalWh": 512,
+      "expandable": false,
+      "extraBattery": null,
+      "maxWh": 512
+    },
+    "power": {
+      "continuousW": 500,
+      "surgeW": 1000,
+      "xBoostW": 1000
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 3000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 660,
+      "solar": {
+        "maxW": 220,
+        "minV": 11,
+        "maxV": 50,
+        "maxA": 13
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": 8
+      },
+      "maxCombinedW": null
+    },
+    "physical": {
+      "weightKg": 6.1,
+      "dimensionsCm": {
+        "length": 27,
+        "width": 26,
+        "height": 19.6
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 4,
+        "voltageV": 120,
+        "totalMaxW": 500
       },
       "usbA": {
         "count": 3,
