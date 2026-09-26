@@ -1648,7 +1648,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://us.ecoflow.com/products/trail-series?variant=54553979682889",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TRAIL%20200%20DC.webp",
     "price": {
       "currency": "USD",
       "current": 109,
@@ -1717,6 +1717,87 @@
       "app": false
     },
     "warrantyYears": null,
+    "lastChecked": "2026-09-26"
+  },
+  {
+    "id": "ecoflow-trail-300-dc",
+    "brand": "EcoFlow",
+    "model": "TRAIL 300 DC",
+    "name": "EcoFlow TRAIL 300 DC",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/trail-series?variant=54553980043337",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 159,
+      "original": 250
+    },
+    "capacity": {
+      "nominalWh": 288,
+      "expandable": false,
+      "extraBattery": null,
+      "maxWh": 288
+    },
+    "power": {
+      "continuousW": 300,
+      "surgeW": null,
+      "xBoostW": null
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": []
+    },
+    "charging": {
+      "acInputW": null,
+      "solar": {
+        "maxW": 110,
+        "minV": null,
+        "maxV": null,
+        "maxA": null
+      },
+      "car": {
+        "supportedV": [
+          12
+        ],
+        "maxA": null
+      },
+      "maxCombinedW": null
+    },
+    "physical": {
+      "weightKg": 2.58,
+      "dimensionsCm": {
+        "length": 16.7,
+        "width": 11.5,
+        "height": 16.6
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 0,
+        "voltageV": null,
+        "totalMaxW": null
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 12
+      },
+      "usbC": {
+        "count": 2,
+        "maxWPerPort": 140
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12,
+        "maxWPerPort": 120
+      }
+    },
+    "features": {
+      "wifi": false,
+      "bluetooth": false,
+      "app": false
+    },
+    "warrantyYears": 3,
     "lastChecked": "2026-09-26"
   }
 ]
