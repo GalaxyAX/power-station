@@ -1474,7 +1474,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://us.ecoflow.com/products/river-2-max-portable-power-station?variant=40396926451785",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%202%20Max.webp",
     "price": {
       "currency": "USD",
       "current": 289,
@@ -1543,6 +1543,93 @@
         "count": 1,
         "voltageV": 12.6,
         "maxWPerPort": 126
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-26"
+  },
+  {
+    "id": "ecoflow-river-2-240",
+    "brand": "EcoFlow",
+    "model": "RIVER 2 (240)",
+    "name": "EcoFlow RIVER 2 (240)",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/river-2-240-portable-power-station?variant=40957077487689",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 209,
+      "original": null
+    },
+    "capacity": {
+      "nominalWh": 243,
+      "expandable": false,
+      "extraBattery": null,
+      "maxWh": 243
+    },
+    "power": {
+      "continuousW": 300,
+      "surgeW": 600,
+      "xBoostW": 600
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 3000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 360,
+      "solar": {
+        "maxW": 110,
+        "minV": 11,
+        "maxV": 30,
+        "maxA": 8
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": 8
+      },
+      "maxCombinedW": null
+    },
+    "physical": {
+      "weightKg": 3.5,
+      "dimensionsCm": {
+        "length": 24.4,
+        "width": 21.6,
+        "height": 14.5
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 2,
+        "voltageV": 120,
+        "totalMaxW": 300
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 12
+      },
+      "usbC": {
+        "count": 1,
+        "maxWPerPort": 60
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12.6,
+        "maxWPerPort": 100
       }
     },
     "features": {
