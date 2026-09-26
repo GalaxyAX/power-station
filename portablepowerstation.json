@@ -1378,5 +1378,92 @@
     },
     "warrantyYears": 5,
     "lastChecked": "2026-09-26"
+  },
+  {
+    "id": "ecoflow-river-2-pro",
+    "brand": "EcoFlow",
+    "model": "RIVER 2 Pro",
+    "name": "EcoFlow RIVER 2 Pro",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/river-2-pro-portable-power-station?variant=54320636198985",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 349,
+      "original": 529
+    },
+    "capacity": {
+      "nominalWh": 768,
+      "expandable": false,
+      "extraBattery": null,
+      "maxWh": 768
+    },
+    "power": {
+      "continuousW": 800,
+      "surgeW": 1600,
+      "xBoostW": 1600
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 3000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 940,
+      "solar": {
+        "maxW": 220,
+        "minV": 11,
+        "maxV": 50,
+        "maxA": 13
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": 8
+      },
+      "maxCombinedW": null
+    },
+    "physical": {
+      "weightKg": 8.3,
+      "dimensionsCm": {
+        "length": 27,
+        "width": 26,
+        "height": 22.6
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 4,
+        "voltageV": 120,
+        "totalMaxW": 800
+      },
+      "usbA": {
+        "count": 3,
+        "maxWPerPort": 12
+      },
+      "usbC": {
+        "count": 1,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12.6,
+        "maxWPerPort": 126
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-26"
   }
 ]
