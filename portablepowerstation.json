@@ -1896,7 +1896,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=54714781237321",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20%2B%20Smart%20Gateway%20200A.webp",
     "price": {
       "currency": "USD",
       "current": 9899,
@@ -1966,6 +1966,97 @@
         "count": 0,
         "voltageV": null,
         "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-26"
+  },
+  {
+    "id": "ecoflow-delta-pro-ultra-shp2",
+    "brand": "EcoFlow",
+    "model": "DELTA Pro Ultra + Smart Home Panel 2",
+    "name": "EcoFlow DELTA Pro Ultra + Smart Home Panel 2",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=40758830104649",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 5599,
+      "original": null
+    },
+    "capacity": {
+      "nominalWh": 6144,
+      "expandable": true,
+      "extraBattery": {
+        "model": "DELTA Pro Ultra Smart Extra Battery",
+        "capacityWh": 6144,
+        "maxCount": 4
+      },
+      "maxWh": 30720
+    },
+    "power": {
+      "continuousW": 7200,
+      "surgeW": 10800,
+      "xBoostW": null
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 3500,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 5600,
+        "minV": 30,
+        "maxV": 450,
+        "maxA": 15
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": null
+      },
+      "maxCombinedW": 7400
+    },
+    "physical": {
+      "weightKg": 82.4,
+      "dimensionsCm": {
+        "length": 69,
+        "width": 48.1,
+        "height": 21.4
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 6,
+        "voltageV": 120,
+        "totalMaxW": 7200
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 12
+      },
+      "usbC": {
+        "count": 2,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12.6,
+        "maxWPerPort": 378
       }
     },
     "features": {
