@@ -1291,5 +1291,92 @@
     },
     "warrantyYears": 5,
     "lastChecked": "2026-09-25"
+  },
+  {
+    "id": "ecoflow-river-3-max",
+    "brand": "EcoFlow",
+    "model": "RIVER 3 Max",
+    "name": "EcoFlow RIVER 3 Max",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/river-3-max-river-3-plus-extra-battery-300?variant=54335026528329",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 319,
+      "original": null
+    },
+    "capacity": {
+      "nominalWh": 572,
+      "expandable": false,
+      "extraBattery": null,
+      "maxWh": 572
+    },
+    "power": {
+      "continuousW": 600,
+      "surgeW": 1200,
+      "xBoostW": 1200
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 3000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 380,
+      "solar": {
+        "maxW": 220,
+        "minV": 11,
+        "maxV": 55,
+        "maxA": 13
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": null
+      },
+      "maxCombinedW": null
+    },
+    "physical": {
+      "weightKg": 7.6,
+      "dimensionsCm": {
+        "length": 23.4,
+        "width": 23.1,
+        "height": 14.7
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 3,
+        "voltageV": 120,
+        "totalMaxW": 600
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 12
+      },
+      "usbC": {
+        "count": 2,
+        "maxWPerPort": 140
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12.6,
+        "maxWPerPort": 126
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-26"
   }
 ]
