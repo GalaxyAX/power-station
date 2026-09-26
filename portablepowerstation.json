@@ -1805,7 +1805,7 @@
     "brand": "EcoFlow",
     "model": "DELTA Pro Ultra X + Smart Home Panel 3",
     "name": "EcoFlow DELTA Pro Ultra X + Smart Home Panel 3",
-    "category": "portable-power-station",
+    "category": "home-backup-power",
     "region": "US",
     "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=54714781204553",
     "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20%2B%20Smart%20Home%20Panel%203.webp",
@@ -1893,7 +1893,7 @@
     "brand": "EcoFlow",
     "model": "DELTA Pro Ultra X + Smart Gateway 200A",
     "name": "EcoFlow DELTA Pro Ultra X + Smart Gateway 200A",
-    "category": "portable-power-station",
+    "category": "home-backup-power",
     "region": "US",
     "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=54714781237321",
     "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20%2B%20Smart%20Gateway%20200A.webp",
@@ -1981,10 +1981,10 @@
     "brand": "EcoFlow",
     "model": "DELTA Pro Ultra + Smart Home Panel 2",
     "name": "EcoFlow DELTA Pro Ultra + Smart Home Panel 2",
-    "category": "portable-power-station",
+    "category": "home-backup-power",
     "region": "US",
     "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=40758830104649",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%20%2B%20Smart%20Home%20Panel%202.webp",
     "price": {
       "currency": "USD",
       "current": 5599,
@@ -2057,6 +2057,97 @@
         "count": 1,
         "voltageV": 12.6,
         "maxWPerPort": 378
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-26"
+  },
+  {
+    "id": "bluetti-apex-300",
+    "brand": "BLUETTI",
+    "model": "Apex 300",
+    "name": "BLUETTI Apex 300",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=68804e7e63e18b529ef2604a",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 1499,
+      "original": 1699
+    },
+    "capacity": {
+      "nominalWh": 2764.8,
+      "expandable": true,
+      "extraBattery": {
+        "model": "BLUETTI B300K",
+        "capacityWh": 2764.8,
+        "maxCount": 6
+      },
+      "maxWh": 19353.6
+    },
+    "power": {
+      "continuousW": 3840,
+      "surgeW": 7680,
+      "xBoostW": null
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 6000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 2400,
+        "minV": 12,
+        "maxV": 60,
+        "maxA": 20
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": null
+      },
+      "maxCombinedW": 3840
+    },
+    "physical": {
+      "weightKg": 38.6,
+      "dimensionsCm": {
+        "length": 52.5,
+        "width": 32,
+        "height": 32.7
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 6,
+        "voltageV": 120,
+        "totalMaxW": 3840
+      },
+      "usbA": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "usbC": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
       }
     },
     "features": {
