@@ -2803,7 +2803,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://www.bluettipower.com/products/apex-300-rv-power-solution?variant=47354308952283",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20Hub%20D1.webp",
     "price": {
       "currency": "USD",
       "current": 1899,
@@ -2852,6 +2852,97 @@
     },
     "physical": {
       "weightKg": 38,
+      "dimensionsCm": {
+        "length": 52.5,
+        "width": 32,
+        "height": 32.7
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 6,
+        "voltageV": 120,
+        "totalMaxW": 3840
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 15
+      },
+      "usbC": {
+        "count": 2,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 2,
+        "voltageV": 12,
+        "maxWPerPort": 120
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-27"
+  },
+  {
+    "id": "bluetti-apex-300-b300k-charger-2-dc-hub",
+    "brand": "BLUETTI",
+    "model": "Apex 300 + B300K + Charger 2 + DC Hub",
+    "name": "BLUETTI Apex 300 + B300K + Charger 2 + DC Hub",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/charger-2-apex-300-b300k2-dc-hub?variant=48103718748379",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 3198,
+      "original": 3398
+    },
+    "capacity": {
+      "nominalWh": 5529.6,
+      "expandable": true,
+      "extraBattery": {
+        "model": "BLUETTI B300K",
+        "capacityWh": 2764.8,
+        "maxCount": 5
+      },
+      "maxWh": 19353.6
+    },
+    "power": {
+      "continuousW": 3840,
+      "surgeW": null,
+      "xBoostW": 7680
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 4000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 2400,
+        "minV": 12,
+        "maxV": 60,
+        "maxA": 20
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": null
+      },
+      "maxCombinedW": 6240
+    },
+    "physical": {
+      "weightKg": 68,
       "dimensionsCm": {
         "length": 52.5,
         "width": 32,
