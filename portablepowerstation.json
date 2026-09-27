@@ -2894,7 +2894,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://www.bluettipower.com/products/charger-2-apex-300-b300k2-dc-hub?variant=48103718748379",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B300K%20%2B%20Charger%202%20%2B%20DC%20Hub.webp",
     "price": {
       "currency": "USD",
       "current": 3198,
@@ -2967,6 +2967,97 @@
         "count": 2,
         "voltageV": 12,
         "maxWPerPort": 120
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-27"
+  },
+  {
+    "id": "bluetti-2x-apex-300-2x-b500k-hub-a1",
+    "brand": "BLUETTI",
+    "model": "2×Apex 300 + 2×B500K + Hub A1",
+    "name": "BLUETTI 2×Apex 300 + 2×B500K + Hub A1",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/b500k2-2-apex-300-2-hub-a1?variant=47914968416475",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 7499,
+      "original": null
+    },
+    "capacity": {
+      "nominalWh": 15769.6,
+      "expandable": true,
+      "extraBattery": {
+        "model": "BLUETTI B500K",
+        "capacityWh": 5120,
+        "maxCount": 10
+      },
+      "maxWh": 66969.6
+    },
+    "power": {
+      "continuousW": 7680,
+      "surgeW": null,
+      "xBoostW": null
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 4000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 3600,
+      "solar": {
+        "maxW": 4800,
+        "minV": 12,
+        "maxV": 60,
+        "maxA": 20
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": null
+      },
+      "maxCombinedW": 12480
+    },
+    "physical": {
+      "weightKg": 166,
+      "dimensionsCm": {
+        "length": 52.5,
+        "width": 32,
+        "height": 32.7
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 12,
+        "voltageV": 120,
+        "totalMaxW": 7680
+      },
+      "usbA": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "usbC": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
       }
     },
     "features": {
