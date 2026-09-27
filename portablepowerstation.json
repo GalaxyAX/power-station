@@ -3440,7 +3440,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://www.bluettipower.com/products/apex-300-b500k-solarx-4k?variant=48058769178843",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B500K%20%2B%20SolarX%204K.webp",
     "price": {
       "currency": "USD",
       "current": 3999,
@@ -3489,6 +3489,97 @@
     },
     "physical": {
       "weightKg": 83,
+      "dimensionsCm": {
+        "length": 52.5,
+        "width": 32,
+        "height": 32.7
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 6,
+        "voltageV": 120,
+        "totalMaxW": 3840
+      },
+      "usbA": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "usbC": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-27"
+  },
+  {
+    "id": "bluetti-apex-300-2x-b300k-solarx-4k",
+    "brand": "BLUETTI",
+    "model": "Apex 300 + 2×B300K + SolarX 4K",
+    "name": "BLUETTI Apex 300 + 2×B300K + SolarX 4K",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/apex-300-2-b300k-solarx-4k?variant=68b7f2999198d73afbea23e7",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 4498,
+      "original": null
+    },
+    "capacity": {
+      "nominalWh": 8294.4,
+      "expandable": true,
+      "extraBattery": {
+        "model": "BLUETTI B300K",
+        "capacityWh": 2764.8,
+        "maxCount": 4
+      },
+      "maxWh": 19353.6
+    },
+    "power": {
+      "continuousW": 3840,
+      "surgeW": null,
+      "xBoostW": 7680
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 4000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 6400,
+        "minV": 12,
+        "maxV": 500,
+        "maxA": 20
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": null
+      },
+      "maxCombinedW": 6400
+    },
+    "physical": {
+      "weightKg": 98,
       "dimensionsCm": {
         "length": 52.5,
         "width": 32,
