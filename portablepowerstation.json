@@ -677,7 +677,7 @@
     "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54692162764873",
     "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max.webp",
     "price": {
-      "currency": "USD",
+      "currency": "USD", 
       "current": 879,
       "original": 1199
     },
