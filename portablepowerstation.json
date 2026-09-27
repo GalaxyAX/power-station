@@ -3167,7 +3167,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://www.bluettipower.com/products/apex-300-b300k-solarx-4k?variant=68b7f35e9198d73afbea23e9",
-    "image": "https://github.com/GalaxyAX/power-station/blob/main/img/BLUETTI%20Apex%20300%20+%20B300K%20+%20SolarX%204K.webp?raw=true",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B300K%20%2B%20SolarX%204K.webp",
     "price": {
       "currency": "USD",
       "current": 3099,
