@@ -3167,7 +3167,7 @@
     "category": "portable-power-station",
     "region": "US",
     "url": "https://www.bluettipower.com/products/apex-300-b300k-solarx-4k?variant=68b7f35e9198d73afbea23e9",
-    "image": "",
+    "image": "https://github.com/GalaxyAX/power-station/blob/main/img/BLUETTI%20Apex%20300%20+%20B300K%20+%20SolarX%204K.webp?raw=true",
     "price": {
       "currency": "USD",
       "current": 3099,
@@ -3213,6 +3213,97 @@
         "maxA": null
       },
       "maxCombinedW": 6400
+    },
+    "physical": {
+      "weightKg": 68,
+      "dimensionsCm": {
+        "length": 52.5,
+        "width": 32,
+        "height": 32.7
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 6,
+        "voltageV": 120,
+        "totalMaxW": 3840
+      },
+      "usbA": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "usbC": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-09-27"
+  },
+  {
+    "id": "bluetti-apex-300-b300k-charger-1",
+    "brand": "BLUETTI",
+    "model": "Apex 300 + B300K + Charger 1",
+    "name": "BLUETTI Apex 300 + B300K + Charger 1",
+    "category": "portable-power-station",
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/apex-300-b300k-2-charger-1?variant=47498644160731",
+    "image": "",
+    "price": {
+      "currency": "USD",
+      "current": 2799,
+      "original": 2999
+    },
+    "capacity": {
+      "nominalWh": 5529.6,
+      "expandable": true,
+      "extraBattery": {
+        "model": "BLUETTI B300K",
+        "capacityWh": 2764.8,
+        "maxCount": 5
+      },
+      "maxWh": 19353.6
+    },
+    "power": {
+      "continuousW": 3840,
+      "surgeW": null,
+      "xBoostW": 7680
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 4000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 2400,
+        "minV": 12,
+        "maxV": 60,
+        "maxA": 20
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": 50
+      },
+      "maxCombinedW": 6240
     },
     "physical": {
       "weightKg": 68,
