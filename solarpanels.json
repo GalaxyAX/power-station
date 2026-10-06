@@ -60,7 +60,8 @@
                 "height": 2.4
             },
             "foldedCm": null,
-            "ipRating": "IP68"
+            "ipRating": "IP68",
+            "operatingTempC": null
         },
         "warrantyYears": 1,
         "lastChecked": "2026-10-05"
@@ -135,7 +136,8 @@
                 "width": 61.5,
                 "height": 3.2
             },
-            "ipRating": "IP68"
+            "ipRating": "IP68",
+            "operatingTempC": null
         },
         "warrantyYears": 1,
         "lastChecked": "2026-10-05"
@@ -191,7 +193,8 @@
                 "height": 3
             },
             "foldedCm": null,
-            "ipRating": "IP68"
+            "ipRating": "IP68",
+            "operatingTempC": null
         },
         "warrantyYears": 5,
         "lastChecked": "2026-10-05"
@@ -261,7 +264,75 @@
                 "width": 44.5,
                 "height": 8.5
             },
-            "ipRating": "IP67"
+            "ipRating": "IP67",
+            "operatingTempC": {
+                "min": -25,
+                "max": 65
+            }
+        },
+        "warrantyYears": 1,
+        "lastChecked": "2026-10-06"
+    },
+    {
+        "id": "bluetti-pv100-fx-200w-set-of-2",
+        "brand": "BLUETTI",
+        "model": "PV100 FX Flexible Solar Panel | 200W (Set of 2)",
+        "name": "BLUETTI PV100 FX Flexible Solar Panel | 200W (Set of 2)",
+        "category": "solar-panel",
+        "formFactor": "flexible",
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/pv100fx-flexible-solar-panel?variant=47607050371291",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20PV100%20FX%20Flexible%20Solar%20Panel%20%7C%20200W%20(Set%20of%202).webp",
+        "datasheetUrl": "https://cdn.shopify.com/s/files/1/0536/3390/8911/files/PV100_FX_User_Manual_EN-FR.pdf",
+        "price": {
+            "currency": "USD",
+            "current": 329,
+            "original": null
+        },
+        "unitsPerPack": 2,
+        "electrical": {
+            "ratedW": 100,
+            "toleranceW": null,
+            "vocV": 41.4,
+            "vmpV": 34.5,
+            "iscA": 3.05,
+            "impA": 2.9,
+            "tempCoeff": {
+                "pmaxPctPerC": null,
+                "vocPctPerC": null,
+                "iscPctPerC": null
+            },
+            "maxSystemV": null,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": null
+        },
+        "cell": {
+            "type": "monocrystalline",
+            "technology": null,
+            "efficiencyPct": 23.4
+        },
+        "connector": "MC4",
+        "includedCables": [
+            {
+                "from": "MC4",
+                "to": "MC4",
+                "lengthM": 0.5,
+                "quantity": 2
+            }
+        ],
+        "stand": null,
+        "physical": {
+            "weightKg": 2.2,
+            "dimensionsCm": {
+                "length": 100,
+                "width": 59,
+                "height": null
+            },
+            "foldedCm": null,
+            "ipRating": "IP67",
+            "operatingTempC": { "min": -25, "max": 65 }
         },
         "warrantyYears": 1,
         "lastChecked": "2026-10-06"
