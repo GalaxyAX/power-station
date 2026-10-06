@@ -1564,5 +1564,120 @@
         },
         "warrantyYears": 5,
         "lastChecked": "2026-10-06"
+    },
+    {
+        "id": "bluetti-apex-300-2x-200w",
+        "brand": "BLUETTI",
+        "model": "Apex 300 + 2×200W",
+        "name": "BLUETTI Apex 300 + 2×200W",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "bluetti-apex-300",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "bluetti-sp200l",
+                    "quantity": 2,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?id=6889cf919198d73afbea19fd&variant=47354130235611",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%2B2*200W.webp",
+        "price": {
+            "currency": "USD",
+            "current": 2199,
+            "original": 2399
+        },
+        "capacity": {
+            "nominalWh": 2764.8,
+            "expandable": true,
+            "extraBattery": {
+                "model": "BLUETTI B300K",
+                "capacityWh": 2764.8,
+                "maxCount": 6
+            },
+            "maxWh": 19353.6
+        },
+        "power": {
+            "continuousW": 3840,
+            "surgeW": null,
+            "xBoostW": 7680
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "solar": {
+                "maxW": 2400,
+                "inputs": [
+                    {
+                        "id": "pv-dc",
+                        "label": "DC input",
+                        "count": 2,
+                        "connector": "XT60",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 20,
+                        "maxW": 1200,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": null
+            },
+            "maxCombinedW": 3840
+        },
+        "physical": {
+            "weightKg": 38,
+            "dimensionsCm": {
+                "length": 52.5,
+                "width": 32.7,
+                "height": 32
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 6,
+                "voltageV": 120,
+                "totalMaxW": 3840
+            },
+            "usbA": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "usbC": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-06"
     }
 ]
