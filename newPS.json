@@ -1820,5 +1820,124 @@
         },
         "warrantyYears": 5,
         "lastChecked": "2026-10-06"
+    },
+    {
+        "id": "bluetti-elite-400-500w",
+        "brand": "BLUETTI",
+        "model": "Elite 400 + 500W",
+        "name": "BLUETTI Elite 400 + 500W",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "bluetti-elite-400",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "bluetti-sora-500",
+                    "quantity": 1,
+                    "wiring": [
+                        {
+                            "inputId": "pv",
+                            "series": 1,
+                            "parallel": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/elite-400-500w?variant=49004795953371",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20400%20%2B%20500W.webp",
+        "price": {
+            "currency": "USD",
+            "current": 1948,
+            "original": 2248
+        },
+        "capacity": {
+            "nominalWh": 3840,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 3840
+        },
+        "power": {
+            "continuousW": 2600,
+            "surgeW": 5200,
+            "xBoostW": 3900
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": []
+        },
+        "charging": {
+            "acInputW": 1800,
+            "solar": {
+                "maxW": 1000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "Solar input",
+                        "count": 1,
+                        "connector": "XT60",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 20,
+                        "maxW": 1000,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": [
+                    {
+                        "from": "MC4",
+                        "to": "XT60",
+                        "lengthM": null,
+                        "quantity": 1
+                    }
+                ]
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8.3
+            },
+            "maxCombinedW": 2800
+        },
+        "physical": {
+            "weightKg": 39,
+            "dimensionsCm": {
+                "length": 43.2,
+                "width": 28.8,
+                "height": 49
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 4,
+                "voltageV": 120,
+                "totalMaxW": 2600
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 15
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-06"
     }
 ]
