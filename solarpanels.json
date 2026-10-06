@@ -195,5 +195,75 @@
         },
         "warrantyYears": 5,
         "lastChecked": "2026-10-05"
+    },
+    {
+        "id": "bluetti-500w-solar-panel",
+        "brand": "BLUETTI",
+        "model": "500W Solar Panel",
+        "name": "BLUETTI 500W Solar Panel",
+        "category": "solar-panel",
+        "formFactor": "portable",
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/500w-portable-solar-panel?variant=49003448860891",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20500W%20Solar%20Panel.webp",
+        "datasheetUrl": "https://s4.bluettipower.com/bluetti_lgf/cms/2026/07/0bb2be59-3267-4ea0-a1db-0cd3e4e99336.pdf",
+        "price": {
+            "currency": "USD",
+            "current": 849,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 500,
+            "toleranceW": null,
+            "vocV": 49.1,
+            "vmpV": 40.92,
+            "iscA": 13.31,
+            "impA": 12.22,
+            "tempCoeff": {
+                "pmaxPctPerC": null,
+                "vocPctPerC": null,
+                "iscPctPerC": null
+            },
+            "maxSystemV": null,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": null
+        },
+        "cell": {
+            "type": "monocrystalline",
+            "technology": "N-type",
+            "efficiencyPct": 25
+        },
+        "connector": "MC4",
+        "includedCables": [
+            {
+                "from": "MC4",
+                "to": "XT60",
+                "lengthM": 1.5,
+                "quantity": 1
+            }
+        ],
+        "stand": {
+            "tiltMinDeg": null,
+            "tiltMaxDeg": null
+        },
+        "physical": {
+            "weightKg": 12.9,
+            "dimensionsCm": {
+                "length": 254.1,
+                "width": 114.66,
+                "height": 0.3
+            },
+            "foldedCm": {
+                "length": 57,
+                "width": 44.5,
+                "height": 8.5
+            },
+            "ipRating": "IP67"
+        },
+        "warrantyYears": 1,
+        "lastChecked": "2026-10-06"
     }
 ]
