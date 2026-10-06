@@ -1679,5 +1679,146 @@
         },
         "warrantyYears": 5,
         "lastChecked": "2026-10-06"
+    },
+    {
+        "id": "bluetti-apex-300-b300k-charger-1-hub-d1-2x-350w",
+        "brand": "BLUETTI",
+        "model": "Apex 300 + B300K + Charger 1 + Hub D1 + 2 × 350W",
+        "name": "BLUETTI Apex 300 + B300K + Charger 1 + Hub D1 + 2 × 350W",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "bluetti-apex-300",
+            "includes": [
+                {
+                    "type": "extra-battery",
+                    "model": "BLUETTI B300K",
+                    "quantity": 1,
+                    "capacityWh": 2764.8
+                },
+                {
+                    "type": "accessory",
+                    "model": "BLUETTI Charger 1",
+                    "quantity": 1
+                },
+                {
+                    "type": "accessory",
+                    "model": "BLUETTI Hub D1",
+                    "quantity": 1
+                },
+                {
+                    "type": "solar-panel",
+                    "panelId": "bluetti-pv350",
+                    "quantity": 2,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?id=6889e7339198d73afbea1a33&variant=47354313834715",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B300K%20%2B%20Charger%201%20%2B%20Hub%20D1%20%2B%202%20×%20350W.webp",
+        "price": {
+            "currency": "USD",
+            "current": 4596,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 5529.6,
+            "expandable": true,
+            "extraBattery": {
+                "model": "BLUETTI B300K",
+                "capacityWh": 2764.8,
+                "maxCount": 5
+            },
+            "maxWh": 19353.6
+        },
+        "power": {
+            "continuousW": 3840,
+            "surgeW": null,
+            "xBoostW": 7680
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "solar": {
+                "maxW": 2400,
+                "inputs": [
+                    {
+                        "id": "pv-dc",
+                        "label": "DC input",
+                        "count": 2,
+                        "connector": "XT60",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 20,
+                        "maxW": 1200,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 50
+            },
+            "maxCombinedW": 6240
+        },
+        "physical": {
+            "weightKg": 67.5,
+            "dimensionsCm": {
+                "length": 52.5,
+                "width": 32.7,
+                "height": 52.9
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 6,
+                "voltageV": 120,
+                "totalMaxW": 3840
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 15
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 2,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            },
+            "dc5521": {
+                "count": 2,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            },
+            "anderson": {
+                "count": 1,
+                "voltageV": 12,
+                "maxA": 50
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-06"
     }
 ]
