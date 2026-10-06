@@ -431,6 +431,143 @@
         "lastChecked": "2026-10-06"
     },
     {
+        "id": "ecoflow-delta-pro-3-400w-solar-panel",
+        "brand": "EcoFlow",
+        "model": "DELTA Pro 3 + 400W Solar Panel",
+        "name": "EcoFlow DELTA Pro 3 + 400W Solar Panel",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-pro-3",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "ecoflow-400w-portable",
+                    "quantity": 1,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station?variant=41385721069641",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203%20%2B%20400W%20Solar%20Panel.webp",
+        "price": {
+            "currency": "USD",
+            "current": 3099,
+            "original": 3999
+        },
+        "capacity": {
+            "nominalWh": 4096,
+            "expandable": true,
+            "extraBattery": {
+                "model": "DELTA Pro 3 Smart Extra Battery",
+                "capacityWh": 4096,
+                "maxCount": 2
+            },
+            "maxWh": 12288
+        },
+        "power": {
+            "continuousW": 4000,
+            "surgeW": 8000,
+            "xBoostW": 6000
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "solar": {
+                "maxW": 2600,
+                "inputs": [
+                    {
+                        "id": "pv-high",
+                        "label": "High-PV",
+                        "count": 1,
+                        "connector": "XT60",
+                        "minV": 30,
+                        "maxV": 150,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 1600,
+                        "overCurrent": "prohibited"
+                    },
+                    {
+                        "id": "pv-low",
+                        "label": "Low-PV",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 20,
+                        "maxW": 1000,
+                        "overCurrent": "prohibited"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    48
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": 7000
+        },
+        "physical": {
+            "weightKg": 51.5,
+            "dimensionsCm": {
+                "length": 69.3,
+                "width": 34.1,
+                "height": 41
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 7,
+                "voltageV": 120,
+                "totalMaxW": 4000
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            },
+            "dc5521": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 63
+            },
+            "anderson": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxA": 30
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-06"
+    },
+    {
         "id": "bluetti-apex-300",
         "brand": "BLUETTI",
         "model": "Apex 300",
