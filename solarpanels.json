@@ -332,9 +332,83 @@
             },
             "foldedCm": null,
             "ipRating": "IP67",
-            "operatingTempC": { "min": -25, "max": 65 }
+            "operatingTempC": {
+                "min": -25,
+                "max": 65
+            }
         },
         "warrantyYears": 1,
         "lastChecked": "2026-10-06"
+    },
+    {
+        "id": "bluetti-sora-60",
+        "brand": "BLUETTI",
+        "model": "SORA 60 Solar Panel | 60W",
+        "name": "BLUETTI SORA 60 Solar Panel | 60W",
+        "category": "solar-panel",
+        "formFactor": "portable",
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/bluetti-sora-60-solar-panel-60w?variant=46622790156507",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20SORA%2060%20Solar%20Panel%20%7C%2060W.webp",
+        "datasheetUrl": "https://cdn.shopify.com/s/files/1/0536/3390/8911/files/SORA_60_User_Manual_EN.pdf",
+        "price": {
+            "currency": "USD",
+            "current": 129,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 60,
+            "toleranceW": null,
+            "vocV": 27.5,
+            "vmpV": 23.1,
+            "iscA": 2.76,
+            "impA": 2.58,
+            "tempCoeff": {
+                "pmaxPctPerC": null,
+                "vocPctPerC": null,
+                "iscPctPerC": null
+            },
+            "maxSystemV": null,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": null
+        },
+        "cell": {
+            "type": "monocrystalline",
+            "technology": null,
+            "efficiencyPct": 24.7
+        },
+        "connector": "DC5521",
+        "includedCables": [
+            {
+                "from": "DC5521",
+                "to": "XT60",
+                "lengthM": 1.2,
+                "quantity": 1
+            }
+        ],
+        "stand": null,
+        "physical": {
+            "weightKg": 1.4,
+            "dimensionsCm": {
+                "length": 90,
+                "width": 42.4,
+                "height": null
+            },
+            "foldedCm": {
+                "length": 22.6,
+                "width": 21,
+                "height": 7
+            },
+            "ipRating": "IP65",
+            "operatingTempC": {
+                "min": -25,
+                "max": 65
+            }
+        },
+        "warrantyYears": 1,
+        "lastChecked": "2026-10-07"
     }
 ]
