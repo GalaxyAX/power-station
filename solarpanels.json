@@ -410,5 +410,155 @@
         },
         "warrantyYears": 1,
         "lastChecked": "2026-10-07"
-    }
+    },
+    [
+        {
+            "id": "bluetti-pv350",
+            "brand": "BLUETTI",
+            "model": "PV350 Solar Panel | 350W",
+            "name": "BLUETTI PV350 Solar Panel | 350W",
+            "category": "solar-panel",
+            "formFactor": "portable",
+            "region": "US",
+            "url": "https://www.bluettipower.com/products/350w-solar-panel?variant=49045516320987",
+            "image": null,
+            "datasheetUrl": "https://cdn.shopify.com/s/files/1/0536/3390/8911/files/PV350_User_Manaul_EN-JP_dad32495-6a16-494b-88da-aa19d84c9acb.pdf",
+            "price": {
+                "currency": "USD",
+                "current": 649,
+                "original": null
+            },
+            "unitsPerPack": 1,
+            "electrical": {
+                "ratedW": 350,
+                "toleranceW": null,
+                "vocV": 44,
+                "vmpV": 37,
+                "iscA": 11.4,
+                "impA": 9.5,
+                "tempCoeff": {
+                    "pmaxPctPerC": null,
+                    "vocPctPerC": null,
+                    "iscPctPerC": null
+                },
+                "maxSystemV": null,
+                "maxSeriesFuseA": null,
+                "maxSeries": null,
+                "maxParallel": null,
+                "bifacial": null
+            },
+            "cell": {
+                "type": null,
+                "technology": null,
+                "efficiencyPct": 23.4
+            },
+            "connector": "MC4",
+            "includedCables": [
+                {
+                    "from": "MC4",
+                    "to": "XT60",
+                    "lengthM": 1.5,
+                    "quantity": 1
+                }
+            ],
+            "stand": {
+                "tiltMinDeg": null,
+                "tiltMaxDeg": null
+            },
+            "physical": {
+                "weightKg": 14.7,
+                "dimensionsCm": {
+                    "length": 281,
+                    "width": 78.5,
+                    "height": null
+                },
+                "foldedCm": {
+                    "length": 78.5,
+                    "width": 74.5,
+                    "height": 5
+                },
+                "ipRating": "IP67",
+                "operatingTempC": {
+                    "min": -25,
+                    "max": 65
+                }
+            },
+            "warrantyYears": 1,
+            "lastChecked": "2026-10-08"
+        },
+        {
+            "id": "bluetti-sp200l",
+            "brand": "BLUETTI",
+            "model": "SP200L Solar Panel | 200W",
+            "name": "BLUETTI SP200L Solar Panel | 200W",
+            "category": "solar-panel",
+            "formFactor": "portable",
+            "region": "US",
+            "url": "https://www.bluettipower.com/products/bluetti-sp200l-solar-panel-200w?variant=46104316248283",
+            "image": null,
+            "datasheetUrl": "https://cdn.shopify.com/s/files/1/0536/3390/8911/files/PV200_User_Manaul_EN-DE.pdf",
+            "price": {
+                "currency": "USD",
+                "current": 399,
+                "original": null
+            },
+            "unitsPerPack": 1,
+            "electrical": {
+                "ratedW": 200,
+                "toleranceW": null,
+                "vocV": 24.6,
+                "vmpV": 20.4,
+                "iscA": 10.8,
+                "impA": 9.7,
+                "tempCoeff": {
+                    "pmaxPctPerC": null,
+                    "vocPctPerC": null,
+                    "iscPctPerC": null
+                },
+                "maxSystemV": null,
+                "maxSeriesFuseA": null,
+                "maxSeries": null,
+                "maxParallel": null,
+                "bifacial": null
+            },
+            "cell": {
+                "type": "monocrystalline",
+                "technology": null,
+                "efficiencyPct": 23.4
+            },
+            "connector": "MC4",
+            "includedCables": [
+                {
+                    "from": "MC4",
+                    "to": "XT60",
+                    "lengthM": 1.5,
+                    "quantity": 1
+                }
+            ],
+            "stand": {
+                "tiltMinDeg": null,
+                "tiltMaxDeg": null
+            },
+            "physical": {
+                "weightKg": 8.14,
+                "dimensionsCm": {
+                    "length": 210.5,
+                    "width": 60.8,
+                    "height": null
+                },
+                "foldedCm": {
+                    "length": 60.8,
+                    "width": 58.5,
+                    "height": 4.5
+                },
+                "ipRating": "IP67",
+                "operatingTempC": {
+                    "min": -25,
+                    "max": 65
+                }
+            },
+            "warrantyYears": 1,
+            "lastChecked": "2026-10-08"
+        }
+    ]
 ]

@@ -1833,7 +1833,7 @@
       "includes": [
         {
           "type": "solar-panel",
-          "panelId": "bluetti-sora-500",
+          "panelId": "bluetti-500w-solar-panel",
           "quantity": 1,
           "wiring": [
             {
