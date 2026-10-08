@@ -495,7 +495,7 @@
             "formFactor": "portable",
             "region": "US",
             "url": "https://www.bluettipower.com/products/bluetti-sp200l-solar-panel-200w?variant=46104316248283",
-            "image": null,
+            "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20SP200L%20Solar%20Panel%20%7C%20200W.webp",
             "datasheetUrl": "https://cdn.shopify.com/s/files/1/0536/3390/8911/files/PV200_User_Manaul_EN-DE.pdf",
             "price": {
                 "currency": "USD",
