@@ -421,7 +421,7 @@
             "formFactor": "portable",
             "region": "US",
             "url": "https://www.bluettipower.com/products/350w-solar-panel?variant=49045516320987",
-            "image": null,
+            "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20PV350%20Solar%20Panel%20%7C%20350W.webp",
             "datasheetUrl": "https://cdn.shopify.com/s/files/1/0536/3390/8911/files/PV350_User_Manaul_EN-JP_dad32495-6a16-494b-88da-aa19d84c9acb.pdf",
             "price": {
                 "currency": "USD",
