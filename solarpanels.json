@@ -75,7 +75,7 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://us.ecoflow.com/products/nextgen-220w-bifacial-portable-solar-panel?variant=41670394576969",
-        "image": null,
+        "image": "",
         "datasheetUrl": null,
         "price": {
             "currency": "USD",
@@ -151,7 +151,7 @@
         "formFactor": "rigid",
         "region": "US",
         "url": "https://us.ecoflow.com/products/100w-rigid-solar-panel?variant=40982252912713",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20100W%20Rigid%20Solar%20Panel.webpnull",
         "datasheetUrl": null,
         "price": {
             "currency": "USD",
