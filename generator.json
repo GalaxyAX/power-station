@@ -1,0 +1,438 @@
+[
+    {
+        "id": "ecoflow-smart-generator-4000-dual-fuel",
+        "brand": "EcoFlow",
+        "model": "Smart Generator 4000 (Dual Fuel)",
+        "name": "EcoFlow Smart Generator 4000 (Dual Fuel)",
+        "category": "generator",
+        "type": "inverter",
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/smart-generator-4000-dual-fuel?variant=41434656637001",
+        "image": null,
+        "manualUrl": null,
+        "price": {
+            "currency": "USD",
+            "current": 1259,
+            "original": null
+        },
+        "output": {
+            "voltageV": [
+                120
+            ],
+            "frequencyHz": 60,
+            "thdPct": null,
+            "neutral": null,
+            "parallelCapable": null
+        },
+        "fuels": [
+            {
+                "type": "gasoline",
+                "runningW": 3200,
+                "startingW": 4000,
+                "tankGal": 1.58,
+                "cylinderLb": null,
+                "runtime": [
+                    {
+                        "loadPct": 100,
+                        "hours": 2.8
+                    },
+                    {
+                        "loadPct": 25,
+                        "hours": 8
+                    }
+                ],
+                "statedKwh": 8
+            },
+            {
+                "type": "propane",
+                "runningW": 2900,
+                "startingW": null,
+                "tankGal": null,
+                "cylinderLb": 20,
+                "runtime": null,
+                "statedKwh": 20
+            }
+        ],
+        "outlets": [
+            {
+                "type": "TT-30R",
+                "voltageV": 120,
+                "maxA": 30,
+                "count": 1,
+                "gfci": null
+            },
+            {
+                "type": "5-20R",
+                "voltageV": 120,
+                "maxA": 20,
+                "count": 1,
+                "gfci": null
+            }
+        ],
+        "dcOutput": {
+            "connector": "XT150",
+            "minV": 40,
+            "maxV": 60,
+            "maxA": 56,
+            "maxW": 3200
+        },
+        "integrations": [
+            {
+                "stationId": "ecoflow-delta-pro-3",
+                "path": "dc",
+                "stationPort": "Extra Battery port",
+                "maxW": 3200,
+                "autoStartStop": true,
+                "requires": [
+                    {
+                        "model": "DELTA Pro to Smart Generator Adapter",
+                        "included": null
+                    }
+                ]
+            }
+        ],
+        "engine": {
+            "displacementCc": 196,
+            "efi": null
+        },
+        "start": [
+            "recoil",
+            "electric",
+            "app",
+            "auto"
+        ],
+        "noise": {
+            "dBA": 70,
+            "distanceM": 7,
+            "loadPct": 100
+        },
+        "coShutoff": true,
+        "compliance": {
+            "epa": true,
+            "carb": false
+        },
+        "physical": {
+            "weightKg": 38,
+            "dimensionsCm": {
+                "length": 63.3,
+                "width": 38.1,
+                "height": 52.9
+            }
+        },
+        "includedCables": [
+            {
+                "from": "XT150",
+                "to": "XT150",
+                "lengthM": 5,
+                "quantity": 1
+            }
+        ],
+        "warrantyYears": 3,
+        "lastChecked": "2026-10-09"
+    },
+    {
+        "id": "westinghouse-igen5000dfc-efi",
+        "brand": "Westinghouse",
+        "model": "iGen5000DFc EFI",
+        "name": "Westinghouse iGen5000DFc EFI Dual Fuel Inverter Generator",
+        "category": "generator",
+        "type": "inverter",
+        "region": "US",
+        "url": "https://westinghouse.com/collections/dual-fuel-inverters/products/igen5000dfc-efi-inverter-generator-dual-fuel-with-co-sensor",
+        "image": null,
+        "manualUrl": null,
+        "price": {
+            "currency": "USD",
+            "current": 1399,
+            "original": null
+        },
+        "output": {
+            "voltageV": [
+                120
+            ],
+            "frequencyHz": 60,
+            "thdPct": 3,
+            "neutral": "floating",
+            "parallelCapable": true
+        },
+        "fuels": [
+            {
+                "type": "gasoline",
+                "runningW": 3900,
+                "startingW": 5000,
+                "tankGal": 3.2,
+                "cylinderLb": null,
+                "runtime": [
+                    {
+                        "loadPct": 25,
+                        "hours": 18
+                    }
+                ],
+                "statedKwh": null
+            },
+            {
+                "type": "propane",
+                "runningW": 3500,
+                "startingW": 4500,
+                "tankGal": null,
+                "cylinderLb": 20,
+                "runtime": [
+                    {
+                        "loadPct": 25,
+                        "hours": 22
+                    }
+                ],
+                "statedKwh": null
+            }
+        ],
+        "outlets": [
+            {
+                "type": "TT-30R",
+                "voltageV": 120,
+                "maxA": 30,
+                "count": 1,
+                "gfci": false
+            },
+            {
+                "type": "5-20R",
+                "voltageV": 120,
+                "maxA": 20,
+                "count": 2,
+                "gfci": false
+            }
+        ],
+        "dcOutput": null,
+        "integrations": [],
+        "engine": {
+            "displacementCc": 224,
+            "efi": true
+        },
+        "start": [
+            "recoil",
+            "electric",
+            "remote"
+        ],
+        "noise": {
+            "dBA": 52,
+            "distanceM": null,
+            "loadPct": null
+        },
+        "coShutoff": true,
+        "compliance": {
+            "epa": null,
+            "carb": false
+        },
+        "physical": {
+            "weightKg": 50.3,
+            "dimensionsCm": {
+                "length": 63.5,
+                "width": 46,
+                "height": 53.3
+            }
+        },
+        "includedCables": [],
+        "warrantyYears": 3,
+        "lastChecked": "2026-10-09"
+    },
+    {
+        "id": "champion-201511",
+        "brand": "Champion",
+        "model": "4000-Watt Electric Start Dual Fuel Inverter (201511)",
+        "name": "Champion 4000-Watt Electric Start Dual Fuel Inverter Generator",
+        "category": "generator",
+        "type": "inverter",
+        "region": "US",
+        "url": "https://www.championpowerequipment.com/product/201511-4000w-electric-start-dual-fuel-inverter/",
+        "image": null,
+        "manualUrl": null,
+        "price": {
+            "currency": "USD",
+            "current": null,
+            "original": null
+        },
+        "output": {
+            "voltageV": [
+                120
+            ],
+            "frequencyHz": 60,
+            "thdPct": 3,
+            "neutral": null,
+            "parallelCapable": true
+        },
+        "fuels": [
+            {
+                "type": "gasoline",
+                "runningW": 3300,
+                "startingW": 4000,
+                "tankGal": 1.54,
+                "cylinderLb": null,
+                "runtime": [
+                    {
+                        "loadPct": 25,
+                        "hours": 10
+                    }
+                ],
+                "statedKwh": null
+            },
+            {
+                "type": "propane",
+                "runningW": 2970,
+                "startingW": 4000,
+                "tankGal": null,
+                "cylinderLb": 20,
+                "runtime": [
+                    {
+                        "loadPct": 25,
+                        "hours": 25
+                    }
+                ],
+                "statedKwh": null
+            }
+        ],
+        "outlets": [
+            {
+                "type": "TT-30R",
+                "voltageV": 120,
+                "maxA": 27.5,
+                "count": 1,
+                "gfci": false
+            },
+            {
+                "type": "5-20R",
+                "voltageV": 120,
+                "maxA": 20,
+                "count": 2,
+                "gfci": false
+            }
+        ],
+        "dcOutput": null,
+        "integrations": [],
+        "engine": {
+            "displacementCc": 149,
+            "efi": null
+        },
+        "start": [
+            "recoil",
+            "electric"
+        ],
+        "noise": {
+            "dBA": 64,
+            "distanceM": 7,
+            "loadPct": null
+        },
+        "coShutoff": true,
+        "compliance": {
+            "epa": true,
+            "carb": null
+        },
+        "physical": {
+            "weightKg": 24.6,
+            "dimensionsCm": {
+                "length": 45.5,
+                "width": 29.7,
+                "height": 50
+            }
+        },
+        "includedCables": [],
+        "warrantyYears": 3,
+        "lastChecked": "2026-10-09"
+    },
+    {
+        "id": "generac-iq5200-dual-fuel",
+        "brand": "Generac",
+        "model": "iQ5200 Dual Fuel (8945)",
+        "name": "Generac iQ5200 Dual Fuel Portable Inverter Generator",
+        "category": "generator",
+        "type": "inverter",
+        "region": "US",
+        "url": "https://www.generac.com/residential-products/portable-generators/5200-dual-fuel-portable-generator-8945/",
+        "image": null,
+        "manualUrl": null,
+        "price": {
+            "currency": "USD",
+            "current": null,
+            "original": null
+        },
+        "output": {
+            "voltageV": [
+                120
+            ],
+            "frequencyHz": 60,
+            "thdPct": 3,
+            "neutral": null,
+            "parallelCapable": true
+        },
+        "fuels": [
+            {
+                "type": "gasoline",
+                "runningW": 3900,
+                "startingW": 5200,
+                "tankGal": 3.2,
+                "cylinderLb": null,
+                "runtime": [
+                    {
+                        "loadPct": 50,
+                        "hours": 9
+                    }
+                ],
+                "statedKwh": null
+            },
+            {
+                "type": "propane",
+                "runningW": 3500,
+                "startingW": 4700,
+                "tankGal": null,
+                "cylinderLb": 20,
+                "runtime": [
+                    {
+                        "loadPct": 50,
+                        "hours": 11
+                    }
+                ],
+                "statedKwh": null
+            }
+        ],
+        "outlets": [
+            {
+                "type": "L5-30R",
+                "voltageV": 120,
+                "maxA": 30,
+                "count": 1,
+                "gfci": null
+            },
+            {
+                "type": "5-20R",
+                "voltageV": 120,
+                "maxA": 20,
+                "count": 4,
+                "gfci": true
+            }
+        ],
+        "dcOutput": null,
+        "integrations": [],
+        "engine": {
+            "displacementCc": 223,
+            "efi": null
+        },
+        "start": [
+            "electric"
+        ],
+        "noise": null,
+        "coShutoff": true,
+        "compliance": {
+            "epa": null,
+            "carb": false
+        },
+        "physical": {
+            "weightKg": 50.3,
+            "dimensionsCm": {
+                "length": 62.5,
+                "width": 51.6,
+                "height": 56.9
+            }
+        },
+        "includedCables": [],
+        "warrantyYears": 3,
+        "lastChecked": "2026-10-09"
+    }
+]

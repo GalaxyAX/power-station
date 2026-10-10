@@ -2640,7 +2640,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/smart-generator-4000-dual-fuel?variant=41434656669769",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203%20%2B%20Smart%20Generator%204000%20(Dual%20Fuel).webp",
         "price": {
             "currency": "USD",
             "current": 3589,
