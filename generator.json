@@ -243,7 +243,7 @@
         "type": "inverter",
         "region": "US",
         "url": "https://www.championpowerequipment.com/product/201511-4000w-electric-start-dual-fuel-inverter/",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Champion%204000-Watt%20Electric%20Start%20Dual%20Fuel%20Inverter%20Generator.webp",
         "manualUrl": null,
         "price": {
             "currency": "USD",
@@ -346,7 +346,7 @@
         "type": "inverter",
         "region": "US",
         "url": "https://www.generac.com/residential-products/portable-generators/5200-dual-fuel-portable-generator-8945/",
-        "image": null,
+        "image": "",
         "manualUrl": null,
         "price": {
             "currency": "USD",
