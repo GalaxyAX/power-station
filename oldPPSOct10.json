@@ -1,0 +1,2067 @@
+[
+  {
+    "id": "ecoflow-trail-plus-300-dc",
+    "brand": "EcoFlow",
+    "model": "TRAIL Plus 300 DC",
+    "name": "EcoFlow TRAIL Plus 300 DC",
+    "category": "portable-power-station",
+    "kind": "station",
+    "bundle": null,
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/trail-series?variant=54553980141641&view=trail-plus-300",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TRAIL%20Plus%20300%20DC.webp",
+    "price": {
+      "currency": "USD",
+      "current": 179,
+      "original": null
+    },
+    "capacity": {
+      "nominalWh": 288,
+      "expandable": false,
+      "extraBattery": null,
+      "maxWh": 288
+    },
+    "power": {
+      "continuousW": 300,
+      "surgeW": null,
+      "xBoostW": null
+    },
+    "battery": {
+      "chemistry": "NCM",
+      "cycleLife": []
+    },
+    "charging": {
+      "acInputW": 0,
+      "solar": {
+        "maxW": 110,
+        "inputs": [
+          {
+            "id": "pv",
+            "label": "Solar/Car Input",
+            "count": 1,
+            "connector": "XT60",
+            "minV": 10,
+            "maxV": 30,
+            "startV": null,
+            "maxA": 10,
+            "maxW": 110,
+            "overCurrent": "unknown"
+          }
+        ],
+        "includedCables": []
+      },
+      "car": {
+        "supportedV": [
+          12
+        ],
+        "maxA": 10
+      },
+      "maxCombinedW": null
+    },
+    "physical": {
+      "weightKg": 2.26,
+      "dimensionsCm": {
+        "length": 12.3,
+        "width": 11.5,
+        "height": 20.6
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 0,
+        "voltageV": null,
+        "totalMaxW": null
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 12
+      },
+      "usbC": {
+        "count": 3,
+        "maxWPerPort": 140
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12,
+        "maxWPerPort": 120
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 3,
+    "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "ecoflow-delta-pro",
+    "brand": "EcoFlow",
+    "model": "DELTA Pro",
+    "name": "EcoFlow DELTA Pro",
+    "category": "portable-power-station",
+    "kind": "station",
+    "bundle": null,
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/delta-pro-portable-power-station",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro.webp",
+    "price": {
+      "currency": "USD",
+      "current": 1815,
+      "original": 2799
+    },
+    "capacity": {
+      "nominalWh": 3600,
+      "expandable": true,
+      "extraBattery": {
+        "model": "DELTA Pro Smart Extra Battery",
+        "capacityWh": 3600,
+        "maxCount": 2
+      },
+      "maxWh": 10800
+    },
+    "power": {
+      "continuousW": 3600,
+      "surgeW": 7200,
+      "xBoostW": 4500
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 3500,
+          "retentionPct": 80
+        },
+        {
+          "cycles": 6500,
+          "retentionPct": 50
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 1600,
+        "inputs": [
+          {
+            "id": "pv",
+            "label": "Solar/Car Charging Input",
+            "count": 1,
+            "connector": "XT60",
+            "minV": 11,
+            "maxV": 150,
+            "startV": null,
+            "maxA": 15,
+            "maxW": 1600,
+            "overCurrent": "unknown"
+          }
+        ],
+        "includedCables": []
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": 8
+      },
+      "maxCombinedW": 6500
+    },
+    "physical": {
+      "weightKg": 45,
+      "dimensionsCm": {
+        "length": 63.5,
+        "width": 28.4,
+        "height": 42
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 5,
+        "voltageV": 120,
+        "totalMaxW": 3600
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 12
+      },
+      "usbAFast": {
+        "count": 2,
+        "maxWPerPort": 18
+      },
+      "usbC": {
+        "count": 2,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12.6,
+        "maxWPerPort": 126
+      },
+      "dc5521": {
+        "count": 2,
+        "voltageV": 12.6,
+        "maxWPerPort": 38
+      },
+      "anderson": {
+        "count": 1,
+        "voltageV": 12.6,
+        "maxA": 30
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "ecoflow-delta-pro-ultra-x",
+    "brand": "EcoFlow",
+    "model": "DELTA Pro Ultra X",
+    "name": "EcoFlow DELTA Pro Ultra X",
+    "category": "portable-power-station",
+    "kind": "station",
+    "bundle": null,
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=54714781171785",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X.webp",
+    "price": {
+      "currency": "USD",
+      "current": 7714,
+      "original": null
+    },
+    "capacity": {
+      "nominalWh": 12288,
+      "expandable": true,
+      "extraBattery": {
+        "model": "DELTA Pro Ultra Series Battery",
+        "capacityWh": 6144,
+        "maxCount": 8
+      },
+      "maxWh": 61440
+    },
+    "power": {
+      "continuousW": 12000,
+      "surgeW": null,
+      "xBoostW": null
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 3500,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 10000,
+        "inputs": [
+          {
+            "id": "pv-high",
+            "label": "High-PV",
+            "count": 2,
+            "connector": "MC4",
+            "minV": 80,
+            "maxV": 500,
+            "startV": null,
+            "maxA": 15,
+            "maxW": 5000,
+            "overCurrent": "unknown"
+          }
+        ],
+        "includedCables": null
+      },
+      "car": {
+        "supportedV": [],
+        "maxA": null
+      },
+      "maxCombinedW": null
+    },
+    "physical": {
+      "weightKg": 135.5,
+      "dimensionsCm": {
+        "length": 67.5,
+        "width": 47.5,
+        "height": 63.8
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 4,
+        "voltageV": 120,
+        "totalMaxW": 12000
+      },
+      "usbA": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "usbC": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "ecoflow-delta-pro-ultra-x-shp3",
+    "brand": "EcoFlow",
+    "model": "DELTA Pro Ultra X + Smart Home Panel 3",
+    "name": "EcoFlow DELTA Pro Ultra X + Smart Home Panel 3",
+    "category": "home-backup-power",
+    "kind": "bundle",
+    "bundle": {
+      "baseStationId": "ecoflow-delta-pro-ultra-x",
+      "includes": [
+        {
+          "type": "accessory",
+          "model": "EcoFlow Smart Home Panel 3 (32 Circuits)",
+          "quantity": 1
+        }
+      ]
+    },
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=54714781204553",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20%2B%20Smart%20Home%20Panel%203.webp",
+    "price": {
+      "currency": "USD",
+      "current": 10699,
+      "original": null
+    },
+    "capacity": {
+      "nominalWh": 12288,
+      "expandable": true,
+      "extraBattery": {
+        "model": "DELTA Pro Ultra Series Battery",
+        "capacityWh": 6144,
+        "maxCount": 8
+      },
+      "maxWh": 61440
+    },
+    "power": {
+      "continuousW": 12000,
+      "surgeW": null,
+      "xBoostW": null
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 3500,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 12000,
+      "solar": {
+        "maxW": 10000,
+        "inputs": [
+          {
+            "id": "pv-high",
+            "label": "High-PV",
+            "count": 2,
+            "connector": "MC4",
+            "minV": 80,
+            "maxV": 500,
+            "startV": null,
+            "maxA": 15,
+            "maxW": 5000,
+            "overCurrent": "unknown"
+          }
+        ],
+        "includedCables": null
+      },
+      "car": {
+        "supportedV": [],
+        "maxA": null
+      },
+      "maxCombinedW": null
+    },
+    "physical": {
+      "weightKg": 135.5,
+      "dimensionsCm": {
+        "length": 67.5,
+        "width": 47.5,
+        "height": 63.8
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 4,
+        "voltageV": 120,
+        "totalMaxW": 12000
+      },
+      "usbA": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "usbC": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "ecoflow-delta-pro-3-400w-solar-panel",
+    "brand": "EcoFlow",
+    "model": "DELTA Pro 3 + 400W Solar Panel",
+    "name": "EcoFlow DELTA Pro 3 + 400W Solar Panel",
+    "category": "portable-power-station",
+    "kind": "bundle",
+    "bundle": {
+      "baseStationId": "ecoflow-delta-pro-3",
+      "includes": [
+        {
+          "type": "solar-panel",
+          "panelId": "ecoflow-400w-portable",
+          "quantity": 1,
+          "wiring": null
+        }
+      ]
+    },
+    "region": "US",
+    "url": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station?variant=41385721069641",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203%20%2B%20400W%20Solar%20Panel.webp",
+    "price": {
+      "currency": "USD",
+      "current": 3099,
+      "original": 3999
+    },
+    "capacity": {
+      "nominalWh": 4096,
+      "expandable": true,
+      "extraBattery": {
+        "model": "DELTA Pro 3 Smart Extra Battery",
+        "capacityWh": 4096,
+        "maxCount": 2
+      },
+      "maxWh": 12288
+    },
+    "power": {
+      "continuousW": 4000,
+      "surgeW": 8000,
+      "xBoostW": 6000
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 4000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 2600,
+        "inputs": [
+          {
+            "id": "pv-high",
+            "label": "High-PV",
+            "count": 1,
+            "connector": "XT60",
+            "minV": 30,
+            "maxV": 150,
+            "startV": null,
+            "maxA": 15,
+            "maxW": 1600,
+            "overCurrent": "prohibited"
+          },
+          {
+            "id": "pv-low",
+            "label": "Low-PV",
+            "count": 1,
+            "connector": "XT60i",
+            "minV": 11,
+            "maxV": 60,
+            "startV": null,
+            "maxA": 20,
+            "maxW": 1000,
+            "overCurrent": "prohibited"
+          }
+        ],
+        "includedCables": []
+      },
+      "car": {
+        "supportedV": [
+          12,
+          48
+        ],
+        "maxA": 8
+      },
+      "maxCombinedW": 7000
+    },
+    "physical": {
+      "weightKg": 51.5,
+      "dimensionsCm": {
+        "length": 69.3,
+        "width": 34.1,
+        "height": 41
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 7,
+        "voltageV": 120,
+        "totalMaxW": 4000
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 18
+      },
+      "usbC": {
+        "count": 2,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      },
+      "dc5521": {
+        "count": 1,
+        "voltageV": 12.6,
+        "maxWPerPort": 63
+      },
+      "anderson": {
+        "count": 1,
+        "voltageV": 12.6,
+        "maxA": 30
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "bluetti-apex-300",
+    "brand": "BLUETTI",
+    "model": "Apex 300",
+    "name": "BLUETTI Apex 300",
+    "category": "portable-power-station",
+    "kind": "station",
+    "bundle": null,
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=68804e7e63e18b529ef2604a",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300.webp",
+    "price": {
+      "currency": "USD",
+      "current": 1499,
+      "original": 1699
+    },
+    "capacity": {
+      "nominalWh": 2764.8,
+      "expandable": true,
+      "extraBattery": {
+        "model": "BLUETTI B300K",
+        "capacityWh": 2764.8,
+        "maxCount": 6
+      },
+      "maxWh": 19353.6
+    },
+    "power": {
+      "continuousW": 3840,
+      "surgeW": null,
+      "xBoostW": 7680
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 6000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 2400,
+        "inputs": [
+          {
+            "id": "pv-dc",
+            "label": "DC input",
+            "count": 2,
+            "connector": "XT60",
+            "minV": 12,
+            "maxV": 60,
+            "startV": null,
+            "maxA": 20,
+            "maxW": 1200,
+            "overCurrent": "unknown"
+          }
+        ],
+        "includedCables": []
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": null
+      },
+      "maxCombinedW": 3840
+    },
+    "physical": {
+      "weightKg": 38,
+      "dimensionsCm": {
+        "length": 52.5,
+        "width": 32.7,
+        "height": 32
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 6,
+        "voltageV": 120,
+        "totalMaxW": 3840
+      },
+      "usbA": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "usbC": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "bluetti-apex-300-b300k",
+    "brand": "BLUETTI",
+    "model": "Apex 300 + B300K",
+    "name": "BLUETTI Apex 300 + B300K",
+    "category": "portable-power-station",
+    "kind": "bundle",
+    "bundle": {
+      "baseStationId": "bluetti-apex-300",
+      "includes": [
+        {
+          "type": "extra-battery",
+          "model": "BLUETTI B300K",
+          "quantity": 1,
+          "capacityWh": 2764.8
+        }
+      ]
+    },
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/apex-300-b300k?variant=688978f6d941837ed3457d6e",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B300K.webp",
+    "price": {
+      "currency": "USD",
+      "current": 2364,
+      "original": 2799
+    },
+    "capacity": {
+      "nominalWh": 5529.6,
+      "expandable": true,
+      "extraBattery": {
+        "model": "BLUETTI B300K",
+        "capacityWh": 2764.8,
+        "maxCount": 5
+      },
+      "maxWh": 19353.6
+    },
+    "power": {
+      "continuousW": 3840,
+      "surgeW": null,
+      "xBoostW": 7680
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 6000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 2400,
+        "inputs": [
+          {
+            "id": "pv-dc",
+            "label": "DC input",
+            "count": 2,
+            "connector": "XT60",
+            "minV": 12,
+            "maxV": 60,
+            "startV": null,
+            "maxA": 20,
+            "maxW": 1200,
+            "overCurrent": "unknown"
+          }
+        ],
+        "includedCables": []
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": null
+      },
+      "maxCombinedW": 6240
+    },
+    "physical": {
+      "weightKg": 67.5,
+      "dimensionsCm": {
+        "length": 52.5,
+        "width": 32.7,
+        "height": 52.9
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 6,
+        "voltageV": 120,
+        "totalMaxW": 3840
+      },
+      "usbA": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "usbC": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "bluetti-2x-apex-300-2x-b300k-hub-a1",
+    "brand": "BLUETTI",
+    "model": "2×Apex 300 + 2×B300K + Hub A1",
+    "name": "BLUETTI 2×Apex 300 + 2×B300K + Hub A1",
+    "category": "portable-power-station",
+    "kind": "bundle",
+    "bundle": {
+      "baseStationId": "bluetti-apex-300",
+      "includes": [
+        {
+          "type": "station",
+          "stationId": "bluetti-apex-300",
+          "quantity": 1
+        },
+        {
+          "type": "extra-battery",
+          "model": "BLUETTI B300K",
+          "quantity": 2,
+          "capacityWh": 2764.8
+        },
+        {
+          "type": "accessory",
+          "model": "BLUETTI Hub A1",
+          "quantity": 1
+        }
+      ]
+    },
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/2-apex-300-2-b300k-hub-a1?variant=6889c1e7d941837ed3457dd1",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%202×Apex%20300%20%2B%202×B300K%20%2B%20Hub%20A1.webp",
+    "price": {
+      "currency": "USD",
+      "current": 5699,
+      "original": 6099
+    },
+    "capacity": {
+      "nominalWh": 11059.2,
+      "expandable": true,
+      "extraBattery": {
+        "model": "BLUETTI B300K",
+        "capacityWh": 2764.8,
+        "maxCount": 10
+      },
+      "maxWh": 38707.2
+    },
+    "power": {
+      "continuousW": 7680,
+      "surgeW": null,
+      "xBoostW": null
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 6000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 3600,
+      "solar": {
+        "maxW": 4800,
+        "inputs": [
+          {
+            "id": "pv-dc",
+            "label": "DC input",
+            "count": 4,
+            "connector": "XT60",
+            "minV": 12,
+            "maxV": 60,
+            "startV": null,
+            "maxA": 20,
+            "maxW": 1200,
+            "overCurrent": "unknown"
+          }
+        ],
+        "includedCables": []
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": null
+      },
+      "maxCombinedW": 12480
+    },
+    "physical": {
+      "weightKg": 135,
+      "dimensionsCm": {
+        "length": null,
+        "width": null,
+        "height": null
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 12,
+        "voltageV": 120,
+        "totalMaxW": 7680
+      },
+      "usbA": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "usbC": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "bluetti-apex-300-350w",
+    "brand": "BLUETTI",
+    "model": "Apex 300 + 350W",
+    "name": "BLUETTI Apex 300 + 350W",
+    "category": "portable-power-station",
+    "kind": "bundle",
+    "bundle": {
+      "baseStationId": "bluetti-apex-300",
+      "includes": [
+        {
+          "type": "solar-panel",
+          "panelId": "bluetti-pv350",
+          "quantity": 1,
+          "wiring": [
+            {
+              "inputId": "pv-dc",
+              "series": 1,
+              "parallel": 1
+            }
+          ]
+        }
+      ]
+    },
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/apex-300-350w?variant=6889ccea9198d73afbea19ee",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20350W.webp",
+    "price": {
+      "currency": "USD",
+      "current": 1914,
+      "original": 2348
+    },
+    "capacity": {
+      "nominalWh": 2764.8,
+      "expandable": true,
+      "extraBattery": {
+        "model": "BLUETTI B300K",
+        "capacityWh": 2764.8,
+        "maxCount": 6
+      },
+      "maxWh": 19353.6
+    },
+    "power": {
+      "continuousW": 3840,
+      "surgeW": null,
+      "xBoostW": 7680
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 6000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 2400,
+        "inputs": [
+          {
+            "id": "pv-dc",
+            "label": "DC input",
+            "count": 2,
+            "connector": "XT60",
+            "minV": 12,
+            "maxV": 60,
+            "startV": null,
+            "maxA": 20,
+            "maxW": 1200,
+            "overCurrent": "unknown"
+          }
+        ],
+        "includedCables": []
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": null
+      },
+      "maxCombinedW": 3840
+    },
+    "physical": {
+      "weightKg": 38,
+      "dimensionsCm": {
+        "length": 52.5,
+        "width": 32.7,
+        "height": 32
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 6,
+        "voltageV": 120,
+        "totalMaxW": 3840
+      },
+      "usbA": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "usbC": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "bluetti-apex-300-charger-2-dc-hub",
+    "brand": "BLUETTI",
+    "model": "Apex 300 + Charger 2 + DC Hub",
+    "name": "BLUETTI Apex 300 + Charger 2 + DC Hub",
+    "category": "portable-power-station",
+    "kind": "bundle",
+    "bundle": {
+      "baseStationId": "bluetti-apex-300",
+      "includes": [
+        {
+          "type": "pv-controller",
+          "model": "BLUETTI Charger 2",
+          "quantity": 1,
+          "providesInputId": "charger-2"
+        },
+        {
+          "type": "accessory",
+          "model": "BLUETTI DC Hub for Charger 2",
+          "quantity": 1
+        }
+      ]
+    },
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/charger-2-apex-300-dc-hub?variant=48103718486235",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20Charger%202%20%2B%20DC%20Hub.webp",
+    "price": {
+      "currency": "USD",
+      "current": 2149,
+      "original": 2299
+    },
+    "capacity": {
+      "nominalWh": 2764.8,
+      "expandable": true,
+      "extraBattery": {
+        "model": "BLUETTI B300K",
+        "capacityWh": 2764.8,
+        "maxCount": 6
+      },
+      "maxWh": 19353.6
+    },
+    "power": {
+      "continuousW": 3840,
+      "surgeW": null,
+      "xBoostW": 7680
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 6000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 2400,
+        "inputs": [
+          {
+            "id": "pv-dc",
+            "label": "DC input",
+            "count": 2,
+            "connector": "XT60",
+            "minV": 12,
+            "maxV": 60,
+            "startV": null,
+            "maxA": 20,
+            "maxW": 1200,
+            "overCurrent": "unknown"
+          },
+          {
+            "id": "charger-2",
+            "label": "Charger 2 PV input",
+            "count": 1,
+            "connector": "MC4",
+            "minV": 13,
+            "maxV": 50,
+            "startV": null,
+            "maxA": 20,
+            "maxW": 600,
+            "overCurrent": "unknown"
+          }
+        ],
+        "includedCables": [
+          {
+            "from": "MC4",
+            "to": "XT60",
+            "lengthM": null,
+            "quantity": 1
+          }
+        ]
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": 62.5
+      },
+      "maxCombinedW": 3840
+    },
+    "physical": {
+      "weightKg": 38,
+      "dimensionsCm": {
+        "length": 52.5,
+        "width": 32.7,
+        "height": 32
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 6,
+        "voltageV": 120,
+        "totalMaxW": 3840
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 15
+      },
+      "usbC": {
+        "count": 2,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 2,
+        "voltageV": 12,
+        "maxWPerPort": 120
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "bluetti-apex-300-2x-b500k",
+    "brand": "BLUETTI",
+    "model": "Apex 300 + 2×B500K",
+    "name": "BLUETTI Apex 300 + 2×B500K",
+    "category": "portable-power-station",
+    "kind": "bundle",
+    "bundle": {
+      "baseStationId": "bluetti-apex-300",
+      "includes": [
+        {
+          "type": "extra-battery",
+          "model": "BLUETTI B500K",
+          "quantity": 2,
+          "capacityWh": 5120
+        }
+      ]
+    },
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/b500k2-2-apex-300?variant=47914968219867",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%202×B500K.webp",
+    "price": {
+      "currency": "USD",
+      "current": 5399,
+      "original": null
+    },
+    "capacity": {
+      "nominalWh": 13004.8,
+      "expandable": true,
+      "extraBattery": {
+        "model": "BLUETTI B500K",
+        "capacityWh": 5120,
+        "maxCount": 4
+      },
+      "maxWh": 33484.8
+    },
+    "power": {
+      "continuousW": 3840,
+      "surgeW": null,
+      "xBoostW": 7680
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 4000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 2400,
+        "inputs": [
+          {
+            "id": "pv-dc",
+            "label": "DC input",
+            "count": 2,
+            "connector": "XT60",
+            "minV": 12,
+            "maxV": 60,
+            "startV": null,
+            "maxA": 20,
+            "maxW": 1200,
+            "overCurrent": "unknown"
+          }
+        ],
+        "includedCables": []
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": null
+      },
+      "maxCombinedW": 6240
+    },
+    "physical": {
+      "weightKg": 128,
+      "dimensionsCm": {
+        "length": 52.5,
+        "width": 32.7,
+        "height": 93.7
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 6,
+        "voltageV": 120,
+        "totalMaxW": 3840
+      },
+      "usbA": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "usbC": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "bluetti-apex-300-b300k-charger-2-dc-hub",
+    "brand": "BLUETTI",
+    "model": "Apex 300 + B300K + Charger 2 + DC Hub",
+    "name": "BLUETTI Apex 300 + B300K + Charger 2 + DC Hub",
+    "category": "portable-power-station",
+    "kind": "bundle",
+    "bundle": {
+      "baseStationId": "bluetti-apex-300",
+      "includes": [
+        {
+          "type": "extra-battery",
+          "model": "BLUETTI B300K",
+          "quantity": 1,
+          "capacityWh": 2764.8
+        },
+        {
+          "type": "pv-controller",
+          "model": "BLUETTI Charger 2",
+          "quantity": 1,
+          "providesInputId": "charger-2"
+        },
+        {
+          "type": "accessory",
+          "model": "BLUETTI DC Hub for Charger 2",
+          "quantity": 1
+        }
+      ]
+    },
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/charger-2-apex-300-b300k2-dc-hub?variant=48103718748379",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B300K%20%2B%20Charger%202%20%2B%20DC%20Hub.webp",
+    "price": {
+      "currency": "USD",
+      "current": 3198,
+      "original": 3398
+    },
+    "capacity": {
+      "nominalWh": 5529.6,
+      "expandable": true,
+      "extraBattery": {
+        "model": "BLUETTI B300K",
+        "capacityWh": 2764.8,
+        "maxCount": 5
+      },
+      "maxWh": 19353.6
+    },
+    "power": {
+      "continuousW": 3840,
+      "surgeW": null,
+      "xBoostW": 7680
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 6000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 2400,
+        "inputs": [
+          {
+            "id": "pv-dc",
+            "label": "DC input",
+            "count": 2,
+            "connector": "XT60",
+            "minV": 12,
+            "maxV": 60,
+            "startV": null,
+            "maxA": 20,
+            "maxW": 1200,
+            "overCurrent": "unknown"
+          },
+          {
+            "id": "charger-2",
+            "label": "Charger 2 PV input",
+            "count": 1,
+            "connector": "MC4",
+            "minV": 13,
+            "maxV": 50,
+            "startV": null,
+            "maxA": 20,
+            "maxW": 600,
+            "overCurrent": "unknown"
+          }
+        ],
+        "includedCables": [
+          {
+            "from": "MC4",
+            "to": "XT60",
+            "lengthM": null,
+            "quantity": 1
+          }
+        ]
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": 62.5
+      },
+      "maxCombinedW": 6240
+    },
+    "physical": {
+      "weightKg": 67.5,
+      "dimensionsCm": {
+        "length": 52.5,
+        "width": 32.7,
+        "height": 52.9
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 6,
+        "voltageV": 120,
+        "totalMaxW": 3840
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 15
+      },
+      "usbC": {
+        "count": 2,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 2,
+        "voltageV": 12,
+        "maxWPerPort": 120
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "bluetti-apex-300-2x-b500k-solarx-4k",
+    "brand": "BLUETTI",
+    "model": "Apex 300 + 2×B500K + SolarX 4K",
+    "name": "BLUETTI Apex 300 + 2×B500K + SolarX 4K",
+    "category": "portable-power-station",
+    "kind": "bundle",
+    "bundle": {
+      "baseStationId": "bluetti-apex-300",
+      "includes": [
+        {
+          "type": "extra-battery",
+          "model": "BLUETTI B500K",
+          "quantity": 2,
+          "capacityWh": 5120
+        },
+        {
+          "type": "pv-controller",
+          "model": "BLUETTI SolarX 4K",
+          "quantity": 1,
+          "providesInputId": "solarx-4k"
+        }
+      ]
+    },
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/b500k2-2-apex-300-solarx-4k?variant=47914968350939",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%202×B500K%20%2B%20SolarX%204K.webp",
+    "price": {
+      "currency": "USD",
+      "current": 5998,
+      "original": null
+    },
+    "capacity": {
+      "nominalWh": 13004.8,
+      "expandable": true,
+      "extraBattery": {
+        "model": "BLUETTI B500K",
+        "capacityWh": 5120,
+        "maxCount": 4
+      },
+      "maxWh": 33484.8
+    },
+    "power": {
+      "continuousW": 3840,
+      "surgeW": null,
+      "xBoostW": 7680
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 4000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 6400,
+        "inputs": [
+          {
+            "id": "pv-dc",
+            "label": "DC input",
+            "count": 2,
+            "connector": "XT60",
+            "minV": 12,
+            "maxV": 60,
+            "startV": null,
+            "maxA": 20,
+            "maxW": 1200,
+            "overCurrent": "unknown"
+          },
+          {
+            "id": "solarx-4k",
+            "label": "SolarX 4K PV input",
+            "count": 1,
+            "connector": "MC4",
+            "minV": 120,
+            "maxV": 500,
+            "startV": 150,
+            "maxA": 17,
+            "maxW": 4000,
+            "overCurrent": "unknown"
+          }
+        ],
+        "includedCables": []
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": null
+      },
+      "maxCombinedW": 6400
+    },
+    "physical": {
+      "weightKg": 128,
+      "dimensionsCm": {
+        "length": 52.5,
+        "width": 32.7,
+        "height": 93.7
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 6,
+        "voltageV": 120,
+        "totalMaxW": 3840
+      },
+      "usbA": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "usbC": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "bluetti-apex-300-2x-200w",
+    "brand": "BLUETTI",
+    "model": "Apex 300 + 2×200W",
+    "name": "BLUETTI Apex 300 + 2×200W",
+    "category": "portable-power-station",
+    "kind": "bundle",
+    "bundle": {
+      "baseStationId": "bluetti-apex-300",
+      "includes": [
+        {
+          "type": "solar-panel",
+          "panelId": "bluetti-sp200l",
+          "quantity": 2,
+          "wiring": null
+        }
+      ]
+    },
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?id=6889cf919198d73afbea19fd&variant=47354130235611",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%2B2*200W.webp",
+    "price": {
+      "currency": "USD",
+      "current": 2199,
+      "original": 2399
+    },
+    "capacity": {
+      "nominalWh": 2764.8,
+      "expandable": true,
+      "extraBattery": {
+        "model": "BLUETTI B300K",
+        "capacityWh": 2764.8,
+        "maxCount": 6
+      },
+      "maxWh": 19353.6
+    },
+    "power": {
+      "continuousW": 3840,
+      "surgeW": null,
+      "xBoostW": 7680
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 6000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 2400,
+        "inputs": [
+          {
+            "id": "pv-dc",
+            "label": "DC input",
+            "count": 2,
+            "connector": "XT60",
+            "minV": 12,
+            "maxV": 60,
+            "startV": null,
+            "maxA": 20,
+            "maxW": 1200,
+            "overCurrent": "unknown"
+          }
+        ],
+        "includedCables": []
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": null
+      },
+      "maxCombinedW": 3840
+    },
+    "physical": {
+      "weightKg": 38,
+      "dimensionsCm": {
+        "length": 52.5,
+        "width": 32.7,
+        "height": 32
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 6,
+        "voltageV": 120,
+        "totalMaxW": 3840
+      },
+      "usbA": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "usbC": {
+        "count": 0,
+        "maxWPerPort": null
+      },
+      "car": {
+        "count": 0,
+        "voltageV": null,
+        "maxWPerPort": null
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "bluetti-apex-300-b300k-charger-1-hub-d1-2x-350w",
+    "brand": "BLUETTI",
+    "model": "Apex 300 + B300K + Charger 1 + Hub D1 + 2 × 350W",
+    "name": "BLUETTI Apex 300 + B300K + Charger 1 + Hub D1 + 2 × 350W",
+    "category": "portable-power-station",
+    "kind": "bundle",
+    "bundle": {
+      "baseStationId": "bluetti-apex-300",
+      "includes": [
+        {
+          "type": "extra-battery",
+          "model": "BLUETTI B300K",
+          "quantity": 1,
+          "capacityWh": 2764.8
+        },
+        {
+          "type": "accessory",
+          "model": "BLUETTI Charger 1",
+          "quantity": 1
+        },
+        {
+          "type": "accessory",
+          "model": "BLUETTI Hub D1",
+          "quantity": 1
+        },
+        {
+          "type": "solar-panel",
+          "panelId": "bluetti-pv350",
+          "quantity": 2,
+          "wiring": null
+        }
+      ]
+    },
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?id=6889e7339198d73afbea1a33&variant=47354313834715",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B300K%20%2B%20Charger%201%20%2B%20Hub%20D1%20%2B%202%20×%20350W.webp",
+    "price": {
+      "currency": "USD",
+      "current": 4596,
+      "original": null
+    },
+    "capacity": {
+      "nominalWh": 5529.6,
+      "expandable": true,
+      "extraBattery": {
+        "model": "BLUETTI B300K",
+        "capacityWh": 2764.8,
+        "maxCount": 5
+      },
+      "maxWh": 19353.6
+    },
+    "power": {
+      "continuousW": 3840,
+      "surgeW": null,
+      "xBoostW": 7680
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 6000,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 2400,
+        "inputs": [
+          {
+            "id": "pv-dc",
+            "label": "DC input",
+            "count": 2,
+            "connector": "XT60",
+            "minV": 12,
+            "maxV": 60,
+            "startV": null,
+            "maxA": 20,
+            "maxW": 1200,
+            "overCurrent": "unknown"
+          }
+        ],
+        "includedCables": []
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": 50
+      },
+      "maxCombinedW": 6240
+    },
+    "physical": {
+      "weightKg": 67.5,
+      "dimensionsCm": {
+        "length": 52.5,
+        "width": 32.7,
+        "height": 52.9
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 6,
+        "voltageV": 120,
+        "totalMaxW": 3840
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 15
+      },
+      "usbC": {
+        "count": 2,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 2,
+        "voltageV": 12,
+        "maxWPerPort": 120
+      },
+      "dc5521": {
+        "count": 2,
+        "voltageV": 12,
+        "maxWPerPort": 120
+      },
+      "anderson": {
+        "count": 1,
+        "voltageV": 12,
+        "maxA": 50
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "bluetti-elite-400-500w",
+    "brand": "BLUETTI",
+    "model": "Elite 400 + 500W",
+    "name": "BLUETTI Elite 400 + 500W",
+    "category": "portable-power-station",
+    "kind": "bundle",
+    "bundle": {
+      "baseStationId": "bluetti-elite-400",
+      "includes": [
+        {
+          "type": "solar-panel",
+          "panelId": "bluetti-500w-solar-panel",
+          "quantity": 1,
+          "wiring": [
+            {
+              "inputId": "pv",
+              "series": 1,
+              "parallel": 1
+            }
+          ]
+        }
+      ]
+    },
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/elite-400-500w?variant=49004795953371",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20400%20%2B%20500W.webp",
+    "price": {
+      "currency": "USD",
+      "current": 1948,
+      "original": 2248
+    },
+    "capacity": {
+      "nominalWh": 3840,
+      "expandable": false,
+      "extraBattery": null,
+      "maxWh": 3840
+    },
+    "power": {
+      "continuousW": 2600,
+      "surgeW": 5200,
+      "xBoostW": 3900
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": []
+    },
+    "charging": {
+      "acInputW": 1800,
+      "solar": {
+        "maxW": 1000,
+        "inputs": [
+          {
+            "id": "pv",
+            "label": "Solar input",
+            "count": 1,
+            "connector": "XT60",
+            "minV": 12,
+            "maxV": 60,
+            "startV": null,
+            "maxA": 20,
+            "maxW": 1000,
+            "overCurrent": "unknown"
+          }
+        ],
+        "includedCables": [
+          {
+            "from": "MC4",
+            "to": "XT60",
+            "lengthM": null,
+            "quantity": 1
+          }
+        ]
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": 8.3
+      },
+      "maxCombinedW": 2800
+    },
+    "physical": {
+      "weightKg": 39,
+      "dimensionsCm": {
+        "length": 43.2,
+        "width": 28.8,
+        "height": 49
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 4,
+        "voltageV": 120,
+        "totalMaxW": 2600
+      },
+      "usbA": {
+        "count": 2,
+        "maxWPerPort": 15
+      },
+      "usbC": {
+        "count": 2,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12,
+        "maxWPerPort": 120
+      }
+    },
+    "features": {
+      "wifi": true,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-10-06"
+  },
+  {
+    "id": "bluetti-ac180p-200w-solar",
+    "brand": "BLUETTI",
+    "model": "AC180P + 200W Solar",
+    "name": "BLUETTI AC180P + 200W Solar",
+    "category": "portable-power-station",
+    "kind": "bundle",
+    "bundle": {
+      "baseStationId": "bluetti-ac180p",
+      "includes": [
+        {
+          "type": "solar-panel",
+          "panelId": "bluetti-sp200l",
+          "quantity": 1,
+          "wiring": [
+            {
+              "inputId": "pv-dc",
+              "series": 1,
+              "parallel": 1
+            }
+          ]
+        }
+      ]
+    },
+    "region": "US",
+    "url": "https://www.bluettipower.com/products/ac180p?variant=44696567316699",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20AC180P%2B200W%20Solar%20%7C%201800W%2C1440Wh%2C200W%20Solar%20Kit.webp",
+    "price": {
+      "currency": "USD",
+      "current": 899,
+      "original": null
+    },
+    "capacity": {
+      "nominalWh": 1440,
+      "expandable": false,
+      "extraBattery": null,
+      "maxWh": 1440
+    },
+    "power": {
+      "continuousW": 1800,
+      "surgeW": 2700,
+      "xBoostW": 2700
+    },
+    "battery": {
+      "chemistry": "LFP",
+      "cycleLife": [
+        {
+          "cycles": 3500,
+          "retentionPct": 80
+        }
+      ]
+    },
+    "charging": {
+      "acInputW": 1440,
+      "solar": {
+        "maxW": 500,
+        "inputs": [
+          {
+            "id": "pv-dc",
+            "label": "DC Input",
+            "count": 1,
+            "connector": "DC7909",
+            "minV": 12,
+            "maxV": 60,
+            "startV": null,
+            "maxA": 10,
+            "maxW": 500,
+            "overCurrent": "unknown"
+          }
+        ],
+        "includedCables": [
+          {
+            "from": "MC4",
+            "to": "DC7909",
+            "lengthM": 1.5,
+            "quantity": 1
+          }
+        ]
+      },
+      "car": {
+        "supportedV": [
+          12,
+          24
+        ],
+        "maxA": 8.3
+      },
+      "maxCombinedW": 1440
+    },
+    "physical": {
+      "weightKg": 16,
+      "dimensionsCm": {
+        "length": 34,
+        "width": 24.7,
+        "height": 31.7
+      }
+    },
+    "ports": {
+      "ac": {
+        "count": 4,
+        "voltageV": 120,
+        "totalMaxW": 1800
+      },
+      "usbA": {
+        "count": 4,
+        "maxWPerPort": 15
+      },
+      "usbC": {
+        "count": 1,
+        "maxWPerPort": 100
+      },
+      "car": {
+        "count": 1,
+        "voltageV": 12,
+        "maxWPerPort": 120
+      }
+    },
+    "features": {
+      "wifi": false,
+      "bluetooth": true,
+      "app": true
+    },
+    "warrantyYears": 5,
+    "lastChecked": "2026-10-06"
+  }
+]
