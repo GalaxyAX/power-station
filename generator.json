@@ -346,7 +346,7 @@
         "type": "inverter",
         "region": "US",
         "url": "https://www.generac.com/residential-products/portable-generators/5200-dual-fuel-portable-generator-8945/",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Generac%20iQ5200%20Dual%20Fuel%20Portable%20Inverter%20Generator.webp",
         "manualUrl": null,
         "price": {
             "currency": "USD",
