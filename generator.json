@@ -139,7 +139,7 @@
         "type": "inverter",
         "region": "US",
         "url": "https://westinghouse.com/collections/dual-fuel-inverters/products/igen5000dfc-efi-inverter-generator-dual-fuel-with-co-sensor",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Westinghouse%20iGen5000DFc%20EFI%20Dual%20Fuel%20Inverter%20Generator.webp",
         "manualUrl": null,
         "price": {
             "currency": "USD",
