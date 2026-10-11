@@ -1,193 +1,205 @@
 [
-    {
-        "id": "hyundai-v2l-adapter-nacs",
-        "brand": "Hyundai",
-        "model": "Vehicle to Load Adapter/Connector (NACS)",
-        "name": "Hyundai Vehicle to Load Adapter/Connector (NACS)",
-        "category": "adapter",
-        "partNumber": "BFH68-AK500",
-        "region": "US",
-        "url": "https://www.hyundaiaccessories.com/accessories/2026/Ioniq%205/BFH68AK500/IONIQ%205%202026%20Vehicle%20to%20Load%20Adapter/Connector",
-        "image": null,
-        "price": {
-            "currency": "USD",
-            "current": 235,
-            "original": null
-        },
-        "input": {
-            "connector": "NACS"
-        },
-        "output": {
-            "type": "5-15R",
-            "voltageV": 120,
-            "maxA": null,
-            "maxW": null,
-            "count": 1
-        },
-        "requires": [],
-        "verification": {
-            "status": "partial",
-            "sources": [
-                {
-                    "title": "Hyundai Accessories: Vehicle to Load Adapter/Connector for 2026 IONIQ 5",
-                    "url": "https://www.hyundaiaccessories.com/accessories/2026/Ioniq%205/BFH68AK500/IONIQ%205%202026%20Vehicle%20to%20Load%20Adapter/Connector",
-                    "kind": "maker"
-                },
-                {
-                    "title": "2026 IONIQ 5 price sheet",
-                    "url": "https://www.hyundainews.com/assets/documents/original/68391-26MYIONIQ5Pricing01Oct2025.pdf",
-                    "kind": "press"
-                }
-            ],
-            "toConfirm": [
-                "Price: Hyundai's 2026 price sheet says $235; a dealer parts site shows $265 MSRP.",
-                "Outlet type and amp rating.",
-                "The Hyundai accessories page could not be opened; its name and fitment come from its search listing."
-            ]
-        },
-        "lastChecked": "2026-10-11"
+  {
+    "id": "hyundai-v2l-adapter-nacs",
+    "brand": "Hyundai",
+    "model": "Vehicle to Load Adapter/Connector (NACS)",
+    "name": "Hyundai Vehicle to Load Adapter/Connector (NACS)",
+    "category": "adapter",
+    "partNumber": "BFH68-AK500",
+    "region": "US",
+    "url": "https://www.hyundaiaccessories.com/accessories/2026/Ioniq%205/BFH68AK500/IONIQ%205%202026%20Vehicle%20to%20Load%20Adapter/Connector",
+    "image": null,
+    "price": {
+      "currency": "USD",
+      "current": 235,
+      "original": null
     },
-    {
-        "id": "hyundai-v2l-adapter-j1772",
-        "brand": "Hyundai",
-        "model": "Vehicle to Load Adapter (J1772)",
-        "name": "Hyundai Vehicle to Load Adapter (J1772)",
-        "category": "adapter",
-        "partNumber": null,
-        "region": "US",
-        "url": null,
-        "image": null,
-        "price": {
-            "currency": "USD",
-            "current": 220,
-            "original": null
-        },
-        "input": {
-            "connector": "J1772"
-        },
-        "output": {
-            "type": "5-15R",
-            "voltageV": 120,
-            "maxA": null,
-            "maxW": null,
-            "count": 1
-        },
-        "requires": [],
-        "verification": {
-            "status": "partial",
-            "sources": [
-                {
-                    "title": "2024 IONIQ 5 price sheet",
-                    "url": "https://www.hyundainews.com/assets/documents/original/57262-2024MYIONIQ5PriceSheet12Sep2023003.pdf",
-                    "kind": "press"
-                },
-                {
-                    "title": "Alex Whittemore: Inside the Hyundai/Kia V2L Connector",
-                    "url": "https://www.alexwhittemore.com/inside-the-hyundai-kia-v2l-connector/",
-                    "kind": "third-party"
-                }
-            ],
-            "toConfirm": [
-                "US part number, and whether Hyundai still sells it.",
-                "Outlet type and amp rating; a teardown puts it at 120 V and 15 A."
-            ]
-        },
-        "lastChecked": "2026-10-11"
+    "input": {
+      "connector": "NACS"
     },
-    {
-        "id": "tesla-outlet-adapter",
-        "brand": "Tesla",
-        "model": "Outlet Adapter",
-        "name": "Tesla Outlet Adapter",
-        "category": "adapter",
-        "partNumber": null,
-        "region": "US",
-        "url": "https://shop.tesla.com/product/tesla-outlet-adapter",
-        "image": null,
-        "price": {
-            "currency": "USD",
-            "current": 80,
-            "original": null
-        },
-        "input": {
-            "connector": "Proprietary"
-        },
-        "output": {
-            "type": "5-20R",
-            "voltageV": 120,
-            "maxA": 20,
-            "maxW": 2400,
-            "count": 2
-        },
-        "requires": [
-            "tesla-gen-3-mobile-connector"
-        ],
-        "verification": {
-            "status": "partial",
-            "sources": [
-                {
-                    "title": "Tesla Shop: Tesla Outlet Adapter",
-                    "url": "https://shop.tesla.com/product/tesla-outlet-adapter",
-                    "kind": "maker"
-                },
-                {
-                    "title": "Electrek: Tesla launches accessory for power outlets from the charge port",
-                    "url": "https://electrek.co/2025/04/11/tesla-launches-accessory-power-outlets-charge-port-cheaper-cybertruck/",
-                    "kind": "third-party"
-                }
-            ],
-            "toConfirm": [
-                "5-20R as the outlet type, and two outlets (from Electrek).",
-                "The Tesla shop page could not be opened; its figures come from its search listing."
-            ]
-        },
-        "lastChecked": "2026-10-11"
+    "output": {
+      "type": "5-15R",
+      "voltageV": 120,
+      "maxA": null,
+      "maxW": null,
+      "count": 1
     },
-    {
-        "id": "tesla-gen-3-mobile-connector",
-        "brand": "Tesla",
-        "model": "Gen 3 Mobile Connector",
-        "name": "Tesla Gen 3 Mobile Connector",
-        "category": "adapter",
-        "partNumber": null,
-        "region": "US",
-        "url": null,
-        "image": null,
-        "price": {
-            "currency": "USD",
-            "current": 300,
-            "original": null
+    "requires": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        {
+          "title": "Hyundai Accessories: Vehicle to Load Adapter/Connector for 2026 IONIQ 5",
+          "url": "https://www.hyundaiaccessories.com/accessories/2026/Ioniq%205/BFH68AK500/IONIQ%205%202026%20Vehicle%20to%20Load%20Adapter/Connector",
+          "kind": "maker"
         },
-        "input": {
-            "connector": "NACS"
+        {
+          "title": "2026 IONIQ 5 price sheet",
+          "url": "https://www.hyundainews.com/assets/documents/original/68391-26MYIONIQ5Pricing01Oct2025.pdf",
+          "kind": "press"
+        }
+      ],
+      "toConfirm": [
+        "Price: Hyundai's 2026 price sheet says $235. Dealers set their own; $265 and $300 seen.",
+        "Outlet type and amp rating.",
+        "The Hyundai accessories site can't be opened from outside the US; the link and fitment come from its search listing."
+      ]
+    },
+    "lastChecked": "2026-10-11"
+  },
+  {
+    "id": "hyundai-v2l-adapter-j1772",
+    "brand": "Hyundai",
+    "model": "Vehicle to Load Adapter/Connector (J1772)",
+    "name": "Hyundai Vehicle to Load Adapter/Connector (J1772)",
+    "category": "adapter",
+    "partNumber": "GIH68-AK0A0",
+    "region": "US",
+    "url": "https://www.hyundaiaccessories.com/accessories/2024/ioniq-5/gih68ak0a0/",
+    "image": null,
+    "price": {
+      "currency": "USD",
+      "current": 220,
+      "original": null
+    },
+    "input": {
+      "connector": "J1772"
+    },
+    "output": {
+      "type": "5-15R",
+      "voltageV": 120,
+      "maxA": null,
+      "maxW": null,
+      "count": 1
+    },
+    "requires": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        {
+          "title": "Hyundai Accessories: Vehicle to Load Adapter/Connector for 2024 IONIQ 5",
+          "url": "https://www.hyundaiaccessories.com/accessories/2024/ioniq-5/gih68ak0a0/",
+          "kind": "maker"
         },
-        "output": {
-            "type": "Proprietary",
-            "voltageV": null,
-            "maxA": null,
-            "maxW": null,
-            "count": 1
+        {
+          "title": "2024 IONIQ 5 price sheet",
+          "url": "https://www.hyundainews.com/assets/documents/original/57262-2024MYIONIQ5PriceSheet12Sep2023003.pdf",
+          "kind": "press"
         },
-        "requires": [],
-        "verification": {
-            "status": "partial",
-            "sources": [
-                {
-                    "title": "Electrek: Tesla launches accessory for power outlets from the charge port",
-                    "url": "https://electrek.co/2025/04/11/tesla-launches-accessory-power-outlets-charge-port-cheaper-cybertruck/",
-                    "kind": "third-party"
-                },
-                {
-                    "title": "Not a Tesla App: Tesla's new Mobile Connector with Powershare",
-                    "url": "https://www.notateslaapp.com/news/2636/teslas-new-mobile-connector-with-powershare-capabilities",
-                    "kind": "third-party"
-                }
-            ],
-            "toConfirm": [
-                "Price: $300 as reported in April 2025; Tesla's own page was not read.",
-                "Earlier Mobile Connectors don't work with the Outlet Adapter."
-            ]
+        {
+          "title": "Alex Whittemore: Inside the Hyundai/Kia V2L Connector",
+          "url": "https://www.alexwhittemore.com/inside-the-hyundai-kia-v2l-connector/",
+          "kind": "third-party"
+        }
+      ],
+      "toConfirm": [
+        "Price: Hyundai's 2024 price sheet says $220. Dealers set their own; $207 to $339 seen.",
+        "Outlet type and amp rating; a teardown puts it at 120 V and 15 A.",
+        "The Hyundai accessories site can't be opened from outside the US; the link and part number come from its search listing."
+      ]
+    },
+    "lastChecked": "2026-10-11"
+  },
+  {
+    "id": "tesla-outlet-adapter",
+    "brand": "Tesla",
+    "model": "Outlet Adapter",
+    "name": "Tesla Outlet Adapter",
+    "category": "adapter",
+    "partNumber": null,
+    "region": "US",
+    "url": "https://shop.tesla.com/product/tesla-outlet-adapter",
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Tesla%20Outlet%20Adapter.webp",
+    "price": {
+      "currency": "USD",
+      "current": 80,
+      "original": null
+    },
+    "input": {
+      "connector": "Proprietary"
+    },
+    "output": {
+      "type": "5-20R",
+      "voltageV": 120,
+      "maxA": 20,
+      "maxW": 2400,
+      "count": 2
+    },
+    "requires": [
+      "tesla-gen-3-mobile-connector"
+    ],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Tesla Shop: Tesla Outlet Adapter",
+          "url": "https://shop.tesla.com/product/tesla-outlet-adapter",
+          "kind": "maker"
         },
-        "lastChecked": "2026-10-11"
-    }
+        {
+          "title": "Cybertruck owner's manual (US): Powering Devices with the Charge Port",
+          "url": "https://www.tesla.com/ownersmanual/cybertruck/en_us/GUID-B76759EE-C3EA-436E-886C-C89476898254.html",
+          "kind": "manual"
+        },
+        {
+          "title": "Electrek: Tesla launches accessory for power outlets from the charge port",
+          "url": "https://electrek.co/2025/04/11/tesla-launches-accessory-power-outlets-charge-port-cheaper-cybertruck/",
+          "kind": "third-party"
+        }
+      ],
+      "toConfirm": [
+        "Two outlets: from Electrek. Tesla's pages don't give the number."
+      ]
+    },
+    "lastChecked": "2026-10-11"
+  },
+  {
+    "id": "tesla-gen-3-mobile-connector",
+    "brand": "Tesla",
+    "model": "Gen 3 Mobile Connector",
+    "name": "Tesla Gen 3 Mobile Connector",
+    "category": "adapter",
+    "partNumber": null,
+    "region": "US",
+    "url": "https://shop.tesla.com/product/mobile-connector",
+    "image": null,
+    "price": {
+      "currency": "USD",
+      "current": 300,
+      "original": null
+    },
+    "input": {
+      "connector": "NACS"
+    },
+    "output": {
+      "type": "Proprietary",
+      "voltageV": null,
+      "maxA": null,
+      "maxW": null,
+      "count": 1
+    },
+    "requires": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Tesla Shop: Mobile Connector",
+          "url": "https://shop.tesla.com/product/mobile-connector",
+          "kind": "maker"
+        },
+        {
+          "title": "Tesla Shop: Tesla Outlet Adapter",
+          "url": "https://shop.tesla.com/product/tesla-outlet-adapter",
+          "kind": "maker"
+        },
+        {
+          "title": "Cybertruck owner's manual (US): Powering Devices with the Charge Port",
+          "url": "https://www.tesla.com/ownersmanual/cybertruck/en_us/GUID-B76759EE-C3EA-436E-886C-C89476898254.html",
+          "kind": "manual"
+        }
+      ],
+      "toConfirm": []
+    },
+    "lastChecked": "2026-10-11"
+  }
 ]
