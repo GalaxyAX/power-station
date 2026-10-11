@@ -1,0 +1,589 @@
+[
+    {
+        "id": "hyundai-ioniq-5-2025",
+        "brand": "Hyundai",
+        "model": "IONIQ 5",
+        "name": "Hyundai IONIQ 5",
+        "category": "ev",
+        "region": "US",
+        "modelYears": {
+            "from": 2025,
+            "to": null
+        },
+        "url": "https://www.hyundaiusa.com/us/en/vehicles/ioniq-5",
+        "manualUrl": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/id_ur4_3xl_t5b.html",
+        "image": null,
+        "chargePort": "NACS",
+        "battery": {
+            "packs": [
+                {
+                    "id": "standard-range",
+                    "label": "Standard Range",
+                    "kWh": 63,
+                    "basis": null
+                },
+                {
+                    "id": "long-range",
+                    "label": "Long Range",
+                    "kWh": 84,
+                    "basis": null
+                }
+            ]
+        },
+        "v2l": {
+            "name": "Vehicle-to-Load (V2L)",
+            "output": {
+                "frequencyHz": 60,
+                "thdPct": null,
+                "neutral": null
+            },
+            "maxW": 1900,
+            "timeLimitH": null,
+            "outlets": [
+                {
+                    "id": "charge-port",
+                    "label": "V2L adapter at the charge port",
+                    "location": "charge-port",
+                    "type": "5-15R",
+                    "voltageV": 120,
+                    "maxA": 16,
+                    "maxW": 1900,
+                    "count": 1,
+                    "gfci": null,
+                    "requires": [
+                        "hyundai-v2l-adapter-nacs"
+                    ]
+                }
+            ],
+            "setup": [
+                "Set the V2L discharging limit below the current battery level, or V2L won't start.",
+                "Cancel scheduled air conditioning; it can block V2L.",
+                "Plug the adapter into the charge port within 60 seconds of opening the charging door, then press the switch on the adapter.",
+                "Some trims also have an outlet under the rear seat. It needs no adapter, but works only while the vehicle is switched on."
+            ],
+            "cautions": [
+                "Hyundai says to use only appliances that draw under 16 A.",
+                "Over the limit, V2L stops and the car shows a warning.",
+                "V2L stops when the battery reaches the discharging limit, which can be set from 20% to 80%."
+            ]
+        },
+        "verification": {
+            "status": "partial",
+            "sources": [
+                {
+                    "title": "IONIQ 5 owner's manual (2025, US): Vehicle to Load",
+                    "url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/id_ur4_3xl_t5b.html",
+                    "kind": "manual"
+                },
+                {
+                    "title": "Hyundai USA Media Center: IONIQ 5",
+                    "url": "https://www.hyundainews.com/models/hyundai-ioniq_5-2022-ioniq_5",
+                    "kind": "press"
+                },
+                {
+                    "title": "2026 IONIQ 5 price sheet",
+                    "url": "https://www.hyundainews.com/assets/documents/original/68391-26MYIONIQ5Pricing01Oct2025.pdf",
+                    "kind": "press"
+                }
+            ],
+            "toConfirm": [
+                "Outlet type on the adapter (5-15R assumed).",
+                "Whether 1.9 kW can be drawn continuously; Hyundai calls it peak power.",
+                "Whether any trim includes the adapter.",
+                "Battery capacities, and whether they are total or usable."
+            ]
+        },
+        "lastChecked": "2026-10-11"
+    },
+    {
+        "id": "hyundai-ioniq-5-2022-2024",
+        "brand": "Hyundai",
+        "model": "IONIQ 5",
+        "name": "Hyundai IONIQ 5",
+        "category": "ev",
+        "region": "US",
+        "modelYears": {
+            "from": 2022,
+            "to": 2024
+        },
+        "url": "https://www.hyundainews.com/models/hyundai-ioniq_5-2022-ioniq_5",
+        "manualUrl": "https://ownersmanual.hyundai.com/full_webhelp/NE1/2024/en_US/id676b513d651.html",
+        "image": null,
+        "chargePort": "J1772",
+        "battery": {
+            "packs": [
+                {
+                    "id": "standard-range",
+                    "label": "Standard Range",
+                    "kWh": 58,
+                    "basis": null
+                },
+                {
+                    "id": "long-range",
+                    "label": "Long Range",
+                    "kWh": 77.4,
+                    "basis": null
+                }
+            ]
+        },
+        "v2l": {
+            "name": "Vehicle-to-Load (V2L)",
+            "output": {
+                "frequencyHz": 60,
+                "thdPct": null,
+                "neutral": null
+            },
+            "maxW": 1900,
+            "timeLimitH": null,
+            "outlets": [
+                {
+                    "id": "charge-port",
+                    "label": "V2L adapter at the charge port",
+                    "location": "charge-port",
+                    "type": "5-15R",
+                    "voltageV": 120,
+                    "maxA": 16,
+                    "maxW": 1900,
+                    "count": 1,
+                    "gfci": null,
+                    "requires": [
+                        "hyundai-v2l-adapter-j1772"
+                    ]
+                }
+            ],
+            "setup": [
+                "Set the V2L discharging limit below the current battery level, or V2L won't start.",
+                "Cancel scheduled air conditioning; it can block V2L.",
+                "Plug the adapter into the charge port within 60 seconds of opening the charging door, then press the switch on the adapter.",
+                "Some trims also have an outlet under the rear seat. It needs no adapter, but works only while the vehicle is switched on."
+            ],
+            "cautions": [
+                "Hyundai says to use only appliances that draw under 16 A.",
+                "Over the limit, V2L stops with the message “V2L function is stopped due to excess power”.",
+                "V2L stops when the battery reaches the discharging limit, which can be set from 20% to 80%."
+            ]
+        },
+        "verification": {
+            "status": "partial",
+            "sources": [
+                {
+                    "title": "IONIQ 5 owner's manual (2024, US): Vehicle to Load",
+                    "url": "https://ownersmanual.hyundai.com/full_webhelp/NE1/2024/en_US/id676b513d651.html",
+                    "kind": "manual"
+                },
+                {
+                    "title": "Hyundai USA Media Center: IONIQ 5",
+                    "url": "https://www.hyundainews.com/models/hyundai-ioniq_5-2022-ioniq_5",
+                    "kind": "press"
+                },
+                {
+                    "title": "2024 IONIQ 5 price sheet",
+                    "url": "https://www.hyundainews.com/assets/documents/original/57262-2024MYIONIQ5PriceSheet12Sep2023003.pdf",
+                    "kind": "press"
+                }
+            ],
+            "toConfirm": [
+                "Outlet type on the adapter (5-15R assumed).",
+                "Whether 1.9 kW can be drawn continuously; Hyundai calls it peak power.",
+                "Whether every trim takes the charge-port adapter, and whether the Limited includes it.",
+                "Battery capacities, and whether they are total or usable."
+            ]
+        },
+        "lastChecked": "2026-10-11"
+    },
+    {
+        "id": "ford-f-150-lightning",
+        "brand": "Ford",
+        "model": "F-150 Lightning",
+        "name": "Ford F-150 Lightning",
+        "category": "ev",
+        "region": "US",
+        "modelYears": {
+            "from": 2022,
+            "to": 2025
+        },
+        "url": "https://www.ford.com/support/how-tos/electric-vehicles/f-150-lightning/f-150-lightning-product-frequently-asked-questions/",
+        "manualUrl": "https://content.fordpro.com/content/dam/fordpro/us/en-us/pdf/resources/education/electrification/onboarding/f-150-lightning/F-150-Lightning-Pro-Power-Onboard.pdf",
+        "image": null,
+        "chargePort": "J1772",
+        "battery": {
+            "packs": [
+                {
+                    "id": "standard-range",
+                    "label": "Standard Range",
+                    "kWh": 98,
+                    "basis": "usable"
+                },
+                {
+                    "id": "extended-range",
+                    "label": "Extended Range",
+                    "kWh": 131,
+                    "basis": "usable"
+                }
+            ]
+        },
+        "v2l": {
+            "name": "Pro Power Onboard",
+            "output": {
+                "frequencyHz": 60,
+                "thdPct": null,
+                "neutral": null
+            },
+            "maxW": 2400,
+            "timeLimitH": null,
+            "outlets": [
+                {
+                    "id": "frunk",
+                    "label": "Frunk outlets",
+                    "location": "frunk",
+                    "type": "5-20R",
+                    "voltageV": 120,
+                    "maxA": 20,
+                    "maxW": 2400,
+                    "count": 4,
+                    "gfci": true,
+                    "requires": []
+                },
+                {
+                    "id": "cab",
+                    "label": "Cab outlets",
+                    "location": "cabin",
+                    "type": "5-20R",
+                    "voltageV": 120,
+                    "maxA": 20,
+                    "maxW": 2400,
+                    "count": 2,
+                    "gfci": true,
+                    "requires": []
+                },
+                {
+                    "id": "bed",
+                    "label": "Bed outlets",
+                    "location": "bed",
+                    "type": "5-20R",
+                    "voltageV": 120,
+                    "maxA": 20,
+                    "maxW": 2400,
+                    "count": 2,
+                    "gfci": true,
+                    "requires": []
+                }
+            ],
+            "setup": [
+                "Turn the outlets on from the touchscreen (Features, then Pro Power Onboard) or with the green button near an outlet.",
+                "With the truck off, press the green button within a minute of leaving or unlocking it.",
+                "Set Pro Power Reserve to the range you need to reach a charger. The outlets switch off when it is reached."
+            ],
+            "cautions": [
+                "Over the available power, the system shuts down and shows a message.",
+                "Maximum power can be lower while the truck is in Drive."
+            ]
+        },
+        "verification": {
+            "status": "partial",
+            "sources": [
+                {
+                    "title": "F-150 Lightning: How to Use Pro Power Onboard, for drivers",
+                    "url": "https://content.fordpro.com/content/dam/fordpro/us/en-us/pdf/resources/education/electrification/onboarding/f-150-lightning/F-150-Lightning-Pro-Power-Onboard.pdf",
+                    "kind": "maker"
+                },
+                {
+                    "title": "Ford support: Pro Power Onboard",
+                    "url": "https://www.ford.com/support/how-tos/more-vehicle-topics/power-outlets/pro-power-onboard/",
+                    "kind": "maker"
+                },
+                {
+                    "title": "Ford support: F-150 Lightning FAQ",
+                    "url": "https://www.ford.com/support/how-tos/electric-vehicles/f-150-lightning/f-150-lightning-product-frequently-asked-questions/",
+                    "kind": "maker"
+                }
+            ],
+            "toConfirm": [
+                "5-20R as the outlet type: Ford gives only 120 V and 20 A.",
+                "Left out on purpose: the 9.6 kW option, which adds bed outlets and a 240 V, 30 A outlet. Every truck has the outlets listed here.",
+                "Whether the neutral is bonded to the frame; owners report that it is."
+            ]
+        },
+        "lastChecked": "2026-10-11"
+    },
+    {
+        "id": "tesla-cybertruck",
+        "brand": "Tesla",
+        "model": "Cybertruck",
+        "name": "Tesla Cybertruck",
+        "category": "ev",
+        "region": "US",
+        "modelYears": {
+            "from": 2024,
+            "to": null
+        },
+        "url": null,
+        "manualUrl": "https://www.tesla.com/ownersmanual/cybertruck/en_us/GUID-DA020526-B42E-4C0E-AE1E-BB22072D48B6.html",
+        "image": null,
+        "chargePort": "NACS",
+        "battery": {
+            "packs": [
+                {
+                    "id": "awd",
+                    "label": "All-Wheel Drive and Cyberbeast",
+                    "kWh": 123,
+                    "basis": "total"
+                }
+            ]
+        },
+        "v2l": {
+            "name": "Powershare",
+            "output": {
+                "frequencyHz": 60,
+                "thdPct": null,
+                "neutral": null
+            },
+            "maxW": 9600,
+            "timeLimitH": 12,
+            "outlets": [
+                {
+                    "id": "cabin",
+                    "label": "Cabin outlets",
+                    "location": "cabin",
+                    "type": "5-20R",
+                    "voltageV": 120,
+                    "maxA": 20,
+                    "maxW": 2400,
+                    "count": 2,
+                    "gfci": true,
+                    "requires": []
+                },
+                {
+                    "id": "bed-120",
+                    "label": "Bed outlets, 120 V",
+                    "location": "bed",
+                    "type": "5-20R",
+                    "voltageV": 120,
+                    "maxA": 20,
+                    "maxW": 2400,
+                    "count": 2,
+                    "gfci": true,
+                    "requires": []
+                },
+                {
+                    "id": "bed-240",
+                    "label": "Bed outlet, 240 V",
+                    "location": "bed",
+                    "type": "14-50R",
+                    "voltageV": 240,
+                    "maxA": 40,
+                    "maxW": 9600,
+                    "count": 1,
+                    "gfci": true,
+                    "requires": []
+                }
+            ],
+            "setup": [
+                "Open the outlet cover in the cargo bed. The bed outlets give no power while it is closed.",
+                "Turn the outlets on under Controls, then Outlets & Mods, or in the Tesla app.",
+                "The outlets switch off when you leave the truck unless Keep Outlets On is set. With it set they run for up to 12 hours, or until the battery falls below 5%."
+            ],
+            "cautions": [
+                "All AC outlets together are limited to 40 A. The cabin outlets share 20 A, and the 120 V bed outlets share another 20 A.",
+                "Tesla says not to connect a power source, such as a solar panel or an external battery, to a cargo bed outlet.",
+                "Outlets that are switched on draw a little power even with nothing plugged in.",
+                "Some Cybertrucks were built without cargo bed outlets. Check that yours has them."
+            ]
+        },
+        "verification": {
+            "status": "partial",
+            "sources": [
+                {
+                    "title": "Cybertruck owner's manual (US): Cargo Bed Outlets",
+                    "url": "https://www.tesla.com/ownersmanual/cybertruck/en_us/GUID-DA020526-B42E-4C0E-AE1E-BB22072D48B6.html",
+                    "kind": "manual"
+                },
+                {
+                    "title": "EVANNEX: Cybertruck Powershare",
+                    "url": "https://evannex.com/blogs/news/tesla-cybertruck-the-game-changing-powershare-technology",
+                    "kind": "third-party"
+                }
+            ],
+            "toConfirm": [
+                "5-20R and 14-50R as the outlet types (secondary source).",
+                "9.6 kW in total: the manual gives 40 A, not kilowatts.",
+                "Battery capacity: 123 kWh is not a figure Tesla publishes.",
+                "Left out on purpose: trucks built without bed outlets. They use Tesla's Outlet Adapter and would need a record of their own."
+            ]
+        },
+        "lastChecked": "2026-10-11"
+    },
+    {
+        "id": "tesla-model-y-2026",
+        "brand": "Tesla",
+        "model": "Model Y",
+        "name": "Tesla Model Y",
+        "category": "ev",
+        "region": "US",
+        "modelYears": {
+            "from": 2026,
+            "to": null
+        },
+        "url": null,
+        "manualUrl": null,
+        "image": null,
+        "chargePort": "NACS",
+        "battery": {
+            "packs": null
+        },
+        "v2l": {
+            "name": "Powershare",
+            "output": {
+                "frequencyHz": 60,
+                "thdPct": null,
+                "neutral": null
+            },
+            "maxW": 2400,
+            "timeLimitH": null,
+            "outlets": [
+                {
+                    "id": "charge-port",
+                    "label": "Outlet Adapter at the charge port",
+                    "location": "charge-port",
+                    "type": "5-20R",
+                    "voltageV": 120,
+                    "maxA": 20,
+                    "maxW": 2400,
+                    "count": 2,
+                    "gfci": null,
+                    "requires": [
+                        "tesla-outlet-adapter"
+                    ]
+                }
+            ],
+            "setup": [
+                "Plug the Gen 3 Mobile Connector into the charge port and fit the Outlet Adapter to its other end.",
+                "Set the discharge limit on the touchscreen or in the Tesla app."
+            ],
+            "cautions": [
+                "Powershare doesn't start when the battery is below 5%.",
+                "Not every Model Y qualifies. Tesla's shop checks the car before it sells the Outlet Adapter."
+            ]
+        },
+        "verification": {
+            "status": "partial",
+            "sources": [
+                {
+                    "title": "Tesla on X: Model Y Performance offers Vehicle to Load (120V 20A AC)",
+                    "url": "https://x.com/Tesla/status/1973446369861050476",
+                    "kind": "maker"
+                },
+                {
+                    "title": "Tesla Shop: Tesla Outlet Adapter",
+                    "url": "https://shop.tesla.com/product/tesla-outlet-adapter",
+                    "kind": "maker"
+                },
+                {
+                    "title": "Teslarati: Tesla launches V2L Outlet Adapter for Premium Model Y in the U.S.",
+                    "url": "https://www.teslarati.com/tesla-launches-v2l-outlet-adapter-premium-model-y-in-the-u-s/",
+                    "kind": "third-party"
+                }
+            ],
+            "toConfirm": [
+                "Which cars qualify: trim alone doesn't decide it, the power-conversion hardware does.",
+                "The US owner's manual page was not readable; the 5% floor comes from a secondary summary of it.",
+                "5-20R as the outlet type.",
+                "Battery capacity: Tesla publishes none."
+            ]
+        },
+        "lastChecked": "2026-10-11"
+    },
+    {
+        "id": "rivian-r1t",
+        "brand": "Rivian",
+        "model": "R1T",
+        "name": "Rivian R1T",
+        "category": "ev",
+        "region": "US",
+        "modelYears": {
+            "from": 2022,
+            "to": null
+        },
+        "url": null,
+        "manualUrl": "https://assets.rivian.com/2md5qhoeajym/4Xt9HvcwTmmMP9aKpJNg4k/07396f976a51f0580e23308edd1f093b/r1t-og-my25-en-us-20240624.pdf",
+        "image": null,
+        "chargePort": null,
+        "battery": {
+            "packs": null
+        },
+        "v2l": {
+            "name": "120 V outlets",
+            "output": {
+                "frequencyHz": 60,
+                "thdPct": null,
+                "neutral": null
+            },
+            "maxW": 1500,
+            "timeLimitH": null,
+            "outlets": [
+                {
+                    "id": "bed",
+                    "label": "Bed outlets",
+                    "location": "bed",
+                    "type": "5-15R",
+                    "voltageV": 120,
+                    "maxA": null,
+                    "maxW": 1500,
+                    "count": 2,
+                    "gfci": null,
+                    "requires": []
+                },
+                {
+                    "id": "gear-tunnel",
+                    "label": "Gear Tunnel outlet",
+                    "location": "gear-tunnel",
+                    "type": "5-15R",
+                    "voltageV": 120,
+                    "maxA": null,
+                    "maxW": 1500,
+                    "count": 1,
+                    "gfci": null,
+                    "requires": []
+                },
+                {
+                    "id": "center-console",
+                    "label": "Center console outlet",
+                    "location": "cabin",
+                    "type": "5-15R",
+                    "voltageV": 120,
+                    "maxA": null,
+                    "maxW": 1500,
+                    "count": 1,
+                    "gfci": null,
+                    "requires": []
+                }
+            ],
+            "setup": [
+                "The outlets are off by default. Turn them on in the Energy app on the center display: Outlets, set the timer, then Turn On Outlets.",
+                "They switch off when the timer ends, or sooner if the remaining range gets very low."
+            ],
+            "cautions": [
+                "All 120 V outlets share 1,500 W. Rivian says not to power any device that needs more.",
+                "If the circuit overloads, power cuts off. Unplug before turning the outlets back on.",
+                "Leaving the outlets on reduces range even with nothing plugged in."
+            ]
+        },
+        "verification": {
+            "status": "partial",
+            "sources": [
+                {
+                    "title": "R1T Owner's Guide, United States, June 24, 2024",
+                    "url": "https://assets.rivian.com/2md5qhoeajym/4Xt9HvcwTmmMP9aKpJNg4k/07396f976a51f0580e23308edd1f093b/r1t-og-my25-en-us-20240624.pdf",
+                    "kind": "manual"
+                }
+            ],
+            "toConfirm": [
+                "Number and place of the outlets (from Rivian support as quoted by owners).",
+                "5-15R as the outlet type.",
+                "Battery capacities by pack and model year.",
+                "Charge port by model year."
+            ]
+        },
+        "lastChecked": "2026-10-11"
+    }
+]
