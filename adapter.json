@@ -7,12 +7,12 @@
     "category": "adapter",
     "partNumber": "BFH68-AK500",
     "region": "US",
-    "url": "https://www.hyundaiaccessories.com/accessories/2026/Ioniq%205/BFH68AK500/IONIQ%205%202026%20Vehicle%20to%20Load%20Adapter/Connector",
+    "url": "https://www.hyundaipartsdeal.com/genuine/hyundai-connector-vehicle-to-load~bfh68-ak500.html",
     "image": null,
     "price": {
       "currency": "USD",
-      "current": 235,
-      "original": null
+      "current": 218.12,
+      "original": 265
     },
     "input": {
       "connector": "NACS"
@@ -29,6 +29,11 @@
       "status": "partial",
       "sources": [
         {
+          "title": "HyundaiPartsDeal: BFH68-AK500 Genuine Hyundai Connector, Vehicle to Load",
+          "url": "https://www.hyundaipartsdeal.com/genuine/hyundai-connector-vehicle-to-load~bfh68-ak500.html",
+          "kind": "third-party"
+        },
+        {
           "title": "Hyundai Accessories: Vehicle to Load Adapter/Connector for 2026 IONIQ 5",
           "url": "https://www.hyundaiaccessories.com/accessories/2026/Ioniq%205/BFH68AK500/IONIQ%205%202026%20Vehicle%20to%20Load%20Adapter/Connector",
           "kind": "maker"
@@ -40,9 +45,9 @@
         }
       ],
       "toConfirm": [
-        "Price: Hyundai's 2026 price sheet says $235. Dealers set their own; $265 and $300 seen.",
-        "Outlet type and amp rating.",
-        "The Hyundai accessories site can't be opened from outside the US; the link and fitment come from its search listing."
+        "The link goes to HyundaiPartsDeal.com (Original Parts Now, Inc.). It says it ships genuine parts from authorized Hyundai dealers; Hyundai doesn't list it as an authorized seller.",
+        "Hyundai's own accessories site opens only from inside the US, and the part is not sold on Amazon.",
+        "Outlet type and amp rating."
       ]
     },
     "lastChecked": "2026-10-11"
@@ -55,12 +60,12 @@
     "category": "adapter",
     "partNumber": "GIH68-AK0A0",
     "region": "US",
-    "url": "https://www.hyundaiaccessories.com/accessories/2024/ioniq-5/gih68ak0a0/",
+    "url": "https://www.hyundaipartsdeal.com/genuine/hyundai-vehicle-to-load-adaptor~gih68-ak0a0.html",
     "image": null,
     "price": {
       "currency": "USD",
-      "current": 220,
-      "original": null
+      "current": 229.6,
+      "original": 308
     },
     "input": {
       "connector": "J1772"
@@ -76,6 +81,11 @@
     "verification": {
       "status": "partial",
       "sources": [
+        {
+          "title": "HyundaiPartsDeal: GIH68-AK0A0 Genuine Hyundai Vehicle to Load Adapter / Connector",
+          "url": "https://www.hyundaipartsdeal.com/genuine/hyundai-vehicle-to-load-adaptor~gih68-ak0a0.html",
+          "kind": "third-party"
+        },
         {
           "title": "Hyundai Accessories: Vehicle to Load Adapter/Connector for 2024 IONIQ 5",
           "url": "https://www.hyundaiaccessories.com/accessories/2024/ioniq-5/gih68ak0a0/",
@@ -93,9 +103,10 @@
         }
       ],
       "toConfirm": [
-        "Price: Hyundai's 2024 price sheet says $220. Dealers set their own; $207 to $339 seen.",
-        "Outlet type and amp rating; a teardown puts it at 120 V and 15 A.",
-        "The Hyundai accessories site can't be opened from outside the US; the link and part number come from its search listing."
+        "The link goes to HyundaiPartsDeal.com (Original Parts Now, Inc.). It says it ships genuine parts from authorized Hyundai dealers; Hyundai doesn't list it as an authorized seller.",
+        "Hyundai's own accessories site opens only from inside the US, and the part is not sold on Amazon.",
+        "Fitment for 2022: the store lists the IONIQ 5 from 2023; Hyundai's own site also lists this part for the 2022 car.",
+        "Outlet type and amp rating; a teardown puts it at 120 V and 15 A."
       ]
     },
     "lastChecked": "2026-10-11"
@@ -162,7 +173,7 @@
     "partNumber": null,
     "region": "US",
     "url": "https://shop.tesla.com/product/mobile-connector",
-    "image": null,
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Tesla%20Gen%203%20Mobile%20Connector.webp",
     "price": {
       "currency": "USD",
       "current": 300,
