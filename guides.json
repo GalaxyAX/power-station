@@ -1,0 +1,448 @@
+{
+  "articles": [
+    {
+      "id": "solar-panel-charging-power-station",
+      "title": "How much will a solar panel charge your power station?",
+      "summary": "A solar panel rarely delivers the watts printed on it. This guide explains how panels make electricity, what raises and lowers their output, and how to work out what a day of sun puts into your battery.",
+      "image": "https://images.unsplash.com/photo-1679274844133-b18c5952d350?auto=format&fit=crop&w=2000&q=80",
+      "imageAlt": "Two folding solar panels propped up to face the sun on a campsite lawn, wired to a portable power station in front of them.",
+      "published": "2026-10-13",
+      "updated": "2026-10-13",
+      "sections": [
+        {
+          "id": "short-answer",
+          "title": "The short answer",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "On a typical day, a portable solar panel puts about three times its rated watts into a power station’s battery, counted in watt-hours. A 200 W panel returns roughly 630 Wh. That refills a 1,000 Wh power station in a little over a day and a half of ordinary sun."
+            },
+            {
+              "type": "paragraph",
+              "text": "The estimate is three numbers multiplied together: the watts on the panel’s label, the peak sun hours where you are, and the share of the panel’s output that actually reaches the battery."
+            },
+            {
+              "type": "equation",
+              "caption": "A 200 W folding panel on an average day",
+              "rows": [
+                { "label": "Rated power of the panel", "value": "200 W" },
+                { "op": "×", "label": "Peak sun hours on an average day", "value": "4.5 h" },
+                { "op": "×", "label": "Share that reaches the battery", "value": "70%" },
+                { "op": "=", "label": "Energy into the battery in a day", "value": "630 Wh" }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "The rest of this guide explains where each of those numbers comes from, so you can adjust them for your own panel, place and season. If you’d rather skip the math, [the calculator](/calculator/use-case) runs it for you and checks which panels each power station can take."
+            }
+          ]
+        },
+        {
+          "id": "how-panels-work",
+          "title": "How a solar panel makes electricity",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A solar panel is a sheet of silicon cells with no moving parts. Sunlight arrives as particles called photons. When a photon with enough energy lands in a cell, it knocks an electron loose from the silicon."
+            },
+            {
+              "type": "paragraph",
+              "text": "Left alone, a loose electron would settle straight back. To prevent that, each cell is made of two layers of silicon treated in different ways, which creates a built-in electric field where they meet. The field pushes every freed electron the same way, toward the front of the cell. Metal contacts collect them, and once a cable joins the front of the cell to the back, the electrons flow through it as direct current (DC), the same kind of electricity a battery stores."
+            },
+            {
+              "type": "paragraph",
+              "text": "Three things follow from the way a cell works, and they explain most of what a panel does outdoors:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "**Current follows light.** Each photon frees at most one electron, so the current a cell makes rises and falls almost in step with the light landing on it. Half the light, about half the current.",
+                "**Voltage is set by the silicon, not the sun.** One cell makes only about half a volt, in strong light or weak. Panels wire dozens of cells in a chain to add those up, which is why a folding panel puts out 20 to 50 V.",
+                "**Nothing is stored.** A panel makes power only while light is hitting it. The battery in the power station does the storing."
+              ]
+            },
+            { "type": "heading", "text": "What efficiency means" },
+            {
+              "type": "paragraph",
+              "text": "Efficiency is the share of the sunlight landing on a panel that leaves it as electricity. Today’s panels convert about 20% to 25%. Some of the rest is reflected and most of it becomes heat, which is why a panel in full sun is hot to the touch."
+            },
+            {
+              "type": "paragraph",
+              "text": "Efficiency decides how big a panel is, not how much power it makes. Two panels rated 200 W produce the same power in the same sun. The more efficient one is simply smaller and lighter for those 200 W. Compare panels by their rated watts, and use efficiency to judge size and weight."
+            }
+          ]
+        },
+        {
+          "id": "rated-watts",
+          "title": "What the watts on the label mean",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A panel’s rated power, also written as peak watts or Pmax, is measured indoors under a lamp, in a fixed set of conditions called Standard Test Conditions:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Light at 1,000 watts per square meter, about the strength of direct sun at noon on a clear day.",
+                "Cells held at 77 °F (25 °C).",
+                "Light striking the panel square on."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Outdoors those three rarely happen together. Bright sun heats the cells well past 77 °F, the sun is square to the panel for only a moment, and haze, dust and cables each take a little. In good midday sun, expect a folding panel to show 70% to 85% of its rated watts. That is normal, and it is the reason the estimate above counts on 70% and not 100%."
+            },
+            {
+              "type": "paragraph",
+              "text": "The label carries a few more figures. You need them later, to check that a panel suits a power station."
+            },
+            {
+              "type": "table",
+              "caption": "The figures on a solar panel’s label",
+              "columns": ["On the label", "What it tells you"],
+              "rows": [
+                ["Rated power (Pmax, W)", "The most the panel makes in test conditions. Use it to estimate energy."],
+                ["Open-circuit voltage (Voc, V)", "The highest voltage the panel reaches, with nothing connected. Use it for the safety check against a power station’s voltage limit."],
+                ["Voltage at maximum power (Vmp, V)", "The voltage the panel runs at while it is charging."],
+                ["Short-circuit current (Isc, A)", "The highest current the panel can push. Use it to check a power station’s current limit."],
+                ["Temperature coefficient (% per °C)", "How much power the panel loses for each degree its cells heat up. Closer to zero is better."]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "when-panels-produce",
+          "title": "When a panel produces power",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "A panel produces power whenever light reaches its cells, but the amount swings enormously through a day. Direct sunlight does nearly all the work. Early and late in the day the sun is low, its light crosses more air and strikes the panel at a slant, and output is a small fraction of the midday figure. Under solid cloud a panel still works on scattered daylight, at roughly 10% to 25% of its clear-day output. At night it makes nothing."
+            },
+            { "type": "heading", "text": "Peak sun hours" },
+            {
+              "type": "paragraph",
+              "text": "Because the sun’s strength changes all day, counting hours of daylight tells you little. The useful measure is peak sun hours: the whole day’s sunlight added up and expressed as hours of full-strength sun, at 1,000 watts per square meter. A day with 4.5 peak sun hours delivers the same energy as four and a half hours of perfect noon sun, even though the sun was up for twelve."
+            },
+            {
+              "type": "paragraph",
+              "text": "Peak sun hours depend on where you are and the time of year. These are the three levels the calculator uses:"
+            },
+            {
+              "type": "table",
+              "caption": "Peak sun hours a day, for a panel aimed at the sun",
+              "columns": ["Sun", "Peak sun hours", "When to expect it"],
+              "rows": [
+                ["Limited", "2.5", "Winter in the northern states, or a run of cloudy days"],
+                ["Average", "4.5", "A typical day across most of the US"],
+                ["Strong", "6", "Summer almost anywhere, or the Southwest most of the year"]
+              ],
+              "note": "For a panel facing south and tilted at the local latitude, the year-round average runs from about 3.8 in Seattle to 4.5 in New York and Chicago, 5.1 in Atlanta and 6.6 in Phoenix. December in the northern cities brings 1.6 to 2.9, and June to August 5.3 to 6.9."
+            },
+            {
+              "type": "paragraph",
+              "text": "For your own location, the free [PVWatts calculator](https://pvwatts.nlr.gov/) from the US National Laboratory of the Rockies gives the figure month by month."
+            }
+          ]
+        },
+        {
+          "id": "output-factors",
+          "title": "What changes a panel’s output",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Six things decide how close a panel gets to the number on its label. They are listed roughly in order of how much they matter."
+            },
+            { "type": "heading", "text": "How strong the light is" },
+            {
+              "type": "paragraph",
+              "text": "Output tracks light almost one for one. Thin high cloud or haze trims it a little. A passing cloud can cut it by more than half within seconds, and solid overcast leaves 10% to 25%. This is the largest effect of all, and the one you can’t change. Plan for it: size the battery so a dull day doesn’t leave you short, and treat sunny-day figures as the good case."
+            },
+            { "type": "heading", "text": "The angle to the sun" },
+            {
+              "type": "paragraph",
+              "text": "A panel collects the most light when the sun’s rays hit it square on. Turn it away and the same panel catches a narrower slice of the beam. Pointed 30° off, it still collects about 87% of the direct light. At 45° that falls to 71%, and at 60° to half."
+            },
+            {
+              "type": "paragraph",
+              "text": "This is why a panel lying flat on the ground does well at midsummer noon and poorly on a winter morning. A folding panel should stand on its legs, tilted to face the sun, and be turned to follow it two or three times a day. A quick check: stand a pen upright on the panel’s surface. When the pen casts no shadow, the panel is aimed straight at the sun. A fixed panel can’t follow the sun, so in the US it is mounted facing south at a tilt close to the local latitude, which gives the best total over a year."
+            },
+            { "type": "heading", "text": "Shade" },
+            {
+              "type": "paragraph",
+              "text": "Shade costs far more than its size suggests. The cells in a panel are wired in a chain, and the current through a chain is set by its weakest cell. Cover one cell with a leaf, a tent line or the corner of a roof rack and it holds back every cell wired to it."
+            },
+            {
+              "type": "paragraph",
+              "text": "Panels contain bypass diodes that let current skip a shaded group of cells, so one shadow costs a section of the panel and not all of it. Even so, a hand-sized shadow can take a third or more of the output. Keep the whole panel in the sun, and check again as the sun moves: a shadow that wasn’t there at ten can be across the panel by two."
+            },
+            { "type": "heading", "text": "Heat" },
+            {
+              "type": "paragraph",
+              "text": "Solar cells lose voltage as they warm, so a hot panel makes less power than a cool one in the same light. The loss is about 0.3% to 0.5% of the rated power for every degree Celsius above 25 °C (77 °F). The datasheet lists it as the temperature coefficient of Pmax."
+            },
+            {
+              "type": "paragraph",
+              "text": "What matters is the temperature of the cells, not of the air. In full sun, cells run 35 to 55 °F (20 to 30 °C) hotter than the air around them. On a 90 °F day they reach about 140 °F, and the panel gives up roughly 10% to 15% of its power to heat alone. On a cold, clear day the same panel can match or beat the number on its label."
+            },
+            {
+              "type": "paragraph",
+              "text": "Heat is a loss you can reduce. Stand the panel up so air moves behind it, and don’t lay it on a hot car roof, dark rock or asphalt. The cold has one catch, covered further down: a cold panel’s voltage climbs, and that matters when you check it against a power station’s limit."
+            },
+            { "type": "heading", "text": "Dirt and glass" },
+            {
+              "type": "paragraph",
+              "text": "Dust, pollen and dried rain spots block a few percent of the light, and more after weeks without rain. A bird dropping or a stuck leaf is worse, because it acts like shade on the cells under it. Wipe the panel with water and a soft cloth."
+            },
+            {
+              "type": "paragraph",
+              "text": "Glass in front of the panel costs much more. A panel behind a window or a windshield receives light that has already been partly reflected and filtered, usually at a poor angle too. Put the panel outside."
+            },
+            { "type": "heading", "text": "Cables and conversion" },
+            {
+              "type": "paragraph",
+              "text": "Power is lost between the panel and the battery as well. Cables warm slightly as current passes through them, and long, thin cables lose the most. The power station’s solar charge controller converts the panel’s voltage to the battery’s at about 95% to 98%, and the battery stores 2% to 3% less than it is given."
+            },
+            {
+              "type": "paragraph",
+              "text": "Use the cable that came with the panel, and keep extension cables short and thick. One part of the chain works in your favor: most power stations have a maximum power point tracking (MPPT) controller, which keeps adjusting the load on the panel to draw the most power it can make in the light of that moment."
+            },
+            {
+              "type": "table",
+              "caption": "What changes a panel’s output, and what to do about it",
+              "columns": ["Factor", "Typical effect", "What to do"],
+              "rows": [
+                ["Cloud", "Solid overcast leaves 10% to 25%", "Size the battery for a dull day"],
+                ["Angle", "Half the direct light at 60° off", "Tilt the panel at the sun and turn it through the day"],
+                ["Shade", "A small shadow can cost a third or more", "Keep the whole panel in the sun"],
+                ["Heat", "10% to 15% less on a hot day", "Let air move behind the panel"],
+                ["Dirt", "A few percent", "Wipe it clean"],
+                ["Cables and charging", "5% to 10%", "Use short, thick cables"]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Added together, these are why about 70% of a portable panel’s rated output reaches the battery over a day. A fixed panel manages about 75%: it is aimed once, carefully, and wired with short cables."
+            }
+          ]
+        },
+        {
+          "id": "estimate-output",
+          "title": "How to estimate what a panel will generate",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "With those numbers in hand, the estimate takes a minute."
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**Find the rated watts.** They are on the panel’s label and usually in its name: a “220W” panel is rated 220 W. For several panels, add them up.",
+                "**Pick the peak sun hours** for your place and season: 2.5 for limited sun, 4.5 for an average day, 6 for strong sun.",
+                "**Multiply the two, then by the share that reaches the battery:** 0.7 for folding panels, 0.75 for fixed ones."
+              ]
+            },
+            {
+              "type": "equation",
+              "caption": "Two 220 W folding panels in strong sun",
+              "rows": [
+                { "label": "Rated power, 2 × 220 W", "value": "440 W" },
+                { "op": "×", "label": "Peak sun hours in strong sun", "value": "6 h" },
+                { "op": "×", "label": "Share that reaches the battery", "value": "70%" },
+                { "op": "=", "label": "Energy into the battery in a day", "value": "1,848 Wh" }
+              ]
+            },
+            {
+              "type": "table",
+              "caption": "Energy a portable panel returns in a day",
+              "numeric": true,
+              "columns": ["Panel", "Limited sun", "Average sun", "Strong sun"],
+              "rows": [
+                ["100 W", "175 Wh", "315 Wh", "420 Wh"],
+                ["200 W", "350 Wh", "630 Wh", "840 Wh"],
+                ["400 W", "700 Wh", "1,260 Wh", "1,680 Wh"],
+                ["800 W", "1,400 Wh", "2,520 Wh", "3,360 Wh"]
+              ],
+              "note": "Rated watts × peak sun hours (2.5, 4.5 and 6) × 70%. An overcast day returns about a quarter of a typical one."
+            },
+            { "type": "heading", "text": "Power at a given moment" },
+            {
+              "type": "paragraph",
+              "text": "The same share gives the power to expect while the sun is out. In full midday sun, about 70% of a portable panel’s rated watts reach the battery: 140 W from a 200 W panel, 280 W from a 400 W one. The power station’s screen shows this as its solar input. If yours reads much lower at noon on a clear day, look for shade, a poor angle or a hot panel before blaming the panel itself."
+            }
+          ]
+        },
+        {
+          "id": "charging-time",
+          "title": "How to estimate charging time",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Charging time is the battery’s capacity divided by what the panels deliver. There are two useful versions of the sum."
+            },
+            { "type": "heading", "text": "Days of sun" },
+            {
+              "type": "paragraph",
+              "text": "Divide the power station’s capacity in watt-hours by the energy the panels return in a day. This is the honest figure for planning, because it already allows for the morning, the evening and every hour the sun is low."
+            },
+            {
+              "type": "equation",
+              "caption": "A 1,000 Wh power station and a 200 W folding panel",
+              "rows": [
+                { "label": "Battery capacity", "value": "1,000 Wh" },
+                { "op": "÷", "label": "Energy from the panel on an average day", "value": "630 Wh" },
+                { "op": "=", "label": "Full recharge, from empty", "value": "1.6 days" }
+              ]
+            },
+            { "type": "heading", "text": "Hours of full sun" },
+            {
+              "type": "paragraph",
+              "text": "For a quick figure, divide the capacity by the power that reaches the battery in full sun, which is the rated watts × 0.7. The same pair needs 1,000 Wh ÷ 140 W, a little over 7 hours of full midday sun. An average day holds only 4.5 such hours, which is why the recharge runs into a second day."
+            },
+            {
+              "type": "table",
+              "caption": "Days of average sun to recharge a power station from empty",
+              "numeric": true,
+              "columns": ["Battery capacity", "100 W of panel", "200 W of panel", "400 W of panel"],
+              "rows": [
+                ["500 Wh", "1.6 days", "0.8 days", "0.4 days"],
+                ["1,000 Wh", "3.2 days", "1.6 days", "0.8 days"],
+                ["2,000 Wh", "6.4 days", "3.2 days", "1.6 days"],
+                ["4,000 Wh", "12.7 days", "6.4 days", "3.2 days"]
+              ],
+              "note": "Capacity ÷ (panel watts × 4.5 peak sun hours × 70%), rounded up. Twice the panel halves the time, as long as the power station’s solar input can take it."
+            },
+            {
+              "type": "paragraph",
+              "text": "Three things stretch these figures in practice:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "**The solar input has a ceiling.** A power station accepts only so many watts of solar. Panel beyond that limit adds nothing, so check the input’s maximum before you buy a second panel.",
+                "**Devices take their share first.** Anything running while the sun is out is fed from the panels before the battery is. With 140 W coming in and a 60 W load running, 80 W is left for charging.",
+                "**The last stretch is slower.** Charging eases off near the top, so the final few percent take longer than the sum suggests."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "matching-panels",
+          "title": "Which panels suit your power station",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Every solar panel makes DC power, but a power station’s solar input accepts it only inside set limits. They are printed beside the port and in the manual, and they look like this: 11–60 V, 15 A, 500 W max. Check a panel against them in this order."
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "**Voltage, the limit that can do damage.** The panel’s open-circuit voltage (Voc) must stay under the input’s maximum. Leave a margin, because voltage rises as cells get colder: about 10% above the label at freezing, and close to 20% at −4 °F. A panel that sits just under the limit on a warm afternoon can exceed it on a frosty morning.",
+                "**Voltage, the low end.** The panel’s operating voltage (Vmp) must reach the input’s minimum, even when the panel is hot and its voltage has dropped. Below the minimum the power station doesn’t charge at all.",
+                "**Current.** The panel’s short-circuit current (Isc) should be at or under the input’s maximum amps. Many power stations hold back any current above their limit, but rely on that only if the maker says so.",
+                "**Power.** Panel watts beyond the input’s maximum do no good: the input takes its limit and the rest goes unused. A little extra is still worth having. Panels seldom reach more than about 80% of their rated watts, so an array up to 125% of the input’s limit is put to full use.",
+                "**Connector.** Most panels end in MC4 plugs. Power stations use XT60, XT60i, Anderson or a round DC socket, so you need the adapter cable that joins the two. Panels sold by the power station’s maker usually include it."
+              ]
+            },
+            {
+              "type": "note",
+              "tone": "warning",
+              "text": "Never connect panels whose combined open-circuit voltage could exceed the solar input’s maximum, even briefly. Over-voltage damage is permanent. When in doubt, work the sum for the coldest morning you expect."
+            },
+            { "type": "heading", "text": "Wiring more than one panel" },
+            {
+              "type": "paragraph",
+              "text": "Two or more panels can be joined in two ways, and the difference decides which limit you run into."
+            },
+            {
+              "type": "table",
+              "caption": "Two panels of 21.5 V and 12.4 A each, joined both ways",
+              "columns": ["Wiring", "Voltage", "Current", "Runs into"],
+              "rows": [
+                ["In series, as a chain", "Adds up: 43 V", "Stays the same: 12.4 A", "The input’s voltage limit"],
+                ["In parallel, side by side", "Stays the same: 21.5 V", "Adds up: 24.8 A", "The input’s current limit"]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Against an input rated 11–60 V and 15 A, the series pair fits: 43 V becomes about 48 V on a cold morning, still under 60 V, and 12.4 A is under 15 A. The parallel pair asks for 24.8 A, well over the limit. Series is the usual choice for power stations with a wide voltage range. Wire only identical panels together, since a mismatched panel drags the others down to its level."
+            },
+            { "type": "heading", "text": "How many watts of panel you need" },
+            {
+              "type": "paragraph",
+              "text": "To keep going day after day, the panels have to return what your devices use. Divide a day’s use by the peak sun hours, then by the 70% that reaches the battery."
+            },
+            {
+              "type": "equation",
+              "caption": "Devices that use 900 Wh a day, in average sun",
+              "rows": [
+                { "label": "Energy used in a day", "value": "900 Wh" },
+                { "op": "÷", "label": "Peak sun hours on an average day", "value": "4.5 h" },
+                { "op": "÷", "label": "Share that reaches the battery", "value": "70%" },
+                { "op": "=", "label": "Panel watts that keep up", "value": "286 W" }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Round up to what is sold, here 300 W, and check that total against the solar input’s limits. If the input can’t take enough panel to keep up, the battery has to be big enough to cover the shortfall, or you need a power station with a larger solar input."
+            },
+            {
+              "type": "paragraph",
+              "text": "[The calculator](/calculator/use-case) does all of this for you. Choose solar in the recharge step, and each power station is paired with panels its solar input can take, checked for voltage in the cold, current and power, with the wiring spelled out."
+            }
+          ]
+        },
+        {
+          "id": "getting-more",
+          "title": "Getting the most from your panels",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Aim the panel at the sun, and turn it two or three times a day.",
+                "Keep every cell out of shade, and check again as the sun moves.",
+                "Stand the panel up so air can cool its back.",
+                "Wipe off dust, pollen and droppings.",
+                "Use short, thick cables, and put the panel outside, never behind glass.",
+                "Start early. The hours either side of noon carry most of a day’s energy, so a panel set up at ten catches far more than one set up at two.",
+                "Plan for a dull day. Size the battery to last without sun, and treat solar as what stretches it."
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Photovoltaics and electricity",
+          "publisher": "US Energy Information Administration",
+          "url": "https://www.eia.gov/energyexplained/solar/photovoltaics-and-electricity.php"
+        },
+        {
+          "title": "Effect of temperature",
+          "publisher": "PVEducation",
+          "url": "https://www.pveducation.org/pvcdrom/solar-cell-operation/effect-of-temperature"
+        },
+        {
+          "title": "Average solar radiation (peak sun hours)",
+          "publisher": "PVEducation",
+          "url": "https://www.pveducation.org/pvcdrom/properties-of-sunlight/average-solar-radiation"
+        },
+        {
+          "title": "Shading",
+          "publisher": "PVEducation",
+          "url": "https://www.pveducation.org/pvcdrom/modules-and-arrays/shading"
+        },
+        {
+          "title": "PVWatts Calculator",
+          "publisher": "US National Laboratory of the Rockies",
+          "url": "https://pvwatts.nlr.gov/"
+        },
+        {
+          "title": "Table 690.7(A), voltage correction for cold temperatures",
+          "publisher": "National Electrical Code (NFPA 70)"
+        }
+      ]
+    }
+  ]
+}
