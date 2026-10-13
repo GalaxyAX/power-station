@@ -665,6 +665,1044 @@
                     "publisher": "National Electrical Code (NFPA 70)"
                 }
             ]
+        },
+        {
+            "id": "how-to-choose-portable-power-station",
+            "title": "How to Choose a Portable Power Station: The Complete Buying Guide",
+            "summary": "Three numbers decide which power station fits: how much energy it stores, how much power it delivers at once, and how hard it can push while a motor starts. This guide shows how to work out all three for your own devices, then how to judge the battery, the charging and everything else on the spec sheet.",
+            "image": "https://images.unsplash.com/photo-1678776292498-b0697d51eadf?auto=format&fit=crop&w=2000&q=80",
+            "imageAlt": "A gray portable power station on a living-room floor beside a dark armchair and a floor lamp, plugged into a wall outlet to charge.",
+            "published": "2026-10-14",
+            "updated": "2026-10-14",
+            "sections": [
+                {
+                    "id": "short-answer",
+                    "title": "The short answer",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Choose a power station by three numbers, in this order. **Capacity**, in watt-hours (Wh), decides how long it runs. **Continuous output**, in watts (W), decides what it can run at once. **Surge output** decides whether a refrigerator or a power tool will start at all. Get those right for your own devices first. Battery type, charging speed, weight and price come after."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "For capacity, add up the watt-hours your devices use over the time you need power, then multiply by 1.5. That covers what is lost on the way out of the battery and leaves a reserve. For output, add up the watts of everything that runs at the same time and add a quarter."
+                        },
+                        {
+                            "type": "equation",
+                            "caption": "A refrigerator, Wi-Fi router, CPAP, lights and a phone through a 24-hour outage",
+                            "rows": [
+                                {
+                                    "label": "Energy the devices use in 24 hours",
+                                    "value": "1,948 Wh"
+                                },
+                                {
+                                    "op": "×",
+                                    "label": "Losses and reserve, as a quick rule",
+                                    "value": "1.5"
+                                },
+                                {
+                                    "op": "=",
+                                    "label": "Capacity to shop for",
+                                    "value": "2,922 Wh"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "On the AC outlets the same devices draw 212 W together, so they need about 270 W of continuous output, and about 900 W for the moment the refrigerator’s compressor starts. A power station of about 3,000 Wh covers all three with room to spare."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The rest of this guide explains each number and every other line on a spec sheet. If you’d rather skip the sums, [the calculator](/calculator/use-case) runs them on your own devices and hours and lists the power stations that fit."
+                        }
+                    ]
+                },
+                {
+                    "id": "what-it-is",
+                    "title": "What a portable power station is",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "A portable power station is a rechargeable battery in a case with everything needed to use it: an inverter that turns the battery’s direct current (DC) into the alternating current (AC) of a wall outlet, USB and 12 V ports that skip the inverter, a charger, and a battery management system that guards the cells. You fill it from a wall outlet, solar panels, a car or a generator, and it gives the energy back later."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "It burns no fuel, so it makes no exhaust and runs indoors, in a tent or in a closed van. That is its main advantage over a gas generator, which has to stay outside. The US Consumer Product Safety Commission counts nearly 100 deaths a year from the carbon monoxide of portable generators, and asks for at least 20 feet between a running generator and the house."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "A power station next to the alternatives",
+                            "columns": [
+                                "Option",
+                                "Good for",
+                                "Limits"
+                            ],
+                            "rows": [
+                                [
+                                    "Power bank",
+                                    "Phones, tablets and laptops over USB. The only kind allowed on a plane",
+                                    "Small. Flight rules cap it at 100 Wh, and it rarely has an AC outlet"
+                                ],
+                                [
+                                    "Portable power station",
+                                    "Appliances, tools and electronics for hours or days, indoors or out",
+                                    "Stores energy but doesn’t make it. Once empty, it needs a source to refill it"
+                                ],
+                                [
+                                    "Gas or propane generator",
+                                    "Days of high power, for as long as the fuel lasts",
+                                    "Outdoors only, loud, and needs fuel and upkeep"
+                                ],
+                                [
+                                    "Home battery",
+                                    "Whole-house backup, wired into the electrical panel",
+                                    "Fixed in place, installed by an electrician, and far more expensive"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "There is a ceiling. Past about 8,000 Wh of capacity or 7,200 W of output, a plan has outgrown what a single portable unit is built for. That is the territory of stacked expansion batteries, a home battery or a generator."
+                        }
+                    ]
+                },
+                {
+                    "id": "capacity",
+                    "title": "Capacity: how long it runs",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Capacity is the energy the battery stores, in watt-hours. One watt-hour runs a one-watt device for an hour, so a 60 W laptop uses 60 Wh for every hour it is on. Watts are the rate and watt-hours are the amount. Small units are sometimes sold by milliamp-hours (mAh), a figure that means little without the voltage. Always compare watt-hours."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Work out what your devices use"
+                        },
+                        {
+                            "type": "list",
+                            "ordered": true,
+                            "items": [
+                                "**List the devices** you want to run and find the watts of each. The figure is on the label or the power adapter. If the label gives only amps, multiply by the voltage: 1.5 A at 120 V is 180 W.",
+                                "**Multiply by the hours** each one runs during the time you need power.",
+                                "**Allow for cycling.** A refrigerator’s compressor runs about 35% of the time, so a 150 W refrigerator uses 150 W × 24 h × 35% = 1,260 Wh a day, not 3,600 Wh. Heaters and air conditioners on a thermostat cycle the same way.",
+                                "**Add everything up.**"
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "caption": "A day of outage essentials",
+                            "numeric": true,
+                            "columns": [
+                                "Device",
+                                "Running watts",
+                                "Hours",
+                                "Energy used"
+                            ],
+                            "rows": [
+                                [
+                                    "Refrigerator",
+                                    "150 W",
+                                    "24 h at 35%",
+                                    "1,260 Wh"
+                                ],
+                                [
+                                    "Wi-Fi router",
+                                    "12 W",
+                                    "24 h",
+                                    "288 Wh"
+                                ],
+                                [
+                                    "CPAP",
+                                    "40 W",
+                                    "8 h",
+                                    "320 Wh"
+                                ],
+                                [
+                                    "LED lights",
+                                    "10 W",
+                                    "5 h",
+                                    "50 Wh"
+                                ],
+                                [
+                                    "Phone",
+                                    "20 W",
+                                    "1.5 h",
+                                    "30 Wh"
+                                ]
+                            ],
+                            "note": "Total: 1,948 Wh in 24 hours. These are the values the calculator starts from. Check the labels on your own devices."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "From what the devices use to the capacity on the label"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A battery never hands over everything printed on its label. Four things sit between the rated capacity and your devices:"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "**Conversion losses.** The inverter delivers about 92% of what it takes from the battery to an AC device. The USB and 12 V ports do slightly better, about 93%.",
+                                "**The inverter’s own draw.** While the AC outlets are switched on, the inverter uses power even with nothing plugged in: about 5 W on a small unit and 20 to 40 W on a large one. Over a day that is 120 Wh to nearly 1,000 Wh.",
+                                "**The part you can’t draw.** The battery management system keeps a little back at the bottom to protect the cells. About 95% of the rated capacity is usable.",
+                                "**A reserve.** Batteries fade with age, estimates are never exact, and running to empty is hard on the cells. Keep 20% in hand."
+                            ]
+                        },
+                        {
+                            "type": "equation",
+                            "caption": "What the battery has to supply for the same day",
+                            "rows": [
+                                {
+                                    "label": "Energy the devices use",
+                                    "value": "1,948 Wh"
+                                },
+                                {
+                                    "op": "+",
+                                    "label": "Lost in conversion",
+                                    "value": "169 Wh"
+                                },
+                                {
+                                    "op": "+",
+                                    "label": "The inverter’s own draw, 5 W for 24 hours",
+                                    "value": "120 Wh"
+                                },
+                                {
+                                    "op": "=",
+                                    "label": "Energy taken from the battery",
+                                    "value": "2,237 Wh"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "equation",
+                            "caption": "The rated capacity that supplies it",
+                            "rows": [
+                                {
+                                    "label": "Energy taken from the battery",
+                                    "value": "2,237 Wh"
+                                },
+                                {
+                                    "op": "÷",
+                                    "label": "Usable share of the rated capacity",
+                                    "value": "95%"
+                                },
+                                {
+                                    "op": "×",
+                                    "label": "Reserve",
+                                    "value": "1.2"
+                                },
+                                {
+                                    "op": "=",
+                                    "label": "Capacity to shop for",
+                                    "value": "2,826 Wh"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Round up to the next size sold, here about 3,000 Wh. The quick rule from the top of this guide, multiplying by 1.5, lands within a few percent of the full sum."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "How long a given capacity lasts"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Turned around, the same numbers give runtime: the rated capacity × 95% × 92%, divided by the watts the device draws. A 1,000 Wh power station runs a steady 100 W load for roughly 8 hours."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "How long 1,000 Wh runs one device",
+                            "columns": [
+                                "Device",
+                                "Draws",
+                                "Runs for"
+                            ],
+                            "rows": [
+                                [
+                                    "Wi-Fi router",
+                                    "12 W",
+                                    "53 hours"
+                                ],
+                                [
+                                    "CPAP",
+                                    "40 W",
+                                    "20 hours"
+                                ],
+                                [
+                                    "Refrigerator",
+                                    "150 W, 35% of the time",
+                                    "15 hours"
+                                ],
+                                [
+                                    "TV",
+                                    "120 W",
+                                    "7 hours"
+                                ],
+                                [
+                                    "Desktop PC",
+                                    "250 W",
+                                    "3.4 hours"
+                                ],
+                                [
+                                    "Window air conditioner",
+                                    "700 W, 60% of the time",
+                                    "2 hours"
+                                ],
+                                [
+                                    "Microwave",
+                                    "1,100 W",
+                                    "47 minutes"
+                                ],
+                                [
+                                    "Space heater",
+                                    "1,500 W",
+                                    "35 minutes"
+                                ]
+                            ],
+                            "note": "Rated capacity × 95%, divided by the device’s watts ÷ 92% plus the inverter’s own draw of 5 W or more. Your devices will differ, so check their labels."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The table shows why heat is the hard case. Anything that makes heat on purpose, a space heater, kettle, hair dryer or electric stove, drains a battery in minutes, not hours. A power station suits those for short jobs only."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Sizes at a glance"
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Power station sizes and what they suit",
+                            "columns": [
+                                "Size",
+                                "Capacity",
+                                "Typical output",
+                                "Typical weight",
+                                "Suits"
+                            ],
+                            "rows": [
+                                [
+                                    "Compact",
+                                    "Under 500 Wh",
+                                    "About 300 W",
+                                    "5 to 12 lb",
+                                    "Phones, laptops, cameras, a CPAP for one night"
+                                ],
+                                [
+                                    "Mid-size",
+                                    "500–1,500 Wh",
+                                    "Up to 2,000 W",
+                                    "12 to 35 lb",
+                                    "A camping weekend, a workday off-grid, a refrigerator through a short outage"
+                                ],
+                                [
+                                    "Large",
+                                    "1.5–3 kWh",
+                                    "2,200 to 3,800 W",
+                                    "40 to 85 lb",
+                                    "A full day of outage essentials, job-site tools"
+                                ],
+                                [
+                                    "Home backup",
+                                    "3–8 kWh",
+                                    "2,600 to 4,000 W, more with units linked",
+                                    "85 lb and up, on wheels",
+                                    "Several days of essentials, usually with extra batteries"
+                                ],
+                                [
+                                    "Whole-home",
+                                    "Over 8 kWh",
+                                    "7,000 W and up",
+                                    "Around 300 lb",
+                                    "More than one portable unit is built for: a stack of batteries, or a home battery"
+                                ]
+                            ],
+                            "note": "The size names are the ones the calculator uses. Output and weight are typical of lithium iron phosphate models on sale in 2026 and vary from model to model."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Cold shrinks a battery"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A lithium battery gives back less in the cold: about 90% of its rated capacity between 32 and 50 °F, and about 80% below freezing. Most units also refuse to charge below 32 °F, to protect the cells. If you will use the power station in winter, size up, and keep it somewhere warmer when you can."
+                        }
+                    ]
+                },
+                {
+                    "id": "output",
+                    "title": "Output: what it can run at once",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Output is the power the inverter can deliver, in watts. Spec sheets give two figures. Continuous output, also called rated or running output, is what the unit holds for as long as the battery lasts. Surge or peak output is what it holds for a moment."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Continuous output"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Add up the running watts of every AC device that will be on at the same time. Then leave headroom. Loads that run for hours should stay at or under 80% of the inverter’s rating, the rule electricians apply to continuous circuits, so multiply their total by 1.25. Brief loads such as a kettle or a saw can run closer to the limit: 10% on top of the highest total is enough for them."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Devices on the USB and 12 V ports don’t count toward this number. Those ports have converters of their own."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The outage essentials above draw 212 W on the AC outlets, which asks for about 270 W of continuous output. Any power station manages that. Add a microwave and a coffee maker to the same kitchen, used one at a time, and the picture changes: 212 W plus the 1,100 W microwave is 1,312 W, and with 10% on top the inverter needs about 1,450 W. One short-use appliance, not the refrigerator, decides the size of the inverter."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Running big appliances one at a time, not together, is the cheapest way to get by with a smaller unit."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Surge output"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Motors and compressors draw two to five times their running power for a split second as they start. If the surge rating can’t cover that moment, the inverter shuts off, even though the running load is small."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Running and starting watts of common appliances",
+                            "numeric": true,
+                            "columns": [
+                                "Appliance",
+                                "Running",
+                                "Starting"
+                            ],
+                            "rows": [
+                                [
+                                    "Refrigerator",
+                                    "150 W",
+                                    "750 W"
+                                ],
+                                [
+                                    "Chest freezer",
+                                    "100 W",
+                                    "500 W"
+                                ],
+                                [
+                                    "Window air conditioner",
+                                    "700 W",
+                                    "1,750 W"
+                                ],
+                                [
+                                    "Sump pump",
+                                    "750 W",
+                                    "1,500 W"
+                                ],
+                                [
+                                    "Well pump",
+                                    "1,000 W",
+                                    "2,100 W"
+                                ],
+                                [
+                                    "Microwave",
+                                    "1,100 W",
+                                    "1,600 W"
+                                ],
+                                [
+                                    "Circular saw",
+                                    "1,400 W",
+                                    "2,300 W"
+                                ],
+                                [
+                                    "Air compressor",
+                                    "1,200 W",
+                                    "3,600 W"
+                                ]
+                            ],
+                            "note": "Typical values, the ones the calculator starts from. The label or manual of your own appliance is the better source."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "To check surge, take everything that is already running and add the largest single extra starting draw, since motors rarely start at the same instant. Then add 10%, because starting figures are estimates."
+                        },
+                        {
+                            "type": "equation",
+                            "caption": "Outage essentials at the moment the refrigerator starts",
+                            "rows": [
+                                {
+                                    "label": "Everything running on the AC outlets",
+                                    "value": "212 W"
+                                },
+                                {
+                                    "op": "+",
+                                    "label": "Extra draw as the refrigerator starts, 750 W − 150 W",
+                                    "value": "600 W"
+                                },
+                                {
+                                    "op": "×",
+                                    "label": "Margin",
+                                    "value": "1.1"
+                                },
+                                {
+                                    "op": "=",
+                                    "label": "Surge output to shop for",
+                                    "value": "893 W"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Boost modes are not extra output"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Many units advertise a second, higher figure under names such as X-Boost or Power Lifting. In that mode the inverter lowers its voltage so that a heating appliance rated above the limit keeps running, more slowly. It suits simple heating appliances such as kettles and heaters. Electronics and many motors need full voltage, and it is not a higher continuous rating. Choose by the rated output."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Outlets and 240 V"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Check the outlets as well as the watts. A standard 15 A outlet carries 1,800 W and a 20 A outlet 2,400 W, whatever the inverter behind it can do. To draw more than that through one cord, for an RV or a transfer switch, the unit needs a 30 A outlet."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Most portable units put out 120 V only. Dryers, ranges, central air conditioning and many well pumps need 240 V, which only some of the largest units supply, alone or as a linked pair. A single appliance that draws more than about 3,600 W is a sign you are past what a portable unit should run."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Every unit worth buying has a pure sine wave inverter, which makes the same smooth waveform as the grid. Avoid anything described as modified sine wave: motors run hot on it and some electronics refuse to work."
+                        }
+                    ]
+                },
+                {
+                    "id": "battery",
+                    "title": "The battery: chemistry and lifespan",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "The cells inside decide how long the power station lasts, how much it weighs and how it copes with cold. In 2026 nearly every new model uses lithium iron phosphate, written LFP or LiFePO4."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Battery types in power stations sold in 2026",
+                            "columns": [
+                                "Type",
+                                "Full cycles before it fades to 80%",
+                                "Weight",
+                                "Where you find it"
+                            ],
+                            "rows": [
+                                [
+                                    "Lithium iron phosphate (LFP, LiFePO4)",
+                                    "3,000 to 6,000",
+                                    "20 to 30 lb per 1,000 Wh",
+                                    "Nearly all current models, at every size"
+                                ],
+                                [
+                                    "Lithium NMC, often sold as plain “lithium-ion”",
+                                    "500 to 1,000",
+                                    "Lighter by a third or more",
+                                    "Older models and a few small, light ones"
+                                ],
+                                [
+                                    "Sodium-ion",
+                                    "Over 4,000, by the first maker’s figure",
+                                    "Heavier, about 39 lb per 1,000 Wh",
+                                    "One first model, built for the cold"
+                                ]
+                            ],
+                            "note": "Cycle and weight figures are makers’ published specifications. One cycle is a full discharge and recharge."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "What cycle life means for you"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A cycle rating says how many times the battery can be fully drained and refilled before it holds 80% of what it did when new. It still works after that, with less capacity. At one full cycle every day, 3,000 cycles last more than 8 years and 6,000 last 16. Used a few times a month for camping or outages, an LFP battery won’t run out of cycles in any time you would notice."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Read the fine print on that rating. Some makers count cycles to 80% of the original capacity, some to 70% and some to 50%, and the lower the bar, the bigger the number looks. Compare like with like."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "NMC still has one thing in its favor: weight. A 288 Wh NMC unit in our catalog weighs 5 lb, where LFP units of the same capacity weigh about 8 lb. If you carry the power station on foot and use it now and then, that can be the right trade. For anything used often, or kept for years against outages, choose LFP."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Sodium-ion and solid-state"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Sodium-ion is the newest option. The first widely sold sodium-ion power station, a 900 Wh, 1,500 W unit from BLUETTI, launched in September 2025. Its maker says it charges down to 5 °F and runs down to −13 °F, temperatures at which most LFP units refuse to charge. The price is weight: 35 lb for 900 Wh, against about 25 lb for an LFP unit of 1,000 Wh. It makes sense if you work or camp in real cold. Otherwise LFP remains the better buy."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A few brands now label units “solid-state” or “semi-solid-state” and promise more energy for the weight. The claims may hold, but in 2026 the products are new, the only figures are their makers’ own, and long-term results don’t exist yet. Treat them as early."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Looking after the battery"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Keep it at room temperature when it isn’t in use, not in a hot car or a freezing shed.",
+                                "For long storage, leave it part-charged, between about half and 80%, and check it every three months, since the electronics drain it slowly. The manual gives the exact level the maker wants.",
+                                "For outage duty, most units can stay plugged in and hold a charge limit you set in the app."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "recharging",
+                    "title": "Recharging: wall, solar, car and generator",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "How you will refill the battery matters as much as its size. A power station you can recharge every day can be much smaller than one that has to carry a whole trip or a whole outage on a single charge."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "From a wall outlet"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "This is the fastest and simplest way. A household outlet supplies up to 1,800 W, and many current units use most of it: 1,000 Wh models now commonly refill in about an hour. To estimate the time for any unit, divide the capacity by the charging watts, then allow for the charger’s losses, about 10%, and for the slower last stretch, another 10%."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Hours to recharge from empty at a wall outlet",
+                            "numeric": true,
+                            "columns": [
+                                "Battery capacity",
+                                "500 W input",
+                                "1,000 W input",
+                                "1,800 W input"
+                            ],
+                            "rows": [
+                                [
+                                    "1,000 Wh",
+                                    "2.4 h",
+                                    "1.2 h",
+                                    "0.7 h"
+                                ],
+                                [
+                                    "2,000 Wh",
+                                    "4.9 h",
+                                    "2.4 h",
+                                    "1.4 h"
+                                ],
+                                [
+                                    "4,000 Wh",
+                                    "9.8 h",
+                                    "4.9 h",
+                                    "2.7 h"
+                                ]
+                            ],
+                            "note": "Capacity ÷ (input watts × 90%) × 1.1. The input watts are on the spec sheet as AC input or AC charging power. A standard household outlet can’t supply more than 1,800 W."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Fast charging is useful between outages or on a short generator run, but it makes the fans loud. Many units let you turn the charging speed down in the app for a quiet overnight charge."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "From solar panels"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Solar is what makes a power station last for days. The number to check is the solar input: its maximum watts and the voltage range it accepts. Small units take about 100 W of panel, mid-size ones about 500 W, and the largest 2,400 W or more."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A portable panel puts about three times its rated watts into the battery on an average day, counted in watt-hours: 630 Wh from a 200 W panel. It takes about 500 W of panel to keep a refrigerator going day after day. Our guide to [how much a solar panel will charge your power station](/guides/solar-panel-charging-power-station) has the full method, including the voltage check that keeps a panel from damaging the input."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "From a car"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A car’s 12 V socket is the slow way. It gives about 100 W, so 1,000 Wh takes ten hours of driving or more. It is fine for topping up a small unit and no way to refill a large one. Makers also sell alternator chargers that wire to the car’s battery and deliver 500 to 800 W while the engine runs."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "An electric car with a household outlet, often called vehicle-to-load or V2L, is a different matter. The power station charges from it as it would from a wall outlet. The calculator lists the cars whose makers confirm such an outlet and checks each power station against it."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "From a generator"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A power station and a generator work well together: the generator runs for an hour or two, and the battery carries the quiet hours. The generator has to give clean power, which in practice means an inverter generator. The power station then charges at the lowest of three limits: what its own input takes, what the generator’s outlet carries, and 80% of the generator’s running watts."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Charging while in use"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Most units can charge and power devices at the same time, called pass-through. Devices take their share first: with 300 W of solar coming in and a 200 W load running, 100 W is left for the battery."
+                        }
+                    ]
+                },
+                {
+                    "id": "ports",
+                    "title": "Ports and outlets",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Count the things you will plug in at once, and match each one to a port."
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "**AC outlets.** Count them, check their type (15 A, 20 A or 30 A), and make sure bulky plugs and adapters won’t block the outlet beside them.",
+                                "**USB-C.** A port rated 100 W or more charges a laptop directly, with no power brick and no inverter. Some new units go to 140 W.",
+                                "**USB-A.** For older cables and small gadgets.",
+                                "**12 V car socket.** Runs a 12 V refrigerator, a tire inflator or anything else with a car plug, usually up to about 120 W.",
+                                "**Display and app.** A screen that shows watts in, watts out and time remaining is worth having. An app adds charge limits, charging speed and remote on and off."
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Use the DC ports when you can"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Every watt-hour that leaves through an AC outlet passes through the inverter, which loses about 8% and uses power of its own for as long as it is switched on. A laptop on USB-C or a refrigerator on the 12 V socket avoids both. In a camping setup with a 12 V refrigerator, lights and a phone, almost nothing needs the inverter, and a whole weekend fits in about 1,500 Wh."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Switch the AC outlets off when nothing is using them."
+                        }
+                    ]
+                },
+                {
+                    "id": "home-backup",
+                    "title": "Home backup: UPS, expansion and connecting to the house",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Plan for the outage you fear, not the average one. Leaving out major storms, the average US customer loses power for about two hours a year. In 2024, three hurricanes pushed the average to 11 hours, the most in ten years, and the people in their paths were out for days."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The refrigerator sets the clock. Food in a closed refrigerator stays safe for about 4 hours without power, and a full freezer holds for about 48 hours. So a backup plan has to get the refrigerator running within a few hours and keep it going: about 630 Wh of capacity for an 8-hour outage, and 1,900 Wh for a full day."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "UPS mode"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "With the power station plugged into the wall and a device plugged into it, most units pass grid power straight through and switch to the battery when the grid fails. The switch takes a moment. Makers quote 10 to 20 ms for current models, quick enough that lights, a router or a refrigerator never notice."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Sensitive electronics are less forgiving. A desktop computer or a network drive can restart if the gap is longer than its power supply can bridge. In one independent test of six power stations in 2023, the measured gap ran from 9 to 39 ms, and two units were slower than their makers claimed. If a computer has to stay up, test it: plug it in, pull the power station’s wall plug, and watch. For medical equipment that must never drop out, ask the equipment’s maker which backup it approves."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Expansion batteries"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Many large units accept extra battery packs, which add capacity without adding output. That lets you buy for today’s need and grow later: one 2,765 Wh model in our catalog expands to more than 19,000 Wh. Check the price of the extra batteries before you commit, because they work only with their own maker’s units."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Connecting to the house"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The simple way to use a power station in an outage is with extension cords: plug the refrigerator and the other essentials straight into it. To power circuits in the house instead, an electrician installs a transfer switch or an interlock with an inlet, and the power station connects to the inlet with a single cord, usually from its 30 A outlet."
+                        },
+                        {
+                            "type": "note",
+                            "tone": "warning",
+                            "text": "Never plug a power station into a wall outlet to feed the house. Power sent back through the wiring can reach the utility lines and injure the people repairing them, and it can destroy the unit when the grid returns. A transfer switch or interlock, installed by an electrician, is the only safe connection."
+                        }
+                    ]
+                },
+                {
+                    "id": "weight",
+                    "title": "Weight, size and where it will live",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Capacity is heavy. Current LFP models weigh 20 to 30 lb for every 1,000 Wh, so a choice of capacity is also a choice of weight."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "What LFP power stations weigh in 2026",
+                            "columns": [
+                                "Capacity",
+                                "Typical weight",
+                                "Moving it"
+                            ],
+                            "rows": [
+                                [
+                                    "About 300 Wh",
+                                    "About 8 lb",
+                                    "One hand, like a small toolbox"
+                                ],
+                                [
+                                    "About 1,000 Wh",
+                                    "About 25 lb",
+                                    "One person, over short distances"
+                                ],
+                                [
+                                    "About 2,000 Wh",
+                                    "40 to 55 lb",
+                                    "One strong person, or two"
+                                ],
+                                [
+                                    "3,000 to 4,000 Wh",
+                                    "85 to 115 lb",
+                                    "Wheels and a handle, and two people for stairs"
+                                ]
+                            ],
+                            "note": "Weights of models on sale in 2026, from their makers’ specifications."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Be honest about how far you will carry it. About 25 to 30 lb is comfortable in one hand from the car to a campsite. Past 60 lb, plan on wheels, a cart or a second person, and decide where the unit will live, because it won’t move often."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Weather"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Most power stations are indoor appliances with no protection against water or dust. If the unit will sit outside, look for an IP rating on the spec sheet. Without one, keep it under cover, off wet ground and out of blowing dust. Heat matters too: cells age faster when hot, so give the unit shade and moving air, and don’t leave it in a closed car in summer."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Flying"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A power station can’t go on a passenger flight. Airline rules limit lithium-ion batteries to 100 Wh each, or 160 Wh with the airline’s approval, and almost every power station is larger than that. For a trip by air, take a power bank of 100 Wh or less in your carry-on bag."
+                        }
+                    ]
+                },
+                {
+                    "id": "safety",
+                    "title": "Safety, certification and warranty",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "A power station is a large battery kept in your home, so who made it and how it was tested matter more than any feature."
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "**Look for a safety listing.** In the US and Canada the standard for these products is UL 2743, for portable power packs. The listing should come from a recognized test lab such as UL, ETL, CSA or TÜV, and it should cover the whole unit, not only the cells.",
+                                "**Check for recalls.** Search the model on the Consumer Product Safety Commission’s site before you buy, and now and then afterward. In August 2026, Goal Zero recalled about 46,200 Yeti 3000X power stations because a circuit board could overheat. The fix was a free firmware update. Register your unit so the maker can reach you.",
+                                "**Read the warranty.** Three years is the floor for a small unit and five years is normal for a large one. Check who handles claims in your country, and whether you have to register to get the full term.",
+                                "**Buy from a maker that will be there.** Extra batteries, replacement cables and firmware updates all come from the maker. An unbranded unit at a low price has none of that behind it.",
+                                "**Recycle it at the end.** Lithium batteries must not go in household trash or recycling bins, where they can start fires. Take the unit to an electronics recycler or a household hazardous waste site."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "price",
+                    "title": "What it should cost",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Compare prices by the watt-hour: divide the price by the capacity. A 2,000 Wh unit at $1,000 costs 50¢ per watt-hour. In late 2026, LFP units from established brands run from about 40¢ to 70¢ per watt-hour. Small units cost more per watt-hour than large ones, and list prices are often cut by a fifth or more in sales, so it pays to watch a model for a few weeks."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Beyond capacity, you pay for a bigger inverter, faster charging, a larger solar input, expandability and a longer warranty. Pay for the ones your plan needs and skip the rest. An inverter far larger than your loads costs money, weight and idle power."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Bundles with solar panels or extra batteries can save money, but only if the panels suit the unit and you would have bought them anyway. Price the pieces separately first."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "No federal tax credit in 2026"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Until the end of 2025, a battery of 3 kWh or more could earn a 30% federal tax credit, and sellers of large power stations advertised it. That credit is not available for anything placed in service after December 31, 2025. If a listing still mentions it, the listing is out of date."
+                        }
+                    ]
+                },
+                {
+                    "id": "examples",
+                    "title": "What common setups need",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "These are worked with the calculator’s default devices, in mild weather, on one full charge with nothing recharging the battery."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Capacity and output for six common setups",
+                            "numeric": true,
+                            "columns": [
+                                "Setup",
+                                "Running time",
+                                "Capacity",
+                                "Continuous output"
+                            ],
+                            "rows": [
+                                [
+                                    "CPAP for one night",
+                                    "8 h",
+                                    "490 Wh",
+                                    "50 W"
+                                ],
+                                [
+                                    "Camping weekend: 12 V refrigerator, lights, phone",
+                                    "48 h",
+                                    "1,500 Wh",
+                                    "15 W"
+                                ],
+                                [
+                                    "Remote workday: laptop, monitor, Starlink, router, phone",
+                                    "8 h",
+                                    "1,750 Wh",
+                                    "190 W"
+                                ],
+                                [
+                                    "Refrigerator through an outage",
+                                    "24 h",
+                                    "1,900 Wh",
+                                    "190 W"
+                                ],
+                                [
+                                    "Job site: circular saw, drill, work light, tool battery charger",
+                                    "8 h",
+                                    "2,600 Wh",
+                                    "1,850 W"
+                                ],
+                                [
+                                    "Outage essentials: refrigerator, router, lights, phone, CPAP",
+                                    "24 h",
+                                    "2,850 Wh",
+                                    "270 W"
+                                ]
+                            ],
+                            "note": "The two refrigerator setups also need about 830 to 900 W of surge output for the compressor’s start, and the job site 2,850 W for the saw. On the camping weekend almost everything runs from the DC ports, which is why the AC output is so small."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Two patterns stand out. Long, steady loads, a refrigerator or a satellite dish, drive capacity. Short, heavy ones, a saw or a microwave, drive output. Few setups are heavy on both, which is why a unit chosen for its capacity usually has more inverter than it needs."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "[The calculator](/calculator/use-case) does this for your own list, adds cold weather and recharging, and shows which power stations fit."
+                        }
+                    ]
+                },
+                {
+                    "id": "new-in-2026",
+                    "title": "What is different in 2026",
+                    "blocks": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "**LFP is the default.** A long-life battery no longer costs extra, and a 1,000 Wh unit now weighs about 25 lb and recharges in about an hour.",
+                                "**Sodium-ion has arrived**, for people who need to charge below freezing.",
+                                "**“Solid-state” labels are appearing** before the evidence for them.",
+                                "**The federal tax credit is gone** for batteries placed in service after December 31, 2025.",
+                                "**Recalls reach well-known brands.** Check the model before you buy, new or used."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "checklist",
+                    "title": "A checklist before you buy",
+                    "blocks": [
+                        {
+                            "type": "list",
+                            "ordered": true,
+                            "items": [
+                                "**Capacity** covers your devices for the time you need, with losses and a 20% reserve: about 1.5 times what the devices use.",
+                                "**Continuous output** is at least 1.25 times what runs for hours, and covers your largest short-use appliance on top.",
+                                "**Surge output** covers everything running plus the biggest motor’s start.",
+                                "**The battery** is LFP, with its cycle rating stated to 80% capacity.",
+                                "**The charging inputs** match how you will refill it: AC watts for the wall, solar watts and voltage for panels.",
+                                "**The ports and outlets** fit your devices, including a 30 A outlet if it will feed an RV or a transfer switch.",
+                                "**The weight** is one you can lift, or the unit has wheels.",
+                                "**The unit** carries a UL 2743 listing, has no open recall, and comes with a warranty of three to five years that is honored where you live.",
+                                "**The price** per watt-hour is in line with similar units."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "sources": [
+                {
+                    "title": "Hurricanes in 2024 led to the most hours without power in the United States in 10 years",
+                    "publisher": "US Energy Information Administration",
+                    "url": "https://www.eia.gov/todayinenergy/detail.php?id=66744"
+                },
+                {
+                    "title": "Food Safety During Power Outage",
+                    "publisher": "FoodSafety.gov, US Department of Health and Human Services",
+                    "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage"
+                },
+                {
+                    "title": "Winter Storm May Knock Out Power; CPSC Warns of Deadly Carbon Monoxide and Fire Risks",
+                    "publisher": "US Consumer Product Safety Commission",
+                    "url": "https://www.cpsc.gov/Newsroom/News-Releases/2026/Winter-Storm-May-Knock-Out-Power-CPSC-Warns-of-Deadly-Carbon-Monoxide-and-Fire-Risks"
+                },
+                {
+                    "title": "Goal Zero Recalls YETI 3000X Power Stations Due to Serious Risk of Injury from Fire and Burn Hazards",
+                    "publisher": "US Consumer Product Safety Commission",
+                    "url": "https://www.cpsc.gov/Recalls/2026/Goal-Zero-Recalls-YETI-3000X-Power-Stations-Due-to-Serious-Risk-of-Injury-from-Fire-and-Burn-Hazards"
+                },
+                {
+                    "title": "PackSafe: Lithium Batteries",
+                    "publisher": "Federal Aviation Administration",
+                    "url": "https://www.faa.gov/hazmat/packsafe/lithium-batteries"
+                },
+                {
+                    "title": "Residential Clean Energy Credit",
+                    "publisher": "Internal Revenue Service",
+                    "url": "https://www.irs.gov/credits-deductions/residential-clean-energy-credit"
+                },
+                {
+                    "title": "UL 2743, Portable Power Packs",
+                    "publisher": "UL Standards & Engagement",
+                    "url": "https://www.shopulstandards.com/ProductDetail.aspx?productId=UL2743"
+                },
+                {
+                    "title": "Used Lithium-Ion Batteries",
+                    "publisher": "US Environmental Protection Agency",
+                    "url": "https://www.epa.gov/recycle/used-lithium-ion-batteries"
+                },
+                {
+                    "title": "Portable Power Stations Actually Work Pretty Well as a UPS",
+                    "publisher": "StorageReview",
+                    "url": "https://www.storagereview.com/review/portable-power-stations-actually-work-pretty-well-as-a-ups"
+                },
+                {
+                    "title": "Pioneer Na sodium-ion portable power station, specifications",
+                    "publisher": "BLUETTI",
+                    "url": "https://www.bluettipower.com/products/sodium-ion-battery-pioneer-na"
+                },
+                {
+                    "title": "Power station dataset: capacity, output, weight, cycle life and price of current models",
+                    "publisher": "GalaxyAX/power-station",
+                    "url": "https://github.com/GalaxyAX/power-station"
+                },
+                {
+                    "title": "Section 210.20(A), continuous loads",
+                    "publisher": "National Electrical Code (NFPA 70)"
+                }
+            ]
         }
     ]
 }
