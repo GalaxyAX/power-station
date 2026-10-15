@@ -1703,6 +1703,745 @@
                     "publisher": "National Electrical Code (NFPA 70)"
                 }
             ]
+        },
+        {
+            "id": "solar-panel-direction-and-tilt",
+            "title": "How to Install a Solar Panel for the Most Power: Direction, Tilt and Shade",
+            "summary": "Which way a panel faces, how steeply it leans and what shades it decide how much sunlight it turns into power, and the right answers depend on where you are. Pick your spot on the map for its direction, tilt and sun path, then see what matters and what barely does.",
+            "image": "https://images.unsplash.com/photo-1713544123617-449320086fcd?auto=format&fit=crop&w=2000&q=80",
+            "imageAlt": "A row of black solar panels on a tilted ground mount in a backyard, angled up toward the sun, with tall pine trees behind it.",
+            "published": "2026-10-15",
+            "updated": "2026-10-15",
+            "sections": [
+                {
+                    "id": "short-answer",
+                    "title": "The short answer",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Face the panel toward the equator: south if you live north of it, north if you live south of it. Tilt it up from flat by a little less than your latitude. Then keep all of it out of shade from mid-morning to mid-afternoon. Those three choices decide most of what a panel collects; everything else is worth a few percent."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The three aren’t equal. Shade on a corner of the panel can cost a third of its output. Facing east or west instead of toward the equator costs a fifth to a quarter. A tilt a few degrees off costs almost nothing. The planner below works out the direction and tilt for your location, and the rest of this guide explains where its numbers come from."
+                        }
+                    ]
+                },
+                {
+                    "id": "planner",
+                    "title": "Find the direction and tilt for your location",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Tap the map where the panel will go, or let your browser share your location. The planner shows which way to face the panel, how far to tilt it, and what a magnetic compass reads when it points the right way. Step through the months to see how high the noon sun climbs, how long the day is and where the sun rises and sets; the lines on the map follow along. The recommendations at the bottom change with your latitude."
+                        },
+                        {
+                            "type": "panelPlanner",
+                            "zones": [
+                                {
+                                    "id": "equator",
+                                    "upTo": 10,
+                                    "name": "Near the equator",
+                                    "summary": "The noon sun is never far from overhead, so a panel works almost flat and its direction hardly matters. Heat and rain do more to its output than its angle."
+                                },
+                                {
+                                    "id": "tropics",
+                                    "upTo": 23.44,
+                                    "name": "In the tropics",
+                                    "summary": "The sun passes straight overhead twice a year. For weeks around {midsummer} the noon sun stands on the {toPole} side of the sky, behind a panel that faces {toEquator}."
+                                },
+                                {
+                                    "id": "subtropics",
+                                    "upTo": 35,
+                                    "name": "In the subtropics",
+                                    "summary": "The noon sun climbs almost overhead in summer and stays well up in winter. Tilting starts to pay here: a flat panel gives up 8% to 14% of the year’s output."
+                                },
+                                {
+                                    "id": "midlatitudes",
+                                    "upTo": 50,
+                                    "name": "In the mid-latitudes",
+                                    "summary": "The noon sun’s height swings by nearly 47° between {midsummer} and {midwinter}, so the season matters as much as the place. A well-tilted panel collects about a fifth more than a flat one."
+                                },
+                                {
+                                    "id": "highlatitudes",
+                                    "upTo": 60,
+                                    "name": "In the high latitudes",
+                                    "summary": "Summer days are long and winter days short and low, so most of a year’s energy arrives between spring and autumn. Near 56°, a well-placed panel makes about a fifth as much in {midwinter} as in {midsummer}."
+                                },
+                                {
+                                    "id": "subpolar",
+                                    "upTo": 66.56,
+                                    "name": "Near the polar circle",
+                                    "summary": "The {midwinter} sun barely clears the horizon, while around {midsummer} it sets for only a few hours. At Anchorage (61° N), a well-placed panel made about a tenth as much in December as in May."
+                                },
+                                {
+                                    "id": "polar",
+                                    "upTo": 90,
+                                    "name": "Inside the polar circle",
+                                    "summary": "The sun stays down for part of winter and up day and night for part of summer. At Tromsø (69.6° N), a fixed panel made 94% of its year’s energy between March and September, and nothing at all in December and January."
+                                }
+                            ],
+                            "recommendations": [
+                                {
+                                    "zones": [
+                                        "tropics",
+                                        "subtropics",
+                                        "midlatitudes",
+                                        "highlatitudes",
+                                        "subpolar",
+                                        "polar"
+                                    ],
+                                    "hemisphere": "south",
+                                    "title": "Face north, not south",
+                                    "text": "Most solar advice is written for the Northern Hemisphere. Below the equator panels face north: at Sydney, a panel tilted 30° toward the south collected 55% of what one facing north did."
+                                },
+                                {
+                                    "zones": [
+                                        "polar"
+                                    ],
+                                    "title": "Don’t count on solar in {midwinter}",
+                                    "text": "For weeks around {midwinter} the sun doesn’t rise at all. A power station needs another way to recharge in that season, such as a wall outlet or a generator."
+                                },
+                                {
+                                    "zones": [
+                                        "equator",
+                                        "tropics"
+                                    ],
+                                    "title": "Keep the whole panel in sun",
+                                    "text": "Shade on even a small part of a panel holds back the cells wired to it. Pick a spot that stays clear from mid-morning to mid-afternoon."
+                                },
+                                {
+                                    "zones": [
+                                        "subtropics",
+                                        "midlatitudes",
+                                        "highlatitudes",
+                                        "subpolar"
+                                    ],
+                                    "title": "Keep the whole panel in sun",
+                                    "text": "Shade on even a small part of a panel holds back the cells wired to it. Pick a spot that stays clear from mid-morning to mid-afternoon, and check it again around {midwinter}, when the noon sun is lowest and shadows are longest."
+                                },
+                                {
+                                    "zones": [
+                                        "polar"
+                                    ],
+                                    "title": "Low sun means long shadows",
+                                    "text": "With the sun this low, a small rise or a shed throws a long shadow. Put the panel where it has a clear view of the horizon to the {toEquator}."
+                                },
+                                {
+                                    "zones": [
+                                        "equator"
+                                    ],
+                                    "title": "Tilt it 10°, whichever way is easiest",
+                                    "text": "Nearly flat collects the most here, and at 10° rain still rinses the glass. In Singapore a panel at 10° made the same energy facing north, south or west, to within 1%, so face it wherever the shade is least."
+                                },
+                                {
+                                    "zones": [
+                                        "subpolar"
+                                    ],
+                                    "title": "Tilt matters most here",
+                                    "text": "At Anchorage a flat panel collected 73% of what a well-tilted one did. Use the planner’s figure, or go steeper if you get snow."
+                                },
+                                {
+                                    "zones": [
+                                        "polar"
+                                    ],
+                                    "title": "Set a fixed panel steep",
+                                    "text": "The sun is low all year, so steep angles work best. At Tromsø the best all-year angle was 49°, and a vertical panel facing {toEquator} still collected 79% of that while shedding snow."
+                                },
+                                {
+                                    "zones": [
+                                        "tropics"
+                                    ],
+                                    "title": "Watch which side the noon sun is on",
+                                    "text": "For weeks around {midsummer} the noon sun stands to the {toPole}. A fixed panel facing {toEquator} loses a little then; turn a portable one to face {toPole} at midday. Step through the months above to see when."
+                                },
+                                {
+                                    "zones": [
+                                        "equator",
+                                        "tropics",
+                                        "subtropics"
+                                    ],
+                                    "title": "Let air reach the back of the panel",
+                                    "text": "Heat is the biggest loss you control here. In full sun the cells run 20 to 30 °C above the air and give up 10% to 15% of their power on a hot day. Leave a gap behind a mounted panel, and stand a portable one on its legs rather than on sand, rock or a car roof."
+                                },
+                                {
+                                    "zones": [
+                                        "equator"
+                                    ],
+                                    "title": "Portable panels: flat at midday, steep at the ends of the day",
+                                    "text": "Around noon the sun is close to overhead all year, so lay the panel nearly flat. In the early morning and late afternoon, tilt it steeply toward the east, then the west."
+                                },
+                                {
+                                    "zones": [
+                                        "tropics",
+                                        "subtropics",
+                                        "midlatitudes",
+                                        "highlatitudes",
+                                        "subpolar"
+                                    ],
+                                    "title": "Portable panels: turn it two or three times a day",
+                                    "text": "Face the morning sun, then {toEquator} around midday, then the afternoon sun. Each time, stand a pen upright on the panel: no shadow means it faces the sun squarely. That collects nearly as much as tracking the sun exactly."
+                                },
+                                {
+                                    "zones": [
+                                        "midlatitudes",
+                                        "highlatitudes",
+                                        "subpolar"
+                                    ],
+                                    "title": "Portable panels: catch the summer mornings and evenings",
+                                    "text": "From spring to autumn the sun rises in the {toPole}east and sets in the {toPole}west, behind a panel that faces {toEquator}. Turning a portable panel toward it early and late pays more here than nearer the equator."
+                                },
+                                {
+                                    "zones": [
+                                        "polar"
+                                    ],
+                                    "title": "Portable panels: follow the midnight sun",
+                                    "text": "When the sun stays up all night it circles the whole horizon, low in the {toPole} around midnight. Turn a portable panel to follow it, and stand it almost upright."
+                                },
+                                {
+                                    "zones": [
+                                        "midlatitudes"
+                                    ],
+                                    "title": "Fixed mounts: change the angle twice a year",
+                                    "text": "If the mount adjusts, flatten the panel for {summerHalf} and steepen it for {winterHalf}. In Kansas City, 15° and 55° collected 4.7% more than the best single angle."
+                                },
+                                {
+                                    "zones": [
+                                        "midlatitudes",
+                                        "highlatitudes",
+                                        "subpolar"
+                                    ],
+                                    "title": "If you get snow, lean steeper",
+                                    "text": "Snow slides off a steep panel sooner, and a panel under snow makes almost nothing. Going 8° steeper than the planner’s figure costs about 1% of a year’s output, or less."
+                                },
+                                {
+                                    "zones": [
+                                        "highlatitudes",
+                                        "subpolar"
+                                    ],
+                                    "title": "Plan on little from solar in {midwinter}",
+                                    "text": "Short, low days leave a panel with a small share of its summer output. Size the battery to get through winter without the sun, and treat solar as what stretches it."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The all-year tilt is the fit Jacobson and Jadhav published from the best fixed angles in every country. The compass reading comes from the World Magnetic Model, and the rest is the geometry of the sun, worked out for the 15th of the month. Your location is used in your browser and isn’t sent to Watt48."
+                        }
+                    ]
+                },
+                {
+                    "id": "sun-path",
+                    "title": "Why the angle matters",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "A panel collects the most when sunlight hits it square on. Light arriving at a slant spreads over more of the panel, so each cell gets less: 30° off square, a panel catches 87% of the direct beam, and 60° off, only half. The [guide to solar charging](/guides/solar-panel-charging-power-station) covers the other things that cut a panel’s output."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Where square on points depends on the sun’s path. The sun crosses the sky from east to west and is highest at solar noon, when it stands due south of you in the Northern Hemisphere and due north in the Southern. How high it climbs depends on your latitude and the season. At the March and September equinoxes the noon sun stands at 90° minus your latitude. At midsummer it is 23.4° higher, and at midwinter 23.4° lower, because that is how far the Earth’s axis is tilted."
+                        },
+                        {
+                            "type": "equation",
+                            "caption": "The noon sun at Kansas City (39.1° N) on December 21",
+                            "rows": [
+                                {
+                                    "label": "Straight overhead",
+                                    "value": "90°"
+                                },
+                                {
+                                    "op": "−",
+                                    "label": "Latitude",
+                                    "value": "39.1°"
+                                },
+                                {
+                                    "op": "−",
+                                    "label": "Tilt of the Earth’s axis",
+                                    "value": "23.4°"
+                                },
+                                {
+                                    "op": "=",
+                                    "label": "Height of the noon sun",
+                                    "value": "27.5°"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A panel faces that sun squarely when it is tilted 90° − 27.5° = 62.5° from flat. In June the same sun stands at 74.3°, and the square-on tilt is under 16°. A fixed panel can’t follow that swing, so its best angle for the year is a compromise between the two."
+                        }
+                    ]
+                },
+                {
+                    "id": "direction",
+                    "title": "Direction: face the equator",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Point the front of the panel toward the equator. In the US, Canada, Europe and most of Asia that means south; in Australia, New Zealand, southern Africa and most of South America, north. Facing the equator puts the panel square to the sun around midday, when the sunlight is strongest."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Direction matters more than tilt, but small errors cost little. In Kansas City, turning the panel 45° away from due south, to face southeast or southwest, costs 6% to 8% of a year’s output. Facing due east or west costs a fifth to a quarter. Facing away from the equator costs about half, and more the steeper the panel."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Share of the best yearly output at Kansas City (39.1° N), by tilt and direction",
+                            "numeric": true,
+                            "columns": [
+                                "Tilt",
+                                "South",
+                                "Southwest",
+                                "West",
+                                "North"
+                            ],
+                            "rows": [
+                                [
+                                    "Flat (0°)",
+                                    "83%",
+                                    "83%",
+                                    "83%",
+                                    "83%"
+                                ],
+                                [
+                                    "15°",
+                                    "94%",
+                                    "90%",
+                                    "81%",
+                                    "68%"
+                                ],
+                                [
+                                    "30°",
+                                    "99%",
+                                    "93%",
+                                    "78%",
+                                    "52%"
+                                ],
+                                [
+                                    "37°, the best",
+                                    "100%",
+                                    "92%",
+                                    "75%",
+                                    "46%"
+                                ],
+                                [
+                                    "45°",
+                                    "99%",
+                                    "91%",
+                                    "72%",
+                                    "39%"
+                                ],
+                                [
+                                    "60°",
+                                    "94%",
+                                    "85%",
+                                    "65%",
+                                    "26%"
+                                ],
+                                [
+                                    "Upright (90°)",
+                                    "67%",
+                                    "61%",
+                                    "45%",
+                                    "12%"
+                                ]
+                            ],
+                            "note": "Modeled with PVGIS from 2005–2023 weather, for a fixed panel with 14% system losses. Facing east did slightly better than west here: 80% against 78% at 30°."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "True north and the compass"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The direction to face is true south, or true north below the equator: the line toward the geographic pole, as on a map. A magnetic compass points to the magnetic pole instead, and the angle between the two, called declination, depends on where you are. Magnetic north is about 15° east of true north in Seattle and 14° west of it in Boston, so a compass held on 180° there leaves a panel 15° or 14° off true south."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The planner shows what a compass should read at your spot. Many phone compass apps can show true north instead; look for the setting. Either way, precision isn’t needed: in Kansas City, a panel 15° off due south lost about 1% of a year’s output."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Close to the magnetic poles, in the Canadian Arctic and parts of Antarctica, a compass may be well off or useless. There, line the panel up with the sun at solar noon, when it stands due south, or due north below the equator."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "When the best direction isn’t free"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "On a roof, the roof decides. A slope facing southeast or southwest is nearly as good as one facing south. An east or west slope still collects three-quarters or more at a moderate pitch, and on a flat roof the direction stops mattering. If due south puts the panel in a tree’s afternoon shadow while southeast keeps it clear, take the clear sun: the turn costs well under a tenth, and shade can cost a third or more while it lasts."
+                        }
+                    ]
+                },
+                {
+                    "id": "tilt",
+                    "title": "Tilt: a little less than your latitude",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "For a panel fixed at one angle all year, the best tilt is close to your latitude, and usually a few degrees less. Geometry alone would say equal to the latitude, but two things pull it lower. Clouds scatter light across the whole sky, and a flatter panel sees more of the sky. And summer days are longer, so an angle that favors the high summer sun collects more over a year."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The planner uses the curves Jacobson and Jadhav fitted in 2018 to the best fixed angles for every country in the world. Checked against PVGIS, the European Commission’s solar model built on satellite and weather records, the fitted angle collected 98.9% to 100% of the best possible at all eight places we tried."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "The all-year tilt, and what lying flat costs",
+                            "numeric": true,
+                            "columns": [
+                                "Place",
+                                "Latitude",
+                                "All-year tilt",
+                                "Flat panel keeps"
+                            ],
+                            "rows": [
+                                [
+                                    "Singapore",
+                                    "1.4° N",
+                                    "10°",
+                                    "100%"
+                                ],
+                                [
+                                    "Honolulu",
+                                    "21.3° N",
+                                    "21°",
+                                    "95%"
+                                ],
+                                [
+                                    "Miami",
+                                    "25.8° N",
+                                    "24°",
+                                    "92%"
+                                ],
+                                [
+                                    "Phoenix",
+                                    "33.5° N",
+                                    "28°",
+                                    "86%"
+                                ],
+                                [
+                                    "Sydney",
+                                    "33.9° S",
+                                    "29°",
+                                    "86%"
+                                ],
+                                [
+                                    "Kansas City",
+                                    "39.1° N",
+                                    "31°",
+                                    "83%"
+                                ],
+                                [
+                                    "Seattle",
+                                    "47.6° N",
+                                    "35°",
+                                    "82%"
+                                ],
+                                [
+                                    "Anchorage",
+                                    "61.2° N",
+                                    "39°",
+                                    "73%"
+                                ]
+                            ],
+                            "note": "The tilt is the planner’s figure, facing the equator; Singapore’s is raised to the 10° minimum. The last column is a flat panel’s yearly output as a share of the best angle’s, from PVGIS with 2005–2023 weather."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The farther from the equator, the more a tilt is worth. Near the equator a flat panel gives up almost nothing; at Kansas City it gives up a sixth, and at Anchorage more than a quarter."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Close enough is fine"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Near the best angle, the output barely changes. In Kansas City, 30° and 45° each collected 99% of what the best angle, 37°, did. Use the nearest notch on a bracket, or the pitch of the roof, if it is within about 10° of the planner’s figure. If you get snow, err on the steep side."
+                        },
+                        {
+                            "type": "note",
+                            "tone": "info",
+                            "text": "Keep at least 10° of tilt anywhere. Rain then runs off and rinses the glass, where a flatter panel holds puddles that dry into dirt. Near the equator, where the best angle is almost flat, 10° costs about 1%."
+                        }
+                    ]
+                },
+                {
+                    "id": "seasons",
+                    "title": "Changing the angle with the seasons",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "A mount you can adjust lets the panel follow the sun’s height through the year: steeper in winter, flatter in summer. In Kansas City, changing the angle twice a year, to 15° from April to September and 55° from October to March, collected 4.7% more than the best fixed angle. Changing it every month added 5.9%."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "The best angle for each month at Kansas City (39.1° N)",
+                            "numeric": true,
+                            "columns": [
+                                "Month",
+                                "Best tilt"
+                            ],
+                            "rows": [
+                                [
+                                    "January",
+                                    "65°"
+                                ],
+                                [
+                                    "February",
+                                    "55°"
+                                ],
+                                [
+                                    "March",
+                                    "45°"
+                                ],
+                                [
+                                    "April",
+                                    "25°"
+                                ],
+                                [
+                                    "May",
+                                    "15°"
+                                ],
+                                [
+                                    "June",
+                                    "Flat"
+                                ],
+                                [
+                                    "July",
+                                    "Flat"
+                                ],
+                                [
+                                    "August",
+                                    "20°"
+                                ],
+                                [
+                                    "September",
+                                    "37°"
+                                ],
+                                [
+                                    "October",
+                                    "50°"
+                                ],
+                                [
+                                    "November",
+                                    "60°"
+                                ],
+                                [
+                                    "December",
+                                    "65°"
+                                ]
+                            ],
+                            "note": "From PVGIS with 2005–2023 weather, facing south, to the nearest of the angles tried: flat, 15°, 20°, 25°, 30°, 37°, 45°, 50°, 55°, 60°, 65°, 70° and 90°."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Two things stand out. Summer wants a flatter panel than the noon sun suggests: in June and July the sun rises in the northeast and sets in the northwest, and a flat panel catches the morning and evening light that a south-facing tilt turns its back on. And winter rewards a steep angle, which also sheds snow sooner. The planner’s month view shows the noon sun and the sunrise and sunset directions for any month where you are."
+                        }
+                    ]
+                },
+                {
+                    "id": "portable",
+                    "title": "Portable panels: follow the sun",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "A folding panel on its stand can beat any fixed mount, because you can move it. Most of the gain comes from turning it to face the sun’s direction a few times a day. Jacobson and Jadhav found that a panel turned to follow the sun around the horizon, at a fixed tilt, collects within 1% to 3% of one that tracks the sun exactly, which worldwide averages 17% more than the best fixed angle."
+                        },
+                        {
+                            "type": "list",
+                            "ordered": true,
+                            "items": [
+                                "**In the morning,** face the panel toward the sun, roughly where the planner’s sunrise line points, and tilt it steeply, because the morning sun is low.",
+                                "**Around midday,** turn it toward the equator and set the tilt to the planner’s noon figure for the month.",
+                                "**In the afternoon,** turn it toward the sunset side and steepen it again as the sun drops.",
+                                "**Each time,** check the aim: stand a pen upright on the panel. When the pen casts no shadow, the panel faces the sun squarely."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Three moves a day is plenty. Within 25° of square a panel still catches 90% of the direct beam, so an aim that drifts for an hour or two costs little. The hours either side of noon carry most of a day’s energy, so put the panel out by mid-morning."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Turning pays most far from the equator in summer. There the sun rises in the northeast and sets in the northwest (southeast and southwest below the equator), behind a panel that faces the equator, and only a panel you can turn catches that light."
+                        }
+                    ]
+                },
+                {
+                    "id": "placement",
+                    "title": "Where to put it: shade first",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Shade costs more than any angle. A shadow over part of a panel holds back the cells wired to it, so a patch the size of a hand can take a third or more of the output while it lasts. Before you mount anything, watch the spot through a sunny day, and think about the season: the sun is lowest in winter, so shadows are longest then."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The planner’s noon-shadow figure says how far shadows reach when the sun is highest. In Kansas City, a post’s noon shadow in late December is almost twice the post’s height; in June it is about a quarter. So a 6 ft fence 10 ft from a panel shades it at midday in winter but not in summer."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Shadows swing round with the sun, too. In the morning and evening they stretch away from the east and west, so trees and buildings on those sides matter for those hours, and anything tall on the equator side matters all day. Panels in rows shade each other the same way when the sun is low: space the rows by at least the winter noon shadow of the row in front."
+                        }
+                    ]
+                },
+                {
+                    "id": "mounting",
+                    "title": "Mounting: air, cable and wind",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "A panel loses about 0.3% to 0.5% of its power for every degree Celsius its cells warm above 25 °C (77 °F), so let air reach its back. On a roof, a gap of a few inches under the panel keeps it cooler than one laid on the shingles. On the ground, stand a portable panel on its legs rather than on hot rock, sand or a car roof."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Keep the cable from the panel to the power station short. Use the panel’s own lead where you can, and a short, thick extension where you can’t: a long, thin one wastes power as heat. If you wire panels in series, check their total voltage against the power station’s input limit for the coldest morning you expect, as the [charging guide](/guides/solar-panel-charging-power-station#solar-panel-charging-power-station-matching-panels) explains."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A tilted panel catches wind like a sail. Weigh down or stake a portable panel’s stand, fold it away before a storm, and on a roof or an RV follow the mount maker’s limits for tilt and wind."
+                        }
+                    ]
+                },
+                {
+                    "id": "weather",
+                    "title": "Snow, dust and rain",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Snow on the glass blocks the light almost completely, and a steeper panel sheds it sooner. Where snow is common, set a fixed panel toward the steep end of its range: in Kansas City, going 8° steeper than the best angle cost under 1% of a year’s output. Clear a buried panel with a soft brush, never a scraper."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Dust, pollen and bird droppings build up fastest on flat panels. At 10° or more, rain does most of the cleaning; in a dry spell, rinse the glass with water and a soft cloth."
+                        }
+                    ]
+                },
+                {
+                    "id": "what-matters",
+                    "title": "What matters, and what barely does",
+                    "blocks": [
+                        {
+                            "type": "table",
+                            "caption": "What each choice is worth, from most to least",
+                            "columns": [
+                                "Choice",
+                                "What it’s worth",
+                                "What to do"
+                            ],
+                            "rows": [
+                                [
+                                    "Shade on part of the panel",
+                                    "A third or more of the output while it lasts",
+                                    "Find a spot that stays clear from mid-morning to mid-afternoon, in winter too"
+                                ],
+                                [
+                                    "Facing away from the equator",
+                                    "About half the year’s output at mid-latitudes",
+                                    "Face south north of the equator, and north south of it"
+                                ],
+                                [
+                                    "Facing east or west",
+                                    "A fifth to a quarter",
+                                    "Turn it toward the equator if you can"
+                                ],
+                                [
+                                    "Following the sun, with a portable panel",
+                                    "About 17% more than the best fixed angle, on average",
+                                    "Turn the panel two or three times a day"
+                                ],
+                                [
+                                    "Lying flat",
+                                    "Almost nothing near the equator, a sixth at 39° N, more than a quarter at 61° N",
+                                    "Tilt it, and never under 10°"
+                                ],
+                                [
+                                    "Adjusting a fixed mount with the seasons",
+                                    "About 5% more",
+                                    "Change the angle twice a year if the mount allows it"
+                                ],
+                                [
+                                    "Facing southeast or southwest",
+                                    "6% to 8%",
+                                    "Fine when it buys clear sun"
+                                ],
+                                [
+                                    "A tilt within about 8° of the best",
+                                    "Under 1%",
+                                    "Use the nearest bracket notch or the roof’s pitch"
+                                ],
+                                [
+                                    "A compass reading 15° off",
+                                    "About 1%",
+                                    "Use the planner’s compass reading, or a phone set to true north"
+                                ]
+                            ],
+                            "note": "Figures for direction, tilt and seasons are from PVGIS at Kansas City (39.1° N); the tracking figure is Jacobson and Jadhav’s world average."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Two things people worry about matter less than they think. Cold isn’t a problem: a cold panel is more efficient, so a crisp, clear winter hour can beat a hot summer one. And cloud slows charging without stopping it: under solid overcast a panel still makes about 10% to 25% of its clear-day output."
+                        }
+                    ]
+                },
+                {
+                    "id": "checklist",
+                    "title": "A setup checklist",
+                    "blocks": [
+                        {
+                            "type": "list",
+                            "ordered": true,
+                            "items": [
+                                "Pick the spot with the least shade from mid-morning to mid-afternoon, allowing for winter’s longer shadows.",
+                                "Face the panel toward the equator, using the planner’s compass reading or a phone compass set to true north.",
+                                "Set the tilt to the planner’s all-year figure, or, for a portable panel, to the month’s noon figure.",
+                                "Keep at least 10° of tilt, and leave air behind the panel.",
+                                "Run the shortest cable you can, check the voltage against the power station’s input, and secure the panel against wind.",
+                                "With a portable panel, turn it to follow the sun two or three times a day."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "To see how much a well-placed panel puts back into your power station each day, [the calculator](/calculator/use-case) sizes the battery and the panels for your own devices."
+                        }
+                    ]
+                }
+            ],
+            "sources": [
+                {
+                    "title": "World estimates of PV optimal tilt angles and ratios of sunlight incident upon tilted and tracked PV panels relative to horizontal panels",
+                    "publisher": "Mark Z. Jacobson and Vijaysinh Jadhav, Solar Energy (2018)",
+                    "url": "https://doi.org/10.1016/j.solener.2018.04.030"
+                },
+                {
+                    "title": "Photovoltaic Geographical Information System (PVGIS)",
+                    "publisher": "European Commission Joint Research Centre",
+                    "url": "https://re.jrc.ec.europa.eu/pvg_tools/en/"
+                },
+                {
+                    "title": "General Solar Position Calculations",
+                    "publisher": "NOAA Global Monitoring Laboratory",
+                    "url": "https://gml.noaa.gov/grad/solcalc/solareqns.PDF"
+                },
+                {
+                    "title": "The World Magnetic Model",
+                    "publisher": "NOAA National Centers for Environmental Information",
+                    "url": "https://www.ncei.noaa.gov/products/world-magnetic-model"
+                },
+                {
+                    "title": "Shading",
+                    "publisher": "PVEducation",
+                    "url": "https://www.pveducation.org/pvcdrom/modules-and-arrays/shading"
+                },
+                {
+                    "title": "Effect of temperature",
+                    "publisher": "PVEducation",
+                    "url": "https://www.pveducation.org/pvcdrom/solar-cell-operation/effect-of-temperature"
+                }
+            ]
         }
     ]
 }
