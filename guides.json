@@ -3106,6 +3106,591 @@
                     "url": "https://github.com/GalaxyAX/power-station"
                 }
             ]
+        },
+        {
+            "id": "connect-power-station-to-home-panel",
+            "title": "Connecting a Portable Power Station to Your Home Electrical Panel: Safety, Overloads and Legal Considerations",
+            "summary": "Pushing a power station’s output into a wall outlet to run the house can kill a utility worker and destroy the unit. This guide explains why a male-to-male cord is never safe, how a transfer switch or interlock does the job properly, and how to check that a power station can start your fridge, freezer and pumps.",
+            "image": "https://images.unsplash.com/photo-1660330589693-99889d60181e?auto=format&fit=crop&w=2000&q=80",
+            "imageAlt": "An installer in a high-visibility shirt tightens a breaker terminal with a screwdriver inside an outdoor electrical panel mounted on a stucco wall.",
+            "published": "2026-10-18",
+            "updated": "2026-10-18",
+            "sections": [
+                {
+                    "id": "short-answer",
+                    "title": "The short answer",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "A power station can run circuits in your home only through transfer equipment: a manual transfer switch, an interlock on the main panel with a power inlet, or a transfer panel made by the power station’s maker. A licensed electrician installs it, under a permit where your town requires one. It guarantees that the house is never connected to the power station and the utility at the same time."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Never use a cord with a plug on both ends, often called a suicide cord. One of its plugs has live, exposed prongs, it can send power out to the street where it can kill a lineworker, and it can burn out the power station when the grid comes back. In March 2026 the US Consumer Product Safety Commission told consumers to stop using these cords and got three big online marketplaces to delist them."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Then check the power station against your circuits. Running watts are rarely the problem. The moment a refrigerator, freezer, pump or furnace motor starts is: if several start together, they can draw more than the inverter’s surge rating and shut it down. Bring circuits on one at a time, the biggest motor first."
+                        },
+                        {
+                            "type": "note",
+                            "tone": "warning",
+                            "text": "Never plug a power station, or a generator, into a wall, dryer or range outlet to feed the house. Switching off the main breaker first doesn’t make it safe."
+                        }
+                    ]
+                },
+                {
+                    "id": "extension-cords",
+                    "title": "The simplest safe option: extension cords",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Before you wire anything, consider not wiring anything. Run a heavy-duty extension cord from the power station to the refrigerator, another to a lamp and the Wi-Fi router, and plug a CPAP straight into the unit. Nothing touches the house wiring, so there is no backfeed, no permit and no electrician. Manalapan Township in New Jersey, for example, needs no permit for a generator that only feeds appliances through extension cords."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Cords stop working well when what you need is hard-wired: a furnace or boiler, a well pump, a sump pump on its own circuit, or ceiling lights. That is when transfer equipment is worth installing."
+                        }
+                    ]
+                },
+                {
+                    "id": "suicide-cord",
+                    "title": "Why a male-to-male cord is so dangerous",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "The idea behind a suicide cord is to push power backward through an ordinary outlet, so that it spreads through the house wiring from the panel, with the main breaker switched off to keep it out of the utility’s lines. Every part of that plan fails in a way that can hurt someone."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Live prongs in your hand"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A plug is made to take power, not give it: its prongs should be live only while they sit in a live outlet. A cord with two plugs turns that around: once one end is in the power station, the prongs on the other end are live and exposed, at the full 120 V. Touching them while you plug in, or dropping the cord into a puddle, gives a shock that can kill. The National Electrical Code forbids any arrangement in which a plug’s prongs are energized when they aren’t inserted in an outlet."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Power flowing out to the street"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "If the main breaker is on, or is switched back on by someone who doesn’t know the cord is there, the power flows out of the house to the utility’s transformer. The transformer normally steps thousands of volts down to the 240 V of your service. Fed from the house side, it works in reverse and puts thousands of volts on lines that crews believe are dead. The CPSC warns that backfeeding puts both utility workers and the neighbors on the same transformer at risk of electrocution."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The main breaker is the only thing standing between your cord and the line crew, and nothing makes anyone remember it. A transfer switch or interlock makes the mistake impossible instead of merely unlikely."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Damage when the grid comes back"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "When the utility restores power while the house is still connected to a backup source, the two supplies meet. New Jersey’s safety advisory warns that the generator and the house wiring may be severely damaged when that happens. A power station’s inverter is no more able to fight the grid than a generator."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Protection bypassed, and one circuit overloaded"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Fed backward, the house loses part of its protection: the CPSC notes that backfeeding bypasses some of the built-in circuit protection devices. Everything powered in the house also draws through the one outlet, the one branch circuit and the one cord that the power comes in on, none of which was chosen for that job."
+                        },
+                        {
+                            "type": "note",
+                            "tone": "warning",
+                            "text": "If you own a cord with plugs on both ends, stop using it. The CPSC says to throw it away, and not to touch its exposed prongs when you unplug it."
+                        }
+                    ]
+                },
+                {
+                    "id": "safe-options",
+                    "title": "The safe ways to connect: transfer switch, interlock or smart panel",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Every safe hookup does the same two things. It isolates the circuits it feeds from the utility before the power station can reach them, and it brings the power in through a power inlet, a recessed plug mounted on the house. The cord’s live end is always a socket, never prongs: you plug the cord’s socket end into the inlet first and its plug into the power station last."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Transfer equipment for a portable power station",
+                            "columns": [
+                                "Equipment",
+                                "How it works",
+                                "Good to know"
+                            ],
+                            "rows": [
+                                [
+                                    "Manual transfer switch",
+                                    "A small panel beside the main one, with a switch for each chosen circuit: LINE for the utility, GEN for the power station",
+                                    "Each circuit has its own breaker on the GEN side. Typically 4 to 10 circuits, chosen when it is installed"
+                                ],
+                                [
+                                    "Interlock kit with an inlet",
+                                    "A plate on the main panel that lets the main breaker or a backup breaker be on, never both. The power station feeds the panel through that backup breaker",
+                                    "Any circuit in the panel can be used, so you switch off the ones you don’t want. The kit must be made for your exact panel"
+                                ],
+                                [
+                                    "Maker’s smart panel",
+                                    "A transfer panel built for one maker’s power stations, which switches chosen circuits over by itself when the grid fails",
+                                    "Works only with that maker’s units. EcoFlow’s Smart Home Panel 2, for example, switches over in 20 ms"
+                                ]
+                            ],
+                            "note": "Automatic transfer switches for standby generators also start the generator. With a portable power station, automatic switching comes only from the makers’ own panels."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Interlocks are the cheapest option and the most flexible, because every circuit in the house is available. That is also their weakness: nothing stops you switching on the water heater by mistake, so you have to manage the load yourself. A manual transfer switch limits you to the circuits wired to it, and so makes overloading harder."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "One catch with transfer switches: in the GEN position a circuit is protected by the switch’s own breaker, not the one in the main panel. Reliance Controls, a common maker, warns that AFCI and GFCI protection is lost in GEN unless the switch is fitted with those breakers too. Ask your electrician to match them."
+                        }
+                    ]
+                },
+                {
+                    "id": "matching",
+                    "title": "Matching the power station to the hookup",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Before choosing the equipment, check four things about the power station."
+                        },
+                        {
+                            "type": "list",
+                            "ordered": true,
+                            "items": [
+                                "**Voltage.** Most power stations put out 120 V only. A few large units, or two linked together, put out 120/240 V, which a well pump on 240 V or any other 240 V circuit needs.",
+                                "**The outlet the cord plugs into.** A 120 V unit connects through a 30 A outlet if it has one (TT-30 or L5-30), good for 3,600 W. A 120/240 V unit typically uses an L14-30 outlet, good for 3,600 W on each of its two legs. A standard 20 A outlet carries only 2,400 W.",
+                                "**The maker’s approval.** The manual says whether the unit may feed a transfer switch or inlet, and which outlet and cord to use.",
+                                "**Its neutral.** Whether the unit’s neutral is bonded to its frame decides which kind of transfer equipment fits. The manual says, and the electrician matches them."
+                            ]
+                        },
+                        {
+                            "type": "note",
+                            "tone": "warning",
+                            "text": "Don’t feed both legs of a 120/240 V transfer switch or panel from a single 120 V outlet. Two circuits that share a neutral wire normally sit on opposite legs, so their currents cancel in the neutral. Fed from one source, the currents add, and the shared neutral can overheat without any breaker tripping. Reliance warns that a wrongly wired multi-wire circuit can overload the neutral."
+                        }
+                    ]
+                },
+                {
+                    "id": "startup-surge",
+                    "title": "Will it start your appliances? Calculating startup surge",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Through a transfer switch, a power station meets the loads most homeowners never think about: motors and compressors that start on their own, whenever a thermostat or float switch calls. For a split second as it starts, a motor draws several times its running power. If what is already running, plus that start, is more than the inverter’s surge rating, the power station shuts its output off and every circuit on it goes dark."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Running and starting watts of common home motors",
+                            "numeric": true,
+                            "columns": [
+                                "Appliance",
+                                "Running",
+                                "At the moment it starts"
+                            ],
+                            "rows": [
+                                [
+                                    "Refrigerator",
+                                    "150 W",
+                                    "750 W"
+                                ],
+                                [
+                                    "Chest freezer",
+                                    "100 W",
+                                    "500 W"
+                                ],
+                                [
+                                    "Boiler circulator pump",
+                                    "About 80 W",
+                                    "About 150 W"
+                                ],
+                                [
+                                    "Sump pump",
+                                    "750 W",
+                                    "1,500 W"
+                                ],
+                                [
+                                    "Well pump",
+                                    "1,000 W",
+                                    "2,100 W"
+                                ],
+                                [
+                                    "Window air conditioner",
+                                    "700 W",
+                                    "1,750 W"
+                                ],
+                                [
+                                    "Furnace blower, ½ hp",
+                                    "875 W",
+                                    "2,975 W"
+                                ]
+                            ],
+                            "note": "The calculator’s typical values, except the boiler pump, a Taco 007 rated 0.71 A at 115 V and started at the calculator’s 1.8 times for motors, and the furnace blower, from Reliance Controls’ sizing chart."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Charts differ a lot. The calculator starts a refrigerator at 750 W, while Reliance’s chart, written for sizing generators, allows a refrigerator or freezer 800 W running and 2,300 W more to start: 3,100 W in all. If a motor’s nameplate lists locked-rotor amps (LRA), multiply them by the voltage for its worst-case start. Otherwise the label, the manual or the maker settles it."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "One motor at a time"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Motors rarely start at the same instant, so the usual check is everything already running, plus the largest single extra draw of a motor starting, plus 10% because starting figures are estimates."
+                        },
+                        {
+                            "type": "equation",
+                            "caption": "Fridge, freezer, boiler pump, sump pump, lights and router, one motor starting at a time",
+                            "rows": [
+                                {
+                                    "label": "Everything running",
+                                    "value": "1,104 W"
+                                },
+                                {
+                                    "op": "+",
+                                    "label": "Extra draw as the sump pump starts, 1,500 W − 750 W",
+                                    "value": "750 W"
+                                },
+                                {
+                                    "op": "×",
+                                    "label": "Margin",
+                                    "value": "1.1"
+                                },
+                                {
+                                    "op": "=",
+                                    "label": "Surge output needed",
+                                    "value": "2,039 W"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Everything at once"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Now switch all those circuits over together, after a few hours without power. The fridge and freezer have warmed, so their compressors call at once, and the pumps may too. The power station has to supply every starting draw in the same moment."
+                        },
+                        {
+                            "type": "equation",
+                            "caption": "The same circuits switched on together",
+                            "rows": [
+                                {
+                                    "label": "Refrigerator starting",
+                                    "value": "750 W"
+                                },
+                                {
+                                    "op": "+",
+                                    "label": "Freezer starting",
+                                    "value": "500 W"
+                                },
+                                {
+                                    "op": "+",
+                                    "label": "Sump pump starting",
+                                    "value": "1,500 W"
+                                },
+                                {
+                                    "op": "+",
+                                    "label": "Boiler pump starting",
+                                    "value": "147 W"
+                                },
+                                {
+                                    "op": "+",
+                                    "label": "Lights and router",
+                                    "value": "22 W"
+                                },
+                                {
+                                    "op": "×",
+                                    "label": "Margin",
+                                    "value": "1.1"
+                                },
+                                {
+                                    "op": "=",
+                                    "label": "Surge output needed",
+                                    "value": "3,211 W"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "That is more than the 3,000 W of surge a typical 1,000 Wh power station has, though the same unit handles the same circuits easily when they come on one by one."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "What common sets of circuits ask of a power station",
+                            "numeric": true,
+                            "columns": [
+                                "Circuits",
+                                "Running",
+                                "Continuous output",
+                                "Surge, one motor at a time",
+                                "Surge, all starting together"
+                            ],
+                            "rows": [
+                                [
+                                    "Fridge, freezer, boiler pump, lights, router",
+                                    "354 W",
+                                    "450 W",
+                                    "1,049 W",
+                                    "1,561 W"
+                                ],
+                                [
+                                    "The same, plus a sump pump",
+                                    "1,104 W",
+                                    "1,400 W",
+                                    "2,039 W",
+                                    "3,211 W"
+                                ],
+                                [
+                                    "Fridge, ½ hp furnace blower, lights, router",
+                                    "1,047 W",
+                                    "1,350 W",
+                                    "3,462 W",
+                                    "4,122 W"
+                                ],
+                                [
+                                    "Well pump, fridge, lights, router",
+                                    "1,172 W",
+                                    "1,500 W",
+                                    "2,499 W",
+                                    "3,159 W"
+                                ]
+                            ],
+                            "note": "Continuous output is 1.25 times what runs for hours, the calculator’s headroom. Both surge columns include a 10% margin. Many well pumps run on 240 V, which most power stations can’t supply."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Read the table against the ratings. A typical 1,000 Wh power station is rated 1,500 to 2,000 W continuous with about 3,000 W of surge. A 2,000 Wh unit is rated about 2,200 to 2,400 W, with 4,000 to 4,400 W of surge. The largest single units reach 3,600 to 4,000 W, with 7,200 to 8,000 W of surge."
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "**Fridge, freezer and boiler** are easy: any of them starts that set, even all at once. A boiler’s circulator pump is one of the lightest motors in the house, though the boiler’s rating plate also lists its controls and fan.",
+                                "**Adding a sump pump** fits a 1,000 Wh unit only if the motors start one at a time.",
+                                "**A furnace blower** of ½ hp needs a 2,000 Wh-class unit or larger, by Reliance’s figures. Smaller blowers start with less, by the same chart, so check the size of yours.",
+                                "**A well pump** usually needs a 240 V unit before its watts even matter."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Heating appliances push the continuous number instead. Add a 1,100 W microwave to the fridge, freezer, boiler pump and sump pump, and the inverter needs about 2,450 W of continuous output. The [buying guide](/guides/how-to-choose-portable-power-station#how-to-choose-portable-power-station-output) explains both ratings in more detail, and [the calculator](/calculator/use-case) runs these sums on your own appliances."
+                        }
+                    ]
+                },
+                {
+                    "id": "circuits",
+                    "title": "Choosing which circuits to back up",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Pick the circuits for what they carry, not where they are. A kitchen outlet circuit that feeds the refrigerator may also feed the toaster and the kettle."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Circuits for a power station, and circuits to leave out",
+                            "columns": [
+                                "Usually worth it",
+                                "Usually leave out"
+                            ],
+                            "rows": [
+                                [
+                                    "Refrigerator and freezer",
+                                    "Electric water heater"
+                                ],
+                                [
+                                    "Boiler or gas furnace controls and blower",
+                                    "Electric range, oven and cooktop"
+                                ],
+                                [
+                                    "Sump pump",
+                                    "Clothes dryer"
+                                ],
+                                [
+                                    "A few lights",
+                                    "Central air conditioning and heat pumps"
+                                ],
+                                [
+                                    "Internet, a TV, phone chargers",
+                                    "Electric baseboard or space heating"
+                                ],
+                                [
+                                    "A medical device outlet",
+                                    "Well pumps on 240 V, unless the unit supplies 240 V"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Everything in the right-hand column runs on 240 V, makes heat, or both. A single appliance that draws more than about 3,600 W is a sign it belongs on a home battery or a standby generator, not a portable power station."
+                        }
+                    ]
+                },
+                {
+                    "id": "installation",
+                    "title": "Step by step: getting it installed",
+                    "blocks": [
+                        {
+                            "type": "list",
+                            "ordered": true,
+                            "items": [
+                                "**List the circuits you need** and what each one carries, using the table above.",
+                                "**Work out running and starting watts** for those circuits, as in the calculations above, and check them against the power station’s continuous and surge ratings.",
+                                "**Check the power station:** its output voltage, the outlet the cord will come from, whether its maker approves connecting it to transfer equipment, and whether its neutral is bonded.",
+                                "**Ask your building department** what it requires for your address: a permit, an inspection, and any rules on the type of transfer equipment.",
+                                "**Hire a licensed electrician.** The electrician fits the transfer switch, interlock or smart panel, the power inlet and the right cord; pairs any circuits that share a neutral; and matches the AFCI and GFCI protection.",
+                                "**Have it inspected,** where your town requires it.",
+                                "**Test it on a clear day,** with the power station charged: switch over, check every circuit, and label the switches."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "outage",
+                    "title": "Step by step: switching over in an outage",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "This is the sequence for a manual transfer switch. The power station can sit indoors next to the inlet, since it makes no exhaust."
+                        },
+                        {
+                            "type": "list",
+                            "ordered": true,
+                            "items": [
+                                "**Set every circuit switch to LINE.** Nothing is connected to the power station yet.",
+                                "**Connect the cord to the inlet first,** socket end on the inlet, then plug the other end into the power station, with its AC output switched off.",
+                                "**Switch on the power station’s AC output.**",
+                                "**Move circuits to GEN one at a time, the biggest motor first.** Wait for each motor to start and settle before the next, so their starting draws never stack.",
+                                "**Watch the display.** Keep the steady draw under about 80% of the continuous rating, and leave heating appliances off.",
+                                "**If the power station shuts off,** move every circuit back to LINE, reset it, and bring the circuits back one by one, starting with fewer of them."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "With an interlock, the order is the same in spirit: switch off the main breaker, slide the interlock across, switch on the backup breaker, then switch on the branch circuits you need one at a time."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "When the grid comes back"
+                        },
+                        {
+                            "type": "list",
+                            "ordered": true,
+                            "items": [
+                                "Move every circuit back to LINE, or with an interlock, switch off the backup breaker, slide the interlock back and switch the main breaker on.",
+                                "Switch off the power station’s AC output.",
+                                "Unplug the cord at the power station first, then at the inlet.",
+                                "Recharge the power station for the next outage."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "legal",
+                    "title": "Legal considerations",
+                    "blocks": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "**Transfer equipment is required.** The National Electrical Code, the model code that US states and towns adopt, requires transfer equipment for any optional standby source connected to a building’s wiring, fixed or portable, so that it can never be connected to the utility at the same time.",
+                                "**Live plug prongs are forbidden.** The same code says a plug’s prongs must not be energized unless they are inserted into an energized outlet or connector, which rules out any cord with plugs on both ends.",
+                                "**The cords themselves are under fire.** In March 2026 the CPSC warned consumers to stop using male-to-male extension cords and secured commitments from Walmart, eBay and AliExpress to delist them.",
+                                "**Connecting to the house is permitted work.** Manalapan Township in New Jersey, for example, requires a transfer switch or an interlock with an inlet, an electrical permit, and installation by a licensed electrical contractor or by the owner of a single-family home living in it. Rules differ by town, so ask yours.",
+                                "**The equipment has to be installed by the book.** Reliance Controls requires its transfer switches to be installed by a qualified electrician in line with all applicable codes, and power station makers say the same of their panels."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A permit and an inspection cost far less than a house fire or an injured lineworker, and they are the one way to know the work was checked by someone other than the person who did it."
+                        }
+                    ]
+                },
+                {
+                    "id": "checklist",
+                    "title": "A safety checklist",
+                    "blocks": [
+                        {
+                            "type": "list",
+                            "ordered": true,
+                            "items": [
+                                "**No cord with plugs on both ends** is in the house.",
+                                "**Transfer equipment** is installed: a manual transfer switch, a listed interlock with an inlet, or the maker’s own panel.",
+                                "**A licensed electrician** did the work, under a permit where your town requires one.",
+                                "**The power station** is approved by its maker for the hookup, with the right outlet, cord and voltage.",
+                                "**Shared-neutral circuits** are paired and tied, or kept off the power station.",
+                                "**Continuous output** covers 1.25 times what runs for hours, and surge output covers everything running plus the biggest motor’s start.",
+                                "**Circuits come on one at a time,** the biggest motor first.",
+                                "**Heating and 240 V appliances** stay off the power station unless it is sized and wired for them.",
+                                "**The switch-back routine** is posted next to the transfer switch, so anyone in the house can follow it."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "sources": [
+                {
+                    "title": "CPSC Warns Consumers to Stop Using Male-to-Male Extension Cords, Secures Delisting Commitments from e-Commerce Platforms",
+                    "publisher": "US Consumer Product Safety Commission",
+                    "url": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Warns-Consumers-to-Stop-Using-Male-to-Male-Extension-Cords-Secures-Delisting-Commitments-from-e-Commerce-Platforms"
+                },
+                {
+                    "title": "Portable Generator Hazards, safety alert",
+                    "publisher": "US Consumer Product Safety Commission",
+                    "url": "https://www.cpsc.gov/s3fs-public/5123_SafetyAlert_PortableGenerators_102021.pdf"
+                },
+                {
+                    "title": "Portable Generators",
+                    "publisher": "Lake Country Power",
+                    "url": "https://lakecountrypower.coop/portable-generators"
+                },
+                {
+                    "title": "Christie Administration Issues Generator Safety Advisory Ahead of Hurricane Sandy",
+                    "publisher": "New Jersey Department of Community Affairs",
+                    "url": "https://nj.gov/dca/news/news/2012/approved/20121026.html"
+                },
+                {
+                    "title": "Installation and Operating Instructions, Manual Transfer Switches",
+                    "publisher": "Reliance Controls",
+                    "url": "https://images.thdstatic.com/catalog/pdfImages/ae/ae38e2fe-f5f8-49a2-9af0-c6297e29ff77.pdf"
+                },
+                {
+                    "title": "Generator Questions",
+                    "publisher": "Manalapan Township, New Jersey",
+                    "url": "https://www.mtnj.org/wp-content/uploads/2023/03/Generator_FAQ.pdf"
+                },
+                {
+                    "title": "Illustrated Catastrophes: This Service Needs Servicing",
+                    "publisher": "EC&M",
+                    "url": "https://www.ecmweb.com/national-electrical-code/violations/article/20899294/illustrated-catastrophes-this-service-needs-servicing"
+                },
+                {
+                    "title": "NEC Requirements for Generators and Standby Power Systems",
+                    "publisher": "Mike Holt Enterprises",
+                    "url": "https://windsorlocksct.org/wp-content/uploads/2020/09/generator_requirements.pdf"
+                },
+                {
+                    "title": "Article 702, Optional Standby Systems, and Section 406.7, attachment plugs",
+                    "publisher": "National Electrical Code (NFPA 70)"
+                },
+                {
+                    "title": "EcoFlow Smart Home Panel 2",
+                    "publisher": "EcoFlow",
+                    "url": "https://www.ecoflow.com/us/smart-home-panel-2"
+                },
+                {
+                    "title": "Model 007 Cartridge Circulator, submittal data",
+                    "publisher": "Taco Comfort Solutions",
+                    "url": "https://images.homedepot-static.com/catalog/pdfImages/0b/0b74a60a-5f16-4c22-9b69-8e856e314542.pdf"
+                },
+                {
+                    "title": "Power station dataset: capacity, output, weight, cycle life and price of current models",
+                    "publisher": "GalaxyAX/power-station",
+                    "url": "https://github.com/GalaxyAX/power-station"
+                }
+            ]
         }
     ]
 }
