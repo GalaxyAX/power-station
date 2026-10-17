@@ -2442,6 +2442,670 @@
                     "url": "https://www.pveducation.org/pvcdrom/solar-cell-operation/effect-of-temperature"
                 }
             ]
+        },
+        {
+            "id": "power-station-for-camping",
+            "title": "How to Choose the Best Power Station for Camping",
+            "summary": "The best power station for camping is the smallest one that keeps your fridge, lights and devices going until you can recharge it. This guide shows how to size one for your trip, and what to check for weight, solar, cold, rain and campground rules.",
+            "image": "https://images.unsplash.com/photo-1681263869035-af6dae276097?auto=format&fit=crop&w=2000&q=80",
+            "imageAlt": "A camper in a hooded sweatshirt sits in a folding chair with a mug next to a yellow tent and a wheeled power station, with snow-capped mountains and an orange expedition truck behind them.",
+            "published": "2026-10-17",
+            "updated": "2026-10-17",
+            "sections": [
+                {
+                    "id": "short-answer",
+                    "title": "The short answer",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "For a weekend of car camping with a 12 V fridge, lights and phones, look for about 1,500 Wh of capacity. One night of CPAP takes about 500 Wh. For a week or more, a battery big enough to last on its own gets too heavy to carry, so pair a unit of about 750 Wh with 200 W of solar panel instead."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Then check four things. The fridge and gadgets should run from the 12 V and USB-C ports, so no power is wasted in the inverter. You should be able to carry it, which for most people means about 30 lb or less. Its solar input should fit the panels you plan to bring. And the battery should be lithium iron phosphate (LFP), which lasts thousands of cycles."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "What common camping trips need",
+                            "columns": [
+                                "Trip",
+                                "What runs",
+                                "Capacity"
+                            ],
+                            "rows": [
+                                [
+                                    "A night out, 24 hours",
+                                    "LED lights, phone",
+                                    "150 Wh"
+                                ],
+                                [
+                                    "One night with a CPAP",
+                                    "CPAP for 8 hours",
+                                    "490 Wh"
+                                ],
+                                [
+                                    "A remote workday at camp, 24 hours",
+                                    "Laptop, Starlink Mini, phone, 12 V fridge, lights",
+                                    "1,500 Wh"
+                                ],
+                                [
+                                    "A weekend, 48 hours",
+                                    "12 V fridge, lights, phone",
+                                    "1,500 Wh"
+                                ],
+                                [
+                                    "A long weekend, 72 hours",
+                                    "12 V fridge, lights, phone",
+                                    "2,200 Wh"
+                                ],
+                                [
+                                    "A weekend with a CPAP",
+                                    "12 V fridge, lights, phone, CPAP",
+                                    "2,400 Wh"
+                                ],
+                                [
+                                    "A week with solar",
+                                    "12 V fridge, lights, phone",
+                                    "730 Wh, with 200 W of panel"
+                                ]
+                            ],
+                            "note": "Worked with the calculator’s default devices in mild weather, with losses and a 20% reserve included. Every trip but the last runs on one full charge. The last counts on average sun to refill the battery each day."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "[The calculator](/calculator/use-case) works this out for your own gear: choose Outdoor, add your devices and say how long the trip lasts."
+                        }
+                    ]
+                },
+                {
+                    "id": "what-size",
+                    "title": "What size power station do you need for camping?",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "The size comes from what you plug in and how long it has to last before you can recharge it. Three steps get you there:"
+                        },
+                        {
+                            "type": "list",
+                            "ordered": true,
+                            "items": [
+                                "**List your gear and its watts.** The figure is on the label or the charger. A 12 V fridge, a CPAP, lights and phones cover most camping trips.",
+                                "**Work out a day of use.** Multiply each device’s watts by the hours it runs. For a fridge, count only the share of the day its compressor actually runs.",
+                                "**Multiply by the days until you recharge, then by 1.5.** The extra half covers what is lost on the way out of the battery and keeps a reserve in it."
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "caption": "A day of camping gear",
+                            "numeric": true,
+                            "columns": [
+                                "Device",
+                                "Watts",
+                                "Hours a day",
+                                "Energy a day"
+                            ],
+                            "rows": [
+                                [
+                                    "12 V fridge",
+                                    "45 W",
+                                    "24 h at 40%",
+                                    "432 Wh"
+                                ],
+                                [
+                                    "CPAP",
+                                    "40 W",
+                                    "8 h",
+                                    "320 Wh"
+                                ],
+                                [
+                                    "Starlink Mini",
+                                    "40 W",
+                                    "8 h",
+                                    "320 Wh"
+                                ],
+                                [
+                                    "Laptop",
+                                    "60 W",
+                                    "4 h",
+                                    "240 Wh"
+                                ],
+                                [
+                                    "Projector",
+                                    "80 W",
+                                    "3 h",
+                                    "240 Wh"
+                                ],
+                                [
+                                    "Speaker",
+                                    "40 W",
+                                    "4 h",
+                                    "160 Wh"
+                                ],
+                                [
+                                    "Drone charger",
+                                    "65 W",
+                                    "1.5 h",
+                                    "98 Wh"
+                                ],
+                                [
+                                    "LED lights",
+                                    "10 W",
+                                    "5 h",
+                                    "50 Wh"
+                                ],
+                                [
+                                    "Camera charger",
+                                    "10 W",
+                                    "3 h",
+                                    "30 Wh"
+                                ],
+                                [
+                                    "Phone",
+                                    "20 W",
+                                    "1.5 h",
+                                    "30 Wh"
+                                ]
+                            ],
+                            "note": "These are the values the calculator starts from. Your own devices may use more or less, so check their labels."
+                        },
+                        {
+                            "type": "equation",
+                            "caption": "A weekend with a 12 V fridge, lights and a phone",
+                            "rows": [
+                                {
+                                    "label": "Energy the devices use in a day",
+                                    "value": "512 Wh"
+                                },
+                                {
+                                    "op": "×",
+                                    "label": "Days until you recharge",
+                                    "value": "2"
+                                },
+                                {
+                                    "op": "×",
+                                    "label": "Losses and reserve, as a quick rule",
+                                    "value": "1.5"
+                                },
+                                {
+                                    "op": "=",
+                                    "label": "Capacity to shop for",
+                                    "value": "1,536 Wh"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The calculator’s full sum for the same weekend comes to 1,455 Wh, so a unit of about 1,500 Wh is the right size. The [buying guide](/guides/how-to-choose-portable-power-station#how-to-choose-portable-power-station-capacity) walks through every step of that sum."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Watts matter less at camp than at home. Almost nothing on a camping list draws much, so even a small unit’s output covers it. The exceptions are the things that make heat: a kettle, a coffee maker, a hair dryer or an electric cooktop. Those decide the size of the inverter, as the section on cooking shows."
+                        }
+                    ]
+                },
+                {
+                    "id": "fridge",
+                    "title": "How long will a power station run a 12 V fridge?",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "A compressor fridge is the biggest steady load on most camping trips, and the main reason campers outgrow a power bank. Its compressor draws about 45 W while it runs, but it runs only part of the time, more on a hot day and less on a cool one."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Makers rate these fridges by average current. Dometic gives its CFX3 45 as 1.03 Ah per hour at 90 °F outside with 39 °F inside, which comes to about 300 Wh a day at 12 V."
+                        },
+                        {
+                            "type": "equation",
+                            "caption": "A Dometic CFX3 45 on a hot day, by its maker’s figure",
+                            "rows": [
+                                {
+                                    "label": "Average current",
+                                    "value": "1.03 A"
+                                },
+                                {
+                                    "op": "×",
+                                    "label": "Voltage",
+                                    "value": "12 V"
+                                },
+                                {
+                                    "op": "×",
+                                    "label": "Hours",
+                                    "value": "24 h"
+                                },
+                                {
+                                    "op": "=",
+                                    "label": "Energy a day",
+                                    "value": "297 Wh"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The calculator counts more, 432 Wh a day, with the compressor running 40% of the time. That leaves room for a fridge filled with warm drinks, a lid that opens often and a car that heats up in the sun."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Days a 12 V fridge runs on one charge",
+                            "numeric": true,
+                            "columns": [
+                                "Power station",
+                                "From the 12 V socket",
+                                "From an AC outlet"
+                            ],
+                            "rows": [
+                                [
+                                    "500 Wh",
+                                    "1.0 days",
+                                    "0.8 days"
+                                ],
+                                [
+                                    "1,000 Wh",
+                                    "2.0 days",
+                                    "1.6 days"
+                                ],
+                                [
+                                    "1,500 Wh",
+                                    "3.1 days",
+                                    "2.4 days"
+                                ],
+                                [
+                                    "2,000 Wh",
+                                    "4.1 days",
+                                    "3.2 days"
+                                ]
+                            ],
+                            "note": "A 45 W fridge running 40% of the day, with 95% of the rated capacity usable and the battery run down to empty. Through an AC outlet, the inverter loses about 8% and draws 5 W of its own around the clock."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Plug the fridge into the 12 V socket, not an AC outlet. Through the inverter it loses more power and keeps the inverter switched on all day: for one day of fridge alone, the calculator asks for 590 Wh of capacity on 12 V and 750 Wh on AC."
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Chill the fridge and everything in it at home on wall power the night before. Cooling warm food and drinks is the hardest work it does.",
+                                "Keep it in the shade with room around its vents, and open it less often.",
+                                "Keep it at 40 °F or a little below, the limit for food safety, but no colder than you need.",
+                                "A thermoelectric cooler, the cheaper kind without a compressor, runs nonstop instead of cycling and can only cool so far below the outside air. On a battery it seldom saves energy, and it keeps food less cold."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "cpap",
+                    "title": "Can a power station run a CPAP while camping?",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Yes, and it is one of the most common reasons campers buy one. The calculator counts a CPAP at 40 W for 8 hours, 320 Wh a night. With losses and a reserve, one night calls for about 490 Wh through an AC outlet and 440 Wh on a 12 V cable. Three nights call for about 1,500 Wh and 1,350 Wh."
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "**Use a DC cable if your machine has one.** ResMed sells a DC converter for its AirSense 10 and 11 that runs the machine from a 12 V or 24 V source, which skips the inverter and its losses.",
+                                "**The humidifier and heated tube are the big draw.** ResMed’s own battery run times don’t apply when they are in use. Ask your doctor before you change your settings to save power.",
+                                "**Test a full night at home first,** on the power station, with the settings you will use at camp. The display shows what the machine really draws.",
+                                "**Keep enough for a second night,** in case the next day is cloudy or you can’t recharge."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "cooking-and-heat",
+                    "title": "Can you cook, boil water or heat a tent with a power station?",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "You can, but heat is the most expensive thing to ask of a battery. A kettle, coffee maker or cooktop draws 900 to 1,800 W, so it sets the size of the inverter as well as using up capacity."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Heating appliances at camp",
+                            "columns": [
+                                "Appliance",
+                                "Draws",
+                                "Continuous output it needs",
+                                "Energy per use"
+                            ],
+                            "rows": [
+                                [
+                                    "Coffee maker",
+                                    "900 W",
+                                    "About 1,000 W",
+                                    "225 Wh for a 15-minute brew"
+                                ],
+                                [
+                                    "Electric kettle",
+                                    "1,500 W",
+                                    "About 1,700 W",
+                                    "About 120 Wh to boil a liter"
+                                ],
+                                [
+                                    "Induction cooktop",
+                                    "1,800 W",
+                                    "About 2,000 W",
+                                    "900 Wh for 30 minutes at full power"
+                                ],
+                                [
+                                    "Space heater",
+                                    "1,500 W",
+                                    "About 1,900 W",
+                                    "1,500 Wh for an hour at full power"
+                                ]
+                            ],
+                            "note": "Output with the calculator’s margins: 10% on top for short use, 25% for a heater that runs for hours. From the battery, add about 8% for the inverter."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Boiling a liter of cold water takes about 120 Wh, roughly five minutes at 1,500 W, so a 1,500 Wh power station can make coffee or tea every morning of a weekend, if its inverter is big enough. Cooking whole meals is another matter. A camp stove does that better, outdoors, and leaves the battery for the fridge."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Heating a tent doesn’t work on a battery. At full power a space heater empties 1,000 Wh in about 35 minutes. Rely on your sleeping bag and warm clothes instead. A heated blanket or pad, which uses tens of watts instead of a heater’s 1,500 W, is the one kind of electric heat that makes sense on a power station."
+                        },
+                        {
+                            "type": "note",
+                            "tone": "warning",
+                            "text": "Never run a fuel-burning stove, heater, lantern or generator inside a tent or camper, even with the door open. They give off carbon monoxide, which is most dangerous to people asleep. A power station burns no fuel and is safe inside the tent."
+                        }
+                    ]
+                },
+                {
+                    "id": "recharging",
+                    "title": "How to recharge a power station while camping",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "How you recharge decides the size more than anything else. A week of a 12 V fridge, lights and a phone on one charge takes about 5,100 Wh, a unit of well over 100 lb. With 200 W of solar panel in average sun, a unit of about 730 Wh does the same job, because the panel refills each day what the battery gave."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Solar panels"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A portable panel puts about three times its rated watts into the battery on an average day, counted in watt-hours: 630 Wh from a 200 W panel, about 350 Wh in limited sun, and a quarter of a typical day under heavy cloud. For the fridge, lights and phone above, about 200 W of panel keeps up in average sun and about 350 W in limited sun."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Many campsites sit under trees, and shade costs a panel far more than its size suggests. Put the panel in the sunniest open spot you can reach, and turn it to follow the sun two or three times a day. The [guide to aiming a panel](/guides/solar-panel-direction-and-tilt#solar-panel-direction-and-tilt-portable) shows how."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Before you buy panels, check the power station’s solar input: its maximum watts, the voltage range it accepts and its connector. The [solar charging guide](/guides/solar-panel-charging-power-station#solar-panel-charging-power-station-matching-panels) shows how to match them."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "The car"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A 12 V socket gives about 100 W, so a four-hour drive puts back at most about 400 Wh: enough to top up a small unit, not to refill a large one. Alternator chargers, wired to the car’s battery, deliver 500 to 800 W while the engine runs."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "An electric car with a household outlet, often called vehicle-to-load or V2L, charges a power station as a wall outlet would. The calculator lists the cars whose makers confirm such an outlet and checks each power station against it."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Campground power"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "At a site with an electric hookup, plug the power station’s charger into the pedestal’s regular 120 V outlet and recharge as you would at home. Many current units refill 1,000 Wh in about an hour."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "A generator"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Where generators are allowed, an hour or two a day refills a power station, and the battery carries the quiet hours. Parks limit when they may run: Yosemite allows generators only from 7 to 9 a.m., noon to 2 p.m. and 5 to 7 p.m. Use an inverter generator, since most power stations need clean power to charge."
+                        }
+                    ]
+                },
+                {
+                    "id": "weight",
+                    "title": "How heavy a power station can you carry?",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Weight comes with capacity: current LFP units weigh 20 to 30 lb for every 1,000 Wh. So decide first how far you will carry it."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Weight, and what each size covers at camp",
+                            "columns": [
+                                "Capacity",
+                                "Typical weight",
+                                "What it covers"
+                            ],
+                            "rows": [
+                                [
+                                    "About 300 Wh",
+                                    "About 8 lb",
+                                    "Lights, phones and a camera for a night or two"
+                                ],
+                                [
+                                    "About 500 Wh",
+                                    "12 to 20 lb",
+                                    "One night of CPAP"
+                                ],
+                                [
+                                    "About 1,000 Wh",
+                                    "About 25 lb",
+                                    "Two nights of CPAP, or a week of 12 V fridge, lights and phone with 200 W of solar"
+                                ],
+                                [
+                                    "About 1,500 Wh",
+                                    "About 35 lb",
+                                    "A weekend of 12 V fridge, lights and phone"
+                                ],
+                                [
+                                    "2,000 to 3,000 Wh",
+                                    "40 to 85 lb",
+                                    "A long weekend, or a weekend with a CPAP"
+                                ]
+                            ],
+                            "note": "Weights of LFP models on sale in 2026, from makers’ specifications. What each size covers uses the calculator’s default devices in mild weather."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "About 30 lb is comfortable to carry in one hand from the car to the campsite. Above that, look for wheels and a pull handle, or plan on a cart for walk-in sites. If you camp from the car or an RV and the unit stays put, weight matters much less."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "For backpacking, leave the power station at home. A 20,000 mAh power bank stores about 74 Wh, enough for several phone charges, and fits in a pocket. It is also the only kind of battery you can fly with: airline rules cap lithium-ion batteries at 100 Wh, or 160 Wh with the airline’s approval."
+                        }
+                    ]
+                },
+                {
+                    "id": "ports",
+                    "title": "Which ports matter at camp",
+                    "blocks": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "**A 12 V car socket** for the fridge. Most give up to about 120 W, plenty for a fridge, a tire inflator or a 12 V heated blanket. If a CPAP will also run on 12 V, count the 12 V outputs.",
+                                "**USB-C ports of 60 to 100 W** for phones, laptops, cameras and lights. A Starlink Mini can run from USB-C too, but only from a port that delivers 100 W, and with Starlink’s own USB-C cable.",
+                                "**AC outlets** only for what needs them: a drone or e-bike charger, a projector, a coffee maker. Switch them off when nothing is plugged in, since the inverter uses power just by being on.",
+                                "**A screen that shows watts in and out** and the time left. At camp it is the only way to know whether the solar panel is keeping up."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "weather",
+                    "title": "Cold, heat, rain and dust",
+                    "blocks": [
+                        {
+                            "type": "heading",
+                            "text": "Cold"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A battery gives back less in the cold: about 90% of its rated capacity between 32 and 50 °F, and about 80% below freezing. Most LFP units also refuse to charge below 32 °F, so on a frosty morning the solar panel does nothing until the battery warms up. For a weekend with the fridge, lights and phone, the calculator asks for 1,500 Wh in mild weather, 1,650 Wh in cool weather and 1,850 Wh below freezing."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "At night, keep the power station in the tent or the car, off the cold ground. If you camp in real cold, sodium-ion units charge down to 5 °F and run down to −13 °F, at the cost of extra weight. The [buying guide](/guides/how-to-choose-portable-power-station#how-to-choose-portable-power-station-battery) compares the battery types."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Heat"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Most units are rated to run up to about 104 to 113 °F. A closed car in summer sun gets far hotter than that, so don’t leave the power station in one. At camp, keep the unit in the shade and let only the panel sit in the sun."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Rain, sand and dust"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Most power stations have no protection against water or dust. Keep yours under the vestibule, an awning or the tailgate, off wet ground and out of blowing sand. A few camping models carry an IP65 rating, which means dust-tight and protected against low-pressure jets of water. Even those aren’t meant to sit out in the rain or in a puddle."
+                        }
+                    ]
+                },
+                {
+                    "id": "noise-and-rules",
+                    "title": "Noise and campground rules",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "A power station is silent except for its fans, which spin up when it charges fast or runs a heavy load. If it charges overnight next to your tent, set a slow charging speed in the app."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Generators are a different story. National parks forbid generators louder than 60 dB, measured at 50 feet, and campgrounds set hours for the quiet ones. In Yosemite that means three two-hour windows a day, and never during quiet hours from 10 p.m. to 6 a.m. Some campgrounds keep separate loops for sites that run generators."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Those rules are written for engines. A power station has no engine noise and no exhaust, so it can keep the fridge and a CPAP running through the night. Each campground can add its own rules, so read them before you go."
+                        }
+                    ]
+                },
+                {
+                    "id": "other-checks",
+                    "title": "What else to check",
+                    "blocks": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "**Battery type.** LFP lasts 3,000 cycles or more and is now standard. A lighter NMC unit can still make sense if you carry it on foot and use it a few times a year.",
+                                "**Solar input.** Enough watts for the panels you plan to carry, a voltage range that fits them, and a connector you have a cable for.",
+                                "**Wall charging speed.** A fast charger lets you top up at home the morning you leave, or at a campground outlet in an hour or two.",
+                                "**Pass-through charging.** Running the fridge while the panel charges the battery is how a camp setup normally works, and most units do it.",
+                                "**Safety and warranty.** A UL 2743 listing, no open recall, and a warranty of three to five years.",
+                                "**Price per watt-hour.** Divide the price by the capacity to compare units of different sizes."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The [buying guide](/guides/how-to-choose-portable-power-station) covers each of these in detail."
+                        }
+                    ]
+                },
+                {
+                    "id": "before-you-go",
+                    "title": "Before you go",
+                    "blocks": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "Charge it full at home, and chill the fridge on wall power the night before.",
+                                "Run your real setup for a night at home: the fridge, the CPAP, the lights. The display tells you what a night actually costs.",
+                                "Pack the cables: the 12 V cord for the fridge, the CPAP’s DC cable, the panel’s adapter cable and the AC charger.",
+                                "Plan where everything goes at camp: the panel in the sun, the power station in the shade and out of the rain."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "checklist",
+                    "title": "A camping checklist before you buy",
+                    "blocks": [
+                        {
+                            "type": "list",
+                            "ordered": true,
+                            "items": [
+                                "**Capacity** covers your gear until you can recharge, with about half again on top: about 1,500 Wh for a weekend with a 12 V fridge, about 500 Wh for a night of CPAP.",
+                                "**Recharging** is planned: solar watts and voltage that fit the input, or a way to charge from the car or a campground outlet.",
+                                "**A 12 V socket and USB-C ports** cover the fridge and electronics, so the inverter can stay off.",
+                                "**Output** covers the largest heating appliance you will bring, or that appliance stays at home.",
+                                "**Weight** is about 30 lb or less if you will carry it, or the unit has wheels.",
+                                "**The battery** is LFP, and you have a plan for cold nights: the unit sleeps in the tent or the car.",
+                                "**Shelter** is ready: somewhere dry to put it, or an IP rating if it has to sit outside.",
+                                "**Safety** is covered: a UL 2743 listing, no open recall, and a warranty of three to five years."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "sources": [
+                {
+                    "title": "Campground Regulations, Yosemite National Park",
+                    "publisher": "US National Park Service",
+                    "url": "https://www.nps.gov/yose/planyourvisit/campregs.htm"
+                },
+                {
+                    "title": "36 CFR § 2.12, Audio disturbances",
+                    "publisher": "Legal Information Institute, Cornell Law School",
+                    "url": "https://www.law.cornell.edu/cfr/text/36/2.12"
+                },
+                {
+                    "title": "Carbon Monoxide Poisoning Deaths Associated with Camping, Georgia, March 1999",
+                    "publisher": "US Centers for Disease Control and Prevention, MMWR",
+                    "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm4832a1.htm"
+                },
+                {
+                    "title": "Portable Heaters & Camping Equipment",
+                    "publisher": "US Consumer Product Safety Commission",
+                    "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center/Portable-Heaters--Camping-Equipment"
+                },
+                {
+                    "title": "Dometic CFX3 45, specifications",
+                    "publisher": "Dometic",
+                    "url": "https://www.dometic.com/en/product/dometic-cfx3-45-9620009573"
+                },
+                {
+                    "title": "How do I calculate how much power a CFX3 will draw?",
+                    "publisher": "Dometic",
+                    "url": "https://support.dometic.com/en/cfx-coolers/How-do-I-calculate-how-much-power-a-CFX3-will-draw-c6cc"
+                },
+                {
+                    "title": "Air Solutions troubleshooting guide",
+                    "publisher": "ResMed",
+                    "url": "https://document.resmed.com/documents/products/serviceandsupport/air-solutions-troubleshooting-guide/Air%20Solutions%20Troubleshooting%20Guide%20AMER%20Eng.pdf"
+                },
+                {
+                    "title": "Starlink Mini specification sheet",
+                    "publisher": "Starlink",
+                    "url": "https://starlink.com/public-files/specification_sheet_mini.pdf"
+                },
+                {
+                    "title": "Food Safety During Power Outage",
+                    "publisher": "FoodSafety.gov, US Department of Health and Human Services",
+                    "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage"
+                },
+                {
+                    "title": "PackSafe: Lithium Batteries",
+                    "publisher": "Federal Aviation Administration",
+                    "url": "https://www.faa.gov/hazmat/packsafe/lithium-batteries"
+                },
+                {
+                    "title": "Pioneer Na sodium-ion portable power station, specifications",
+                    "publisher": "BLUETTI",
+                    "url": "https://www.bluettipower.com/products/sodium-ion-battery-pioneer-na"
+                },
+                {
+                    "title": "Power station dataset: capacity, output, weight, cycle life and price of current models",
+                    "publisher": "GalaxyAX/power-station",
+                    "url": "https://github.com/GalaxyAX/power-station"
+                }
+            ]
         }
     ]
 }
