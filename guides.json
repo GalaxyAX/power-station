@@ -3691,6 +3691,566 @@
                     "url": "https://github.com/GalaxyAX/power-station"
                 }
             ]
+        },
+        {
+            "id": "solar-panel-and-power-station-degradation",
+            "title": "Solar Panel and Portable Power Station Degradation: How Long Does It Really Take for a Battery to Lose 20% of Its Capacity?",
+            "summary": "A rating of 3,000 cycles to 80% is measured in a lab. This guide shows how heat, a full charge, time, bending, dust and shade wear down power stations and solar panels in real use, how long each really lasts, and how to make yours last longer.",
+            "image": "https://images.unsplash.com/photo-1694248581706-a645f65a2f27?auto=format&fit=crop&w=2000&q=80",
+            "imageAlt": "Close-up of a row of rooftop solar panels in low, warm sunlight, with specks of dust scattered across the glass over the cells.",
+            "published": "2026-10-19",
+            "updated": "2026-10-19",
+            "sections": [
+                {
+                    "id": "short-answer",
+                    "title": "The short answer",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "A power station with a lithium iron phosphate (LFP) battery, used every day at room temperature, reaches 80% of its capacity after about 3,000 cycles, roughly 8 years. That is what most makers promise. Used a few times a month and stored cool at half charge, it wears out far more slowly, and time, not use, sets the pace."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Heat and a full charge change the picture. Kept full at 113 °F, an LFP battery loses two to five times as much capacity as one stored half charged at 77 °F. The cobalt-based lithium-ion in some smaller and older units is far less forgiving: kept full at room temperature, it can lose 20% in a single year."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Glass solar panels age slowly. A study of more than 1,700 US solar sites found a median loss of 0.75% a year, so losing 20% takes about 27 years. Folding and flexible panels have no long-term record and much shorter warranties, and what shortens their life most is cracked cells from bending and handling."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "How long it takes to lose 20%",
+                            "columns": [
+                                "Equipment and use",
+                                "Time to 80% of new"
+                            ],
+                            "rows": [
+                                [
+                                    "LFP power station, a full cycle every day at 77 °F",
+                                    "About 8 to 13 years"
+                                ],
+                                [
+                                    "LFP power station, a full cycle a week, stored at half charge at 77 °F",
+                                    "About 30 to 40 years by the models"
+                                ],
+                                [
+                                    "LFP power station, kept full at 113 °F",
+                                    "About 5 to 12 years"
+                                ],
+                                [
+                                    "LFP power station, kept full in a car parked in the sun every day",
+                                    "About 9 to 22 years"
+                                ],
+                                [
+                                    "Cobalt-based lithium-ion, kept full at 77 °F",
+                                    "About a year"
+                                ],
+                                [
+                                    "Glass solar panel, median US system",
+                                    "About 27 years"
+                                ],
+                                [
+                                    "Glass solar panel, the worst tenth of US systems",
+                                    "About 11 years or less"
+                                ],
+                                [
+                                    "Folding or flexible solar panel",
+                                    "No long-term data, and one-year warranties in our catalog"
+                                ]
+                            ],
+                            "note": "The LFP figures run from NREL’s large-cell model to its small-cell model, explained below. The car spends 8 hours a day at 122 °F and 16 at 86 °F."
+                        }
+                    ]
+                },
+                {
+                    "id": "what-ratings-mean",
+                    "title": "What “3,000 cycles to 80%” actually measures",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "A cycle rating comes from a lab. Cells are emptied and refilled again and again at a controlled temperature, usually around room temperature, until they hold 80% of what they held when new. One cycle is one full discharge and recharge, or the same energy in smaller pieces: using half the battery twice counts as one cycle."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Three things that happen in real life are missing from that test. It runs cycle after cycle in a matter of months, so the slow aging that comes with time barely shows. It holds the temperature steady, so a hot car or a cold garage never counts. And the cells never sit full for months between uses."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Even within the makers’ limits, conditions matter a great deal. Sandia National Laboratories cycled LFP, NMC and NCA cells within their specifications and found that the number of cycles to reach 80% varied by thousands from one set of conditions to another, within each chemistry."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Read the fine print"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Check what each rating is measured to. In our catalog, the EcoFlow DELTA Pro is rated 3,500 cycles to 80% and 6,500 cycles to 50%, and the BLUETTI Apex 300 6,000 cycles to 80%. The lower the bar, the bigger the number, so compare ratings at the same percentage."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "And 80% is a convention, not a failure. A 1,000 Wh power station at 80% still holds 800 Wh: everything works, it just runs for a fifth less time. That is one reason [the calculator](/calculator/use-case) keeps 20% of capacity in reserve, so an aging battery still covers your plan."
+                        }
+                    ]
+                },
+                {
+                    "id": "two-clocks",
+                    "title": "Two clocks: cycles and time",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "A lithium battery ages in two ways at once. Cycling wears it with use. Calendar aging wears it with time, whether it is used or not, and runs faster when the battery is warm and full. Its capacity follows whichever clock runs faster."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "To put numbers on both, we used two battery-life models published by NREL, now the National Laboratory of the Rockies. Each is fitted to lab tests on one kind of LFP cell: a large 250 Ah prismatic cell of the kind built for stationary storage, and a small 3 Ah cylindrical cell."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Years until an LFP battery reaches 80%, by how often it is used",
+                            "columns": [
+                                "Use at 77 °F",
+                                "Large-cell model",
+                                "Small-cell model"
+                            ],
+                            "rows": [
+                                [
+                                    "A full cycle every day",
+                                    "8 years, about 2,970 cycles",
+                                    "13 years, about 4,660 cycles"
+                                ],
+                                [
+                                    "A full cycle every other day",
+                                    "15 years, about 2,710 cycles",
+                                    "19 years, about 3,420 cycles"
+                                ],
+                                [
+                                    "A full cycle a week",
+                                    "About 40 years, about 2,070 cycles",
+                                    "About 30 years, about 1,560 cycles"
+                                ]
+                            ],
+                            "note": "Cycled from full to empty at a moderate rate and kept at half charge in between. The models extrapolate far beyond the length of the lab tests behind them, so read the longest figures as “not the limit”, not as a promise."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Two things stand out. Used every day, the large cell lands almost exactly on the 3,000 cycles to 80% that makers print, so the ratings hold up at room temperature. Used once a week, it reaches 80% after fewer cycles but many more years, because time has taken over from use. If you use a power station a few times a month, how you store it matters more than how often you use it."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "LFP also copes well with how it is cycled. NREL found its large LFP cell relatively insensitive to cycling conditions such as temperature and the range of charge it was cycled over, unlike the NMC cells it tested. The [buying guide](/guides/how-to-choose-portable-power-station#how-to-choose-portable-power-station-battery) compares the battery types in more detail."
+                        }
+                    ]
+                },
+                {
+                    "id": "heat-and-full-charge",
+                    "title": "Heat and a full charge: what storage does",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Calendar aging speeds up with temperature and with charge level, and heat is the worse of the two: the study behind the small-cell model found temperature more damaging than state of charge."
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Capacity an LFP battery loses to storage alone",
+                            "numeric": true,
+                            "columns": [
+                                "Stored at",
+                                "After 1 year",
+                                "After 5 years",
+                                "After 10 years"
+                            ],
+                            "rows": [
+                                [
+                                    "68 °F, half charged",
+                                    "1–3%",
+                                    "2–7%",
+                                    "3–9%"
+                                ],
+                                [
+                                    "77 °F, half charged",
+                                    "1–4%",
+                                    "3–8%",
+                                    "4–11%"
+                                ],
+                                [
+                                    "77 °F, fully charged",
+                                    "2–6%",
+                                    "4–11%",
+                                    "6–14%"
+                                ],
+                                [
+                                    "95 °F, fully charged",
+                                    "3–8%",
+                                    "7–15%",
+                                    "10–20%"
+                                ],
+                                [
+                                    "113 °F, fully charged",
+                                    "5–10%",
+                                    "13–20%",
+                                    "18–26%"
+                                ],
+                                [
+                                    "In a car in the sun every day, fully charged",
+                                    "4–9%",
+                                    "9–16%",
+                                    "13–21%"
+                                ]
+                            ],
+                            "note": "The range runs from NREL’s large-cell model to its small-cell model. The car spends 8 hours a day at 122 °F and 16 hours at 86 °F."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A full battery at 113 °F loses two to five times as much as a half-charged one at 77 °F, by either model. Lowering the charge helps, but keeping it cool helps more."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "The car trunk"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A parked car is the worst place to keep a power station. Arizona State University measured cars parked in the summer sun in Tempe reaching an average of 116 °F inside after an hour, with dashboards at 157 °F. Most power stations are rated to run only up to about 104 to 113 °F, and Anker warns that heat above 104 °F speeds up cell aging."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "One summer in a car won’t ruin an LFP battery. Kept there full every day, it loses 4 to 9% in the first year by our models, against 1 to 4% for a battery kept half charged at room temperature. Over the years that gap adds up to years of life."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Cobalt-based lithium-ion is far less forgiving"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Some small and older power stations use NMC, a cobalt-based lithium-ion chemistry. Battery University’s estimates for cobalt-based lithium-ion show what heat and a full charge do to it: kept full for a year, it keeps about 80% of its capacity at 77 °F and 65% at 104 °F. Kept at 40% charge, it keeps 96% at 77 °F. For these batteries, one year full at room temperature costs as much as an LFP battery kept full at 95 °F loses in a decade, or more."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Cold: harmless to store, harmful to charge"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Cold slows aging. A cold battery gives back less power until it warms up, about 90% of its capacity between 32 and 50 °F and 80% below freezing, but that loss is temporary. Charging in the cold is another matter: charging lithium-ion below freezing plates metallic lithium onto the anode, which Battery University describes as permanent damage. Power stations refuse to charge below about 32 °F to prevent it, so let the unit warm up before plugging it in or putting it on solar."
+                        }
+                    ]
+                },
+                {
+                    "id": "solar-panels",
+                    "title": "Solar panels: what the warranty promises and what they deliver",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Glass solar panels age slowly and predictably. Almost all of them carry a 25-year performance warranty, typically promising 90% of rated output at 10 years and 80% at 25."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "The field record supports that. NREL studied more than 7.2 GW of US solar systems and found a median loss of 0.75% a year. Systems in cooler climates lost 0.48% a year and those in hotter climates 0.88%, and 90% of systems lost less than 1.9% a year."
+                        },
+                        {
+                            "type": "equation",
+                            "caption": "How long the median glass panel takes to lose 20%",
+                            "rows": [
+                                {
+                                    "label": "Output lost",
+                                    "value": "20%"
+                                },
+                                {
+                                    "op": "÷",
+                                    "label": "Median loss a year, NREL’s US fleet",
+                                    "value": "0.75%"
+                                },
+                                {
+                                    "op": "=",
+                                    "label": "Years until it makes 80% of what it did when new",
+                                    "value": "27"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Years for a glass solar panel to lose 20%",
+                            "numeric": true,
+                            "columns": [
+                                "Loss a year",
+                                "Where it applies",
+                                "Years to 80%"
+                            ],
+                            "rows": [
+                                [
+                                    "0.48%",
+                                    "Median system in a cooler climate",
+                                    "42"
+                                ],
+                                [
+                                    "0.75%",
+                                    "Median US system",
+                                    "27"
+                                ],
+                                [
+                                    "0.88%",
+                                    "Median system in a hotter climate",
+                                    "23"
+                                ],
+                                [
+                                    "1.9%",
+                                    "The worst tenth of systems",
+                                    "11"
+                                ]
+                            ],
+                            "note": "Assumes a steady loss each year, as warranties do. NREL’s figures are for whole systems, mostly glass panels on fixed or tracking mounts."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Folding and flexible panels"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Nothing like that record exists for folding and flexible panels, and their warranties reflect it: every folding and flexible panel in our catalog carries a one-year warranty, against five years for the rigid one. They lack the stiff glass front that protects the cells, and they are folded, carried, laid on rough ground and packed away, which panels on a roof never are."
+                        }
+                    ]
+                },
+                {
+                    "id": "cracks",
+                    "title": "Cracked cells: the main threat to portable and flexible panels",
+                    "blocks": [
+                        {
+                            "type": "paragraph",
+                            "text": "Solar cells are thin slices of silicon, and silicon is brittle. Cracks are often invisible, and a cracked cell can keep working for a while. The trouble is what comes next. The IEA PVPS review of solar panel failures found that stress from wind, snow and temperature swings can grow short cracks into long ones, and it cites a solar park where nearly half the panels had lost about 10% or more of their power to cracked cells after six years."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A crack that cuts off part of a cell cuts its current, and because a panel’s cells are wired in a chain, one damaged cell drags down its whole group. When half of one cell or more goes dead, the group’s bypass diode switches it out, and a typical panel with three groups loses about a third of its power. Cracked cells can also overheat, leaving brown spots and burn marks."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Flexible panels and the wind"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "A flexible panel has no glass and no frame, so the surface under it has to do the job of both. Solbian, which makes flexible panels for boats, requires a support that stays rigid in wind and snow, limits the bend to a depth of a quarter of the panel’s length or width, and warns that excessive and repeated flexing of whatever it is mounted on can cause irreversible damage that lowers its efficiency."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "On an RV or van roof, that means fixing the panel to a stiff surface across its whole area, the way its maker specifies, so it can’t lift and flutter at highway speed. A flexible panel strapped loosely over a curved roof, or draped over a tent, bends with every gust."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Folding panels in everyday use"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Fold the panel only at its hinges, and never kneel or step on it.",
+                                "Carry and store it flat in its case, not wedged under heavier gear.",
+                                "Set it down gently: cracks that start at a cell’s edge come from knocks against something hard, and you won’t see them.",
+                                "Don’t let the cable hang from the junction box; support it so it doesn’t pull."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "dust-shade-heat",
+                    "title": "Dust, shade and heat",
+                    "blocks": [
+                        {
+                            "type": "heading",
+                            "text": "Dust"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Dirt blocks light rather than damaging the cells, so what it costs comes back when the panel is cleaned. In the United States, NREL puts annual losses to dirt at 0 to 6%, while in the dustiest regions of the world they can reach 70% at their peak. A panel laid flat collects more than one tilted enough for rain to rinse it, as the [guide to setting up a panel](/guides/solar-panel-direction-and-tilt#solar-panel-direction-and-tilt-weather) explains. Wipe it with water and a soft cloth."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Shade"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Shade costs output the moment it falls, as the [solar charging guide](/guides/solar-panel-charging-power-station#solar-panel-charging-power-station-output-factors) explains. The long-term risk is to the cells. A shaded cell is forced to carry current it can’t make, and heats up. Bypass diodes limit that, but IEA PVPS warns that a cell pushed past its design limit, for example behind a failed diode, can develop hot spots that brown the panel, burn it or, in the worst case, start a fire. Shade from a passing branch is normal. A panel left for weeks partly covered is not."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "Heat"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Heat costs output straight away and over the years too: in NREL’s study, systems in hot climates lost 0.88% a year against 0.48% in cool ones. A portable panel lying on hot ground runs hotter than one on its stand with air moving behind it."
+                        }
+                    ]
+                },
+                {
+                    "id": "realistic-lifespan",
+                    "title": "How long they really last",
+                    "blocks": [
+                        {
+                            "type": "table",
+                            "caption": "Ratings against realistic life",
+                            "columns": [
+                                "Equipment",
+                                "What the maker promises",
+                                "Realistic life, looked after",
+                                "What shortens it most"
+                            ],
+                            "rows": [
+                                [
+                                    "LFP power station",
+                                    "3,000 to 6,000 cycles to 80%, and 3 to 5 years of warranty",
+                                    "8 to 13 years of daily use before the battery reaches 80%, and far longer with occasional use",
+                                    "Heat, sitting fully charged, charging below freezing"
+                                ],
+                                [
+                                    "NMC power station",
+                                    "500 to 1,000 cycles to 80%",
+                                    "About a year kept full at 77 °F. At 40% charge it loses about 4% a year, by Battery University’s estimates",
+                                    "Heat and sitting fully charged"
+                                ],
+                                [
+                                    "Glass solar panel",
+                                    "80% of rated output at 25 years",
+                                    "About 23 to 42 years to 80%, depending on climate",
+                                    "Cracked cells, failed bypass diodes, heat"
+                                ],
+                                [
+                                    "Folding or flexible panel",
+                                    "One year of warranty",
+                                    "No long-term data. It depends mostly on handling",
+                                    "Bending, drops, flapping in the wind, hot ground"
+                                ]
+                            ],
+                            "note": "The battery figures are for the cells. A power station also has an inverter, a charger, fans and ports, which its warranty covers for 3 to 5 years."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "An LFP battery lasts a long time as long as it is kept out of the heat and not left full for months. Portable panels are the opposite: their cells age slowly, but the way they are used puts them at risk."
+                        }
+                    ]
+                },
+                {
+                    "id": "extend-life",
+                    "title": "How to make them last",
+                    "blocks": [
+                        {
+                            "type": "heading",
+                            "text": "The power station"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "**Store it half to 80% charged,** not full, and check it every three months. Anker recommends 50 to 80%.",
+                                "**Keep it at about 50 to 77 °F** when you aren’t using it, the range Anker gives for storage.",
+                                "**Never leave it in a parked car in warm weather,** and keep it in the shade when you use it outside.",
+                                "**For backup duty, set a charge limit** in the app, such as 80 or 90%, so it doesn’t sit full for months, and raise it to 100% when a storm is coming.",
+                                "**Let it warm up before charging** after a cold night. Below about 32 °F most units won’t charge anyway.",
+                                "**Don’t save it for emergencies to spare the battery.** Cycling wears LFP slowly, and a battery ages whether it is used or not."
+                            ]
+                        },
+                        {
+                            "type": "heading",
+                            "text": "The solar panels"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Fold folding panels only at their hinges, and store them flat in their case.",
+                                "Fix flexible panels to a stiff surface across their whole area, the way the maker specifies, and never let them flap.",
+                                "Put the whole panel in the sun, or the whole panel out of it. Don’t leave it partly covered for long.",
+                                "Rinse off dust and droppings with water and a soft cloth.",
+                                "Stand portable panels up with air behind them, instead of laying them on hot ground.",
+                                "Look for brown spots, bubbles or burn marks now and then. They point to hot spots, and a panel that shows them shouldn’t be used."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "buying",
+                    "title": "What this means when you buy",
+                    "blocks": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "**Choose LFP.** It tolerates heat and a full charge far better than cobalt-based lithium-ion, and its cycle ratings hold up at room temperature.",
+                                "**Pay for cycles only if you will use them.** A 6,000-cycle rating matters if the unit cycles every day on solar. For a few trips and outages a year, the storage clock decides.",
+                                "**Compare cycle ratings at the same percentage,** 80% against 80%.",
+                                "**Look for a charge limit in the app** and a warranty of five years.",
+                                "**Size with a margin.** A unit that only just covers your needs today falls short as it ages. [The calculator](/calculator/use-case) keeps 20% in reserve for that.",
+                                "**Expect less from portable panels than from glass ones.** Their warranties are short, and how long they last depends mostly on how they are handled.",
+                                "**Choose glass panels for anything permanent.** They carry 25-year warranties and have the longest record in the field."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "sources": [
+                {
+                    "title": "BLAST-Lite: Battery Lifetime Analysis and Simulation Tool, LFP-Gr models",
+                    "publisher": "US National Laboratory of the Rockies (NREL)",
+                    "url": "https://github.com/NatLabRockies/BLAST-Lite"
+                },
+                {
+                    "title": "Analysis and modeling of calendar aging of a commercial LiFePO4/graphite cell",
+                    "publisher": "Naumann et al., Journal of Energy Storage, 2018",
+                    "url": "https://doi.org/10.1016/j.est.2018.01.019"
+                },
+                {
+                    "title": "Degradation and modeling of large-format commercial lithium-ion cells as a function of chemistry, design, and aging conditions",
+                    "publisher": "US National Laboratory of the Rockies (NREL), Journal of Energy Storage, 2023",
+                    "url": "https://doi.org/10.1016/j.est.2023.109042"
+                },
+                {
+                    "title": "Degradation of Commercial Lithium-Ion Cells as a Function of Chemistry and Cycling Conditions",
+                    "publisher": "Sandia National Laboratories, Journal of the Electrochemical Society, 2020",
+                    "url": "https://www.sandia.gov/research/publications/details/degradation-of-commercial-lithium-ion-cells-as-a-function-of-chemistry-and-2020-01-09/"
+                },
+                {
+                    "title": "BU-808: How to Prolong Lithium-based Batteries",
+                    "publisher": "Battery University",
+                    "url": "https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries"
+                },
+                {
+                    "title": "BU-410: Charging at High and Low Temperatures",
+                    "publisher": "Battery University",
+                    "url": "https://batteryuniversity.com/article/bu-410-charging-at-high-and-low-temperatures"
+                },
+                {
+                    "title": "How to Store a Portable Power Station",
+                    "publisher": "Anker SOLIX",
+                    "url": "https://www.ankersolix.com/uk/blogs/power-station/how-to-store-a-portable-power-station-long-term"
+                },
+                {
+                    "title": "Study: Hot cars can hit deadly temperatures in as little as one hour",
+                    "publisher": "Arizona State University",
+                    "url": "https://news.asu.edu/20180516-discoveries-asu-study-hot-cars-can-hit-deadly-temperatures-within-one-hour"
+                },
+                {
+                    "title": "Photovoltaic fleet degradation insights",
+                    "publisher": "Jordan et al., Progress in Photovoltaics, 2022",
+                    "url": "https://doi.org/10.1002/pip.3566"
+                },
+                {
+                    "title": "Review of Failures of Photovoltaic Modules",
+                    "publisher": "IEA PVPS Task 13",
+                    "url": "https://iea-pvps.org/wp-content/uploads/2020/01/IEA-PVPS_T13-01_2014_Review_of_Failures_of_Photovoltaic_Modules_Final.pdf"
+                },
+                {
+                    "title": "Design and Indoor Validation of DUSST: A Novel Low-Maintenance Soiling Station",
+                    "publisher": "US National Laboratory of the Rockies (NREL)",
+                    "url": "https://research-hub.nlr.gov/en/publications/design-and-indoor-validation-of-aposdusstapos-a-novel-low-mainten-2/"
+                },
+                {
+                    "title": "Warranties and insurance",
+                    "publisher": "energy.gov.au, Australian Government",
+                    "url": "https://www.energy.gov.au/solar/get-know-solar-technology/warranties-and-insurance"
+                },
+                {
+                    "title": "Installation manual, flexible solar panels",
+                    "publisher": "Solbian",
+                    "url": "https://coastalclimatecontrol.com/images/PDF/solar/solbian_manual.pdf"
+                },
+                {
+                    "title": "Power station and solar panel datasets: cycle ratings and warranties of current models",
+                    "publisher": "GalaxyAX/power-station",
+                    "url": "https://github.com/GalaxyAX/power-station"
+                }
+            ]
         }
     ]
 }
