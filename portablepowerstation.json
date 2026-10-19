@@ -435,7 +435,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=55651750969417",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20(4%20x%20Batteries)%20%2B%20Smart%20Home%20Panel%203.webp",
         "price": {
             "currency": "USD",
             "current": 14399,
@@ -545,6 +545,163 @@
                 "count": 4,
                 "voltageV": 120,
                 "totalMaxW": 12000
+            },
+            "usbA": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "usbC": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-19"
+    },
+    {
+        "id": "ecoflow-2x-delta-pro-ultra-x-shp3",
+        "brand": "EcoFlow",
+        "model": "2 x DELTA Pro Ultra X (2 x Inverter + 4 x Batteries) + Smart Home Panel 3",
+        "name": "EcoFlow 2 x DELTA Pro Ultra X (2 x Inverter + 4 x Batteries) + Smart Home Panel 3",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-pro-ultra-x",
+            "includes": [
+                {
+                    "type": "station",
+                    "stationId": "ecoflow-delta-pro-ultra-x",
+                    "quantity": 1
+                },
+                {
+                    "type": "accessory",
+                    "model": "EcoFlow Smart Home Panel 3 (32 Circuits)",
+                    "quantity": 1
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=54714781270089",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 18999,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 24576,
+            "expandable": true,
+            "extraBattery": {
+                "model": "DELTA Pro Ultra Series Battery",
+                "capacityWh": 6144,
+                "maxCount": 16
+            },
+            "maxWh": 122880
+        },
+        "power": {
+            "continuousW": 24000,
+            "surgeW": null,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 3500,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 24000,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "shp3-grid",
+                        "label": "Smart Home Panel 3 grid connection",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 100,
+                        "maxW": 24000,
+                        "chargeMaxW": 24000,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "shp3-gen",
+                        "label": "5P8 PORT/GEN IN",
+                        "connector": "5P8",
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 50,
+                        "maxW": 12000,
+                        "chargeMaxW": 12000,
+                        "chargeMinW": 3000,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": [
+                        "Needs a 240 V split-phase generator, wired to the panel's 5P8 PORT/GEN IN port by a qualified electrician.",
+                        "Set the generator's rated output (3–12 kW) in Settings > Generator Settings.",
+                        "For a generator with a bonded neutral, remove the ground-neutral bond."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 20000,
+                "inputs": [
+                    {
+                        "id": "pv-high",
+                        "label": "High-PV",
+                        "count": 4,
+                        "connector": "MC4",
+                        "minV": 80,
+                        "maxV": 500,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 5000,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": null
+            },
+            "car": {
+                "supportedV": [],
+                "maxA": null
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 271,
+            "dimensionsCm": {
+                "length": null,
+                "width": null,
+                "height": null
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 8,
+                "voltageV": 120,
+                "totalMaxW": 24000
             },
             "usbA": {
                 "count": 0,
