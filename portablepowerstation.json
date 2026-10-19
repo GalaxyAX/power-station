@@ -572,195 +572,6 @@
         "lastChecked": "2026-10-09"
     },
     {
-        "id": "ecoflow-delta-pro-3-400w-solar-panel",
-        "brand": "EcoFlow",
-        "model": "DELTA Pro 3 + 400W Solar Panel",
-        "name": "EcoFlow DELTA Pro 3 + 400W Solar Panel",
-        "category": "portable-power-station",
-        "kind": "bundle",
-        "bundle": {
-            "baseStationId": "ecoflow-delta-pro-3",
-            "includes": [
-                {
-                    "type": "solar-panel",
-                    "panelId": "ecoflow-400w-portable",
-                    "quantity": 1,
-                    "wiring": null
-                }
-            ]
-        },
-        "region": "US",
-        "url": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station?variant=41385721069641",
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203%20%2B%20400W%20Solar%20Panel.webp",
-        "price": {
-            "currency": "USD",
-            "current": 3099,
-            "original": 3999
-        },
-        "capacity": {
-            "nominalWh": 4096,
-            "expandable": true,
-            "extraBattery": {
-                "model": "DELTA Pro 3 Smart Extra Battery",
-                "capacityWh": 4096,
-                "maxCount": 2
-            },
-            "maxWh": 12288
-        },
-        "power": {
-            "continuousW": 4000,
-            "surgeW": 8000,
-            "xBoostW": 6000
-        },
-        "battery": {
-            "chemistry": "LFP",
-            "cycleLife": [
-                {
-                    "cycles": 4000,
-                    "retentionPct": 80
-                }
-            ]
-        },
-        "charging": {
-            "acInputW": 1800,
-            "ac": {
-                "frequencyHz": [
-                    50,
-                    60
-                ],
-                "inputs": [
-                    {
-                        "id": "ac-120",
-                        "label": "AC Input",
-                        "connector": "C20",
-                        "plug": "5-15P",
-                        "voltageV": 120,
-                        "maxA": 15,
-                        "maxW": 1800,
-                        "chargeMaxW": 1800,
-                        "chargeMinW": null,
-                        "passThrough": true
-                    },
-                    {
-                        "id": "ac-240",
-                        "label": "AC Input",
-                        "connector": "C20",
-                        "plug": null,
-                        "voltageV": 240,
-                        "maxA": 15,
-                        "maxW": 3600,
-                        "chargeMaxW": 3600,
-                        "chargeMinW": null,
-                        "passThrough": false
-                    },
-                    {
-                        "id": "ac-in-out",
-                        "label": "AC POWER IN / OUT",
-                        "connector": "Proprietary",
-                        "plug": "L14-30P",
-                        "voltageV": 240,
-                        "maxA": 20,
-                        "maxW": 4800,
-                        "chargeMaxW": null,
-                        "chargeMinW": null,
-                        "passThrough": false
-                    }
-                ],
-                "generator": {
-                    "supported": true,
-                    "waveform": null,
-                    "maxThdPct": null,
-                    "setup": [
-                        "A 240 V split-phase generator connects to the AC POWER IN / OUT port through the EcoFlow AC Generator Charging Adapter, sold separately."
-                    ]
-                }
-            },
-            "solar": {
-                "maxW": 2600,
-                "inputs": [
-                    {
-                        "id": "pv-high",
-                        "label": "High-PV",
-                        "count": 1,
-                        "connector": "XT60",
-                        "minV": 30,
-                        "maxV": 150,
-                        "startV": null,
-                        "maxA": 15,
-                        "maxW": 1600,
-                        "overCurrent": "prohibited"
-                    },
-                    {
-                        "id": "pv-low",
-                        "label": "Low-PV",
-                        "count": 1,
-                        "connector": "XT60i",
-                        "minV": 11,
-                        "maxV": 60,
-                        "startV": null,
-                        "maxA": 20,
-                        "maxW": 1000,
-                        "overCurrent": "prohibited"
-                    }
-                ],
-                "includedCables": []
-            },
-            "car": {
-                "supportedV": [
-                    12,
-                    48
-                ],
-                "maxA": 8
-            },
-            "maxCombinedW": 7000
-        },
-        "physical": {
-            "weightKg": 51.5,
-            "dimensionsCm": {
-                "length": 69.3,
-                "width": 34.1,
-                "height": 41
-            }
-        },
-        "ports": {
-            "ac": {
-                "count": 7,
-                "voltageV": 120,
-                "totalMaxW": 4000
-            },
-            "usbA": {
-                "count": 2,
-                "maxWPerPort": 18
-            },
-            "usbC": {
-                "count": 2,
-                "maxWPerPort": 100
-            },
-            "car": {
-                "count": 0,
-                "voltageV": null,
-                "maxWPerPort": null
-            },
-            "dc5521": {
-                "count": 1,
-                "voltageV": 12.6,
-                "maxWPerPort": 63
-            },
-            "anderson": {
-                "count": 1,
-                "voltageV": 12.6,
-                "maxA": 30
-            }
-        },
-        "features": {
-            "wifi": true,
-            "bluetooth": true,
-            "app": true
-        },
-        "warrantyYears": 5,
-        "lastChecked": "2026-10-09"
-    },
-    {
         "id": "ecoflow-delta-pro-ultra",
         "brand": "EcoFlow",
         "model": "DELTA Pro Ultra",
@@ -1947,7 +1758,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=55841262764105",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20DELTA%20Pro%20Ultra%20Extra%20Battery%20%2B%204%20×%20400W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
             "current": 7999,
@@ -2112,6 +1923,563 @@
                 "count": 0,
                 "voltageV": null,
                 "maxWPerPort": null
+            },
+            "anderson": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxA": 30
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-19"
+    },
+    {
+        "id": "ecoflow-delta-pro-3",
+        "brand": "EcoFlow",
+        "model": "DELTA Pro 3",
+        "name": "EcoFlow DELTA Pro 3",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station?variant=41385721004105",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203.webp",
+        "price": {
+            "currency": "USD",
+            "current": 2799,
+            "original": 3299
+        },
+        "capacity": {
+            "nominalWh": 4096,
+            "expandable": true,
+            "extraBattery": {
+                "model": "DELTA Pro 3 Smart Extra Battery",
+                "capacityWh": 4096,
+                "maxCount": 2
+            },
+            "maxWh": 12288
+        },
+        "power": {
+            "continuousW": 4000,
+            "surgeW": 8000,
+            "xBoostW": 6000
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": "C20",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-240",
+                        "label": "AC Input",
+                        "connector": "C20",
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 15,
+                        "maxW": 3600,
+                        "chargeMaxW": 3600,
+                        "chargeMinW": null,
+                        "passThrough": false
+                    },
+                    {
+                        "id": "ac-in-out",
+                        "label": "AC POWER IN / OUT",
+                        "connector": "5P8",
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 20,
+                        "maxW": 4000,
+                        "chargeMaxW": 4000,
+                        "chargeMinW": null,
+                        "passThrough": false
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": [
+                        "A 240 V split-phase generator connects to the AC POWER IN / OUT port through the EcoFlow AC Generator Charging Adapter, sold separately."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 2600,
+                "inputs": [
+                    {
+                        "id": "pv-high",
+                        "label": "High-PV",
+                        "count": 1,
+                        "connector": "XT60",
+                        "minV": 30,
+                        "maxV": 150,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 1600,
+                        "overCurrent": "unknown"
+                    },
+                    {
+                        "id": "pv-low",
+                        "label": "Low-PV",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 20,
+                        "maxW": 1000,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    48
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": 7000
+        },
+        "physical": {
+            "weightKg": 51.5,
+            "dimensionsCm": {
+                "length": 69.3,
+                "width": 34.1,
+                "height": 41
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 7,
+                "voltageV": 120,
+                "totalMaxW": 4000
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            },
+            "dc5521": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 63
+            },
+            "anderson": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxA": 30
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-19"
+    },
+    {
+        "id": "ecoflow-delta-pro-3-400w-solar-panel",
+        "brand": "EcoFlow",
+        "model": "DELTA Pro 3 + 400W Solar Panel",
+        "name": "EcoFlow DELTA Pro 3 + 400W Solar Panel",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-pro-3",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "ecoflow-400w-portable",
+                    "quantity": 1,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station?variant=41385721069641",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203%20%2B%20400W%20Solar%20Panel.webp",
+        "price": {
+            "currency": "USD",
+            "current": 3099,
+            "original": 3999
+        },
+        "capacity": {
+            "nominalWh": 4096,
+            "expandable": true,
+            "extraBattery": {
+                "model": "DELTA Pro 3 Smart Extra Battery",
+                "capacityWh": 4096,
+                "maxCount": 2
+            },
+            "maxWh": 12288
+        },
+        "power": {
+            "continuousW": 4000,
+            "surgeW": 8000,
+            "xBoostW": 6000
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": "C20",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-240",
+                        "label": "AC Input",
+                        "connector": "C20",
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 15,
+                        "maxW": 3600,
+                        "chargeMaxW": 3600,
+                        "chargeMinW": null,
+                        "passThrough": false
+                    },
+                    {
+                        "id": "ac-in-out",
+                        "label": "AC POWER IN / OUT",
+                        "connector": "Proprietary",
+                        "plug": "L14-30P",
+                        "voltageV": 240,
+                        "maxA": 20,
+                        "maxW": 4800,
+                        "chargeMaxW": null,
+                        "chargeMinW": null,
+                        "passThrough": false
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": [
+                        "A 240 V split-phase generator connects to the AC POWER IN / OUT port through the EcoFlow AC Generator Charging Adapter, sold separately."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 2600,
+                "inputs": [
+                    {
+                        "id": "pv-high",
+                        "label": "High-PV",
+                        "count": 1,
+                        "connector": "XT60",
+                        "minV": 30,
+                        "maxV": 150,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 1600,
+                        "overCurrent": "prohibited"
+                    },
+                    {
+                        "id": "pv-low",
+                        "label": "Low-PV",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 20,
+                        "maxW": 1000,
+                        "overCurrent": "prohibited"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    48
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": 7000
+        },
+        "physical": {
+            "weightKg": 51.5,
+            "dimensionsCm": {
+                "length": 69.3,
+                "width": 34.1,
+                "height": 41
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 7,
+                "voltageV": 120,
+                "totalMaxW": 4000
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            },
+            "dc5521": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 63
+            },
+            "anderson": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxA": 30
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-09"
+    },
+    {
+        "id": "ecoflow-delta-pro-3-extra-battery",
+        "brand": "EcoFlow",
+        "model": "DELTA Pro 3 + Extra Battery",
+        "name": "EcoFlow DELTA Pro 3 + Extra Battery",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-pro-3",
+            "includes": [
+                {
+                    "type": "extra-battery",
+                    "model": "DELTA Pro 3 Smart Extra Battery",
+                    "quantity": 1,
+                    "capacityWh": 4096
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station?variant=41385721036873",
+        "image": "",
+        "price": {
+            "currency": "USD",
+            "current": 4459,
+            "original": 5099
+        },
+        "capacity": {
+            "nominalWh": 8192,
+            "expandable": true,
+            "extraBattery": {
+                "model": "DELTA Pro 3 Smart Extra Battery",
+                "capacityWh": 4096,
+                "maxCount": 1
+            },
+            "maxWh": 12288
+        },
+        "power": {
+            "continuousW": 4000,
+            "surgeW": 8000,
+            "xBoostW": 6000
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": "C20",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-240",
+                        "label": "AC Input",
+                        "connector": "C20",
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 15,
+                        "maxW": 3600,
+                        "chargeMaxW": 3600,
+                        "chargeMinW": null,
+                        "passThrough": false
+                    },
+                    {
+                        "id": "ac-in-out",
+                        "label": "AC POWER IN / OUT",
+                        "connector": "5P8",
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 20,
+                        "maxW": 4000,
+                        "chargeMaxW": 4000,
+                        "chargeMinW": null,
+                        "passThrough": false
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": [
+                        "A 240 V split-phase generator connects to the AC POWER IN / OUT port through the EcoFlow AC Generator Charging Adapter, sold separately."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 2600,
+                "inputs": [
+                    {
+                        "id": "pv-high",
+                        "label": "High-PV",
+                        "count": 1,
+                        "connector": "XT60",
+                        "minV": 30,
+                        "maxV": 150,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 1600,
+                        "overCurrent": "unknown"
+                    },
+                    {
+                        "id": "pv-low",
+                        "label": "Low-PV",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 20,
+                        "maxW": 1000,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    48
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": 7000
+        },
+        "physical": {
+            "weightKg": 84.5,
+            "dimensionsCm": {
+                "length": 69.4,
+                "width": 63.6,
+                "height": 41
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 7,
+                "voltageV": 120,
+                "totalMaxW": 4000
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            },
+            "dc5521": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 63
             },
             "anderson": {
                 "count": 1,
