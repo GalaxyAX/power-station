@@ -1170,7 +1170,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=55686961168457",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20DELTA%20Pro%20Ultra%20Extra%20Battery%20(3%20×%20Batteries).webp",
         "price": {
             "currency": "USD",
             "current": 8199,
@@ -1315,6 +1315,188 @@
                 "length": 69,
                 "width": 48.1,
                 "height": 82.6
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 6,
+                "voltageV": 120,
+                "totalMaxW": 7200
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 12
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            },
+            "anderson": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxA": 30
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-19"
+    },
+    {
+        "id": "ecoflow-delta-pro-ultra-shp2",
+        "brand": "EcoFlow",
+        "model": "DELTA Pro Ultra + Smart Home Panel 2 + Monitor",
+        "name": "EcoFlow DELTA Pro Ultra + Smart Home Panel 2 + Monitor",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-pro-ultra",
+            "includes": [
+                {
+                    "type": "accessory",
+                    "model": "EcoFlow Smart Home Panel 2",
+                    "quantity": 1
+                },
+                {
+                    "type": "accessory",
+                    "model": "EcoFlow PowerInsight",
+                    "quantity": 1
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=40758830104649",
+        "image": "",
+        "price": {
+            "currency": "USD",
+            "current": 5599,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 6144,
+            "expandable": true,
+            "extraBattery": {
+                "model": "DELTA Pro Ultra Battery",
+                "capacityWh": 6144,
+                "maxCount": 4
+            },
+            "maxWh": 30720
+        },
+        "power": {
+            "continuousW": 7200,
+            "surgeW": 10800,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 3500,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 6200,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "shp2-grid",
+                        "label": "Smart Home Panel 2 grid connection",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 30,
+                        "maxW": 7200,
+                        "chargeMaxW": 6200,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "shp2-gen",
+                        "label": "Smart Home Panel 2 generator inlet",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 50,
+                        "maxW": 12000,
+                        "chargeMaxW": 6200,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": 10,
+                    "setup": [
+                        "Have a qualified electrician connect the generator to Smart Home Panel 2 through an inlet box.",
+                        "Battery charging needs a 240 V split-phase generator; a 120 V generator can't charge the battery.",
+                        "Enter the generator type, its maximum power (3–12 kW) and the battery charging power in System settings > Generator settings in the EcoFlow app.",
+                        "For a generator with a bonded neutral, remove the ground-neutral bond."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 5600,
+                "inputs": [
+                    {
+                        "id": "pv-high",
+                        "label": "High-PV",
+                        "count": 1,
+                        "connector": "MC4",
+                        "minV": 80,
+                        "maxV": 450,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 4000,
+                        "overCurrent": "prohibited"
+                    },
+                    {
+                        "id": "pv-low",
+                        "label": "Low-PV",
+                        "count": 1,
+                        "connector": "Proprietary",
+                        "minV": 30,
+                        "maxV": 150,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 1600,
+                        "overCurrent": "prohibited"
+                    }
+                ],
+                "includedCables": [
+                    {
+                        "from": "MC4",
+                        "to": "Proprietary",
+                        "lengthM": 2.5,
+                        "quantity": 1
+                    }
+                ]
+            },
+            "car": {
+                "supportedV": [],
+                "maxA": null
+            },
+            "maxCombinedW": 6200
+        },
+        "physical": {
+            "weightKg": 82.4,
+            "dimensionsCm": {
+                "length": 69,
+                "width": 48.1,
+                "height": 41.8
             }
         },
         "ports": {
