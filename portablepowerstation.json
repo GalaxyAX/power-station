@@ -1735,7 +1735,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=54740155072585",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%202%20×%20400W%20Portable%20Solar%20Panels.webp",
         "price": {
             "currency": "USD",
             "current": 5099,
@@ -1880,6 +1880,218 @@
                 "length": 69,
                 "width": 48.1,
                 "height": 41.8
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 6,
+                "voltageV": 120,
+                "totalMaxW": 7200
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 12
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            },
+            "anderson": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxA": 30
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-19"
+    },
+    {
+        "id": "ecoflow-delta-pro-ultra-extra-battery-4x-400w-solar-panel",
+        "brand": "EcoFlow",
+        "model": "DELTA Pro Ultra + DELTA Pro Ultra Extra Battery + 4 × 400W Portable Solar Panel",
+        "name": "EcoFlow DELTA Pro Ultra + DELTA Pro Ultra Extra Battery + 4 × 400W Portable Solar Panel",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-pro-ultra",
+            "includes": [
+                {
+                    "type": "extra-battery",
+                    "model": "DELTA Pro Ultra Battery",
+                    "quantity": 1,
+                    "capacityWh": 6144
+                },
+                {
+                    "type": "solar-panel",
+                    "panelId": "ecoflow-400w-portable",
+                    "quantity": 4,
+                    "wiring": [
+                        {
+                            "inputId": "pv-high",
+                            "series": 4,
+                            "parallel": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=55841262764105",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 7999,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 12288,
+            "expandable": true,
+            "extraBattery": {
+                "model": "DELTA Pro Ultra Battery",
+                "capacityWh": 6144,
+                "maxCount": 3
+            },
+            "maxWh": 30720
+        },
+        "power": {
+            "continuousW": 7200,
+            "surgeW": 10800,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 3500,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC charging input port",
+                        "connector": "C20",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-240",
+                        "label": "AC charging input port",
+                        "connector": "C20",
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 12.5,
+                        "maxW": 3000,
+                        "chargeMaxW": 3000,
+                        "chargeMinW": null,
+                        "passThrough": false
+                    },
+                    {
+                        "id": "ac-120-30a",
+                        "label": "Power input/output port",
+                        "connector": "5P8",
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 30,
+                        "maxW": 3600,
+                        "chargeMaxW": 3600,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-240-30a",
+                        "label": "Power input/output port",
+                        "connector": "5P8",
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 30,
+                        "maxW": 7200,
+                        "chargeMaxW": 7200,
+                        "chargeMinW": null,
+                        "passThrough": false
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": 10,
+                    "setup": [
+                        "Set the charging power below your generator's rated output before connecting it."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 5600,
+                "inputs": [
+                    {
+                        "id": "pv-high",
+                        "label": "High-PV",
+                        "count": 1,
+                        "connector": "MC4",
+                        "minV": 80,
+                        "maxV": 450,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 4000,
+                        "overCurrent": "prohibited"
+                    },
+                    {
+                        "id": "pv-low",
+                        "label": "Low-PV",
+                        "count": 1,
+                        "connector": "Proprietary",
+                        "minV": 30,
+                        "maxV": 150,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 1600,
+                        "overCurrent": "prohibited"
+                    }
+                ],
+                "includedCables": [
+                    {
+                        "from": "MC4",
+                        "to": "Proprietary",
+                        "lengthM": 2.5,
+                        "quantity": 1
+                    }
+                ]
+            },
+            "car": {
+                "supportedV": [],
+                "maxA": null
+            },
+            "maxCombinedW": 8800
+        },
+        "physical": {
+            "weightKg": 133.1,
+            "dimensionsCm": {
+                "length": 69,
+                "width": 48.1,
+                "height": 62.2
             }
         },
         "ports": {
