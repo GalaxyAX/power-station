@@ -592,7 +592,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=54714781270089",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%202%20x%20DELTA%20Pro%20Ultra%20X%20(2%20x%20Inverter%20%2B%204%20x%20Batteries)%20%2B%20Smart%20Home%20Panel%203.webp",
         "price": {
             "currency": "USD",
             "current": 18999,
@@ -702,6 +702,322 @@
                 "count": 8,
                 "voltageV": 120,
                 "totalMaxW": 24000
+            },
+            "usbA": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "usbC": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-19"
+    },
+    {
+        "id": "ecoflow-delta-pro-ultra-x-smart-gateway-200a",
+        "brand": "EcoFlow",
+        "model": "DELTA Pro Ultra X + Smart Gateway 200A",
+        "name": "EcoFlow DELTA Pro Ultra X + Smart Gateway 200A",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-pro-ultra-x",
+            "includes": [
+                {
+                    "type": "accessory",
+                    "model": "EcoFlow Smart Gateway (200A)",
+                    "quantity": 1
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=54714781237321",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20%2B%20Smart%20Gateway%20200A.webp",
+        "price": {
+            "currency": "USD",
+            "current": 9899,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 12288,
+            "expandable": true,
+            "extraBattery": {
+                "model": "DELTA Pro Ultra Series Battery",
+                "capacityWh": 6144,
+                "maxCount": 8
+            },
+            "maxWh": 61440
+        },
+        "power": {
+            "continuousW": 12000,
+            "surgeW": null,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 3500,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 12000,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "gateway-grid",
+                        "label": "Smart Gateway grid connection",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 50,
+                        "maxW": 12000,
+                        "chargeMaxW": 12000,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "gateway-gen",
+                        "label": "5P8 PORT/GEN IN",
+                        "connector": "5P8",
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 50,
+                        "maxW": 12000,
+                        "chargeMaxW": 12000,
+                        "chargeMinW": 3000,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": [
+                        "Needs a 240 V split-phase generator, wired to the Smart Inlet Box's 5P8 PORT/GEN IN port by a qualified electrician.",
+                        "Connect the DELTA Pro Ultra X and turn it on before connecting the generator.",
+                        "Set the generator's rated output (3–12 kW) in Settings > Generator Settings.",
+                        "For a generator with a bonded neutral, remove the ground-neutral bond."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 10000,
+                "inputs": [
+                    {
+                        "id": "pv-high",
+                        "label": "High-PV",
+                        "count": 2,
+                        "connector": "MC4",
+                        "minV": 80,
+                        "maxV": 500,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 5000,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": null
+            },
+            "car": {
+                "supportedV": [],
+                "maxA": null
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 135.5,
+            "dimensionsCm": {
+                "length": 67.5,
+                "width": 47.5,
+                "height": 63.8
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 4,
+                "voltageV": 120,
+                "totalMaxW": 12000
+            },
+            "usbA": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "usbC": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-19"
+    },
+    {
+        "id": "ecoflow-delta-pro-ultra-x-powerpulse-ev-charger",
+        "brand": "EcoFlow",
+        "model": "DELTA Pro Ultra X + PowerPulse EV Charger (9.6kW)",
+        "name": "EcoFlow DELTA Pro Ultra X (2 x Batteries) + PowerPulse EV Charger (9.6kW)",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-pro-ultra-x",
+            "includes": [
+                {
+                    "type": "accessory",
+                    "model": "EcoFlow PowerPulse EV Charger (9.6kW)",
+                    "quantity": 1
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=55621820350537",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 8499,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 12288,
+            "expandable": true,
+            "extraBattery": {
+                "model": "DELTA Pro Ultra Series Battery",
+                "capacityWh": 6144,
+                "maxCount": 8
+            },
+            "maxWh": 61440
+        },
+        "power": {
+            "continuousW": 12000,
+            "surgeW": null,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 3500,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "Power input/output port",
+                        "connector": "5P8",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-240-30a",
+                        "label": "Power input/output port",
+                        "connector": "5P8",
+                        "plug": "L14-30P",
+                        "voltageV": 240,
+                        "maxA": 30,
+                        "maxW": 7200,
+                        "chargeMaxW": 7200,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-240-50a",
+                        "label": "Power input/output port",
+                        "connector": "5P8",
+                        "plug": "14-50P",
+                        "voltageV": 240,
+                        "maxA": 50,
+                        "maxW": 12000,
+                        "chargeMaxW": 12000,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": [
+                        "Charging from solar panels and a generator together requires the EcoFlow FlowMaster Generator Rectifier."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 10000,
+                "inputs": [
+                    {
+                        "id": "pv-high",
+                        "label": "High-PV",
+                        "count": 2,
+                        "connector": "MC4",
+                        "minV": 80,
+                        "maxV": 500,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 5000,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": null
+            },
+            "car": {
+                "supportedV": [],
+                "maxA": null
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 135.5,
+            "dimensionsCm": {
+                "length": 67.5,
+                "width": 47.5,
+                "height": 63.8
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 4,
+                "voltageV": 120,
+                "totalMaxW": 12000
             },
             "usbA": {
                 "count": 0,
