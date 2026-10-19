@@ -2874,11 +2874,188 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-portable-power-station?variant=54703934013513",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20%2B%202%20x%20220W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
             "current": 2199,
             "original": 2997
+        },
+        "capacity": {
+            "nominalWh": 3600,
+            "expandable": true,
+            "extraBattery": {
+                "model": "DELTA Pro Smart Extra Battery",
+                "capacityWh": 3600,
+                "maxCount": 2
+            },
+            "maxWh": 10800
+        },
+        "power": {
+            "continuousW": 3600,
+            "surgeW": 7200,
+            "xBoostW": 4500
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 3500,
+                    "retentionPct": 80
+                },
+                {
+                    "cycles": 6500,
+                    "retentionPct": 50
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "X-Stream charging input",
+                        "connector": null,
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": 200,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-240",
+                        "label": "X-Stream charging input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 12.5,
+                        "maxW": 3000,
+                        "chargeMaxW": 3000,
+                        "chargeMinW": null,
+                        "passThrough": null
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 1600,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "Solar/Car Charging Input",
+                        "count": 1,
+                        "connector": "XT60",
+                        "minV": 11,
+                        "maxV": 150,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 1600,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": 6500
+        },
+        "physical": {
+            "weightKg": 45,
+            "dimensionsCm": {
+                "length": 63.5,
+                "width": 28.5,
+                "height": 41.6
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 5,
+                "voltageV": 120,
+                "totalMaxW": 3600
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 12
+            },
+            "usbAFast": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 126
+            },
+            "dc5521": {
+                "count": 2,
+                "voltageV": 12.6,
+                "maxWPerPort": 38
+            },
+            "anderson": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxA": 30
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-19"
+    },
+    {
+        "id": "ecoflow-delta-pro-400w-solar-panel",
+        "brand": "EcoFlow",
+        "model": "DELTA Pro + 400W Portable Solar Panel",
+        "name": "EcoFlow DELTA Pro + 400W Portable Solar Panel",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-pro",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "ecoflow-400w-portable",
+                    "quantity": 1,
+                    "wiring": [
+                        {
+                            "inputId": "pv",
+                            "series": 1,
+                            "parallel": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/delta-pro-portable-power-station?variant=40684178014281",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 2399,
+            "original": 3098
         },
         "capacity": {
             "nominalWh": 3600,
