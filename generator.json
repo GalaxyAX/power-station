@@ -89,6 +89,19 @@
                         "included": null
                     }
                 ]
+            },
+            {
+                "stationId": "ecoflow-delta-pro",
+                "path": "dc",
+                "stationPort": "Extra Battery port",
+                "maxW": null,
+                "autoStartStop": true,
+                "requires": [
+                    {
+                        "model": "DELTA Pro to Smart Generator Adapter",
+                        "included": true
+                    }
+                ]
             }
         ],
         "engine": {
