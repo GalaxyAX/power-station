@@ -4482,7 +4482,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54718699995209&view=d3m-121-d3mp",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20Plus%20(2048Wh)%20%2B%20500W%20Solar%20Kit.webp",
         "price": {
             "currency": "USD",
             "current": 1649,

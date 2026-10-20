@@ -200,6 +200,81 @@
         "lastChecked": "2026-10-05"
     },
     {
+        "id": "ecoflow-125w-bifacial-modular",
+        "brand": "EcoFlow",
+        "model": "125W Bifacial Modular Solar Panel",
+        "name": "EcoFlow 125W Bifacial Modular Solar Panel",
+        "category": "solar-panel",
+        "formFactor": "rigid",
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/125w-bifacial-modular-solar-panel?variant=41838058537033",
+        "image": null,
+        "datasheetUrl": "https://manuals.ecoflow.com/product/125w-modular-solar-panel?lang=en_US",
+        "price": {
+            "currency": "USD",
+            "current": 249,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 125,
+            "toleranceW": 3,
+            "vocV": 50,
+            "vmpV": 43,
+            "iscA": 3.2,
+            "impA": 2.9,
+            "tempCoeff": {
+                "pmaxPctPerC": -0.3,
+                "vocPctPerC": -0.25,
+                "iscPctPerC": 0.045
+            },
+            "maxSystemV": 600,
+            "maxSeriesFuseA": null,
+            "maxSeries": 12,
+            "maxParallel": 8,
+            "bifacial": {
+                "rearRatedW": null,
+                "rearIscA": null,
+                "rearImpA": null,
+                "maxGainPct": 10.4
+            }
+        },
+        "cell": {
+            "type": "monocrystalline",
+            "technology": "TOPCon",
+            "efficiencyPct": 25
+        },
+        "connector": "XT60",
+        "includedCables": [
+            {
+                "from": "XT60",
+                "to": "XT60i",
+                "lengthM": null,
+                "quantity": 1
+            }
+        ],
+        "stand": {
+            "tiltMinDeg": 30,
+            "tiltMaxDeg": 60
+        },
+        "physical": {
+            "weightKg": 4.2,
+            "dimensionsCm": {
+                "length": 115.4,
+                "width": 61.2,
+                "height": 2.2
+            },
+            "foldedCm": null,
+            "ipRating": "IP68",
+            "operatingTempC": {
+                "min": -40,
+                "max": 85
+            }
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-20"
+    },
+    {
         "id": "bluetti-500w-solar-panel",
         "brand": "BLUETTI",
         "model": "500W Solar Panel",
