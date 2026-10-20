@@ -5203,7 +5203,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54692162895945&view=d3m-121",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20(2048Wh)%20%2B%20500W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
             "current": 1449,
@@ -5288,6 +5288,139 @@
                         "quantity": 2
                     }
                 ]
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24,
+                    48
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 20.3,
+            "dimensionsCm": {
+                "length": 49.4,
+                "width": 23.9,
+                "height": 30.5
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 4,
+                "voltageV": 120,
+                "totalMaxW": 2400
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 126
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-20"
+    },
+    {
+        "id": "ecoflow-delta-3-max-2x-220w-solar-panel",
+        "brand": "EcoFlow",
+        "model": "DELTA 3 Max (2048Wh) + 2 × 220W Solar Panel",
+        "name": "EcoFlow DELTA 3 Max (2048Wh) + 2 × 220W Solar Panel",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-3-max",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "ecoflow-nextgen-220w-bifacial",
+                    "quantity": 2,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54692162797641&view=d3m-121",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 1449,
+            "original": 1499
+        },
+        "capacity": {
+            "nominalWh": 2048,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 2048
+        },
+        "power": {
+            "continuousW": 2400,
+            "surgeW": 4800,
+            "xBoostW": 3400
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": []
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": "C14",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 500,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC/Solar Input",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 13,
+                        "maxW": 500,
+                        "overCurrent": "prohibited"
+                    }
+                ],
+                "includedCables": []
             },
             "car": {
                 "supportedV": [
