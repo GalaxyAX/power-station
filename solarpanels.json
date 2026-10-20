@@ -208,7 +208,7 @@
         "formFactor": "rigid",
         "region": "US",
         "url": "https://us.ecoflow.com/products/125w-bifacial-modular-solar-panel?variant=41838058537033",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20125W%20Bifacial%20Modular%20Solar%20Panel.webp",
         "datasheetUrl": "https://manuals.ecoflow.com/product/125w-modular-solar-panel?lang=en_US",
         "price": {
             "currency": "USD",
