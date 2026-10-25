@@ -144,6 +144,117 @@
         "lastChecked": "2026-10-09"
     },
     {
+        "id": "ecoflow-smart-generator-3000-dual-fuel",
+        "brand": "EcoFlow",
+        "model": "Smart Generator 3000 (Dual Fuel)",
+        "name": "EcoFlow Smart Generator 3000 (Dual Fuel)",
+        "category": "generator",
+        "type": "inverter",
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/smart-generator-3000-dual-fuel?variant=41631793250377",
+        "image": null,
+        "manualUrl": "https://manuals.ecoflow.com/us/product/dual-fuel-smart-generator-3000?lang=en_US",
+        "price": {
+            "currency": "USD",
+            "current": 689,
+            "original": 749
+        },
+        "output": {
+            "voltageV": [
+                120
+            ],
+            "frequencyHz": 60,
+            "thdPct": null,
+            "neutral": "floating",
+            "parallelCapable": null
+        },
+        "fuels": [
+            {
+                "type": "gasoline",
+                "runningW": 2000,
+                "startingW": 2200,
+                "tankGal": 1.06,
+                "cylinderLb": null,
+                "runtime": [
+                    {
+                        "loadPct": 100,
+                        "hours": 3.3
+                    },
+                    {
+                        "loadPct": 25,
+                        "hours": 9
+                    }
+                ],
+                "statedKwh": 6.6
+            },
+            {
+                "type": "propane",
+                "runningW": 1800,
+                "startingW": 2000,
+                "tankGal": null,
+                "cylinderLb": 20,
+                "runtime": [
+                    {
+                        "loadPct": 100,
+                        "hours": 11
+                    }
+                ],
+                "statedKwh": 20
+            }
+        ],
+        "outlets": [
+            {
+                "type": "5-20R",
+                "voltageV": 120,
+                "maxA": 20,
+                "count": 2,
+                "gfci": null
+            }
+        ],
+        "dcOutput": null,
+        "integrations": [
+            {
+                "stationId": "ecoflow-delta-3-ultra-plus",
+                "path": "ac",
+                "stationPort": "AC Input",
+                "maxW": 1800,
+                "autoStartStop": true,
+                "requires": []
+            }
+        ],
+        "engine": {
+            "displacementCc": 98,
+            "efi": false
+        },
+        "start": [
+            "recoil",
+            "electric",
+            "app",
+            "auto"
+        ],
+        "noise": {
+            "dBA": 69,
+            "distanceM": 7,
+            "loadPct": 100
+        },
+        "coShutoff": true,
+        "compliance": {
+            "epa": true,
+            "carb": false
+        },
+        "physical": {
+            "weightKg": 21.8,
+            "dimensionsCm": {
+                "length": 48,
+                "width": 30,
+                "height": 45.5
+            }
+        },
+        "includedCables": [],
+        "warrantyYears": 2,
+        "lastChecked": "2026-10-25"
+    },
+    {
         "id": "westinghouse-igen5000dfc-efi",
         "brand": "Westinghouse",
         "model": "iGen5000DFc EFI",
