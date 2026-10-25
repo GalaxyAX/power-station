@@ -152,7 +152,7 @@
         "type": "inverter",
         "region": "US",
         "url": "https://us.ecoflow.com/products/smart-generator-3000-dual-fuel?variant=41631793250377",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20Smart%20Generator%203000%20(Dual%20Fuel).webp",
         "manualUrl": "https://manuals.ecoflow.com/us/product/dual-fuel-smart-generator-3000?lang=en_US",
         "price": {
             "currency": "USD",
