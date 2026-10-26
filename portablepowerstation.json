@@ -7915,7 +7915,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-classic-portable-power-station?variant=54691871227977",
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Classic.webp",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Classic%20(1024Wh).webp",
         "price": {
             "currency": "USD",
             "current": 499,
@@ -8010,6 +8010,148 @@
             },
             "usbC": {
                 "count": 1,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-26"
+    },
+    {
+        "id": "ecoflow-2x-delta-3-classic",
+        "brand": "EcoFlow",
+        "model": "2 x DELTA 3 Classic (1024Wh)",
+        "name": "EcoFlow 2 x DELTA 3 Classic (1024Wh)",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-3-classic",
+            "includes": [
+                {
+                    "type": "station",
+                    "stationId": "ecoflow-delta-3-classic",
+                    "quantity": 1
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/delta-3-classic-portable-power-station?variant=55345327341641",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 998,
+            "original": 1198
+        },
+        "capacity": {
+            "nominalWh": 2048,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 2048
+        },
+        "power": {
+            "continuousW": 3600,
+            "surgeW": null,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": []
+        },
+        "charging": {
+            "acInputW": 2800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120-1",
+                        "label": "AC Charge",
+                        "connector": "C14",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1400,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-120-2",
+                        "label": "AC Charge",
+                        "connector": "C14",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1400,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 1000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "Solar/DC Input",
+                        "count": 2,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 500,
+                        "overCurrent": "prohibited"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 24.2,
+            "dimensionsCm": {
+                "length": null,
+                "width": null,
+                "height": null
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 6,
+                "voltageV": 120,
+                "totalMaxW": 3600
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
                 "maxWPerPort": 100
             },
             "car": {
