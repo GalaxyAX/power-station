@@ -349,6 +349,73 @@
         "lastChecked": "2026-10-26"
     },
     {
+        "id": "ecoflow-110w-portable",
+        "brand": "EcoFlow",
+        "model": "110W Portable Solar Panel",
+        "name": "EcoFlow 110W Portable Solar Panel",
+        "category": "solar-panel",
+        "formFactor": "portable",
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/110w-portable-solar-panel?variant=39998109941833",
+        "image": null,
+        "datasheetUrl": "https://websiteoss.ecoflow.com/cms/upload/2024/5/30/EcoFlow%20110W%20Portable%20Solar%20Panel-User%20Manual%20V1.0%20(EN%2BDE%2BFR%2BIT%2BES%2BNL%2BRU%2BJP%2BKR%2BCHS%2BCHT)_1717062520219.pdf",
+        "price": {
+            "currency": "USD",
+            "current": 399,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 110,
+            "toleranceW": 5,
+            "vocV": 21.8,
+            "vmpV": 18.4,
+            "iscA": 6.5,
+            "impA": 6,
+            "tempCoeff": {
+                "pmaxPctPerC": -0.39,
+                "vocPctPerC": -0.33,
+                "iscPctPerC": 0.06
+            },
+            "maxSystemV": null,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": null
+        },
+        "cell": {
+            "type": "monocrystalline",
+            "technology": null,
+            "efficiencyPct": 22.8
+        },
+        "connector": "MC4",
+        "includedCables": [],
+        "stand": {
+            "tiltMinDeg": 25,
+            "tiltMaxDeg": 80
+        },
+        "physical": {
+            "weightKg": 4,
+            "dimensionsCm": {
+                "length": 178.5,
+                "width": 42,
+                "height": 2.5
+            },
+            "foldedCm": {
+                "length": 48,
+                "width": 42,
+                "height": 2.5
+            },
+            "ipRating": "IP68",
+            "operatingTempC": {
+                "min": -20,
+                "max": 85
+            }
+        },
+        "warrantyYears": 1,
+        "lastChecked": "2026-10-26"
+    },
+    {
         "id": "bluetti-500w-solar-panel",
         "brand": "BLUETTI",
         "model": "500W Solar Panel",
