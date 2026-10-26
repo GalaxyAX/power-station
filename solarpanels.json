@@ -357,7 +357,7 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://us.ecoflow.com/products/110w-portable-solar-panel?variant=39998109941833",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20110W%20Portable%20Solar%20Panel.webp",
         "datasheetUrl": "https://websiteoss.ecoflow.com/cms/upload/2024/5/30/EcoFlow%20110W%20Portable%20Solar%20Panel-User%20Manual%20V1.0%20(EN%2BDE%2BFR%2BIT%2BES%2BNL%2BRU%2BJP%2BKR%2BCHS%2BCHT)_1717062520219.pdf",
         "price": {
             "currency": "USD",
