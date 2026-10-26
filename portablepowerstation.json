@@ -10185,11 +10185,162 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=42017992540233",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20%2B%20220W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
             "current": 869,
             "original": 999
+        },
+        "capacity": {
+            "nominalWh": 1024,
+            "expandable": true,
+            "extraBattery": {
+                "model": "DELTA 3 Series Smart Extra Battery",
+                "capacityWh": 1024,
+                "maxCount": 1
+            },
+            "maxWh": 5120
+        },
+        "power": {
+            "continuousW": 1800,
+            "surgeW": 3600,
+            "xBoostW": 2600
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1500,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": "C14",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1500,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 500,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "Solar/Car Charging Input",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 500,
+                        "overCurrent": "prohibited"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 12.5,
+            "dimensionsCm": {
+                "length": 39.8,
+                "width": 20.2,
+                "height": 28.4
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 6,
+                "voltageV": 120,
+                "totalMaxW": 1800
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 126
+            },
+            "dc5521": {
+                "count": 2,
+                "voltageV": 12.6,
+                "maxWPerPort": 38
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-26"
+    },
+    {
+        "id": "ecoflow-delta-3-160w-solar-panel",
+        "brand": "EcoFlow",
+        "model": "DELTA 3 + 160W Portable Solar Panel",
+        "name": "EcoFlow DELTA 3 + 160W Portable Solar Panel",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-3",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "ecoflow-nextgen-160w-portable",
+                    "quantity": 1,
+                    "wiring": [
+                        {
+                            "inputId": "pv",
+                            "series": 1,
+                            "parallel": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=42017992507465",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 829,
+            "original": 899
         },
         "capacity": {
             "nominalWh": 1024,
