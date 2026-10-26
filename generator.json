@@ -228,6 +228,14 @@
                 "maxW": 1500,
                 "autoStartStop": true,
                 "requires": []
+            },
+            {
+                "stationId": "ecoflow-delta-3",
+                "path": "ac",
+                "stationPort": "AC Input",
+                "maxW": 1500,
+                "autoStartStop": true,
+                "requires": []
             }
         ],
         "engine": {
