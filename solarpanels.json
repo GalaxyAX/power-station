@@ -275,6 +275,80 @@
         "lastChecked": "2026-10-20"
     },
     {
+        "id": "ecoflow-nextgen-160w-portable",
+        "brand": "EcoFlow",
+        "model": "NextGen 160W Portable Solar Panel",
+        "name": "EcoFlow NextGen 160W Portable Solar Panel",
+        "category": "solar-panel",
+        "formFactor": "portable",
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/nextgen-160w-portable-solar-panel?variant=41682906218569",
+        "image": null,
+        "datasheetUrl": "https://manuals.ecoflow.com/us/product/160w-solar-panel?lang=en_US",
+        "price": {
+            "currency": "USD",
+            "current": 369,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 160,
+            "toleranceW": 5,
+            "vocV": 21.3,
+            "vmpV": 18.6,
+            "iscA": 9.1,
+            "impA": 8.6,
+            "tempCoeff": {
+                "pmaxPctPerC": -0.3,
+                "vocPctPerC": -0.25,
+                "iscPctPerC": 0.04
+            },
+            "maxSystemV": null,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": null
+        },
+        "cell": {
+            "type": "monocrystalline",
+            "technology": "TOPCon",
+            "efficiencyPct": 25
+        },
+        "connector": "MC4",
+        "includedCables": [
+            {
+                "from": "MC4",
+                "to": "XT60i",
+                "lengthM": 2.5,
+                "quantity": 1
+            }
+        ],
+        "stand": {
+            "tiltMinDeg": 30,
+            "tiltMaxDeg": 60
+        },
+        "physical": {
+            "weightKg": 5.6,
+            "dimensionsCm": {
+                "length": 161,
+                "width": 60,
+                "height": 2.5
+            },
+            "foldedCm": {
+                "length": 57.2,
+                "width": 60,
+                "height": 3.2
+            },
+            "ipRating": "IP68",
+            "operatingTempC": {
+                "min": -20,
+                "max": 85
+            }
+        },
+        "warrantyYears": 1,
+        "lastChecked": "2026-10-26"
+    },
+    {
         "id": "bluetti-500w-solar-panel",
         "brand": "BLUETTI",
         "model": "500W Solar Panel",
