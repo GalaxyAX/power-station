@@ -424,7 +424,7 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://us.ecoflow.com/products/45w-portable-solar-panel?variant=41731341353033",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%2045W%20Portable%20Solar%20Panel%20(Type-C).webp",
         "datasheetUrl": "https://manuals.ecoflow.com/us/product/45w-portable-solar-panel-type-c?lang=en_US",
         "price": {
             "currency": "USD",

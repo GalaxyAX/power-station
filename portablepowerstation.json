@@ -1,110 +1,5 @@
 [
     {
-        "id": "ecoflow-trail-plus-300-dc",
-        "brand": "EcoFlow",
-        "model": "TRAIL Plus 300 DC",
-        "name": "EcoFlow TRAIL Plus 300 DC",
-        "category": "portable-power-station",
-        "kind": "station",
-        "bundle": null,
-        "region": "US",
-        "url": "https://us.ecoflow.com/products/trail-series?variant=54553980141641&view=trail-plus-300",
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TRAIL%20Plus%20300%20DC.webp",
-        "price": {
-            "currency": "USD",
-            "current": 189,
-            "original": null
-        },
-        "capacity": {
-            "nominalWh": 288,
-            "expandable": false,
-            "extraBattery": null,
-            "maxWh": 288
-        },
-        "power": {
-            "continuousW": 300,
-            "surgeW": null,
-            "xBoostW": null
-        },
-        "battery": {
-            "chemistry": "NCM",
-            "cycleLife": []
-        },
-        "charging": {
-            "acInputW": 0,
-            "ac": {
-                "frequencyHz": [],
-                "inputs": [],
-                "generator": {
-                    "supported": false,
-                    "waveform": null,
-                    "maxThdPct": null,
-                    "setup": []
-                }
-            },
-            "solar": {
-                "maxW": 110,
-                "inputs": [
-                    {
-                        "id": "pv",
-                        "label": "Solar/Car Input",
-                        "count": 1,
-                        "connector": "XT60",
-                        "minV": 10,
-                        "maxV": 30,
-                        "startV": null,
-                        "maxA": 10,
-                        "maxW": 110,
-                        "overCurrent": "unknown"
-                    }
-                ],
-                "includedCables": []
-            },
-            "car": {
-                "supportedV": [
-                    12
-                ],
-                "maxA": 10
-            },
-            "maxCombinedW": null
-        },
-        "physical": {
-            "weightKg": 2.26,
-            "dimensionsCm": {
-                "length": 12.3,
-                "width": 11.5,
-                "height": 20.6
-            }
-        },
-        "ports": {
-            "ac": {
-                "count": 0,
-                "voltageV": null,
-                "totalMaxW": null
-            },
-            "usbA": {
-                "count": 2,
-                "maxWPerPort": 12
-            },
-            "usbC": {
-                "count": 3,
-                "maxWPerPort": 140
-            },
-            "car": {
-                "count": 1,
-                "voltageV": 12,
-                "maxWPerPort": 120
-            }
-        },
-        "features": {
-            "wifi": true,
-            "bluetooth": true,
-            "app": true
-        },
-        "warrantyYears": 3,
-        "lastChecked": "2026-10-09"
-    },
-    {
         "id": "ecoflow-delta-pro-ultra-x",
         "brand": "EcoFlow",
         "model": "DELTA Pro Ultra X",
@@ -11889,7 +11784,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/trail-series?variant=54590654808137&view=trail-plus-300",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TRAIL%20300%20DC%20%2B%2045W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
             "current": 219,
@@ -11980,6 +11875,232 @@
             "wifi": false,
             "bluetooth": false,
             "app": false
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-10-27"
+    },
+    {
+        "id": "ecoflow-trail-plus-300-dc",
+        "brand": "EcoFlow",
+        "model": "TRAIL Plus 300 DC",
+        "name": "EcoFlow TRAIL Plus 300 DC",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/trail-series?variant=54553980141641&view=trail-plus-300",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TRAIL%20Plus%20300%20DC.webp",
+        "price": {
+            "currency": "USD",
+            "current": 199,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 288,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 288
+        },
+        "power": {
+            "continuousW": 300,
+            "surgeW": null,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "NCM",
+            "cycleLife": []
+        },
+        "charging": {
+            "acInputW": 0,
+            "ac": {
+                "frequencyHz": [],
+                "inputs": [],
+                "generator": {
+                    "supported": false,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 110,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "Solar/Car Input Port",
+                        "count": 1,
+                        "connector": "XT60",
+                        "minV": 10,
+                        "maxV": 30,
+                        "startV": null,
+                        "maxA": 10,
+                        "maxW": 110,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 10
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 2.26,
+            "dimensionsCm": {
+                "length": 12.3,
+                "width": 11.5,
+                "height": 20.6
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 0,
+                "voltageV": null,
+                "totalMaxW": null
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 12
+            },
+            "usbC": {
+                "count": 3,
+                "maxWPerPort": 140
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-10-27"
+    },
+    {
+        "id": "ecoflow-trail-plus-300-dc-45w-solar-panel",
+        "brand": "EcoFlow",
+        "model": "TRAIL Plus 300 DC + 45W Solar Panel",
+        "name": "EcoFlow TRAIL Plus 300 DC + 45W Solar Panel",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-trail-plus-300-dc",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "ecoflow-45w-portable",
+                    "quantity": 1,
+                    "wiring": [
+                        {
+                            "inputId": "pv",
+                            "series": 1,
+                            "parallel": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/trail-series?variant=54590654873673&view=trail-plus-300",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 259,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 288,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 288
+        },
+        "power": {
+            "continuousW": 300,
+            "surgeW": null,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "NCM",
+            "cycleLife": []
+        },
+        "charging": {
+            "acInputW": 0,
+            "ac": {
+                "frequencyHz": [],
+                "inputs": [],
+                "generator": {
+                    "supported": false,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 110,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "Solar/Car Input Port",
+                        "count": 1,
+                        "connector": "XT60",
+                        "minV": 10,
+                        "maxV": 30,
+                        "startV": null,
+                        "maxA": 10,
+                        "maxW": 110,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 10
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 2.26,
+            "dimensionsCm": {
+                "length": 12.3,
+                "width": 11.5,
+                "height": 20.6
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 0,
+                "voltageV": null,
+                "totalMaxW": null
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 12
+            },
+            "usbC": {
+                "count": 3,
+                "maxWPerPort": 140
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
         },
         "warrantyYears": 3,
         "lastChecked": "2026-10-27"
