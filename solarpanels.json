@@ -416,6 +416,77 @@
         "lastChecked": "2026-10-26"
     },
     {
+        "id": "ecoflow-45w-portable",
+        "brand": "EcoFlow",
+        "model": "45W Portable Solar Panel (Type-C)",
+        "name": "EcoFlow 45W Portable Solar Panel (Type-C)",
+        "category": "solar-panel",
+        "formFactor": "portable",
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/45w-portable-solar-panel?variant=41731341353033",
+        "image": null,
+        "datasheetUrl": "https://manuals.ecoflow.com/us/product/45w-portable-solar-panel-type-c?lang=en_US",
+        "price": {
+            "currency": "USD",
+            "current": 99,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 45,
+            "toleranceW": 5,
+            "vocV": 25.6,
+            "vmpV": 22,
+            "iscA": 2.06,
+            "impA": 1.98,
+            "tempCoeff": {
+                "pmaxPctPerC": -0.3,
+                "vocPctPerC": -0.25,
+                "iscPctPerC": 0.045
+            },
+            "maxSystemV": null,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": null
+        },
+        "cell": {
+            "type": "monocrystalline",
+            "technology": "TOPCon",
+            "efficiencyPct": 25
+        },
+        "connector": "DC5521",
+        "includedCables": [
+            {
+                "from": "DC5521",
+                "to": "XT60i",
+                "lengthM": 1.5,
+                "quantity": 1
+            }
+        ],
+        "stand": null,
+        "physical": {
+            "weightKg": 1.4,
+            "dimensionsCm": {
+                "length": 98,
+                "width": 30.9,
+                "height": 1.6
+            },
+            "foldedCm": {
+                "length": 22.2,
+                "width": 30.9,
+                "height": 4
+            },
+            "ipRating": "IP68",
+            "operatingTempC": {
+                "min": -20,
+                "max": 85
+            }
+        },
+        "warrantyYears": 1,
+        "lastChecked": "2026-10-27"
+    },
+    {
         "id": "bluetti-500w-solar-panel",
         "brand": "BLUETTI",
         "model": "500W Solar Panel",

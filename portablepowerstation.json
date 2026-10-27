@@ -11768,11 +11768,132 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/trail-series?variant=54769793499209&view=trail-plus-300",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TRAIL%20300%20DC%20%2B%20110W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
             "current": 369,
             "original": null
+        },
+        "capacity": {
+            "nominalWh": 288,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 288
+        },
+        "power": {
+            "continuousW": 300,
+            "surgeW": null,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": []
+        },
+        "charging": {
+            "acInputW": 0,
+            "ac": {
+                "frequencyHz": [],
+                "inputs": [],
+                "generator": {
+                    "supported": false,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 110,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "Solar/Car Input Port",
+                        "count": 1,
+                        "connector": "XT60",
+                        "minV": 10,
+                        "maxV": 30,
+                        "startV": null,
+                        "maxA": 10,
+                        "maxW": 110,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 10
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 2.58,
+            "dimensionsCm": {
+                "length": 16.6,
+                "width": 11.5,
+                "height": 16.7
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 0,
+                "voltageV": null,
+                "totalMaxW": null
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 12
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 140
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-10-27"
+    },
+    {
+        "id": "ecoflow-trail-300-dc-45w-solar-panel",
+        "brand": "EcoFlow",
+        "model": "TRAIL 300 DC + 45W Solar Panel",
+        "name": "EcoFlow TRAIL 300 DC + 45W Solar Panel",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-trail-300-dc",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "ecoflow-45w-portable",
+                    "quantity": 1,
+                    "wiring": [
+                        {
+                            "inputId": "pv",
+                            "series": 1,
+                            "parallel": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/trail-series?variant=54590654808137&view=trail-plus-300",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 219,
+            "original": 229
         },
         "capacity": {
             "nominalWh": 288,
