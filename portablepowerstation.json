@@ -10775,7 +10775,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=54775452401737",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20%2B%20500W%20Alternator%20Charger.webp",
         "price": {
             "currency": "USD",
             "current": 689,
@@ -10899,6 +10899,653 @@
         },
         "warrantyYears": 5,
         "lastChecked": "2026-10-26"
+    },
+    {
+        "id": "ecoflow-river-3-max",
+        "brand": "EcoFlow",
+        "model": "RIVER 3 Max",
+        "name": "EcoFlow RIVER 3 Max",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/river-3-max-river-3-plus-extra-battery-300?variant=54335026528329",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%203%20Max.webp",
+        "price": {
+            "currency": "USD",
+            "current": 319,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 572,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 572
+        },
+        "power": {
+            "continuousW": 600,
+            "surgeW": 1200,
+            "xBoostW": 1200
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 3000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 650,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input Port",
+                        "connector": "C14",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 10,
+                        "maxW": 1200,
+                        "chargeMaxW": 650,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 220,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "Solar/Car Input Port",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 55,
+                        "startV": null,
+                        "maxA": 13,
+                        "maxW": 220,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 8.2,
+            "dimensionsCm": {
+                "length": 23.4,
+                "width": 23.2,
+                "height": 25.6
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 3,
+                "voltageV": 120,
+                "totalMaxW": 600
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 12
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 126
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-27"
+    },
+    {
+        "id": "ecoflow-river-3-plus",
+        "brand": "EcoFlow",
+        "model": "RIVER 3 Plus",
+        "name": "EcoFlow RIVER 3 Plus",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/ecoflow-river-3-plus-portable-power-station-flash-sale?variant=54527643189321",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%203%20Plus.webp",
+        "price": {
+            "currency": "USD",
+            "current": 299,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 286,
+            "expandable": true,
+            "extraBattery": {
+                "model": "RIVER 3 Plus Smart Extra Battery EB600 (572Wh)",
+                "capacityWh": 572,
+                "maxCount": 1
+            },
+            "maxWh": 858
+        },
+        "power": {
+            "continuousW": 600,
+            "surgeW": 1200,
+            "xBoostW": 1200
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 3000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 380,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input Port",
+                        "connector": "C14",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 10,
+                        "maxW": 1200,
+                        "chargeMaxW": 380,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 220,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "Solar/Car Input Port",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 55,
+                        "startV": null,
+                        "maxA": 13,
+                        "maxW": 220,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 4.7,
+            "dimensionsCm": {
+                "length": 23.4,
+                "width": 23.2,
+                "height": 14.6
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 3,
+                "voltageV": 120,
+                "totalMaxW": 600
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 12
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 126
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-27"
+    },
+    {
+        "id": "ecoflow-river-2-pro",
+        "brand": "EcoFlow",
+        "model": "RIVER 2 Pro",
+        "name": "EcoFlow RIVER 2 Pro",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/river-2-pro-portable-power-station?variant=54320636198985",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%202%20Pro.webp",
+        "price": {
+            "currency": "USD",
+            "current": 389,
+            "original": 529
+        },
+        "capacity": {
+            "nominalWh": 768,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 768
+        },
+        "power": {
+            "continuousW": 800,
+            "surgeW": 1600,
+            "xBoostW": 1600
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 3000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 940,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "X-Stream AC charging input port",
+                        "connector": "C14",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 10,
+                        "maxW": 1200,
+                        "chargeMaxW": 940,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": false,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 220,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC input port",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 50,
+                        "startV": null,
+                        "maxA": 13,
+                        "maxW": 220,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 8.25,
+            "dimensionsCm": {
+                "length": 27,
+                "width": 26,
+                "height": 22.6
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 4,
+                "voltageV": 120,
+                "totalMaxW": 800
+            },
+            "usbA": {
+                "count": 3,
+                "maxWPerPort": 12
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 126
+            },
+            "dc5521": {
+                "count": 2,
+                "voltageV": 12.6,
+                "maxWPerPort": 36
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-27"
+    },
+    {
+        "id": "ecoflow-river-2-max",
+        "brand": "EcoFlow",
+        "model": "RIVER 2 Max",
+        "name": "EcoFlow RIVER 2 Max",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/river-2-max-portable-power-station?variant=40396926451785",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%202%20Max.webp",
+        "price": {
+            "currency": "USD",
+            "current": 289,
+            "original": 299
+        },
+        "capacity": {
+            "nominalWh": 512,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 512
+        },
+        "power": {
+            "continuousW": 500,
+            "surgeW": 1000,
+            "xBoostW": 1000
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 3000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 660,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "X-Stream AC charging input port",
+                        "connector": "C14",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 10,
+                        "maxW": 1200,
+                        "chargeMaxW": 660,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": false,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 220,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC input port",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 50,
+                        "startV": null,
+                        "maxA": 13,
+                        "maxW": 220,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 6.1,
+            "dimensionsCm": {
+                "length": 27,
+                "width": 26,
+                "height": 19.6
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 4,
+                "voltageV": 120,
+                "totalMaxW": 500
+            },
+            "usbA": {
+                "count": 3,
+                "maxWPerPort": 12
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 126
+            },
+            "dc5521": {
+                "count": 2,
+                "voltageV": 12.6,
+                "maxWPerPort": 36
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-27"
+    },
+    {
+        "id": "ecoflow-river-2",
+        "brand": "EcoFlow",
+        "model": "RIVER 2 (240)",
+        "name": "EcoFlow RIVER 2 (240)",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/river-2-240-portable-power-station?variant=40957077487689",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%202.webp",
+        "price": {
+            "currency": "USD",
+            "current": 219,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 243,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 243
+        },
+        "power": {
+            "continuousW": 300,
+            "surgeW": 600,
+            "xBoostW": 600
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 3000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 360,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC input port",
+                        "connector": "C14",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 8,
+                        "maxW": 960,
+                        "chargeMaxW": 360,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": false,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 110,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC input port",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 30,
+                        "startV": null,
+                        "maxA": 8,
+                        "maxW": 110,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 3.5,
+            "dimensionsCm": {
+                "length": 24.5,
+                "width": 21.5,
+                "height": 14.5
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 2,
+                "voltageV": 120,
+                "totalMaxW": 300
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 12
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 60
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 100
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-27"
     },
     {
         "id": "bluetti-apex-300",
