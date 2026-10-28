@@ -12279,7 +12279,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54392582701129",
-        "image": null,
+        "image": "https://github.com/GalaxyAX/power-station/blob/main/img/EcoFlow%20DELTA%202%20%2B%20Tesla%20Model%203%20256W%20EV%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
             "current": 939,
@@ -12389,6 +12389,157 @@
             "usbC": {
                 "count": 2,
                 "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 126
+            },
+            "dc5521": {
+                "count": 2,
+                "voltageV": 12.6,
+                "maxWPerPort": 38
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-28"
+    },
+    {
+        "id": "ecoflow-delta-3-plus-256w-ev-solar-panel-model-3",
+        "brand": "EcoFlow",
+        "model": "DELTA 3 Plus + Tesla Model 3 256W EV Solar Panel",
+        "name": "EcoFlow DELTA 3 Plus + Tesla Model 3 256W EV Solar Panel",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-3-plus",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "ecoflow-256w-ev-model-3",
+                    "quantity": 2,
+                    "wiring": [
+                        {
+                            "inputId": "pv",
+                            "series": 1,
+                            "parallel": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54376118616137",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 1099,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 1024,
+            "expandable": true,
+            "extraBattery": {
+                "model": "DELTA 3 Series Smart Extra Battery",
+                "capacityWh": 1024,
+                "maxCount": 1
+            },
+            "maxWh": 5120
+        },
+        "power": {
+            "continuousW": 1800,
+            "surgeW": 3600,
+            "xBoostW": 2600
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1500,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": "C14",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1500,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 1000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "Solar/Car Charging Input",
+                        "count": 2,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 500,
+                        "overCurrent": "prohibited"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 12.5,
+            "dimensionsCm": {
+                "length": 39.8,
+                "width": 20.2,
+                "height": 28.4
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 6,
+                "voltageV": 120,
+                "totalMaxW": 1800
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 36
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 140
             },
             "car": {
                 "count": 1,
