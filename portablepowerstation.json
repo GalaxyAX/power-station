@@ -12106,6 +12106,310 @@
         "lastChecked": "2026-10-27"
     },
     {
+        "id": "ecoflow-river-2-pro-256w-ev-solar-panel-model-3",
+        "brand": "EcoFlow",
+        "model": "RIVER 2 Pro + Tesla Model 3 256W EV Solar Panel",
+        "name": "EcoFlow RIVER 2 Pro + Tesla Model 3 256W EV Solar Panel",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-river-2-pro",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "ecoflow-256w-ev-model-3",
+                    "quantity": 2,
+                    "wiring": [
+                        {
+                            "inputId": "pv",
+                            "series": 1,
+                            "parallel": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54392582668361",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%202%20Pro%20%2B%20Tesla%20Model%203%20256W%20EV%20Solar%20Panel.webp",
+        "price": {
+            "currency": "USD",
+            "current": 839,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 768,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 768
+        },
+        "power": {
+            "continuousW": 800,
+            "surgeW": 1600,
+            "xBoostW": 1600
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 3000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 940,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "X-Stream AC charging input port",
+                        "connector": "C14",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 10,
+                        "maxW": 1200,
+                        "chargeMaxW": 940,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": false,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 220,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC input port",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 50,
+                        "startV": null,
+                        "maxA": 13,
+                        "maxW": 220,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 8.25,
+            "dimensionsCm": {
+                "length": 27,
+                "width": 26,
+                "height": 22.6
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 4,
+                "voltageV": 120,
+                "totalMaxW": 800
+            },
+            "usbA": {
+                "count": 3,
+                "maxWPerPort": 12
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 126
+            },
+            "dc5521": {
+                "count": 2,
+                "voltageV": 12.6,
+                "maxWPerPort": 36
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-28"
+    },
+    {
+        "id": "ecoflow-delta-2-256w-ev-solar-panel-model-3",
+        "brand": "EcoFlow",
+        "model": "DELTA 2 + Tesla Model 3 256W EV Solar Panel",
+        "name": "EcoFlow DELTA 2 + Tesla Model 3 256W EV Solar Panel",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-2",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "ecoflow-256w-ev-model-3",
+                    "quantity": 2,
+                    "wiring": [
+                        {
+                            "inputId": "pv",
+                            "series": 1,
+                            "parallel": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54392582701129",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 939,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 1024,
+            "expandable": true,
+            "extraBattery": {
+                "model": "DELTA 2 Smart Extra Battery",
+                "capacityWh": 1024,
+                "maxCount": 1
+            },
+            "maxWh": 2048
+        },
+        "power": {
+            "continuousW": 1800,
+            "surgeW": 2700,
+            "xBoostW": 2200
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1200,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "X-Stream charging input port",
+                        "connector": "C14",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 13,
+                        "maxW": 1560,
+                        "chargeMaxW": 1200,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 500,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "Solar/car charging input port",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 500,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 12,
+            "dimensionsCm": {
+                "length": 40,
+                "width": 21.1,
+                "height": 28.1
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 6,
+                "voltageV": 120,
+                "totalMaxW": 1800
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 12
+            },
+            "usbAFast": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 126
+            },
+            "dc5521": {
+                "count": 2,
+                "voltageV": 12.6,
+                "maxWPerPort": 38
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-28"
+    },
+    {
         "id": "bluetti-apex-300",
         "brand": "BLUETTI",
         "model": "Apex 300",
