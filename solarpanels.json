@@ -298,6 +298,82 @@
         "lastChecked": "2026-10-05"
     },
     {
+        "id": "ecoflow-2x-nextgen-220w-bifacial",
+        "brand": "EcoFlow",
+        "model": "2 x NextGen 220W Bifacial Portable Solar Panel",
+        "name": "EcoFlow 2 x NextGen 220W Bifacial Portable Solar Panel",
+        "category": "solar-panel",
+        "formFactor": "portable",
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/nextgen-220w-bifacial-portable-solar-panel?variant=54553987547209",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%202%20x%20NextGen%20220W%20Bifacial%20Portable%20Solar%20Panel.webp",
+        "datasheetUrl": null,
+        "price": {
+            "currency": "USD",
+            "current": 769,
+            "original": null
+        },
+        "unitsPerPack": 2,
+        "electrical": {
+            "ratedW": 220,
+            "toleranceW": 5,
+            "vocV": 21.5,
+            "vmpV": 18.4,
+            "iscA": 12.4,
+            "impA": 11.9,
+            "tempCoeff": {
+                "pmaxPctPerC": null,
+                "vocPctPerC": null,
+                "iscPctPerC": null
+            },
+            "maxSystemV": null,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": {
+                "rearRatedW": 175,
+                "rearIscA": 9.9,
+                "rearImpA": 9.5,
+                "maxGainPct": 25
+            }
+        },
+        "cell": {
+            "type": "monocrystalline",
+            "technology": "TOPCon",
+            "efficiencyPct": 25
+        },
+        "connector": "MC4",
+        "includedCables": [
+            {
+                "from": "MC4",
+                "to": "XT60i",
+                "lengthM": null,
+                "quantity": 2
+            }
+        ],
+        "stand": {
+            "tiltMinDeg": 30,
+            "tiltMaxDeg": 60
+        },
+        "physical": {
+            "weightKg": 7,
+            "dimensionsCm": {
+                "length": 215.5,
+                "width": 61.5,
+                "height": 2.5
+            },
+            "foldedCm": {
+                "length": 59,
+                "width": 61.5,
+                "height": 3.2
+            },
+            "ipRating": "IP68",
+            "operatingTempC": null
+        },
+        "warrantyYears": 1,
+        "lastChecked": "2026-10-28"
+    },
+    {
         "id": "ecoflow-100w-rigid",
         "brand": "EcoFlow",
         "model": "100W Rigid Solar Panel",
