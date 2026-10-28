@@ -374,63 +374,6 @@
         "lastChecked": "2026-10-28"
     },
     {
-        "id": "ecoflow-100w-rigid",
-        "brand": "EcoFlow",
-        "model": "100W Rigid Solar Panel",
-        "name": "EcoFlow 100W Rigid Solar Panel",
-        "category": "solar-panel",
-        "formFactor": "rigid",
-        "region": "US",
-        "url": "https://us.ecoflow.com/products/100w-rigid-solar-panel?variant=40982252912713",
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20100W%20Rigid%20Solar%20Panel.webp",
-        "datasheetUrl": null,
-        "price": {
-            "currency": "USD",
-            "current": 139,
-            "original": null
-        },
-        "unitsPerPack": 1,
-        "electrical": {
-            "ratedW": 100,
-            "toleranceW": 5,
-            "vocV": 20.3,
-            "vmpV": 17.1,
-            "iscA": 6.3,
-            "impA": 5.9,
-            "tempCoeff": {
-                "pmaxPctPerC": -0.39,
-                "vocPctPerC": -0.33,
-                "iscPctPerC": 0.06
-            },
-            "maxSystemV": 600,
-            "maxSeriesFuseA": 15,
-            "maxSeries": null,
-            "maxParallel": null,
-            "bifacial": null
-        },
-        "cell": {
-            "type": "monocrystalline",
-            "technology": null,
-            "efficiencyPct": 23
-        },
-        "connector": "MC4",
-        "includedCables": null,
-        "stand": null,
-        "physical": {
-            "weightKg": 6.2,
-            "dimensionsCm": {
-                "length": 98,
-                "width": 58.6,
-                "height": 3
-            },
-            "foldedCm": null,
-            "ipRating": "IP68",
-            "operatingTempC": null
-        },
-        "warrantyYears": 5,
-        "lastChecked": "2026-10-05"
-    },
-    {
         "id": "ecoflow-125w-bifacial-modular",
         "brand": "EcoFlow",
         "model": "125W Bifacial Modular Solar Panel",
@@ -1068,7 +1011,7 @@
         "formFactor": "rigid",
         "region": "US",
         "url": "https://us.ecoflow.com/products/175w-rigid-solar-panel?variant=41362064179273",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20175W%20Rigid%20Solar%20Panel.webp",
         "datasheetUrl": "https://websiteoss.ecoflow.com/cms/upload/2024/5/30/EcoFlow%20175W%20Rigid%20Solar%20Panel-Quick%20Start%20Guide%20V1.0_1717050113261.pdf",
         "price": {
             "currency": "USD",
@@ -1114,6 +1057,63 @@
             "dimensionsCm": {
                 "length": 117.6,
                 "width": 76.2,
+                "height": 3
+            },
+            "foldedCm": null,
+            "ipRating": "IP68",
+            "operatingTempC": null
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-28"
+    },
+    {
+        "id": "ecoflow-2x-100w-rigid",
+        "brand": "EcoFlow",
+        "model": "2 x 100W Rigid Solar Panel",
+        "name": "EcoFlow 2 x 100W Rigid Solar Panel",
+        "category": "solar-panel",
+        "formFactor": "rigid",
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/100w-rigid-solar-panel?variant=54781687758921",
+        "image": null,
+        "datasheetUrl": null,
+        "price": {
+            "currency": "USD",
+            "current": 379,
+            "original": null
+        },
+        "unitsPerPack": 2,
+        "electrical": {
+            "ratedW": 100,
+            "toleranceW": 5,
+            "vocV": 20.3,
+            "vmpV": 17.1,
+            "iscA": 6.3,
+            "impA": 5.9,
+            "tempCoeff": {
+                "pmaxPctPerC": -0.39,
+                "vocPctPerC": -0.33,
+                "iscPctPerC": 0.06
+            },
+            "maxSystemV": 600,
+            "maxSeriesFuseA": 15,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": null
+        },
+        "cell": {
+            "type": "monocrystalline",
+            "technology": null,
+            "efficiencyPct": 23
+        },
+        "connector": "MC4",
+        "includedCables": [],
+        "stand": null,
+        "physical": {
+            "weightKg": 6.2,
+            "dimensionsCm": {
+                "length": 98,
+                "width": 58.6,
                 "height": 3
             },
             "foldedCm": null,
