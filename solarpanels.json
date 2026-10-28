@@ -1060,6 +1060,70 @@
         "lastChecked": "2026-10-28"
     },
     {
+        "id": "ecoflow-175w-rigid",
+        "brand": "EcoFlow",
+        "model": "175W Rigid Solar Panel",
+        "name": "EcoFlow 175W Rigid Solar Panel",
+        "category": "solar-panel",
+        "formFactor": "rigid",
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/175w-rigid-solar-panel?variant=41362064179273",
+        "image": null,
+        "datasheetUrl": "https://websiteoss.ecoflow.com/cms/upload/2024/5/30/EcoFlow%20175W%20Rigid%20Solar%20Panel-Quick%20Start%20Guide%20V1.0_1717050113261.pdf",
+        "price": {
+            "currency": "USD",
+            "current": 249,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 175,
+            "toleranceW": 3,
+            "vocV": 25.5,
+            "vmpV": 22.3,
+            "iscA": 8.3,
+            "impA": 7.85,
+            "tempCoeff": {
+                "pmaxPctPerC": null,
+                "vocPctPerC": null,
+                "iscPctPerC": null
+            },
+            "maxSystemV": null,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": null
+        },
+        "cell": {
+            "type": "monocrystalline",
+            "technology": "TOPCon",
+            "efficiencyPct": 25
+        },
+        "connector": "MC4",
+        "includedCables": [
+            {
+                "from": "MC4",
+                "to": "XT60",
+                "lengthM": null,
+                "quantity": 1
+            }
+        ],
+        "stand": null,
+        "physical": {
+            "weightKg": 9.3,
+            "dimensionsCm": {
+                "length": 117.6,
+                "width": 76.2,
+                "height": 3
+            },
+            "foldedCm": null,
+            "ipRating": "IP68",
+            "operatingTempC": null
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-28"
+    },
+    {
         "id": "bluetti-500w-solar-panel",
         "brand": "BLUETTI",
         "model": "500W Solar Panel",
