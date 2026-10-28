@@ -993,6 +993,73 @@
         "lastChecked": "2026-10-28"
     },
     {
+        "id": "ecoflow-290w-ev-model-y",
+        "brand": "EcoFlow",
+        "model": "290W EV Solar Panel (for Model Y)",
+        "name": "EcoFlow 290W EV Solar Panel (for Model Y)",
+        "category": "solar-panel",
+        "formFactor": "flexible",
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54376118681673",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20290W%20EV%20Solar%20Panel%20(for%20Model%20Y).webp",
+        "datasheetUrl": null,
+        "price": {
+            "currency": "USD",
+            "current": 539,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 290,
+            "toleranceW": 5,
+            "vocV": 28.5,
+            "vmpV": 24.4,
+            "iscA": 12.4,
+            "impA": 11.9,
+            "tempCoeff": {
+                "pmaxPctPerC": null,
+                "vocPctPerC": null,
+                "iscPctPerC": null
+            },
+            "maxSystemV": 600,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": null
+        },
+        "cell": {
+            "type": "monocrystalline",
+            "technology": "TOPCon",
+            "efficiencyPct": 24.8
+        },
+        "connector": "MC4",
+        "includedCables": [
+            {
+                "from": "MC4",
+                "to": "XT60i",
+                "lengthM": 2.5,
+                "quantity": 1
+            }
+        ],
+        "stand": null,
+        "physical": {
+            "weightKg": 5,
+            "dimensionsCm": {
+                "length": 164,
+                "width": 62,
+                "height": 1.8
+            },
+            "foldedCm": null,
+            "ipRating": "IP68",
+            "operatingTempC": {
+                "min": -40,
+                "max": 85
+            }
+        },
+        "warrantyYears": 2,
+        "lastChecked": "2026-10-28"
+    },
+    {
         "id": "bluetti-500w-solar-panel",
         "brand": "BLUETTI",
         "model": "500W Solar Panel",
