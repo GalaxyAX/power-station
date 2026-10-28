@@ -13692,14 +13692,14 @@
         "lastChecked": "2026-10-28"
     },
     {
-        "id": "ecoflow-delta-pro-ultra-2x-400w-solar-panel",
+        "id": "ecoflow-delta-pro-3-2x-400w-solar-panel",
         "brand": "EcoFlow",
-        "model": "DELTA Pro Ultra + 2 × 400W Portable Solar Panels",
-        "name": "EcoFlow DELTA Pro Ultra + 2 × 400W Portable Solar Panels",
+        "model": "DELTA Pro 3 + 2 × 400W Portable Solar Panel",
+        "name": "EcoFlow DELTA Pro 3 + 2 × 400W Portable Solar Panel",
         "category": "portable-power-station",
         "kind": "bundle",
         "bundle": {
-            "baseStationId": "ecoflow-delta-pro-ultra",
+            "baseStationId": "ecoflow-delta-pro-3",
             "includes": [
                 {
                     "type": "solar-panel",
@@ -13710,33 +13710,33 @@
             ]
         },
         "region": "US",
-        "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=54740155072585",
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%202%20×%20400W%20Portable%20Solar%20Panels.webp",
+        "url": "https://us.ecoflow.com/products/delta-pro-3-solar-generator?variant=55590273744969",
+        "image": null,
         "price": {
             "currency": "USD",
-            "current": 5099,
-            "original": null
+            "current": 3499,
+            "original": 4399
         },
         "capacity": {
-            "nominalWh": 6144,
+            "nominalWh": 4096,
             "expandable": true,
             "extraBattery": {
-                "model": "DELTA Pro Ultra Battery",
-                "capacityWh": 6144,
-                "maxCount": 4
+                "model": "DELTA Pro 3 Smart Extra Battery",
+                "capacityWh": 4096,
+                "maxCount": 2
             },
-            "maxWh": 30720
+            "maxWh": 12288
         },
         "power": {
-            "continuousW": 7200,
-            "surgeW": 10800,
-            "xBoostW": null
+            "continuousW": 4000,
+            "surgeW": 8000,
+            "xBoostW": 6000
         },
         "battery": {
             "chemistry": "LFP",
             "cycleLife": [
                 {
-                    "cycles": 3500,
+                    "cycles": 4000,
                     "retentionPct": 80
                 }
             ]
@@ -13751,7 +13751,7 @@
                 "inputs": [
                     {
                         "id": "ac-120",
-                        "label": "AC charging input port",
+                        "label": "AC Input",
                         "connector": "C20",
                         "plug": "5-15P",
                         "voltageV": 120,
@@ -13763,37 +13763,25 @@
                     },
                     {
                         "id": "ac-240",
-                        "label": "AC charging input port",
+                        "label": "AC Input",
                         "connector": "C20",
                         "plug": null,
                         "voltageV": 240,
-                        "maxA": 12.5,
-                        "maxW": 3000,
-                        "chargeMaxW": 3000,
+                        "maxA": 15,
+                        "maxW": 3600,
+                        "chargeMaxW": 3600,
                         "chargeMinW": null,
                         "passThrough": false
                     },
                     {
-                        "id": "ac-120-30a",
-                        "label": "Power input/output port",
-                        "connector": "5P8",
-                        "plug": null,
-                        "voltageV": 120,
-                        "maxA": 30,
-                        "maxW": 3600,
-                        "chargeMaxW": 3600,
-                        "chargeMinW": null,
-                        "passThrough": true
-                    },
-                    {
-                        "id": "ac-240-30a",
-                        "label": "Power input/output port",
+                        "id": "ac-in-out",
+                        "label": "AC POWER IN / OUT",
                         "connector": "5P8",
                         "plug": null,
                         "voltageV": 240,
-                        "maxA": 30,
-                        "maxW": 6200,
-                        "chargeMaxW": 6200,
+                        "maxA": 20,
+                        "maxW": 4000,
+                        "chargeMaxW": 4000,
                         "chargeMinW": null,
                         "passThrough": false
                     }
@@ -13801,72 +13789,68 @@
                 "generator": {
                     "supported": true,
                     "waveform": null,
-                    "maxThdPct": 10,
+                    "maxThdPct": null,
                     "setup": [
-                        "Set the charging power below your generator's rated output before connecting it."
+                        "A 240 V split-phase generator connects to the AC POWER IN / OUT port through the EcoFlow AC Generator Charging Adapter, sold separately."
                     ]
                 }
             },
             "solar": {
-                "maxW": 5600,
+                "maxW": 2600,
                 "inputs": [
                     {
                         "id": "pv-high",
                         "label": "High-PV",
                         "count": 1,
-                        "connector": "MC4",
-                        "minV": 80,
-                        "maxV": 450,
-                        "startV": null,
-                        "maxA": 15,
-                        "maxW": 4000,
-                        "overCurrent": "prohibited"
-                    },
-                    {
-                        "id": "pv-low",
-                        "label": "Low-PV",
-                        "count": 1,
-                        "connector": "Proprietary",
+                        "connector": "XT60",
                         "minV": 30,
                         "maxV": 150,
                         "startV": null,
                         "maxA": 15,
                         "maxW": 1600,
-                        "overCurrent": "prohibited"
+                        "overCurrent": "unknown"
+                    },
+                    {
+                        "id": "pv-low",
+                        "label": "Low-PV",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 20,
+                        "maxW": 1000,
+                        "overCurrent": "unknown"
                     }
                 ],
-                "includedCables": [
-                    {
-                        "from": "MC4",
-                        "to": "Proprietary",
-                        "lengthM": 2.5,
-                        "quantity": 1
-                    }
-                ]
+                "includedCables": []
             },
             "car": {
-                "supportedV": [],
-                "maxA": null
+                "supportedV": [
+                    12,
+                    48
+                ],
+                "maxA": 8
             },
-            "maxCombinedW": 6200
+            "maxCombinedW": 7000
         },
         "physical": {
-            "weightKg": 82.4,
+            "weightKg": 51.5,
             "dimensionsCm": {
-                "length": 69,
-                "width": 48.1,
-                "height": 41.8
+                "length": 69.3,
+                "width": 34.1,
+                "height": 41
             }
         },
         "ports": {
             "ac": {
-                "count": 6,
+                "count": 7,
                 "voltageV": 120,
-                "totalMaxW": 7200
+                "totalMaxW": 4000
             },
             "usbA": {
                 "count": 2,
-                "maxWPerPort": 12
+                "maxWPerPort": 18
             },
             "usbC": {
                 "count": 2,
@@ -13876,6 +13860,11 @@
                 "count": 0,
                 "voltageV": null,
                 "maxWPerPort": null
+            },
+            "dc5521": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 63
             },
             "anderson": {
                 "count": 1,
@@ -13889,7 +13878,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-28"
+        "lastChecked": "2026-10-29"
     },
     {
         "id": "bluetti-apex-300",
