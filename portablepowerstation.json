@@ -12010,7 +12010,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/trail-series?variant=54590654873673&view=trail-plus-300",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TRAIL%20Plus%20300%20DC%20%2B%2045W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
             "current": 259,
