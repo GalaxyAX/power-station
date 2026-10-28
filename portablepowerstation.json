@@ -12586,7 +12586,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54376118648905",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max%20%2B%20Tesla%20Model%203%20256W%20EV%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
             "current": 1489,
@@ -12706,6 +12706,154 @@
                 "count": 2,
                 "voltageV": 12.6,
                 "maxWPerPort": 38
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-10-28"
+    },
+    {
+        "id": "ecoflow-river-2-pro-290w-ev-solar-panel-model-y",
+        "brand": "EcoFlow",
+        "model": "RIVER 2 Pro + Tesla Model Y 290W EV Solar Panel",
+        "name": "EcoFlow RIVER 2 Pro + Tesla Model Y 290W EV Solar Panel",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-river-2-pro",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "ecoflow-290w-ev-model-y",
+                    "quantity": 1,
+                    "wiring": [
+                        {
+                            "inputId": "pv",
+                            "series": 1,
+                            "parallel": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54392582733897",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 899,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 768,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 768
+        },
+        "power": {
+            "continuousW": 800,
+            "surgeW": 1600,
+            "xBoostW": 1600
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 3000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 940,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "X-Stream AC charging input port",
+                        "connector": "C14",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 10,
+                        "maxW": 1200,
+                        "chargeMaxW": 940,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": false,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 220,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC input port",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 50,
+                        "startV": null,
+                        "maxA": 13,
+                        "maxW": 220,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 8.25,
+            "dimensionsCm": {
+                "length": 27,
+                "width": 26,
+                "height": 22.6
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 4,
+                "voltageV": 120,
+                "totalMaxW": 800
+            },
+            "usbA": {
+                "count": 3,
+                "maxWPerPort": 12
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 126
+            },
+            "dc5521": {
+                "count": 2,
+                "voltageV": 12.6,
+                "maxWPerPort": 36
             }
         },
         "features": {
