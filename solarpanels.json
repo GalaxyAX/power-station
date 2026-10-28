@@ -1075,7 +1075,7 @@
         "formFactor": "rigid",
         "region": "US",
         "url": "https://us.ecoflow.com/products/100w-rigid-solar-panel?variant=54781687758921",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%202%20x%20100W%20Rigid%20Solar%20Panel.webp",
         "datasheetUrl": null,
         "price": {
             "currency": "USD",
