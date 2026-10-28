@@ -795,6 +795,66 @@
         "lastChecked": "2026-10-28"
     },
     {
+        "id": "ecoflow-100w-flexible",
+        "brand": "EcoFlow",
+        "model": "100W Flexible Solar Panel",
+        "name": "EcoFlow 100W Flexible Solar Panel",
+        "category": "solar-panel",
+        "formFactor": "flexible",
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/100w-flexible-solar-panel?variant=40133447974985",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20100W%20Flexible%20Solar%20Panel.webp",
+        "datasheetUrl": "https://websiteoss.ecoflow.com/cms/upload/2022/9/13/1468399432_1663042123171.pdf",
+        "price": {
+            "currency": "USD",
+            "current": 199,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 100,
+            "toleranceW": 5,
+            "vocV": 20.3,
+            "vmpV": 17.1,
+            "iscA": 6.3,
+            "impA": 5.9,
+            "tempCoeff": {
+                "pmaxPctPerC": -0.39,
+                "vocPctPerC": -0.33,
+                "iscPctPerC": 0.06
+            },
+            "maxSystemV": 600,
+            "maxSeriesFuseA": 15,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": null
+        },
+        "cell": {
+            "type": "monocrystalline",
+            "technology": null,
+            "efficiencyPct": 23
+        },
+        "connector": "MC4",
+        "includedCables": [],
+        "stand": null,
+        "physical": {
+            "weightKg": 2.3,
+            "dimensionsCm": {
+                "length": 105.5,
+                "width": 61.2,
+                "height": 2.5
+            },
+            "foldedCm": null,
+            "ipRating": "IP68",
+            "operatingTempC": {
+                "min": -20,
+                "max": 85
+            }
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-10-28"
+    },
+    {
         "id": "ecoflow-45w-portable",
         "brand": "EcoFlow",
         "model": "45W Portable Solar Panel (Type-C)",
