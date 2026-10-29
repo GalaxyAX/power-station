@@ -1871,7 +1871,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=40758830104649",
-        "image": "https://github.com/GalaxyAX/power-station/blob/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20Smart%20Home%20Panel%202%20%2B%20Monitor.webp",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20Smart%20Home%20Panel%202%20%2B%20Monitor.webp",
         "price": {
             "currency": "USD",
             "current": 5599,
@@ -2054,7 +2054,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=55444729987145",
-        "image": "https://github.com/GalaxyAX/power-station/blob/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20DELTA%20Pro%20Ultra%20Extra%20Battery%20%2B%20Smart%20Home%20Panel%202.webp",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20DELTA%20Pro%20Ultra%20Extra%20Battery%20%2B%20Smart%20Home%20Panel%202.webp",
         "price": {
             "currency": "USD",
             "current": 7299,
@@ -6770,7 +6770,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-portable-power-station-3072wh?variant=56019045548105",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20Plus%20(3072Wh)%20%2B%20Smart%20Generator%203000%20(Dual%20Fuel).webp",
         "price": {
             "currency": "USD",
             "current": 1999,
@@ -12279,7 +12279,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54392582701129",
-        "image": "https://github.com/GalaxyAX/power-station/blob/main/img/EcoFlow%20DELTA%202%20%2B%20Tesla%20Model%203%20256W%20EV%20Solar%20Panel.webp",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20%2B%20Tesla%20Model%203%20256W%20EV%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
             "current": 939,
