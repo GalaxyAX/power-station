@@ -9,10 +9,11 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=54714781171785",
+        "asin": "B0GQGZ5J8N",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X.webp",
         "price": {
             "currency": "USD",
-            "current": 7699,
+            "current": 7999,
             "original": null
         },
         "capacity": {
@@ -172,10 +173,11 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=54714781204553",
+        "asin": "B0H2HHVGCG",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20%2B%20Smart%20Home%20Panel%203.webp",
         "price": {
             "currency": "USD",
-            "current": 10699,
+            "current": 10999,
             "original": null
         },
         "capacity": {
@@ -330,6 +332,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=55651750969417",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20(4%20x%20Batteries)%20%2B%20Smart%20Home%20Panel%203.webp",
         "price": {
             "currency": "USD",
@@ -487,6 +490,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=54714781270089",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%202%20x%20DELTA%20Pro%20Ultra%20X%20(2%20x%20Inverter%20%2B%204%20x%20Batteries)%20%2B%20Smart%20Home%20Panel%203.webp",
         "price": {
             "currency": "USD",
@@ -639,6 +643,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=54714781237321",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20%2B%20Smart%20Gateway%20200A.webp",
         "price": {
             "currency": "USD",
@@ -792,6 +797,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=55621820350537",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20(2%20x%20Batteries)%20%2B%20PowerPulse%20EV%20Charger%20(96kW).webp",
         "price": {
             "currency": "USD",
@@ -955,6 +961,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=55989662449737",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20%2B%20DELTA%203%20Plus.webp",
         "price": {
             "currency": "USD",
@@ -1124,6 +1131,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=56139629428809",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20(3%20x%20Batteries)%20%2B%20Smart%20Home%20Panel%203.webp",
         "price": {
             "currency": "USD",
@@ -1267,6 +1275,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=40758830071881",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra.webp",
         "price": {
             "currency": "USD",
@@ -1467,6 +1476,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=41748275626057",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20DELTA%20Pro%20Ultra%20Extra%20Battery%20(2%20×%20Batteries).webp",
         "price": {
             "currency": "USD",
@@ -1667,6 +1677,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=55686961168457",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20DELTA%20Pro%20Ultra%20Extra%20Battery%20(3%20×%20Batteries).webp",
         "price": {
             "currency": "USD",
@@ -1871,6 +1882,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=40758830104649",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20Smart%20Home%20Panel%202%20%2B%20Monitor.webp",
         "price": {
             "currency": "USD",
@@ -2054,6 +2066,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=55444729987145",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20DELTA%20Pro%20Ultra%20Extra%20Battery%20%2B%20Smart%20Home%20Panel%202.webp",
         "price": {
             "currency": "USD",
@@ -2232,6 +2245,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=54740155072585",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%202%20×%20400W%20Portable%20Solar%20Panels.webp",
         "price": {
             "currency": "USD",
@@ -2444,6 +2458,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=55841262764105",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20DELTA%20Pro%20Ultra%20Extra%20Battery%20%2B%204%20×%20400W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -2634,6 +2649,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station?variant=41385721004105",
+        "asin": "B0D14FMFZD",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203.webp",
         "price": {
             "currency": "USD",
@@ -2823,6 +2839,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station?variant=41385721069641",
+        "asin": "B0D145TFFY",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203%20%2B%20400W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -3012,6 +3029,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station?variant=41385721036873",
+        "asin": "B0D143CMH9",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203%20%2B%20Extra%20Battery.webp",
         "price": {
             "currency": "USD",
@@ -3200,6 +3218,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/smart-generator-4000-dual-fuel?variant=41434656669769",
+        "asin": "B0DCFLM8M8",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203%20%2B%20Smart%20Generator%204000%20(Dual%20Fuel).webp",
         "price": {
             "currency": "USD",
@@ -3371,6 +3390,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station?variant=56095773524041",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203%20%2B%20Extra%20Battery%20%2B%20400W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -3550,10 +3570,11 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-portable-power-station",
+        "asin": "B0C1Z4GLKS",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro.webp",
         "price": {
             "currency": "USD",
-            "current": 1899,
+            "current": 1799,
             "original": 2399
         },
         "capacity": {
@@ -3721,6 +3742,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-portable-power-station?variant=54703934013513",
+        "asin": "B0CPHZFH3Z",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20%2B%202%20x%20220W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -3898,6 +3920,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-portable-power-station?variant=40684178014281",
+        "asin": "B0B1TCMZHZ",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20%2B%20400W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -4068,6 +4091,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-portable-power-station?variant=67658905157705",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20%2B%20Smart%20Generator%204000%20(Dual%20Fuel).webp",
         "price": {
             "currency": "USD",
@@ -4229,6 +4253,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54718699962441&view=d3m-121-d3mp",
+        "asin": "B0FQV9Q9J2",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20Plus.webp",
         "price": {
             "currency": "USD",
@@ -4377,6 +4402,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54718699995209&view=d3m-121-d3mp",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20Plus%20(2048Wh)%20%2B%20500W%20Solar%20Kit.webp",
         "price": {
             "currency": "USD",
@@ -4544,10 +4570,11 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54718700060745&view=d3m-121-d3mp",
+        "asin": "B0FR9737RW",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20Plus%20(2048Wh)%20%2B%20400W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 1599,
+            "current": 1699,
             "original": 1999
         },
         "capacity": {
@@ -4685,6 +4712,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54718700027977&view=d3m-121-d3mp",
+        "asin": "B0H4VWP2XQ",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20Plus%20(2048Wh)%20%2B%20800W%20Alternator%20Charger.webp",
         "price": {
             "currency": "USD",
@@ -4827,6 +4855,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54718700093513&view=d3m-121-d3mp",
+        "asin": "B0FR96BGJW",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20Plus%20%2B%20DELTA%203%20Max%20Plus%20Smart%20Extra%20Battery%20(4kWh).webp",
         "price": {
             "currency": "USD",
@@ -4959,6 +4988,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54692162764873&view=d3m-121",
+        "asin": "B0FQV6LMVX",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20(2048Wh).webp",
         "price": {
             "currency": "USD",
@@ -5098,6 +5128,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54692162895945&view=d3m-121",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20(2048Wh)%20%2B%20500W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -5250,6 +5281,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54692162797641&view=d3m-121",
+        "asin": "B0FR97TXCN",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20(2048Wh)%20%2B%202%20×%20220W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -5389,10 +5421,11 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54707787169865&view=d3m-121",
+        "asin": "B0FR8VK9B8",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20(2048Wh)%20%2B%20400W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 1999,
+            "current": 1399,
             "original": null
         },
         "capacity": {
@@ -5521,10 +5554,11 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54692162928713&view=d3m-121",
+        "asin": "B0FWRJRQMM",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20(2048Wh)%20%2B%20500W%20Alternator%20Charger.webp",
         "price": {
             "currency": "USD",
-            "current": 1199,
+            "current": 1094,
             "original": 1399
         },
         "capacity": {
@@ -5644,6 +5678,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station-3072wh?variant=55612118532169",
+        "asin": "B0FQVG59LV",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20Plus.webp",
         "price": {
             "currency": "USD",
@@ -5785,6 +5820,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station-3072wh?variant=55902352965705",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20Plus%20(3072Wh)%20%2B%20Smart%20Generator%203000%20(Dual%20Fuel).webp",
         "price": {
             "currency": "USD",
@@ -5933,6 +5969,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station-3072wh?variant=55612118663241",
+        "asin": "B0G25VVX12",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20Plus%20(3072Wh)%20%2B%20400W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -6075,6 +6112,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station-3072wh?variant=55612118630473",
+        "asin": "B0FR8R9FC5",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20Plus%20(3072Wh)%20%2B%20DELTA%203%20Max%20Plus%20Extra%20Battery.webp",
         "price": {
             "currency": "USD",
@@ -6229,6 +6267,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station-3072wh?variant=55612118597705",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20Plus%20(3072Wh)%20%2B%20DELTA%203%20Max%20Plus%20Extra%20Battery%20%2B%20400W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -6361,10 +6400,11 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-portable-power-station-3072wh?variant=55609357140041",
+        "asin": "B0FQVBFLHL",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra.webp",
         "price": {
             "currency": "USD",
-            "current": 1349,
+            "current": 1299,
             "original": 1599
         },
         "capacity": {
@@ -6493,6 +6533,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-portable-power-station-3072wh?variant=55750387662921",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%202%20x%20DELTA%203%20Ultra%20(3072Wh).webp",
         "price": {
             "currency": "USD",
@@ -6638,6 +6679,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-portable-power-station-3072wh?variant=55609357172809",
+        "asin": "B0FR8LQV82",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20(3072Wh)%20%2B%202%20×%20220W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -6770,6 +6812,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-portable-power-station-3072wh?variant=56019045548105",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20Plus%20(3072Wh)%20%2B%20Smart%20Generator%203000%20(Dual%20Fuel).webp",
         "price": {
             "currency": "USD",
@@ -6893,6 +6936,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-2-max-portable-power-station?variant=54615943512137",
+        "asin": "B0C4DW17PD",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max.webp",
         "price": {
             "currency": "USD",
@@ -7043,6 +7087,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-2-max-portable-power-station?variant=54796363563081",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max%20%2B%20DELTA%202%20Max%20Smart%20Extra%20Battery%20(4kWh).webp",
         "price": {
             "currency": "USD",
@@ -7198,6 +7243,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-2-max-portable-power-station?variant=41751970021449",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max%20%2B%202%20x%20220W%20NextGen%20Bifacial%20Solar%20Panels%20%2B%20Free%20Bag.webp",
         "price": {
             "currency": "USD",
@@ -7352,6 +7398,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-2-max-portable-power-station?variant=54601067855945",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max%20%2B%20800W%20Alternator%20Charger%20%2B%20Free%20Bag.webp",
         "price": {
             "currency": "USD",
@@ -7514,6 +7561,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-2-max-portable-power-station?variant=54664486125641",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max%20%2B%20DELTA%202%20Max%20Extra%20Battery%20%2B%20220W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -7670,6 +7718,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-2-max-portable-power-station?variant=54510105657417",
+        "asin": "B0C8T7TW4X",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max%20%2B%20400W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -7810,6 +7859,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-classic-portable-power-station?variant=54691871227977",
+        "asin": "B0FQVC4RF5",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Classic%20(1024Wh).webp",
         "price": {
             "currency": "USD",
@@ -7940,6 +7990,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-classic-portable-power-station?variant=55345327341641",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%202%20x%20DELTA%203%20Classic%20(1024Wh).webp",
         "price": {
             "currency": "USD",
@@ -8089,6 +8140,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-classic-portable-power-station?variant=54691871260745",
+        "asin": "B0FRMQPZF6",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Classic%20(1024Wh)%20%2B%20220W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -8226,6 +8278,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-classic-portable-power-station?variant=54787355934793",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Classic%20(1024Wh)%20%2B%20160W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -8356,6 +8409,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-classic-portable-power-station?variant=54692156801097",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Classic%20(1024Wh)%20%2B%20Smart%20Generator%203000%20(Dual%20Fuel).webp",
         "price": {
             "currency": "USD",
@@ -8486,6 +8540,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-classic-portable-power-station?variant=54692156833865",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Classic%20(1024Wh)%20%2B%20500W%20Alternator%20Charger.webp",
         "price": {
             "currency": "USD",
@@ -8607,6 +8662,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-plus-portable-power-station?variant=41826182496329",
+        "asin": "B0DCC2BVFW",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Plus.webp",
         "price": {
             "currency": "USD",
@@ -8758,6 +8814,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-plus-portable-power-station?variant=55819090100297",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Plus%20%2B%20160W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -8909,6 +8966,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-plus-portable-power-station?variant=41826183151689",
+        "asin": "B0DR7ZDMS6",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Plus%20%2B%20220W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -9054,6 +9112,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-plus-portable-power-station?variant=41975891984457",
+        "asin": "B0DCBV939X",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Plus%20%2B%20DELTA%203%20Series%20Extra%20Battery.webp",
         "price": {
             "currency": "USD",
@@ -9198,6 +9257,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-plus-portable-power-station?variant=54522021019721",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Plus%20%2B%20Smart%20Generator%203000%20(Dual%20Fuel).webp",
         "price": {
             "currency": "USD",
@@ -9342,6 +9402,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-plus-portable-power-station?variant=41826183249993",
+        "asin": "B0DFH7BJN6",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Plus%20%2B%20800W%20Alternator%20Charger.webp",
         "price": {
             "currency": "USD",
@@ -9477,10 +9538,11 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=42015827492937",
+        "asin": "B0DCBYMC9D",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203.webp",
         "price": {
             "currency": "USD",
-            "current": 629,
+            "current": 600,
             "original": 699
         },
         "capacity": {
@@ -9622,6 +9684,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=42017992048713",
+        "asin": "B0GVDV4J2M",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20%2B%20DELTA%203%20Extra%20Battery.webp",
         "price": {
             "currency": "USD",
@@ -9773,6 +9836,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=42017992474697",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20%2B%20110W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -9917,6 +9981,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=54547932381257",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%202%20x%20DELTA%203.webp",
         "price": {
             "currency": "USD",
@@ -10080,6 +10145,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=42017992540233",
+        "asin": "B0F9WJDRJ2",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20%2B%20220W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -10231,6 +10297,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=42017992507465",
+        "asin": "B0FD3HPB83",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20%2B%20160W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -10382,6 +10449,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=42017992573001",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20%2B%20400W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -10526,6 +10594,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=42017992015945",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20%2B%20Smart%20Generator%203000%20(Dual%20Fuel).webp",
         "price": {
             "currency": "USD",
@@ -10670,6 +10739,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=54775452401737",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20%2B%20500W%20Alternator%20Charger.webp",
         "price": {
             "currency": "USD",
@@ -10805,10 +10875,11 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/river-3-max-river-3-plus-extra-battery-300?variant=54335026528329",
+        "asin": "B0F4XRNTWX",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%203%20Max.webp",
         "price": {
             "currency": "USD",
-            "current": 319,
+            "current": 379,
             "original": null
         },
         "capacity": {
@@ -10931,6 +11002,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-river-3-plus-portable-power-station-flash-sale?variant=54527643189321",
+        "asin": "B0DCCB657J",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%203%20Plus.webp",
         "price": {
             "currency": "USD",
@@ -11061,10 +11133,11 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/river-2-pro-portable-power-station?variant=54320636198985",
+        "asin": "B0BVLPGS79",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%202%20Pro.webp",
         "price": {
             "currency": "USD",
-            "current": 389,
+            "current": 439,
             "original": 529
         },
         "capacity": {
@@ -11193,6 +11266,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/river-2-max-portable-power-station?variant=40396926451785",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%202%20Max.webp",
         "price": {
             "currency": "USD",
@@ -11325,6 +11399,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/river-2-240-portable-power-station?variant=40957077487689",
+        "asin": "B0CMQYK2KW",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%202.webp",
         "price": {
             "currency": "USD",
@@ -11452,6 +11527,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/trail-series?variant=54553979682889&view=trail-plus-300",
+        "asin": "B0FDQHJWXS",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TRAIL%20200%20DC.webp",
         "price": {
             "currency": "USD",
@@ -11542,6 +11618,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/trail-series?variant=54553980043337&view=trail-plus-300",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TRAIL%20300%20DC.webp",
         "price": {
             "currency": "USD",
@@ -11663,6 +11740,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/trail-series?variant=54769793499209&view=trail-plus-300",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TRAIL%20300%20DC%20%2B%20110W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -11784,6 +11862,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/trail-series?variant=54590654808137&view=trail-plus-300",
+        "asin": "B0FHTL3RS6",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TRAIL%20300%20DC%20%2B%2045W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -11889,6 +11968,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://us.ecoflow.com/products/trail-series?variant=54553980141641&view=trail-plus-300",
+        "asin": "B0FHWCDHB6",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TRAIL%20Plus%20300%20DC.webp",
         "price": {
             "currency": "USD",
@@ -12010,6 +12090,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/trail-series?variant=54590654873673&view=trail-plus-300",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TRAIL%20Plus%20300%20DC%20%2B%2045W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -12131,6 +12212,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54392582668361",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%202%20Pro%20%2B%20Tesla%20Model%203%20256W%20EV%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -12279,6 +12361,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54392582701129",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20%2B%20Tesla%20Model%203%20256W%20EV%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -12435,6 +12518,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54376118616137",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Plus%20%2B%20Tesla%20Model%203%20256W%20EV%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -12586,6 +12670,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54376118648905",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max%20%2B%20Tesla%20Model%203%20256W%20EV%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -12742,6 +12827,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54392582733897",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20RIVER%202%20Pro%20%2B%20Tesla%20Model%20Y%20290W%20EV%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -12890,6 +12976,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54392582766665",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20%2B%20Tesla%20Model%20Y%20290W%20EV%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -13046,6 +13133,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54376118714441",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Plus%20%2B%20Tesla%20Model%20Y%20290W%20EV%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -13197,6 +13285,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54376118747209",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max%20%2B%20Tesla%20Model%20Y%20290W%20EV%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -13347,6 +13436,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-x-solar-generator?variant=54732699140169",
+        "asin": "B0H2YQTDK7",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20%2B%204%20×%20400W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -13511,6 +13601,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-solar-generator?variant=41855315804233",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20400W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -13711,6 +13802,7 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-3-solar-generator?variant=55590273744969",
+        "asin": "B0DB5TH7GN",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203%20%2B%202%20×%20400W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -13890,6 +13982,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=68804e7e63e18b529ef2604a",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300.webp",
         "price": {
             "currency": "USD",
@@ -14057,6 +14150,7 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-b300k?variant=688978f6d941837ed3457d6e",
+        "asin": "B0FJ1SV6JR",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B300K.webp",
         "price": {
             "currency": "USD",
@@ -14234,6 +14328,7 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/2-apex-300-2-b300k-hub-a1?variant=6889c1e7d941837ed3457dd1",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%202×Apex%20300%20%2B%202×B300K%20%2B%20Hub%20A1.webp",
         "price": {
             "currency": "USD",
@@ -14406,6 +14501,7 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-350w?variant=6889ccea9198d73afbea19ee",
+        "asin": "B0FJFHV4JF",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20350W.webp",
         "price": {
             "currency": "USD",
@@ -14578,6 +14674,7 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/charger-2-apex-300-dc-hub?variant=48103718486235",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20Charger%202%20%2B%20DC%20Hub.webp",
         "price": {
             "currency": "USD",
@@ -14757,6 +14854,7 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/b500k2-2-apex-300?variant=47914968219867",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%202×B500K.webp",
         "price": {
             "currency": "USD",
@@ -14930,6 +15028,7 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/b500k2-2-apex-300-solarx-4k?variant=47914968350939",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%202×B500K%20%2B%20SolarX%204K.webp",
         "price": {
             "currency": "USD",
@@ -15109,6 +15208,7 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?id=6889cf919198d73afbea19fd&variant=47354130235611",
+        "asin": "B0FJ1XLM9H",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%2B2*200W.webp",
         "price": {
             "currency": "USD",
@@ -15292,6 +15392,7 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?id=6889e7339198d73afbea1a33&variant=47354313834715",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B300K%20%2B%20Charger%201%20%2B%20Hub%20D1%20%2B%202%20×%20350W.webp",
         "price": {
             "currency": "USD",
@@ -15475,6 +15576,7 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-400-500w?variant=49004795953371",
+        "asin": "B0HDS1SV6Y",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20400%20%2B%20500W.webp",
         "price": {
             "currency": "USD",
@@ -15615,6 +15717,7 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/ac180p?variant=44696567316699",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20AC180P%2B200W%20Solar%20%7C%201800W%2C1440Wh%2C200W%20Solar%20Kit.webp",
         "price": {
             "currency": "USD",
