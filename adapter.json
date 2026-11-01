@@ -8,6 +8,7 @@
     "partNumber": "BFH68-AK500",
     "region": "US",
     "url": "https://www.hyundaipartsdeal.com/genuine/hyundai-connector-vehicle-to-load~bfh68-ak500.html",
+    "asin": null,
     "image": null,
     "price": {
       "currency": "USD",
@@ -60,6 +61,7 @@
     "category": "adapter",
     "partNumber": "GIH68-AK0A0",
     "region": "US",
+    "asin": null,
     "url": "https://www.hyundaipartsdeal.com/genuine/hyundai-vehicle-to-load-adaptor~gih68-ak0a0.html",
     "image": null,
     "price": {
@@ -120,6 +122,7 @@
     "partNumber": null,
     "region": "US",
     "url": "https://shop.tesla.com/product/tesla-outlet-adapter",
+    "asin": null,
     "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Tesla%20Outlet%20Adapter.webp",
     "price": {
       "currency": "USD",
@@ -173,6 +176,7 @@
     "partNumber": null,
     "region": "US",
     "url": "https://shop.tesla.com/product/mobile-connector",
+    "asin": "B0FN9YVHB2",
     "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Tesla%20Gen%203%20Mobile%20Connector.webp",
     "price": {
       "currency": "USD",

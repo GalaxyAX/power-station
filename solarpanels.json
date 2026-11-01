@@ -8,6 +8,7 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://us.ecoflow.com/products/400w-portable-solar-panel?variant=39998021697609",
+        "asin": "B09TKKYW7G",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20400W%20Portable%20Solar%20Panel.webp",
         "datasheetUrl": null,
         "price": {
@@ -82,6 +83,7 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://us.ecoflow.com/products/400w-portable-solar-panel?variant=54553987612745",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%202%20x%20400W%20Portable%20Solar%20Panel.webp",
         "datasheetUrl": null,
         "price": {
@@ -156,6 +158,7 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://us.ecoflow.com/products/400w-portable-solar-panel?variant=55704637014089",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%204%20x%20400W%20Portable%20Solar%20Panel.webp",
         "datasheetUrl": null,
         "price": {
@@ -230,6 +233,7 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://us.ecoflow.com/products/nextgen-220w-bifacial-portable-solar-panel?variant=41670394576969",
+        "asin": "B0D2H94PS6",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20NextGen%20220W%20Bifacial%20Portable%20Solar%20Panel.webp",
         "datasheetUrl": null,
         "price": {
@@ -306,6 +310,7 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://us.ecoflow.com/products/nextgen-220w-bifacial-portable-solar-panel?variant=54553987547209",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%202%20x%20NextGen%20220W%20Bifacial%20Portable%20Solar%20Panel.webp",
         "datasheetUrl": null,
         "price": {
@@ -382,6 +387,7 @@
         "formFactor": "rigid",
         "region": "US",
         "url": "https://us.ecoflow.com/products/125w-bifacial-modular-solar-panel?variant=41838058537033",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20125W%20Bifacial%20Modular%20Solar%20Panel.webp",
         "datasheetUrl": "https://manuals.ecoflow.com/product/125w-modular-solar-panel?lang=en_US",
         "price": {
@@ -457,11 +463,12 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://us.ecoflow.com/products/nextgen-160w-portable-solar-panel?variant=41682906218569",
+        "asin": "B0D3VCQV6W",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20NextGen%20160W%20Portable%20Solar%20Panel.webp",
         "datasheetUrl": "https://manuals.ecoflow.com/us/product/160w-solar-panel?lang=en_US",
         "price": {
             "currency": "USD",
-            "current": 369,
+            "current": 249,
             "original": null
         },
         "unitsPerPack": 1,
@@ -531,6 +538,7 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://us.ecoflow.com/products/nextgen-160w-portable-solar-panel?variant=54724977918025",
+        "asin": "B0DLNPLX35",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20NextGen%202%20x%20160W%20Portable%20Solar%20Panel.webp",
         "datasheetUrl": "https://manuals.ecoflow.com/us/product/160w-solar-panel?lang=en_US",
         "price": {
@@ -605,11 +613,12 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://us.ecoflow.com/products/110w-portable-solar-panel?variant=39998109941833",
+        "asin": "B0B7KY3D15",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20110W%20Portable%20Solar%20Panel.webp",
         "datasheetUrl": "https://websiteoss.ecoflow.com/cms/upload/2024/5/30/EcoFlow%20110W%20Portable%20Solar%20Panel-User%20Manual%20V1.0%20(EN%2BDE%2BFR%2BIT%2BES%2BNL%2BRU%2BJP%2BKR%2BCHS%2BCHT)_1717062520219.pdf",
         "price": {
             "currency": "USD",
-            "current": 399,
+            "current": 259,
             "original": null
         },
         "unitsPerPack": 1,
@@ -672,6 +681,7 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://us.ecoflow.com/products/110w-portable-solar-panel?variant=54834496897097",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%202%20x%20110W%20Portable%20Solar%20Panel.webp",
         "datasheetUrl": "https://websiteoss.ecoflow.com/cms/upload/2024/5/30/EcoFlow%20110W%20Portable%20Solar%20Panel-User%20Manual%20V1.0%20(EN%2BDE%2BFR%2BIT%2BES%2BNL%2BRU%2BJP%2BKR%2BCHS%2BCHT)_1717062520219.pdf",
         "price": {
@@ -746,11 +756,12 @@
         "formFactor": "flexible",
         "region": "US",
         "url": "https://us.ecoflow.com/products/100w-flexible-solar-panel?variant=40133447974985",
+        "asin": "B0B6VBSVBT",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20100W%20Flexible%20Solar%20Panel.webp",
         "datasheetUrl": "https://websiteoss.ecoflow.com/cms/upload/2022/9/13/1468399432_1663042123171.pdf",
         "price": {
             "currency": "USD",
-            "current": 199,
+            "current": 209,
             "original": null
         },
         "unitsPerPack": 1,
@@ -806,6 +817,7 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://us.ecoflow.com/products/45w-portable-solar-panel?variant=41731341353033",
+        "asin": "B0F43LRHV9",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%2045W%20Portable%20Solar%20Panel%20(Type-C).webp",
         "datasheetUrl": "https://manuals.ecoflow.com/us/product/45w-portable-solar-panel-type-c?lang=en_US",
         "price": {
@@ -877,6 +889,7 @@
         "formFactor": "flexible",
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54376118583369",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20256W%20EV%20Solar%20Panel%20(for%20Model%203).webp",
         "datasheetUrl": null,
         "price": {
@@ -944,6 +957,7 @@
         "formFactor": "flexible",
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54376118681673",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20290W%20EV%20Solar%20Panel%20(for%20Model%20Y).webp",
         "datasheetUrl": null,
         "price": {
@@ -1011,6 +1025,7 @@
         "formFactor": "rigid",
         "region": "US",
         "url": "https://us.ecoflow.com/products/175w-rigid-solar-panel?variant=41362064179273",
+        "asin": "B0DFW17DRY",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20175W%20Rigid%20Solar%20Panel.webp",
         "datasheetUrl": "https://websiteoss.ecoflow.com/cms/upload/2024/5/30/EcoFlow%20175W%20Rigid%20Solar%20Panel-Quick%20Start%20Guide%20V1.0_1717050113261.pdf",
         "price": {
@@ -1075,11 +1090,12 @@
         "formFactor": "rigid",
         "region": "US",
         "url": "https://us.ecoflow.com/products/100w-rigid-solar-panel?variant=54781687758921",
+        "asin": "B0B6VG4KJJ",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%202%20x%20100W%20Rigid%20Solar%20Panel.webp",
         "datasheetUrl": null,
         "price": {
             "currency": "USD",
-            "current": 379,
+            "current": 239,
             "original": null
         },
         "unitsPerPack": 2,
@@ -1132,6 +1148,7 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://www.bluettipower.com/products/500w-portable-solar-panel?variant=49003448860891",
+        "asin": "B0GXTVVHS3",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20500W%20Solar%20Panel.webp",
         "datasheetUrl": "https://s4.bluettipower.com/bluetti_lgf/cms/2026/07/0bb2be59-3267-4ea0-a1db-0cd3e4e99336.pdf",
         "price": {
@@ -1206,6 +1223,7 @@
         "formFactor": "flexible",
         "region": "US",
         "url": "https://www.bluettipower.com/products/pv100fx-flexible-solar-panel?variant=47607050371291",
+        "asin": "B0FS67DKV5",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20PV100%20FX%20Flexible%20Solar%20Panel%20%7C%20200W%20(Set%20of%202).webp",
         "datasheetUrl": "https://cdn.shopify.com/s/files/1/0536/3390/8911/files/PV100_FX_User_Manual_EN-FR.pdf",
         "price": {
@@ -1273,6 +1291,7 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://www.bluettipower.com/products/bluetti-sora-60-solar-panel-60w?variant=46622790156507",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20SORA%2060%20Solar%20Panel%20%7C%2060W.webp",
         "datasheetUrl": "https://cdn.shopify.com/s/files/1/0536/3390/8911/files/SORA_60_User_Manual_EN.pdf",
         "price": {
@@ -1344,6 +1363,7 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://www.bluettipower.com/products/350w-solar-panel?variant=49045516320987",
+        "asin": "B09SD23Y6V",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20PV350%20Solar%20Panel%20%7C%20350W.webp",
         "datasheetUrl": "https://cdn.shopify.com/s/files/1/0536/3390/8911/files/PV350_User_Manaul_EN-JP_dad32495-6a16-494b-88da-aa19d84c9acb.pdf",
         "price": {
@@ -1418,6 +1438,7 @@
         "formFactor": "portable",
         "region": "US",
         "url": "https://www.bluettipower.com/products/bluetti-sp200l-solar-panel-200w?variant=46104316248283",
+        "asin": "B09B9RJLM7",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20SP200L%20Solar%20Panel%20%7C%20200W.webp",
         "datasheetUrl": "https://cdn.shopify.com/s/files/1/0536/3390/8911/files/PV200_User_Manaul_EN-DE.pdf",
         "price": {

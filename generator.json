@@ -8,6 +8,7 @@
         "type": "inverter",
         "region": "US",
         "url": "https://us.ecoflow.com/products/smart-generator-4000-dual-fuel?variant=41434656637001",
+        "asin": "B0D14F5KLQ",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20Smart%20Generator%204000%20(Dual%20Fuel).webp",
         "manualUrl": null,
         "price": {
@@ -150,8 +151,9 @@
         "name": "EcoFlow Smart Generator 3000 (Dual Fuel)",
         "category": "generator",
         "type": "inverter",
-        "region": "US",
+        "region": "US", 
         "url": "https://us.ecoflow.com/products/smart-generator-3000-dual-fuel?variant=41631793250377",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20Smart%20Generator%203000%20(Dual%20Fuel).webp",
         "manualUrl": "https://manuals.ecoflow.com/us/product/dual-fuel-smart-generator-3000?lang=en_US",
         "price": {
@@ -279,6 +281,7 @@
         "type": "inverter",
         "region": "US",
         "url": "https://westinghouse.com/collections/dual-fuel-inverters/products/igen5000dfc-efi-inverter-generator-dual-fuel-with-co-sensor",
+        "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Westinghouse%20iGen5000DFc%20EFI%20Dual%20Fuel%20Inverter%20Generator.webp",
         "manualUrl": null,
         "price": {
@@ -382,6 +385,7 @@
         "category": "generator",
         "type": "inverter",
         "region": "US",
+        "asin": null,
         "url": "https://www.championpowerequipment.com/product/201511-4000w-electric-start-dual-fuel-inverter/",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Champion%204000-Watt%20Electric%20Start%20Dual%20Fuel%20Inverter%20Generator.webp",
         "manualUrl": null,
@@ -486,11 +490,12 @@
         "type": "inverter",
         "region": "US",
         "url": "https://www.generac.com/residential-products/portable-generators/5200-dual-fuel-portable-generator-8945/",
+        "asin": "B0DT7PQLPQ",
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Generac%20iQ5200%20Dual%20Fuel%20Portable%20Inverter%20Generator.webp",
         "manualUrl": null,
         "price": {
             "currency": "USD",
-            "current": null,
+            "current": 1039,
             "original": null
         },
         "output": {
