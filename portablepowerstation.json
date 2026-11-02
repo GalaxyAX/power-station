@@ -16029,7 +16029,7 @@
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=49004059197659",
         "asin": "B0GK6V31XC",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20500W.webp",
         "price": {
             "currency": "USD",
             "current": 2499,
@@ -16209,7 +16209,7 @@
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=50538335961307",
         "asin": null,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B500K%20%2B%20500W.webp",
         "price": {
             "currency": "USD",
             "current": 4399,
@@ -16355,5 +16355,515 @@
         },
         "warrantyYears": 5,
         "lastChecked": "2026-11-01"
+    },
+    {
+        "id": "bluetti-apex-300-b500k",
+        "brand": "BLUETTI",
+        "model": "Apex 300 + B500K",
+        "name": "BLUETTI Apex 300 + B500K",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "bluetti-apex-300",
+            "includes": [
+                {
+                    "type": "extra-battery",
+                    "model": "BLUETTI B500K",
+                    "quantity": 1,
+                    "capacityWh": 5120
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=47914967859419",
+        "asin": "B0FYNX9S89",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B500K.webp",
+        "price": {
+            "currency": "USD",
+            "current": 3699,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 7884.8,
+            "expandable": true,
+            "extraBattery": {
+                "model": "BLUETTI B500K",
+                "capacityWh": 5120,
+                "maxCount": 5
+            },
+            "maxWh": 33484.8
+        },
+        "power": {
+            "continuousW": 3840,
+            "surgeW": null,
+            "xBoostW": 7680
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC charging input",
+                        "connector": null,
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": 500,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "p050a-120",
+                        "label": "AC Input (P050A)",
+                        "connector": "P050A",
+                        "plug": "TT-30P",
+                        "voltageV": 120,
+                        "maxA": 30,
+                        "maxW": 3600,
+                        "chargeMaxW": 3600,
+                        "chargeMinW": 500,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "p050a-240",
+                        "label": "AC Input (P050A)",
+                        "connector": "P050A",
+                        "plug": "14-50P",
+                        "voltageV": 240,
+                        "maxA": 50,
+                        "maxW": 12000,
+                        "chargeMaxW": 3840,
+                        "chargeMinW": 500,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": "pure-sine",
+                    "maxThdPct": null,
+                    "setup": [
+                        "Enable Grid Self-Adaption mode in the BLUETTI app."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 2400,
+                "inputs": [
+                    {
+                        "id": "pv-dc",
+                        "label": "DC input",
+                        "count": 2,
+                        "connector": "XT60",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 20,
+                        "maxW": 1200,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": 3840
+        },
+        "physical": {
+            "weightKg": 83,
+            "dimensionsCm": {
+                "length": 52.5,
+                "width": 32.7,
+                "height": 62.85
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 6,
+                "voltageV": 120,
+                "totalMaxW": 3840
+            },
+            "usbA": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "usbC": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-01"
+    },
+    {
+        "id": "bluetti-apex-300-2x-b300k",
+        "brand": "BLUETTI",
+        "model": "Apex 300 + 2×B300K",
+        "name": "BLUETTI Apex 300 + 2×B300K",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "bluetti-apex-300",
+            "includes": [
+                {
+                    "type": "extra-battery",
+                    "model": "BLUETTI B300K",
+                    "quantity": 2,
+                    "capacityWh": 2764.8
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=47353679315163",
+        "asin": "B0F42XMPVR",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%202×B300K.webp",
+        "price": {
+            "currency": "USD",
+            "current": 3899,
+            "original": 4099
+        },
+        "capacity": {
+            "nominalWh": 8294.4,
+            "expandable": true,
+            "extraBattery": {
+                "model": "BLUETTI B300K",
+                "capacityWh": 2764.8,
+                "maxCount": 4
+            },
+            "maxWh": 19353.6
+        },
+        "power": {
+            "continuousW": 3840,
+            "surgeW": null,
+            "xBoostW": 7680
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC charging input",
+                        "connector": null,
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": 500,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "p050a-120",
+                        "label": "AC Input (P050A)",
+                        "connector": "P050A",
+                        "plug": "TT-30P",
+                        "voltageV": 120,
+                        "maxA": 30,
+                        "maxW": 3600,
+                        "chargeMaxW": 3600,
+                        "chargeMinW": 500,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "p050a-240",
+                        "label": "AC Input (P050A)",
+                        "connector": "P050A",
+                        "plug": "14-50P",
+                        "voltageV": 240,
+                        "maxA": 50,
+                        "maxW": 12000,
+                        "chargeMaxW": 3840,
+                        "chargeMinW": 500,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": "pure-sine",
+                    "maxThdPct": null,
+                    "setup": [
+                        "Enable Grid Self-Adaption mode in the BLUETTI app."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 2400,
+                "inputs": [
+                    {
+                        "id": "pv-dc",
+                        "label": "DC input",
+                        "count": 2,
+                        "connector": "XT60",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 20,
+                        "maxW": 1200,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": 3840
+        },
+        "physical": {
+            "weightKg": 97,
+            "dimensionsCm": {
+                "length": 52.5,
+                "width": 32.7,
+                "height": 73.8
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 6,
+                "voltageV": 120,
+                "totalMaxW": 3840
+            },
+            "usbA": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "usbC": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-01"
+    },
+    {
+        "id": "bluetti-apex-300-2x-b300k-2x-200w",
+        "brand": "BLUETTI",
+        "model": "Apex 300 + 2×B300K + 2×200W",
+        "name": "BLUETTI Apex 300 + 2×B300K + 2×200W",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "bluetti-apex-300",
+            "includes": [
+                {
+                    "type": "extra-battery",
+                    "model": "BLUETTI B300K",
+                    "quantity": 2,
+                    "capacityWh": 2764.8
+                },
+                {
+                    "type": "solar-panel",
+                    "panelId": "bluetti-sp200l",
+                    "quantity": 2,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=47498682859739",
+        "asin": "B0F42GVJ5T",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 4599,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 8294.4,
+            "expandable": true,
+            "extraBattery": {
+                "model": "BLUETTI B300K",
+                "capacityWh": 2764.8,
+                "maxCount": 4
+            },
+            "maxWh": 19353.6
+        },
+        "power": {
+            "continuousW": 3840,
+            "surgeW": null,
+            "xBoostW": 7680
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC charging input",
+                        "connector": null,
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": 500,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "p050a-120",
+                        "label": "AC Input (P050A)",
+                        "connector": "P050A",
+                        "plug": "TT-30P",
+                        "voltageV": 120,
+                        "maxA": 30,
+                        "maxW": 3600,
+                        "chargeMaxW": 3600,
+                        "chargeMinW": 500,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "p050a-240",
+                        "label": "AC Input (P050A)",
+                        "connector": "P050A",
+                        "plug": "14-50P",
+                        "voltageV": 240,
+                        "maxA": 50,
+                        "maxW": 12000,
+                        "chargeMaxW": 3840,
+                        "chargeMinW": 500,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": "pure-sine",
+                    "maxThdPct": null,
+                    "setup": [
+                        "Enable Grid Self-Adaption mode in the BLUETTI app."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 2400,
+                "inputs": [
+                    {
+                        "id": "pv-dc",
+                        "label": "DC input",
+                        "count": 2,
+                        "connector": "XT60",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 20,
+                        "maxW": 1200,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": 3840
+        },
+        "physical": {
+            "weightKg": 97,
+            "dimensionsCm": {
+                "length": 52.5,
+                "width": 32.7,
+                "height": 73.8
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 6,
+                "voltageV": 120,
+                "totalMaxW": 3840
+            },
+            "usbA": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "usbC": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-02"
     }
 ]
