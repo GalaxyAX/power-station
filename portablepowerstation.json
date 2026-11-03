@@ -19149,7 +19149,7 @@
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-300-portable-power-station?variant=48309261664475",
         "asin": "B0GWZPJNDR",
-        "image": null,
+        "image": "https://github.com/GalaxyAX/power-station/blob/main/img/BLUETTI%20Elite%20300%20%2B%20350W.webp",
         "price": {
             "currency": "USD",
             "current": 1499,
@@ -19229,6 +19229,146 @@
                     24
                 ],
                 "maxA": null
+            },
+            "maxCombinedW": 2400
+        },
+        "physical": {
+            "weightKg": 26.3,
+            "dimensionsCm": {
+                "length": 36.6,
+                "width": 30.5,
+                "height": 29.75
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 5,
+                "voltageV": 120,
+                "totalMaxW": 2400
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 15
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 140
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-03"
+    },
+    {
+        "id": "bluetti-elite-300-charger-2",
+        "brand": "BLUETTI",
+        "model": "Elite 300 + Charger 2",
+        "name": "BLUETTI Elite 300 + Charger 2",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "bluetti-elite-300",
+            "includes": [
+                {
+                    "type": "pv-controller",
+                    "model": "BLUETTI Charger 2",
+                    "quantity": 1,
+                    "providesInputId": "charger-2"
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/elite-300-portable-power-station?variant=48309261861083",
+        "asin": "B0GKSKGKLX",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 1599,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 3014.4,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 3014.4
+        },
+        "power": {
+            "continuousW": 2400,
+            "surgeW": 4800,
+            "xBoostW": 4800
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": 800,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": "pure-sine",
+                    "maxThdPct": null,
+                    "setup": [
+                        "Enable Grid Self-Adaption mode in the BLUETTI app."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 600,
+                "inputs": [
+                    {
+                        "id": "charger-2",
+                        "label": "Charger 2 PV input",
+                        "count": 1,
+                        "connector": "MC4",
+                        "minV": 13,
+                        "maxV": 50,
+                        "startV": null,
+                        "maxA": 20,
+                        "maxW": 600,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 62.5
             },
             "maxCombinedW": 2400
         },
