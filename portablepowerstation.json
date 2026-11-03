@@ -19003,11 +19003,157 @@
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-300-portable-power-station?variant=49004091605211",
         "asin": "B0GYXQ2KMG",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20300%20%2B%20500W.webp",
         "price": {
             "currency": "USD",
             "current": 1699.99,
             "original": 2048
+        },
+        "capacity": {
+            "nominalWh": 3014.4,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 3014.4
+        },
+        "power": {
+            "continuousW": 2400,
+            "surgeW": 4800,
+            "xBoostW": 4800
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": 800,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": "pure-sine",
+                    "maxThdPct": null,
+                    "setup": [
+                        "Enable Grid Self-Adaption mode in the BLUETTI app."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 1200,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC input",
+                        "count": 1,
+                        "connector": "XT60",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 22,
+                        "maxW": 1200,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": null
+            },
+            "maxCombinedW": 2400
+        },
+        "physical": {
+            "weightKg": 26.3,
+            "dimensionsCm": {
+                "length": 36.6,
+                "width": 30.5,
+                "height": 29.75
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 5,
+                "voltageV": 120,
+                "totalMaxW": 2400
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 15
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 140
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-03"
+    },
+    {
+        "id": "bluetti-elite-300-350w",
+        "brand": "BLUETTI",
+        "model": "Elite 300 + 350W",
+        "name": "BLUETTI Elite 300 + 350W",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "bluetti-elite-300",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "bluetti-pv350",
+                    "quantity": 1,
+                    "wiring": [
+                        {
+                            "inputId": "pv",
+                            "series": 1,
+                            "parallel": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/elite-300-portable-power-station?variant=48309261664475",
+        "asin": "B0GWZPJNDR",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 1499,
+            "original": 1649
         },
         "capacity": {
             "nominalWh": 3014.4,
