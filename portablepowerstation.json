@@ -20243,7 +20243,7 @@
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-400-portable-power-station?variant=47915196776667",
         "asin": "B0G8XDJSNG",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20400%20%2B%20Charger%201.webp",
         "price": {
             "currency": "USD",
             "current": 1599,
