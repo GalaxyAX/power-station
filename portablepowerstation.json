@@ -19686,5 +19686,130 @@
         },
         "warrantyYears": 5,
         "lastChecked": "2026-11-03"
+    },
+    {
+        "id": "bluetti-elite-400",
+        "brand": "BLUETTI",
+        "model": "Elite 400",
+        "name": "BLUETTI Elite 400",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/elite-400-portable-power-station?variant=47915195498715",
+        "asin": "B0G8Y8DCC1",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 1399,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 3840,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 3840
+        },
+        "power": {
+            "continuousW": 2600,
+            "surgeW": 5200,
+            "xBoostW": 3900
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": []
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": 1000,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": "pure-sine",
+                    "maxThdPct": null,
+                    "setup": [
+                        "Enable Grid Self-Adaption mode in the BLUETTI app."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 1000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC input",
+                        "count": 1,
+                        "connector": "XT60",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 20,
+                        "maxW": 1000,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8.3
+            },
+            "maxCombinedW": 2800
+        },
+        "physical": {
+            "weightKg": 39,
+            "dimensionsCm": {
+                "length": 43.2,
+                "width": 28.8,
+                "height": 49
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 4,
+                "voltageV": 120,
+                "totalMaxW": 2600
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 15
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-03"
     }
 ]
