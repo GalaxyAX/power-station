@@ -22972,7 +22972,7 @@
         "region": "US",
         "url": "https://www.bluettipower.com/products/ac180?variant=44868697620699",
         "asin": null,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20AC180%20%2B%20SP100L.webp",
         "price": {
             "currency": "USD",
             "current": 679,
@@ -23042,6 +23042,159 @@
                         "maxA": 10,
                         "maxW": 500,
                         "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": [
+                    {
+                        "from": "MC4",
+                        "to": "DC7909",
+                        "lengthM": 1.5,
+                        "quantity": 1
+                    }
+                ]
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8.3
+            },
+            "maxCombinedW": 1440
+        },
+        "physical": {
+            "weightKg": 16,
+            "dimensionsCm": {
+                "length": 34,
+                "width": 24.7,
+                "height": 31.7
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 4,
+                "voltageV": 120,
+                "totalMaxW": 1800
+            },
+            "usbA": {
+                "count": 4,
+                "maxWPerPort": 15
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": false,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-10"
+    },
+    {
+        "id": "bluetti-ac180-350w",
+        "brand": "BLUETTI",
+        "model": "AC180 + 350W",
+        "name": "BLUETTI AC180 + 350W",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "bluetti-ac180",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "bluetti-pv350",
+                    "quantity": 1,
+                    "wiring": [
+                        {
+                            "inputId": "pv-dc",
+                            "series": 1,
+                            "parallel": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/ac180?variant=44143025029339",
+        "asin": "B0C2T8PLLB",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 1088,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 1152,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 1152
+        },
+        "power": {
+            "continuousW": 1800,
+            "surgeW": 2700,
+            "xBoostW": 2700
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 3500,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1440,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1440,
+                        "chargeMinW": 260,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": [
+                        "Enable Grid Enhancement mode in the BLUETTI app."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 500,
+                "inputs": [
+                    {
+                        "id": "pv-dc",
+                        "label": "DC Input",
+                        "count": 1,
+                        "connector": "DC7909",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 10,
+                        "maxW": 500,
+                        "overCurrent": "limits"
                     }
                 ],
                 "includedCables": [
