@@ -24593,7 +24593,7 @@
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-30-mini-portable-power-station?variant=50948240900315",
         "asin": "B0HMJ3SH62",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%2030%20mini%20%2B%2060W.webp",
         "price": {
             "currency": "USD",
             "current": 339.99,
@@ -24666,6 +24666,159 @@
                     }
                 ],
                 "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8.3
+            },
+            "maxCombinedW": 380
+        },
+        "physical": {
+            "weightKg": 3.3,
+            "dimensionsCm": {
+                "length": 16.1,
+                "width": 13,
+                "height": 20.75
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 2,
+                "voltageV": 120,
+                "totalMaxW": 300
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 15
+            },
+            "usbC": {
+                "count": 3,
+                "maxWPerPort": 140
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": null,
+        "lastChecked": "2026-11-10"
+    },
+    {
+        "id": "bluetti-elite-30-mini-100w",
+        "brand": "BLUETTI",
+        "model": "Elite 30 mini + 100W",
+        "name": "BLUETTI Elite 30 mini + 100W",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "bluetti-elite-30-mini",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "bluetti-sp100l",
+                    "quantity": 1,
+                    "wiring": [
+                        {
+                            "inputId": "pv",
+                            "series": 1,
+                            "parallel": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/elite-30-mini-portable-power-station?variant=50948257186011",
+        "asin": "B0HMKR7119",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 409.99,
+            "original": 429.99
+        },
+        "capacity": {
+            "nominalWh": 288,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 288
+        },
+        "power": {
+            "continuousW": 300,
+            "surgeW": 600,
+            "xBoostW": 600
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 300,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": null,
+                        "maxW": 400,
+                        "chargeMaxW": 300,
+                        "chargeMinW": 200,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": "pure-sine",
+                    "maxThdPct": null,
+                    "setup": [
+                        "Enable Grid Self-Adaption mode in the BLUETTI app."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 100,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC input",
+                        "count": 1,
+                        "connector": "XT60",
+                        "minV": 12,
+                        "maxV": 28,
+                        "startV": null,
+                        "maxA": 8,
+                        "maxW": 100,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": [
+                    {
+                        "from": "MC4",
+                        "to": "XT60",
+                        "lengthM": 1.5,
+                        "quantity": 1
+                    }
+                ]
             },
             "car": {
                 "supportedV": [
