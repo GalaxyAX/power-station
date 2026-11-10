@@ -23864,7 +23864,7 @@
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-30-v2-portable-power-station?variant=47282470027483",
         "asin": "B0FJDXXG85",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%2030%20V2%20%2B%20100W.webp",
         "price": {
             "currency": "USD",
             "current": 489.99,
@@ -23993,6 +23993,140 @@
             "app": true
         },
         "warrantyYears": 5,
+        "lastChecked": "2026-11-10"
+    },
+    {
+        "id": "bluetti-elite-10",
+        "brand": "BLUETTI",
+        "model": "Elite 10",
+        "name": "BLUETTI Elite 10",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/elite-10-mini-portable-power-station?variant=47915127439579",
+        "asin": "B0FS6CBVZG",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 119,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 128,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 128
+        },
+        "power": {
+            "continuousW": 200,
+            "surgeW": 300,
+            "xBoostW": 400
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 3000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 150,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": null,
+                        "maxW": 350,
+                        "chargeMaxW": 150,
+                        "chargeMinW": 40,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": "pure-sine",
+                    "maxThdPct": null,
+                    "setup": [
+                        "Enable Grid Self-Adaption mode in the BLUETTI app."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 100,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC input",
+                        "count": 1,
+                        "connector": "XT60",
+                        "minV": 12,
+                        "maxV": 28,
+                        "startV": null,
+                        "maxA": 8.2,
+                        "maxW": 100,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8.2
+            },
+            "maxCombinedW": 150
+        },
+        "physical": {
+            "weightKg": 1.8,
+            "dimensionsCm": {
+                "length": 20,
+                "width": 14.6,
+                "height": 11
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 1,
+                "voltageV": 120,
+                "totalMaxW": 200
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 15
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            },
+            "dc5521": {
+                "count": 1,
+                "voltageV": 13.5,
+                "maxWPerPort": 60
+            }
+        },
+        "features": {
+            "wifi": false,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
         "lastChecked": "2026-11-10"
     }
 ]
