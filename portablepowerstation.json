@@ -26473,5 +26473,154 @@
         },
         "warrantyYears": 3,
         "lastChecked": "2026-11-11"
+    },
+    {
+        "id": "bluetti-pioneer-na-100w",
+        "brand": "BLUETTI",
+        "model": "Pioneer Na + 100W",
+        "name": "BLUETTI Pioneer Na + 100W",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "bluetti-pioneer-na",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "bluetti-sp100l",
+                    "quantity": 1,
+                    "wiring": [
+                        {
+                            "inputId": "pv-dc",
+                            "series": 1,
+                            "parallel": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/sodium-ion-battery-pioneer-na?variant=47699993657563",
+        "asin": null,
+        "aggregateRating": null,
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 849,
+            "original": 949
+        },
+        "capacity": {
+            "nominalWh": 900,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 900
+        },
+        "power": {
+            "continuousW": 1500,
+            "surgeW": 2250,
+            "xBoostW": 2250
+        },
+        "battery": {
+            "chemistry": "Sodium-ion",
+            "cycleLife": []
+        },
+        "charging": {
+            "acInputW": 1400,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1400,
+                        "chargeMinW": 200,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": "pure-sine",
+                    "maxThdPct": null,
+                    "setup": [
+                        "Enable Grid Self-Adaption mode in the BLUETTI app."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 500,
+                "inputs": [
+                    {
+                        "id": "pv-dc",
+                        "label": "DC Input",
+                        "count": 1,
+                        "connector": "DC7909",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 10,
+                        "maxW": 500,
+                        "overCurrent": "limits"
+                    }
+                ],
+                "includedCables": [
+                    {
+                        "from": "MC4",
+                        "to": "DC7909",
+                        "lengthM": 1.5,
+                        "quantity": 1
+                    }
+                ]
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": null
+            },
+            "maxCombinedW": 1900
+        },
+        "physical": {
+            "weightKg": 16,
+            "dimensionsCm": {
+                "length": 34,
+                "width": 24.7,
+                "height": 31.7
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 4,
+                "voltageV": 120,
+                "totalMaxW": 1500
+            },
+            "usbA": {
+                "count": 4,
+                "maxWPerPort": 15
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": false,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-11"
     }
 ]
