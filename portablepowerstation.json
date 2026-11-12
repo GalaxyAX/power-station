@@ -27045,7 +27045,7 @@
         "url": "https://www.bluettipower.com/products/bluetti-premium-100-v2-portable-power-station?variant=49161674293467",
         "asin": null,
         "aggregateRating": null,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Premium%20100%20V2.webp",
         "price": {
             "currency": "USD",
             "current": 849,
