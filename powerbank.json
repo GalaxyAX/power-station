@@ -146,5 +146,186 @@
         },
         "warrantyYears": 2,
         "lastChecked": "2026-11-12"
+    },
+    {
+        "id": "bluetti-x60",
+        "brand": "BLUETTI",
+        "model": "X60",
+        "name": "BLUETTI X60",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/bluetti-x60-614wh-cpap-power-bank?variant=44709150982363",
+        "asin": null,
+        "aggregateRating": null,
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 399,
+            "original": 499
+        },
+        "capacity": {
+            "nominalWh": 614,
+            "mAh": 192000,
+            "mAhAtV": 3.2
+        },
+        "power": {
+            "totalMaxW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "dc",
+                    "label": "Charging Port",
+                    "connector": "DC7909",
+                    "count": 1,
+                    "minV": 12.5,
+                    "maxV": 26,
+                    "maxA": 8,
+                    "maxW": 200
+                }
+            ],
+            "passThrough": true,
+            "adapterIncluded": true
+        },
+        "outputs": [
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    12,
+                    15,
+                    20
+                ],
+                "maxA": 5,
+                "maxW": 100,
+                "protocols": null
+            },
+            {
+                "id": "usb-a",
+                "label": "USB-A Port",
+                "connector": "USB-A",
+                "count": 1,
+                "voltageV": [
+                    5
+                ],
+                "maxA": 3,
+                "maxW": 15,
+                "protocols": []
+            },
+            {
+                "id": "dc-12v",
+                "label": "DC Output (12V/5A)",
+                "connector": "DC4017",
+                "count": 1,
+                "voltageV": [
+                    12
+                ],
+                "maxA": 5,
+                "maxW": 60,
+                "protocols": []
+            },
+            {
+                "id": "dc-16v",
+                "label": "DC Output (16V/4A)",
+                "connector": "DC6530",
+                "count": 1,
+                "voltageV": [
+                    16
+                ],
+                "maxA": 4,
+                "maxW": 64,
+                "protocols": []
+            },
+            {
+                "id": "dc-24v",
+                "label": "DC Output (24V/4A)",
+                "connector": "DC5525",
+                "count": 1,
+                "voltageV": [
+                    24
+                ],
+                "maxA": 4,
+                "maxW": 96,
+                "protocols": []
+            }
+        ],
+        "includedCables": [
+            {
+                "from": "DC4017",
+                "to": "DC7450",
+                "lengthM": null,
+                "quantity": 1
+            },
+            {
+                "from": "DC4017",
+                "to": "DC5525",
+                "lengthM": null,
+                "quantity": 1
+            },
+            {
+                "from": "DC4017",
+                "to": "DC5521",
+                "lengthM": null,
+                "quantity": 1
+            },
+            {
+                "from": "DC6530",
+                "to": "DC6444",
+                "lengthM": null,
+                "quantity": 1
+            },
+            {
+                "from": "DC5525",
+                "to": "DC5521",
+                "lengthM": null,
+                "quantity": 1
+            },
+            {
+                "from": "DC5525",
+                "to": "ResMed S9 3-pin",
+                "lengthM": null,
+                "quantity": 1
+            },
+            {
+                "from": "DC5525",
+                "to": "ResMed AirSense 11",
+                "lengthM": null,
+                "quantity": 1
+            },
+            {
+                "from": "Car socket",
+                "to": "DC7909",
+                "lengthM": null,
+                "quantity": 1
+            }
+        ],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 7,
+            "dimensionsCm": {
+                "length": 30.5,
+                "width": 25.2,
+                "height": 12.8
+            }
+        },
+        "features": {
+            "display": true,
+            "wirelessCharging": false,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 1,
+        "lastChecked": "2026-11-13"
     }
 ]
