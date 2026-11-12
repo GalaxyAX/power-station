@@ -27400,7 +27400,7 @@
         "url": "https://www.bluettipower.com/products/rv5-b4810?variant=47637191393499",
         "asin": null,
         "aggregateRating": null,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%2010kWh%20RV%20Kit.webp",
         "price": {
             "currency": "USD",
             "current": 5499,
@@ -27512,6 +27512,169 @@
             "usbA": {
                 "count": 2,
                 "maxWPerPort": 7.5
+            },
+            "usbC": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-12"
+    },
+    {
+        "id": "bluetti-rv5-b4810",
+        "brand": "BLUETTI",
+        "model": "RV5 + B4810",
+        "name": "BLUETTI RV5 + B4810",
+        "category": "rv-power-system",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "bluetti-rv5",
+            "includes": [
+                {
+                    "type": "extra-battery",
+                    "model": "BLUETTI B4810",
+                    "quantity": 1,
+                    "capacityWh": 5120
+                },
+                {
+                    "type": "accessory",
+                    "model": "BLUETTI Battery Connection Wiring Pack",
+                    "quantity": 1
+                },
+                {
+                    "type": "accessory",
+                    "model": "BLUETTI Alternator Charger Wiring Pack",
+                    "quantity": 1
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/rv5-b4810?variant=47637165342939",
+        "asin": null,
+        "aggregateRating": null,
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 2799,
+            "original": 3299
+        },
+        "capacity": {
+            "nominalWh": 5120,
+            "expandable": true,
+            "extraBattery": {
+                "model": "BLUETTI B4810",
+                "capacityWh": 5120,
+                "maxCount": 23
+            },
+            "maxWh": 122880
+        },
+        "power": {
+            "continuousW": 4320,
+            "surgeW": 10000,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1440,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "Standard AC Input (N/L1/G)",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 50,
+                        "maxW": 6000,
+                        "chargeMaxW": 5000,
+                        "chargeMinW": 1200,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ev-240",
+                        "label": "EV Input (L1/L2/G)",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 22,
+                        "maxW": 5000,
+                        "chargeMaxW": 5000,
+                        "chargeMinW": 1200,
+                        "passThrough": false
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": "pure-sine",
+                    "maxThdPct": null,
+                    "setup": [
+                        "Wire a 3-pin RV inlet (not included) to the RV5's AC input.",
+                        "Enable Grid Self-Adaption mode in the BLUETTI app."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 3600,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "PV1/PV2 Input",
+                        "count": 2,
+                        "connector": null,
+                        "minV": 12,
+                        "maxV": 50,
+                        "startV": null,
+                        "maxA": 50,
+                        "maxW": 1800,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 50
+            },
+            "maxCombinedW": 6000
+        },
+        "physical": {
+            "weightKg": 60,
+            "dimensionsCm": null
+        },
+        "ports": {
+            "ac": {
+                "count": 1,
+                "voltageV": 120,
+                "totalMaxW": 5000
+            },
+            "usbA": {
+                "count": 0,
+                "maxWPerPort": null
             },
             "usbC": {
                 "count": 0,
