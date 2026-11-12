@@ -1,0 +1,150 @@
+[
+    {
+        "id": "bluetti-x20",
+        "brand": "BLUETTI",
+        "model": "X20",
+        "name": "BLUETTI X20",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/x20-portable-power-bank?variant=46173734699227",
+        "asin": "B0DFW4LLMX",
+        "aggregateRating": 4.0,
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 119,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 153.6,
+            "mAh": 48000,
+            "mAhAtV": 3.2
+        },
+        "power": {
+            "totalMaxW": 288
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 2500,
+                    "retentionPct": null
+                }
+            ]
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "usb-c",
+                    "label": "Bidirectional USB-C Port",
+                    "connector": "USB-C",
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 20,
+                    "maxA": 5,
+                    "maxW": 100
+                }
+            ],
+            "passThrough": true,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c",
+                "label": "Bidirectional USB-C Port",
+                "connector": "USB-C",
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    12,
+                    15,
+                    20
+                ],
+                "maxA": 5,
+                "maxW": 100,
+                "protocols": [
+                    "PD 3.0",
+                    "QC 3.0+",
+                    "SCP",
+                    "FCP",
+                    "AFC"
+                ]
+            },
+            {
+                "id": "dc093",
+                "label": "DC093 Port",
+                "connector": "DC093",
+                "count": 1,
+                "voltageV": [
+                    20
+                ],
+                "maxA": 8,
+                "maxW": 160,
+                "protocols": []
+            },
+            {
+                "id": "usb-a-qc",
+                "label": "18W USB-A Port",
+                "connector": "USB-A",
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    12
+                ],
+                "maxA": 3,
+                "maxW": 18,
+                "protocols": [
+                    "QC 3.0"
+                ]
+            },
+            {
+                "id": "usb-a",
+                "label": "10.5W USB-A Port",
+                "connector": "USB-A",
+                "count": 1,
+                "voltageV": [
+                    5
+                ],
+                "maxA": 2.1,
+                "maxW": 10.5,
+                "protocols": []
+            }
+        ],
+        "includedCables": [
+            {
+                "from": "DC093",
+                "to": "DC5525",
+                "lengthM": 1,
+                "quantity": 1
+            },
+            {
+                "from": "USB-C",
+                "to": "USB-C",
+                "lengthM": 1,
+                "quantity": 1
+            }
+        ],
+        "includedTips": 12,
+        "physical": {
+            "weightKg": 2.3,
+            "dimensionsCm": {
+                "length": 20.5,
+                "width": 20.5,
+                "height": 7.7
+            }
+        },
+        "features": {
+            "display": true,
+            "wirelessCharging": false,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 2,
+        "lastChecked": "2026-11-12"
+    }
+]
