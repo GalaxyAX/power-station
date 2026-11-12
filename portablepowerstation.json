@@ -28855,7 +28855,7 @@
         "url": "https://www.bluettipower.com/products/handsfree1-portable-backpack-power?variant=47856861216987",
         "asin": null,
         "aggregateRating": null,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Handsfree%201%20Power%20Station%20%2B%20100W.webp",
         "price": {
             "currency": "USD",
             "current": 458,
@@ -28951,6 +28951,153 @@
                 "count": 1,
                 "voltageV": 120,
                 "totalMaxW": 300
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 15
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": false,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-12"
+    },
+    {
+        "id": "bluetti-handsfree-2",
+        "brand": "BLUETTI",
+        "model": "Handsfree 2",
+        "name": "BLUETTI Handsfree 2",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "bluetti-handsfree-2-power-station",
+            "includes": [
+                {
+                    "type": "accessory",
+                    "model": "BLUETTI BluePack 2 60L Backpack",
+                    "quantity": 1
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/bluetti-handsfree-2-backpack-powerstation?variant=46474914070747",
+        "asin": "B0DLPG4ZDG",
+        "aggregateRating": 5,
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 399,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 512,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 512
+        },
+        "power": {
+            "continuousW": 700,
+            "surgeW": null,
+            "xBoostW": 1200
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 600,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 8,
+                        "maxW": 750,
+                        "chargeMaxW": 600,
+                        "chargeMinW": 150,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": [
+                        "Enable Grid Self-adaption Mode in the BLUETTI app."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 350,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 1,
+                        "connector": "XT60",
+                        "minV": 12,
+                        "maxV": 45,
+                        "startV": null,
+                        "maxA": 8.2,
+                        "maxW": 350,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": [
+                    {
+                        "from": "MC4",
+                        "to": "XT60",
+                        "lengthM": 1.5,
+                        "quantity": 1
+                    }
+                ]
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": 600
+        },
+        "physical": {
+            "weightKg": 7.5,
+            "dimensionsCm": {
+                "length": 30.5,
+                "width": 10.5,
+                "height": 38.5
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 1,
+                "voltageV": 120,
+                "totalMaxW": 700
             },
             "usbA": {
                 "count": 2,
