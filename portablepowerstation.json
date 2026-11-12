@@ -28708,10 +28708,157 @@
         "url": "https://www.bluettipower.com/products/handsfree1-portable-backpack-power?variant=47856860004571",
         "asin": null,
         "aggregateRating": null,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Handsfree%201%20Power%20Station%20%2B%2060W.webp",
         "price": {
             "currency": "USD",
             "current": 338,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 268.8,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 268.8
+        },
+        "power": {
+            "continuousW": 300,
+            "surgeW": null,
+            "xBoostW": 450
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 300,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 5,
+                        "maxW": 600,
+                        "chargeMaxW": 300,
+                        "chargeMinW": 100,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": [
+                        "Enable Grid Self-adaption Mode in the BLUETTI app."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 200,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 1,
+                        "connector": "XT60",
+                        "minV": 12,
+                        "maxV": 28,
+                        "startV": null,
+                        "maxA": 8.2,
+                        "maxW": 200,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": null
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": 300
+        },
+        "physical": {
+            "weightKg": 5,
+            "dimensionsCm": {
+                "length": 28.65,
+                "width": 9.5,
+                "height": 28
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 1,
+                "voltageV": 120,
+                "totalMaxW": 300
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 15
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": false,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-12"
+    },
+    {
+        "id": "bluetti-handsfree-1-power-station-100w",
+        "brand": "BLUETTI",
+        "model": "Handsfree 1 Power Station + 100W",
+        "name": "BLUETTI Handsfree 1 Power Station + 100W",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "bluetti-handsfree-1-power-station",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "bluetti-sp100l",
+                    "quantity": 1,
+                    "wiring": [
+                        {
+                            "inputId": "pv",
+                            "series": 1,
+                            "parallel": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/handsfree1-portable-backpack-power?variant=47856861216987",
+        "asin": null,
+        "aggregateRating": null,
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 458,
             "original": null
         },
         "capacity": {
