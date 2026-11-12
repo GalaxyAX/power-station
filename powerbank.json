@@ -11,7 +11,7 @@
         "url": "https://www.bluettipower.com/products/x20-portable-power-bank?variant=46173734699227",
         "asin": "B0DFW4LLMX",
         "aggregateRating": 4.0,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20X20.webp",
         "price": {
             "currency": "USD",
             "current": 119,
@@ -159,7 +159,7 @@
         "url": "https://www.bluettipower.com/products/bluetti-x60-614wh-cpap-power-bank?variant=44709150982363",
         "asin": null,
         "aggregateRating": null,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20X60.webp",
         "price": {
             "currency": "USD",
             "current": 399,
