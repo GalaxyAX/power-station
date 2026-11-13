@@ -14728,7 +14728,7 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3800-gen4?variant=67641627803721",
         "asin": "B0HLVQZPPN",
-        "aggregateRating": null,
+        "aggregateRating": 4.5,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203800%20Gen4.webp",
         "price": {
             "currency": "USD",
@@ -14886,7 +14886,7 @@
         "url": "https://us.ecoflow.com/products/delta-3800-gen4?variant=67641627934793",
         "asin": null,
         "aggregateRating": null,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203800%20Gen4%20%2B%20DELTA%203%20Max%20Plus%20Extra%20Battery%20%2B%202%20x%20160W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
             "current": 2699,
@@ -14985,6 +14985,157 @@
                 "length": 49.4,
                 "width": 28.9,
                 "height": 50.3
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 5,
+                "voltageV": 120,
+                "totalMaxW": 3600
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 36
+            },
+            "usbC": {
+                "count": 3,
+                "maxWPerPort": 140
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-13"
+    },
+    {
+        "id": "ecoflow-delta-3800-gen4-2x-160w-solar-panel",
+        "brand": "EcoFlow",
+        "model": "DELTA 3800 Gen4 + 2 x 160W Solar Panel",
+        "name": "EcoFlow DELTA 3800 Gen4 + 2 x 160W Solar Panel",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-3800-gen4",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "ecoflow-nextgen-160w-portable",
+                    "quantity": 2,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/delta-3800-gen4?variant=67641627836489",
+        "asin": "B0HLVRX2MW",
+        "aggregateRating": 4.5,
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 2899,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 3763,
+            "expandable": true,
+            "extraBattery": {
+                "model": "DELTA Pro 3 Smart Extra Battery",
+                "capacityWh": 4096,
+                "maxCount": 2
+            },
+            "maxWh": 11955
+        },
+        "power": {
+            "continuousW": 3600,
+            "surgeW": 7200,
+            "xBoostW": 4600
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input Socket",
+                        "connector": "C14",
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 2000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "Solar/DC Input Port",
+                        "count": 2,
+                        "connector": "Proprietary",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 20,
+                        "maxW": 1000,
+                        "overCurrent": "prohibited"
+                    }
+                ],
+                "includedCables": [
+                    {
+                        "from": "XT60i",
+                        "to": "Proprietary",
+                        "lengthM": null,
+                        "quantity": 2
+                    }
+                ]
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24,
+                    48
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 30.6,
+            "dimensionsCm": {
+                "length": 47.7,
+                "width": 28.9,
+                "height": 30.7
             }
         },
         "ports": {
