@@ -1794,5 +1794,74 @@
         },
         "warrantyYears": 1,
         "lastChecked": "2026-11-13"
+    },
+    {
+        "id": "bluetti-3x-sp100l",
+        "brand": "BLUETTI",
+        "model": "3*100W Solar Panel | 300W",
+        "name": "BLUETTI 3*100W Solar Panel | 300W",
+        "category": "solar-panel",
+        "formFactor": "portable",
+        "region": "US",
+        "url": "https://www.bluettipower.com/products/foldable-solar-panel-sp100l?variant=46854867648731",
+        "asin": "B099WTPN8H",
+        "aggregateRating": 4.5,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%203*100W%20Solar%20Panel%20%7C%20300W.webp",
+        "datasheetUrl": "https://cdn.shopify.com/s/files/1/0536/3390/8911/files/SP100L_User_Manual_EN-new.pdf",
+        "price": {
+            "currency": "USD",
+            "current": 747,
+            "original": null
+        },
+        "unitsPerPack": 3,
+        "electrical": {
+            "ratedW": 100,
+            "toleranceW": null,
+            "vocV": 24.62,
+            "vmpV": 20.52,
+            "iscA": 5.13,
+            "impA": 4.88,
+            "tempCoeff": {
+                "pmaxPctPerC": null,
+                "vocPctPerC": null,
+                "iscPctPerC": null
+            },
+            "maxSystemV": null,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": null
+        },
+        "cell": {
+            "type": "monocrystalline",
+            "technology": null,
+            "efficiencyPct": 23.4
+        },
+        "connector": "MC4",
+        "includedCables": [],
+        "stand": {
+            "tiltMinDeg": null,
+            "tiltMaxDeg": null
+        },
+        "physical": {
+            "weightKg": 4.95,
+            "dimensionsCm": {
+                "length": 113.2,
+                "width": 59.5,
+                "height": null
+            },
+            "foldedCm": {
+                "length": 59.5,
+                "width": 56.45,
+                "height": 5.5
+            },
+            "ipRating": "IP67",
+            "operatingTempC": {
+                "min": -10,
+                "max": 65
+            }
+        },
+        "warrantyYears": 1,
+        "lastChecked": "2026-11-13"
     }
 ]
