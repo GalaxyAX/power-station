@@ -166,7 +166,7 @@
         "url": "https://us.ecoflow.com/products/ecoflow-titan-5000?variant=55912975171657",
         "asin": "B0HJZLG3H2",
         "aggregateRating": 5.0,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TITAN%205000%20%2B%20TITAN%20Battery.webp",
         "price": {
             "currency": "USD",
             "current": 5029,
@@ -269,6 +269,148 @@
                 "length": 62.3,
                 "width": 33.7,
                 "height": 68.4
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 4,
+                "voltageV": 120,
+                "totalMaxW": 7200
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 60
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-13"
+    },
+    {
+        "id": "ecoflow-titan-5000-shp10",
+        "brand": "EcoFlow",
+        "model": "TITAN 5000 + Smart Home Panel 10 (240V)",
+        "name": "EcoFlow TITAN 5000 + Smart Home Panel 10 (240V)",
+        "category": "home-backup-power",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-titan-5000",
+            "includes": [
+                {
+                    "type": "accessory",
+                    "model": "EcoFlow Smart Home Panel 10 (240V)",
+                    "quantity": 1
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/ecoflow-titan-5000?variant=55912975204425",
+        "asin": "B0HN6CH7R5",
+        "aggregateRating": 5.0,
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 4199,
+            "original": 5798
+        },
+        "capacity": {
+            "nominalWh": 5017.6,
+            "expandable": true,
+            "extraBattery": {
+                "model": "TITAN Battery 5kWh",
+                "capacityWh": 5017.6,
+                "maxCount": 5
+            },
+            "maxWh": 30105.6
+        },
+        "power": {
+            "continuousW": 7200,
+            "surgeW": null,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": null
+        },
+        "charging": {
+            "acInputW": 7200,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "shp10-grid",
+                        "label": "Smart Home Panel 10 grid connection",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 30,
+                        "maxW": 7200,
+                        "chargeMaxW": 7200,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": [
+                        "With Smart Home Panel 10 connected, a generator charges the TITAN through the EcoFlow FlowMaster Generator Rectifier, sold separately."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 4000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "Solar Input Port",
+                        "count": 1,
+                        "connector": "Proprietary",
+                        "minV": 40,
+                        "maxV": 450,
+                        "startV": 60,
+                        "maxA": 16,
+                        "maxW": 4000,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": [
+                    {
+                        "from": "MC4",
+                        "to": "Proprietary",
+                        "lengthM": null,
+                        "quantity": 1
+                    }
+                ]
+            },
+            "car": {
+                "supportedV": [],
+                "maxA": null
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 54,
+            "dimensionsCm": {
+                "length": 62.3,
+                "width": 33.6,
+                "height": 42.8
             }
         },
         "ports": {
