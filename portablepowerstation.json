@@ -1,5 +1,150 @@
 [
     {
+        "id": "ecoflow-titan-5000",
+        "brand": "EcoFlow",
+        "model": "TITAN 5000",
+        "name": "EcoFlow TITAN 5000",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/ecoflow-titan-5000?variant=55912975138889",
+        "asin": "B0HN1MNNH3",
+        "aggregateRating": 5.0,
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 3199,
+            "original": 4099
+        },
+        "capacity": {
+            "nominalWh": 5017.6,
+            "expandable": true,
+            "extraBattery": {
+                "model": "TITAN Battery 5kWh",
+                "capacityWh": 5017.6,
+                "maxCount": 5
+            },
+            "maxWh": 30105.6
+        },
+        "power": {
+            "continuousW": 7200,
+            "surgeW": null,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": null
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input Port",
+                        "connector": "C20",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-240-30a",
+                        "label": "AC Power In/Out Port",
+                        "connector": "5P8",
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 30,
+                        "maxW": 7200,
+                        "chargeMaxW": 7200,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": [
+                        "A generator with a NEMA L14-30R outlet connects to the AC Power In/Out port through the EcoFlow AC Generator Charging Adapter, sold separately."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 4000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "Solar Input Port",
+                        "count": 1,
+                        "connector": "Proprietary",
+                        "minV": 40,
+                        "maxV": 450,
+                        "startV": 60,
+                        "maxA": 16,
+                        "maxW": 4000,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": [
+                    {
+                        "from": "MC4",
+                        "to": "Proprietary",
+                        "lengthM": null,
+                        "quantity": 1
+                    }
+                ]
+            },
+            "car": {
+                "supportedV": [],
+                "maxA": null
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 54,
+            "dimensionsCm": {
+                "length": 62.3,
+                "width": 33.6,
+                "height": 42.8
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 4,
+                "voltageV": 120,
+                "totalMaxW": 7200
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 60
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-13"
+    },
+    {
         "id": "ecoflow-delta-pro-ultra-x",
         "brand": "EcoFlow",
         "model": "DELTA Pro Ultra X",
