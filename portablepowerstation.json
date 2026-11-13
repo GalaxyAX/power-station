@@ -623,7 +623,7 @@
         "url": "https://us.ecoflow.com/products/ecoflow-titan-5000?variant=67791660744777",
         "asin": "B0HJZL9PSG",
         "aggregateRating": 5.0,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TITAN%205000%20%2B%20TITAN%20Battery%20%2B%20Smart%20Home%20Panel%2010%20(240V).webp",
         "price": {
             "currency": "USD",
             "current": 6169,
@@ -14716,6 +14716,147 @@
         },
         "warrantyYears": 5,
         "lastChecked": "2026-10-29"
+    },
+    {
+        "id": "ecoflow-delta-3800-gen4",
+        "brand": "EcoFlow",
+        "model": "DELTA 3800 Gen4",
+        "name": "EcoFlow DELTA 3800 Gen4",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/delta-3800-gen4?variant=67641627803721",
+        "asin": "B0HLVQZPPN",
+        "aggregateRating": null,
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 2199,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 3763,
+            "expandable": true,
+            "extraBattery": {
+                "model": "DELTA Pro 3 Smart Extra Battery",
+                "capacityWh": 4096,
+                "maxCount": 2
+            },
+            "maxWh": 11955
+        },
+        "power": {
+            "continuousW": 3600,
+            "surgeW": 7200,
+            "xBoostW": 4600
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input Socket",
+                        "connector": "C14",
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 2000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "Solar/DC Input Port",
+                        "count": 2,
+                        "connector": "Proprietary",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 20,
+                        "maxW": 1000,
+                        "overCurrent": "prohibited"
+                    }
+                ],
+                "includedCables": [
+                    {
+                        "from": "XT60i",
+                        "to": "Proprietary",
+                        "lengthM": null,
+                        "quantity": 2
+                    }
+                ]
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24,
+                    48
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 30.6,
+            "dimensionsCm": {
+                "length": 47.7,
+                "width": 28.9,
+                "height": 30.7
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 5,
+                "voltageV": 120,
+                "totalMaxW": 3600
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 36
+            },
+            "usbC": {
+                "count": 3,
+                "maxWPerPort": 140
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-13"
     },
     {
         "id": "bluetti-apex-300-b300k",
