@@ -320,7 +320,7 @@
         "url": "https://us.ecoflow.com/products/ecoflow-titan-5000?variant=55912975204425",
         "asin": "B0HN6CH7R5",
         "aggregateRating": 5.0,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20TITAN%205000%20%2B%20Smart%20Home%20Panel%2010%20(240V).webp",
         "price": {
             "currency": "USD",
             "current": 4199,
@@ -371,6 +371,161 @@
                     "maxThdPct": null,
                     "setup": [
                         "With Smart Home Panel 10 connected, a generator charges the TITAN through the EcoFlow FlowMaster Generator Rectifier, sold separately."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 4000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "Solar Input Port",
+                        "count": 1,
+                        "connector": "Proprietary",
+                        "minV": 40,
+                        "maxV": 450,
+                        "startV": 60,
+                        "maxA": 16,
+                        "maxW": 4000,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": [
+                    {
+                        "from": "MC4",
+                        "to": "Proprietary",
+                        "lengthM": null,
+                        "quantity": 1
+                    }
+                ]
+            },
+            "car": {
+                "supportedV": [],
+                "maxA": null
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 54,
+            "dimensionsCm": {
+                "length": 62.3,
+                "width": 33.6,
+                "height": 42.8
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 4,
+                "voltageV": 120,
+                "totalMaxW": 7200
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 60
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-13"
+    },
+    {
+        "id": "ecoflow-titan-5000-2x-220w-solar-panel",
+        "brand": "EcoFlow",
+        "model": "TITAN 5000 + 2 × 220W Portable Solar Panel",
+        "name": "EcoFlow TITAN 5000 + 2 × 220W Portable Solar Panel",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-titan-5000",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "ecoflow-nextgen-220w-bifacial",
+                    "quantity": 2,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/ecoflow-titan-5000?variant=56120732155977",
+        "asin": null,
+        "aggregateRating": null,
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 3699,
+            "original": 4868
+        },
+        "capacity": {
+            "nominalWh": 5017.6,
+            "expandable": true,
+            "extraBattery": {
+                "model": "TITAN Battery 5kWh",
+                "capacityWh": 5017.6,
+                "maxCount": 5
+            },
+            "maxWh": 30105.6
+        },
+        "power": {
+            "continuousW": 7200,
+            "surgeW": null,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": null
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input Port",
+                        "connector": "C20",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-240-30a",
+                        "label": "AC Power In/Out Port",
+                        "connector": "5P8",
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 30,
+                        "maxW": 7200,
+                        "chargeMaxW": 7200,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": [
+                        "A generator with a NEMA L14-30R outlet connects to the AC Power In/Out port through the EcoFlow AC Generator Charging Adapter, sold separately."
                     ]
                 }
             },
