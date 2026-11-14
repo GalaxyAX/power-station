@@ -15339,7 +15339,7 @@
         "url": "https://us.ecoflow.com/products/delta-3800-gen4?variant=67641628000329",
         "asin": "B0HLVX4X18",
         "aggregateRating": 4.5,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203800%20Gen4%20%2B%204%20x%20160W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
             "current": 3299,
