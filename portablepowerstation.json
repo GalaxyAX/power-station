@@ -32781,7 +32781,7 @@
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-plus?variant=41939887521879",
         "asin": "B0FM8653F1",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20only.webp",
         "price": {
             "currency": "USD",
             "current": 1899,
@@ -32885,6 +32885,163 @@
             },
             "usbC": {
                 "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-17"
+    },
+    {
+        "id": "jackery-homepower-3600-plus-double-kit",
+        "brand": "Jackery",
+        "model": "HomePower 3600 Plus Double Kit",
+        "name": "Jackery HomePower 3600 Plus Double Kit",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-homepower-3600-plus",
+            "includes": [
+                {
+                    "type": "station",
+                    "stationId": "jackery-homepower-3600-plus",
+                    "quantity": 1
+                },
+                {
+                    "type": "accessory",
+                    "model": "Jackery Connector",
+                    "quantity": 1
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-plus?variant=41939888275543",
+        "asin": "B0FM8653F1",
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 3979,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 7168,
+            "expandable": true,
+            "extraBattery": {
+                "model": "Battery Pack 3600",
+                "capacityWh": 3584,
+                "maxCount": 10
+            },
+            "maxWh": 43008
+        },
+        "power": {
+            "continuousW": 7200,
+            "surgeW": 14400,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 3600,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120-1",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-120-2",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 2000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 4,
+                        "connector": "DC8020",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 12,
+                        "maxW": 500,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 70,
+            "dimensionsCm": {
+                "length": null,
+                "width": null,
+                "height": null
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 12,
+                "voltageV": 120,
+                "totalMaxW": 7200
+            },
+            "usbA": {
+                "count": 4,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 4,
                 "maxWPerPort": 100
             },
             "car": {
