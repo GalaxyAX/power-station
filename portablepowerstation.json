@@ -35681,7 +35681,7 @@
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-1000-plus?variant=44583535476823",
         "asin": "B0C37CWBKZ",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%201000%20Plus.webp",
         "price": {
             "currency": "USD",
             "current": 619,
