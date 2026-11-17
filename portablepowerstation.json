@@ -33399,7 +33399,7 @@
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-pro-max?variant=43964669526103",
         "asin": null,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Pro%20Max%20%2B%20SolarSaga%20500%20X%20%2B%20MTS%20%2B%2040A%20Charging%20Cable.webp",
         "price": {
             "currency": "USD",
             "current": 3549,
@@ -33501,6 +33501,159 @@
                 "length": 37.5,
                 "width": 27.5,
                 "height": 45
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 3,
+                "voltageV": 120,
+                "totalMaxW": 4000
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-17"
+    },
+    {
+        "id": "jackery-homepower-3600-pro-max-battery-pack-3600",
+        "brand": "Jackery",
+        "model": "HomePower 3600 Pro Max + Battery Pack 3600",
+        "name": "Jackery HomePower 3600 Pro Max + Battery Pack 3600",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-homepower-3600-pro-max",
+            "includes": [
+                {
+                    "type": "extra-battery",
+                    "model": "Battery Pack 3600",
+                    "quantity": 1,
+                    "capacityWh": 3584
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-pro-max?variant=43964669427799",
+        "asin": null,
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 3509,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 7168,
+            "expandable": true,
+            "extraBattery": {
+                "model": "Battery Pack 3600",
+                "capacityWh": 3584,
+                "maxCount": 4
+            },
+            "maxWh": 21504
+        },
+        "power": {
+            "continuousW": 4000,
+            "surgeW": 8000,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-240",
+                        "label": "AC Expansion Port",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": null,
+                        "maxW": null,
+                        "chargeMaxW": null,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 1200,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 2,
+                        "connector": "DC8020",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 12,
+                        "maxW": 600,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 58.5,
+            "dimensionsCm": {
+                "length": null,
+                "width": null,
+                "height": null
             }
         },
         "ports": {
