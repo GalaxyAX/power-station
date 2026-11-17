@@ -2012,7 +2012,7 @@
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solarsaga-500-x?variant=41317177000023",
         "asin": "B0HMQDZSDF",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20SolarSaga%20500%20X.webp",
         "datasheetUrl": "https://r.jackery.net/productGuide/Jackery%20500X%20User%20Manual.pdf",
         "price": {
             "currency": "USD",
