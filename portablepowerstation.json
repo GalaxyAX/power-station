@@ -31328,7 +31328,7 @@
                         "startV": null,
                         "maxA": 10.5,
                         "maxW": 600,
-                        "overCurrent": "unknown",
+                        "overCurrent": "limits",
                         "matchedPorts": true
                     }
                 ],
@@ -31421,7 +31421,7 @@
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-5000-plus?variant=44636641460311",
         "asin": null,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%205000%20Plus%20(10kWh)%20%2B%20SolarSaga%20500%20X%20x%202%20%2B%20Automatic%20Transfer%20Switch.webp",
         "price": {
             "currency": "USD",
             "current": 8789,
@@ -31515,7 +31515,7 @@
                         "startV": null,
                         "maxA": 10.5,
                         "maxW": 600,
-                        "overCurrent": "unknown",
+                        "overCurrent": "limits",
                         "matchedPorts": true
                     }
                 ],
