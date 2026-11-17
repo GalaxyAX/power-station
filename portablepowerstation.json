@@ -31946,10 +31946,157 @@
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-plus?variant=41939888242775",
         "asin": null,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20(7.2kWh)%20%2B%20SolarSaga%20500%20X.webp",
         "price": {
             "currency": "USD",
             "current": 4139,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 7168,
+            "expandable": true,
+            "extraBattery": {
+                "model": "Battery Pack 3600",
+                "capacityWh": 3584,
+                "maxCount": 4
+            },
+            "maxWh": 21504
+        },
+        "power": {
+            "continuousW": 3600,
+            "surgeW": 7200,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 1000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 2,
+                        "connector": "DC8020",
+                        "minV": 16,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 12,
+                        "maxW": 500,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 60,
+            "dimensionsCm": {
+                "length": null,
+                "width": null,
+                "height": null
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 5,
+                "voltageV": 120,
+                "totalMaxW": 3600
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-17"
+    },
+    {
+        "id": "jackery-homepower-3600-plus-battery-pack-2x-solarsaga-500x",
+        "brand": "Jackery",
+        "model": "HomePower 3600 Plus (7.2kWh) + SolarSaga 500 X x 2",
+        "name": "Jackery HomePower 3600 Plus (7.2kWh) + SolarSaga 500 X x 2",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-homepower-3600-plus",
+            "includes": [
+                {
+                    "type": "extra-battery",
+                    "model": "Battery Pack 3600",
+                    "quantity": 1,
+                    "capacityWh": 3584
+                },
+                {
+                    "type": "solar-panel",
+                    "panelId": "jackery-solarsaga-500x",
+                    "quantity": 2,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-plus?variant=44632068522071",
+        "asin": null,
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 5139,
             "original": null
         },
         "capacity": {
