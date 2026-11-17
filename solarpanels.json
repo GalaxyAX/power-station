@@ -2092,7 +2092,7 @@
         "region": "US",
         "url": "https://www.jackery.com/products/solarsaga-200w-solar-panel?variant=44628888879191",
         "asin": null,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20SolarSaga%20200W.webp",
         "datasheetUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/Jackery_SolarSaga_200_User_Manual_-_666E.pdf?v=1763004158",
         "price": {
             "currency": "USD",

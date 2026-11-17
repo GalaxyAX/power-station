@@ -32628,5 +32628,146 @@
         },
         "warrantyYears": 3,
         "lastChecked": "2026-11-17"
+    },
+    {
+        "id": "jackery-homepower-3600-plus-solarsaga-500x",
+        "brand": "Jackery",
+        "model": "HomePower 3600 Plus + SolarSaga 500 X",
+        "name": "Jackery HomePower 3600 Plus + SolarSaga 500 X",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-homepower-3600-plus",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "jackery-solarsaga-500x",
+                    "quantity": 1,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-plus?variant=41939887751255",
+        "asin": null,
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 2729,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 3584,
+            "expandable": true,
+            "extraBattery": {
+                "model": "Battery Pack 3600",
+                "capacityWh": 3584,
+                "maxCount": 5
+            },
+            "maxWh": 21504
+        },
+        "power": {
+            "continuousW": 3600,
+            "surgeW": 7200,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 1000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 2,
+                        "connector": "DC8020",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 12,
+                        "maxW": 500,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 35,
+            "dimensionsCm": {
+                "length": 38.5,
+                "width": 30.9,
+                "height": 49.1
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 5,
+                "voltageV": 120,
+                "totalMaxW": 3600
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-17"
     }
 ]
