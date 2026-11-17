@@ -32926,7 +32926,7 @@
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-plus?variant=41939888275543",
         "asin": "B0FM8653F1",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20Double%20Kit.webp",
         "price": {
             "currency": "USD",
             "current": 3979,
