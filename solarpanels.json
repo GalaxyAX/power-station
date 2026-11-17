@@ -2036,12 +2036,7 @@
             "maxSeriesFuseA": null,
             "maxSeries": 1,
             "maxParallel": 1,
-            "bifacial": {
-                "rearRatedW": null,
-                "rearIscA": null,
-                "rearImpA": null,
-                "maxGainPct": null
-            }
+            "bifacial": null
         },
         "cell": {
             "type": null,
@@ -2116,12 +2111,7 @@
             "maxSeriesFuseA": null,
             "maxSeries": null,
             "maxParallel": null,
-            "bifacial": {
-                "rearRatedW": null,
-                "rearIscA": null,
-                "rearImpA": null,
-                "maxGainPct": null
-            }
+            "bifacial": null
         },
         "cell": {
             "type": "monocrystalline",
@@ -2160,6 +2150,86 @@
             }
         },
         "warrantyYears": 3,
+        "lastChecked": "2026-11-17"
+    },
+    {
+        "id": "jackery-solarsaga-100-air",
+        "brand": "Jackery",
+        "model": "SolarSaga 100 Air",
+        "name": "Jackery SolarSaga 100 Air",
+        "category": "solar-panel",
+        "formFactor": "portable",
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-solarsaga-100-air?variant=42058495721559",
+        "asin": "B0FX8P4JST",
+        "image": null,
+        "datasheetUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/Jackery_SolarSaga_100_Air_User_Manual.pdf?v=1758778870",
+        "price": {
+            "currency": "USD",
+            "current": 299,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 100,
+            "toleranceW": 5,
+            "vocV": 29.7,
+            "vmpV": 25.4,
+            "iscA": 4.1,
+            "impA": 3.95,
+            "tempCoeff": {
+                "pmaxPctPerC": -0.22,
+                "vocPctPerC": -0.25,
+                "iscPctPerC": null
+            },
+            "maxSystemV": 80,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": {
+                "rearRatedW": null,
+                "rearIscA": null,
+                "rearImpA": null,
+                "maxGainPct": 10
+            }
+        },
+        "cell": {
+            "type": null,
+            "technology": "PERC",
+            "efficiencyPct": 23
+        },
+        "connector": "DC8020",
+        "includedCables": [
+            {
+                "from": "DC8020",
+                "to": "DC7909",
+                "lengthM": null,
+                "quantity": 1
+            }
+        ],
+        "stand": {
+            "tiltMinDeg": null,
+            "tiltMaxDeg": null
+        },
+        "physical": {
+            "weightKg": 3.2,
+            "dimensionsCm": {
+                "length": 166.8,
+                "width": 42.3,
+                "height": 1.7
+            },
+            "foldedCm": {
+                "length": 43.3,
+                "width": 42.3,
+                "height": 4.7
+            },
+            "ipRating": "IP68",
+            "operatingTempC": {
+                "min": -20,
+                "max": 65
+            }
+        },
+        "warrantyYears": 1,
         "lastChecked": "2026-11-17"
     }
 ]

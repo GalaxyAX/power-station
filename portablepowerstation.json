@@ -35272,7 +35272,7 @@
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-1000-plus-v2?variant=44632209195095",
         "asin": null,
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%201000%20Plus%20v2%20%2B%20SolarSaga%20100%20Air.webp",
         "price": {
             "currency": "USD",
             "current": 849,
