@@ -35413,7 +35413,7 @@
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-1000-plus-v2?variant=44632209162327",
         "asin": "B0HF84899N",
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%201000%20Plus%20v2%20%2B%20SolarSaga%20100%20Air%20x%202.webp",
         "price": {
             "currency": "USD",
             "current": 999,
@@ -35518,6 +35518,143 @@
             "usbC": {
                 "count": 2,
                 "maxWPerPort": 140
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-17"
+    },
+    {
+        "id": "jackery-explorer-1000-plus-2x-solarsaga-100-air",
+        "brand": "Jackery",
+        "model": "Explorer 1000 Plus + SolarSaga 100 Air x 2",
+        "name": "Jackery Explorer 1000 Plus + SolarSaga 100 Air x 2",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-explorer-1000-plus",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "jackery-solarsaga-100-air",
+                    "quantity": 2,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-solar-generator-1000-plus?variant=40233094873175",
+        "asin": null,
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 869,
+            "original": 949
+        },
+        "capacity": {
+            "nominalWh": 1264,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": null
+        },
+        "power": {
+            "continuousW": 2000,
+            "surgeW": 4000,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1200,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": null,
+                        "chargeMaxW": 1200,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": null,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 800,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 2,
+                        "connector": "DC8020",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 11,
+                        "maxW": 400,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 11
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 14.5,
+            "dimensionsCm": {
+                "length": 35.6,
+                "width": 26,
+                "height": 28.3
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 3,
+                "voltageV": 120,
+                "totalMaxW": 2000
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
             },
             "car": {
                 "count": 1,
