@@ -36517,10 +36517,151 @@
             "official": "available",
             "amazon": null
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%202000%20v2%20%2B%20SolarSaga%20100%20Light%20x%204.jpeg",
         "price": {
             "currency": "USD",
             "current": 1899,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 2042,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 2042
+        },
+        "power": {
+            "continuousW": 2200,
+            "surgeW": 4400,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": null,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 400,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 2,
+                        "connector": "DC8020",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 12,
+                        "maxW": 200,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 17.9,
+            "dimensionsCm": {
+                "length": 33.5,
+                "width": 26.4,
+                "height": 29.2
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 3,
+                "voltageV": 120,
+                "totalMaxW": 2200
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-18"
+    },
+    {
+        "id": "jackery-explorer-2000-v2-solarsaga-500x",
+        "brand": "Jackery",
+        "model": "Explorer 2000 v2 + SolarSaga 500 X",
+        "name": "Jackery Explorer 2000 v2 + SolarSaga 500 X",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-explorer-2000-v2",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "jackery-solarsaga-500x",
+                    "quantity": 1,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-solar-generator-2000-v2?variant=44024620580951",
+        "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 1799,
             "original": null
         },
         "capacity": {
