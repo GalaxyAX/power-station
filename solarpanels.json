@@ -2231,5 +2231,86 @@
         },
         "warrantyYears": 1,
         "lastChecked": "2026-11-17"
+    },
+    {
+        "id": "jackery-solarsaga-40-air",
+        "brand": "Jackery",
+        "model": "SolarSaga 40 Air",
+        "name": "Jackery SolarSaga 40 Air",
+        "category": "solar-panel",
+        "formFactor": "portable",
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-solarsaga-40-air?variant=42127515025495",
+        "asin": "B0FX8PBZLR",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
+        "image": null,
+        "datasheetUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/Jackery_SolarSaga_40Air_User_Manual_inbox.pdf?v=1785488094",
+        "price": {
+            "currency": "USD",
+            "current": 129,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 40,
+            "toleranceW": 2,
+            "vocV": 25,
+            "vmpV": 20.5,
+            "iscA": 2.07,
+            "impA": 1.96,
+            "tempCoeff": {
+                "pmaxPctPerC": -0.39,
+                "vocPctPerC": -0.3,
+                "iscPctPerC": null
+            },
+            "maxSystemV": 30,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": {
+                "rearRatedW": null,
+                "rearIscA": null,
+                "rearImpA": null,
+                "maxGainPct": 10
+            }
+        },
+        "cell": {
+            "type": null,
+            "technology": "PERC",
+            "efficiencyPct": 23
+        },
+        "connector": "DC8020",
+        "includedCables": [
+            {
+                "from": "DC8020",
+                "to": "DC7909",
+                "lengthM": null,
+                "quantity": 1
+            }
+        ],
+        "stand": null,
+        "physical": {
+            "weightKg": 0.9,
+            "dimensionsCm": {
+                "length": 96.2,
+                "width": 33.9,
+                "height": 0.25
+            },
+            "foldedCm": {
+                "length": 23.2,
+                "width": 33.9,
+                "height": 2
+            },
+            "ipRating": "IP68",
+            "operatingTempC": {
+                "min": -20,
+                "max": 65
+            }
+        },
+        "warrantyYears": 1,
+        "lastChecked": "2026-11-18"
     }
 ]
