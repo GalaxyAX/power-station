@@ -2036,7 +2036,12 @@
             "maxSeriesFuseA": null,
             "maxSeries": 1,
             "maxParallel": 1,
-            "bifacial": null
+            "bifacial": {
+                "rearRatedW": null,
+                "rearIscA": null,
+                "rearImpA": null,
+                "maxGainPct": 9
+            }
         },
         "cell": {
             "type": null,
