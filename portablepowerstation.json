@@ -37071,7 +37071,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%201500%20Ultra.webp",
         "price": {
             "currency": "USD",
             "current": 1079,
