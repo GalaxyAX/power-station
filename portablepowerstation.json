@@ -31214,161 +31214,6 @@
         "lastChecked": "2026-11-12"
     },
     {
-        "id": "jackery-explorer-5000-plus",
-        "brand": "Jackery",
-        "model": "Explorer 5000 Plus",
-        "name": "Jackery Explorer 5000 Plus",
-        "category": "portable-power-station",
-        "kind": "station",
-        "bundle": null,
-        "region": "US",
-        "url": "https://www.jackery.com/products/jackery-solar-generator-5000-plus?variant=43981648494679",
-        "asin": "B0HNYCB6CK",
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%205000%20Plus.webp",
-        "price": {
-            "currency": "USD",
-            "current": 3499,
-            "original": null
-        },
-        "capacity": {
-            "nominalWh": 5040,
-            "expandable": true,
-            "extraBattery": {
-                "model": "Battery Pack 5000 Plus",
-                "capacityWh": 5040,
-                "maxCount": 5
-            },
-            "maxWh": 30240
-        },
-        "power": {
-            "continuousW": 7200,
-            "surgeW": 14400,
-            "xBoostW": null
-        },
-        "battery": {
-            "chemistry": "LFP",
-            "cycleLife": [
-                {
-                    "cycles": 4000,
-                    "retentionPct": 70
-                }
-            ]
-        },
-        "charging": {
-            "acInputW": 1800,
-            "ac": {
-                "frequencyHz": [
-                    60
-                ],
-                "inputs": [
-                    {
-                        "id": "ac-120",
-                        "label": "AC Input",
-                        "connector": null,
-                        "plug": null,
-                        "voltageV": 120,
-                        "maxA": 15,
-                        "maxW": 1800,
-                        "chargeMaxW": 1800,
-                        "chargeMinW": 1800,
-                        "passThrough": true
-                    },
-                    {
-                        "id": "ac-240",
-                        "label": "AC Expansion Port",
-                        "connector": null,
-                        "plug": null,
-                        "voltageV": 240,
-                        "maxA": 16.7,
-                        "maxW": null,
-                        "chargeMaxW": null,
-                        "chargeMinW": null,
-                        "passThrough": true
-                    }
-                ],
-                "generator": {
-                    "supported": true,
-                    "waveform": null,
-                    "maxThdPct": null,
-                    "setup": []
-                }
-            },
-            "solar": {
-                "maxW": 4000,
-                "inputs": [
-                    {
-                        "id": "pv-high",
-                        "label": "High-PV Input",
-                        "count": 1,
-                        "connector": "MC4",
-                        "minV": 135,
-                        "maxV": 450,
-                        "startV": null,
-                        "maxA": 15,
-                        "maxW": 4000,
-                        "overCurrent": "unknown"
-                    },
-                    {
-                        "id": "pv-low",
-                        "label": "Low-PV Input",
-                        "count": 2,
-                        "connector": "DC8020",
-                        "minV": 16,
-                        "maxV": 60,
-                        "startV": null,
-                        "maxA": 10.5,
-                        "maxW": 600,
-                        "overCurrent": "limits",
-                        "matchedPorts": true
-                    }
-                ],
-                "includedCables": []
-            },
-            "car": {
-                "supportedV": [
-                    12
-                ],
-                "maxA": 8
-            },
-            "maxCombinedW": null
-        },
-        "physical": {
-            "weightKg": 61,
-            "dimensionsCm": {
-                "length": 41.8,
-                "width": 39.5,
-                "height": 63.5
-            }
-        },
-        "ports": {
-            "ac": {
-                "count": 6,
-                "voltageV": 120,
-                "totalMaxW": 7200
-            },
-            "usbA": {
-                "count": 2,
-                "maxWPerPort": 18
-            },
-            "usbC": {
-                "count": 2,
-                "maxWPerPort": 100
-            },
-            "car": {
-                "count": 1,
-                "voltageV": 12,
-                "maxWPerPort": 120
-            }
-        },
-        "features": {
-            "wifi": true,
-            "bluetooth": true,
-            "app": true
-        },
-        "warrantyYears": 5,
-        "lastChecked": "2026-11-17"
-    },
-    {
         "id": "jackery-homepower-3600-plus-battery-pack-solarsaga-500x",
         "brand": "Jackery",
         "model": "HomePower 3600 Plus (7.2kWh) + SolarSaga 500 X",
@@ -38696,10 +38541,349 @@
             "official": "unavailable",
             "amazon": "unavailable"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%205000%20Plus%20%2B%20Smart%20Transfer%20Switch.webp",
         "price": {
             "currency": "USD",
             "current": 4439,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 5040,
+            "expandable": true,
+            "extraBattery": {
+                "model": "Battery Pack 5000 Plus",
+                "capacityWh": 5040,
+                "maxCount": 5
+            },
+            "maxWh": 30240
+        },
+        "power": {
+            "continuousW": 7200,
+            "surgeW": 14400,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": 1800,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-240",
+                        "label": "AC Expansion Port",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 16.7,
+                        "maxW": null,
+                        "chargeMaxW": null,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 4000,
+                "inputs": [
+                    {
+                        "id": "pv-high",
+                        "label": "High-PV Input",
+                        "count": 1,
+                        "connector": "MC4",
+                        "minV": 135,
+                        "maxV": 450,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 4000,
+                        "overCurrent": "unknown"
+                    },
+                    {
+                        "id": "pv-low",
+                        "label": "Low-PV Input",
+                        "count": 2,
+                        "connector": "DC8020",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 10.5,
+                        "maxW": 600,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 61,
+            "dimensionsCm": {
+                "length": 41.8,
+                "width": 39.5,
+                "height": 63.5
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 6,
+                "voltageV": 120,
+                "totalMaxW": 7200
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-18"
+    },
+    {
+        "id": "jackery-explorer-5000-plus",
+        "brand": "Jackery",
+        "model": "Explorer 5000 Plus",
+        "name": "Jackery Explorer 5000 Plus",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-explorer-5000-plus?variant=41317177917527",
+        "asin": "B0DFGLG35L",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "available"
+        },
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%205000%20Plus.webp",
+        "price": {
+            "currency": "USD",
+            "current": 3499,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 5040,
+            "expandable": true,
+            "extraBattery": {
+                "model": "Battery Pack 5000 Plus",
+                "capacityWh": 5040,
+                "maxCount": 5
+            },
+            "maxWh": 30240
+        },
+        "power": {
+            "continuousW": 7200,
+            "surgeW": 14400,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": 1800,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-240",
+                        "label": "AC Expansion Port",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 16.7,
+                        "maxW": null,
+                        "chargeMaxW": null,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 4000,
+                "inputs": [
+                    {
+                        "id": "pv-high",
+                        "label": "High-PV Input",
+                        "count": 1,
+                        "connector": "MC4",
+                        "minV": 135,
+                        "maxV": 450,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 4000,
+                        "overCurrent": "unknown"
+                    },
+                    {
+                        "id": "pv-low",
+                        "label": "Low-PV Input",
+                        "count": 2,
+                        "connector": "DC8020",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 10.5,
+                        "maxW": 600,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 61,
+            "dimensionsCm": {
+                "length": 41.8,
+                "width": 39.5,
+                "height": 63.5
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 6,
+                "voltageV": 120,
+                "totalMaxW": 7200
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-18"
+    },
+    {
+        "id": "jackery-explorer-5000-plus-2x-solarsaga-500x",
+        "brand": "Jackery",
+        "model": "Explorer 5000 Plus + SolarSaga 500 X x 2",
+        "name": "Jackery Explorer 5000 Plus + SolarSaga 500 X x 2",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-explorer-5000-plus",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "jackery-solarsaga-500x",
+                    "quantity": 2,
+                    "wiring": [
+                        {
+                            "inputId": "pv-low",
+                            "series": 1,
+                            "parallel": 1
+                        },
+                        {
+                            "inputId": "pv-low",
+                            "series": 1,
+                            "parallel": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-explorer-5000-plus?variant=41341600038999",
+        "asin": "B0FBX7K2LT",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 5159,
             "original": null
         },
         "capacity": {
