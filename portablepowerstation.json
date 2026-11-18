@@ -31655,7 +31655,11 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-pro-max?variant=43964669493335",
-        "asin": null,
+        "asin": "B0H33PBCHN",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Pro%20Max%20%2B%20SolarSaga%20500%20X.webp",
         "price": {
             "currency": "USD",
@@ -31711,8 +31715,8 @@
                         "connector": null,
                         "plug": null,
                         "voltageV": 240,
-                        "maxA": null,
-                        "maxW": null,
+                        "maxA": 16.7,
+                        "maxW": 4000,
                         "chargeMaxW": null,
                         "chargeMinW": null,
                         "passThrough": true
@@ -31786,7 +31790,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-17"
+        "lastChecked": "2026-11-18"
     },
     {
         "id": "jackery-homepower-3600-pro-max-mts-40a-cable",
@@ -31813,6 +31817,10 @@
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-pro-max?variant=43964669460567",
         "asin": "B0H33W3SXC",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Pro%20Max%20%2B%20MTS%20%2B%2040A%20Charging%20Cable.webp",
         "price": {
             "currency": "USD",
@@ -31866,10 +31874,10 @@
                         "id": "ac-240",
                         "label": "AC Expansion Port",
                         "connector": null,
-                        "plug": null,
+                        "plug": "14-50P",
                         "voltageV": 240,
-                        "maxA": null,
-                        "maxW": null,
+                        "maxA": 16.7,
+                        "maxW": 4000,
                         "chargeMaxW": null,
                         "chargeMinW": null,
                         "passThrough": true
@@ -31943,7 +31951,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-17"
+        "lastChecked": "2026-11-18"
     },
     {
         "id": "jackery-homepower-3600-pro-max-solarsaga-500x-mts-40a-cable",
@@ -31976,6 +31984,10 @@
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-pro-max?variant=43964669526103",
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Pro%20Max%20%2B%20SolarSaga%20500%20X%20%2B%20MTS%20%2B%2040A%20Charging%20Cable.webp",
         "price": {
             "currency": "USD",
@@ -32029,10 +32041,10 @@
                         "id": "ac-240",
                         "label": "AC Expansion Port",
                         "connector": null,
-                        "plug": null,
+                        "plug": "14-50P",
                         "voltageV": 240,
-                        "maxA": null,
-                        "maxW": null,
+                        "maxA": 16.7,
+                        "maxW": 4000,
                         "chargeMaxW": null,
                         "chargeMinW": null,
                         "passThrough": true
@@ -32106,7 +32118,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-17"
+        "lastChecked": "2026-11-18"
     },
     {
         "id": "jackery-homepower-3600-pro-max-battery-pack-3600",
@@ -32128,7 +32140,11 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-pro-max?variant=43964669427799",
-        "asin": null,
+        "asin": "B0H33QKWZ5",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Pro%20Max%20%2B%20Battery%20Pack%203600.webp",
         "price": {
             "currency": "USD",
@@ -32184,8 +32200,8 @@
                         "connector": null,
                         "plug": null,
                         "voltageV": 240,
-                        "maxA": null,
-                        "maxW": null,
+                        "maxA": 16.7,
+                        "maxW": 4000,
                         "chargeMaxW": null,
                         "chargeMinW": null,
                         "passThrough": true
@@ -32259,7 +32275,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-17"
+        "lastChecked": "2026-11-18"
     },
     {
         "id": "jackery-homepower-2000-plus-v2-battery-pack-2000-plus-v2",
