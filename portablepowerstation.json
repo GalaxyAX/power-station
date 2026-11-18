@@ -31214,153 +31214,6 @@
         "lastChecked": "2026-11-12"
     },
     {
-        "id": "jackery-homepower-3600-plus-battery-pack-solarsaga-500x",
-        "brand": "Jackery",
-        "model": "HomePower 3600 Plus (7.2kWh) + SolarSaga 500 X",
-        "name": "Jackery HomePower 3600 Plus (7.2kWh) + SolarSaga 500 X",
-        "category": "portable-power-station",
-        "kind": "bundle",
-        "bundle": {
-            "baseStationId": "jackery-homepower-3600-plus",
-            "includes": [
-                {
-                    "type": "extra-battery",
-                    "model": "Battery Pack 3600",
-                    "quantity": 1,
-                    "capacityWh": 3584
-                },
-                {
-                    "type": "solar-panel",
-                    "panelId": "jackery-solarsaga-500x",
-                    "quantity": 1,
-                    "wiring": null
-                }
-            ]
-        },
-        "region": "US",
-        "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-plus?variant=41939888242775",
-        "asin": null,
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20(7.2kWh)%20%2B%20SolarSaga%20500%20X.webp",
-        "price": {
-            "currency": "USD",
-            "current": 4139,
-            "original": null
-        },
-        "capacity": {
-            "nominalWh": 7168,
-            "expandable": true,
-            "extraBattery": {
-                "model": "Battery Pack 3600",
-                "capacityWh": 3584,
-                "maxCount": 4
-            },
-            "maxWh": 21504
-        },
-        "power": {
-            "continuousW": 3600,
-            "surgeW": 7200,
-            "xBoostW": null
-        },
-        "battery": {
-            "chemistry": "LFP",
-            "cycleLife": [
-                {
-                    "cycles": 6000,
-                    "retentionPct": 70
-                }
-            ]
-        },
-        "charging": {
-            "acInputW": 1800,
-            "ac": {
-                "frequencyHz": [
-                    60
-                ],
-                "inputs": [
-                    {
-                        "id": "ac-120",
-                        "label": "AC Input",
-                        "connector": null,
-                        "plug": null,
-                        "voltageV": 120,
-                        "maxA": 15,
-                        "maxW": 1800,
-                        "chargeMaxW": 1800,
-                        "chargeMinW": null,
-                        "passThrough": true
-                    }
-                ],
-                "generator": {
-                    "supported": true,
-                    "waveform": null,
-                    "maxThdPct": null,
-                    "setup": []
-                }
-            },
-            "solar": {
-                "maxW": 1000,
-                "inputs": [
-                    {
-                        "id": "pv",
-                        "label": "DC Input",
-                        "count": 2,
-                        "connector": "DC8020",
-                        "minV": 12,
-                        "maxV": 60,
-                        "startV": null,
-                        "maxA": 12,
-                        "maxW": 500,
-                        "overCurrent": "limits",
-                        "matchedPorts": true
-                    }
-                ],
-                "includedCables": []
-            },
-            "car": {
-                "supportedV": [
-                    12
-                ],
-                "maxA": 8
-            },
-            "maxCombinedW": null
-        },
-        "physical": {
-            "weightKg": 60,
-            "dimensionsCm": {
-                "length": null,
-                "width": null,
-                "height": null
-            }
-        },
-        "ports": {
-            "ac": {
-                "count": 5,
-                "voltageV": 120,
-                "totalMaxW": 3600
-            },
-            "usbA": {
-                "count": 2,
-                "maxWPerPort": 18
-            },
-            "usbC": {
-                "count": 2,
-                "maxWPerPort": 100
-            },
-            "car": {
-                "count": 0,
-                "voltageV": null,
-                "maxWPerPort": null
-            }
-        },
-        "features": {
-            "wifi": true,
-            "bluetooth": true,
-            "app": true
-        },
-        "warrantyYears": 3,
-        "lastChecked": "2026-11-17"
-    },
-    {
         "id": "jackery-homepower-3600-plus-battery-pack-2x-solarsaga-500x",
         "brand": "Jackery",
         "model": "HomePower 3600 Plus (7.2kWh) + SolarSaga 500 X x 2",
@@ -31766,576 +31619,6 @@
             },
             "usbC": {
                 "count": 2,
-                "maxWPerPort": 100
-            },
-            "car": {
-                "count": 0,
-                "voltageV": null,
-                "maxWPerPort": null
-            }
-        },
-        "features": {
-            "wifi": true,
-            "bluetooth": true,
-            "app": true
-        },
-        "warrantyYears": 3,
-        "lastChecked": "2026-11-17"
-    },
-    {
-        "id": "jackery-homepower-3600-plus-2x-solarsaga-200w",
-        "brand": "Jackery",
-        "model": "HomePower 3600 Plus + SolarSaga 200W x 2",
-        "name": "Jackery HomePower 3600 Plus + SolarSaga 200W x 2",
-        "category": "portable-power-station",
-        "kind": "bundle",
-        "bundle": {
-            "baseStationId": "jackery-homepower-3600-plus",
-            "includes": [
-                {
-                    "type": "solar-panel",
-                    "panelId": "jackery-solarsaga-200w",
-                    "quantity": 2,
-                    "wiring": null
-                }
-            ]
-        },
-        "region": "US",
-        "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-plus?variant=42066744246359",
-        "asin": "B0FMXCPWBN",
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20%2B%20SolarSaga%20200W%20x%202.webp",
-        "price": {
-            "currency": "USD",
-            "current": 2549,
-            "original": null
-        },
-        "capacity": {
-            "nominalWh": 3584,
-            "expandable": true,
-            "extraBattery": {
-                "model": "Battery Pack 3600",
-                "capacityWh": 3584,
-                "maxCount": 5
-            },
-            "maxWh": 21504
-        },
-        "power": {
-            "continuousW": 3600,
-            "surgeW": 7200,
-            "xBoostW": null
-        },
-        "battery": {
-            "chemistry": "LFP",
-            "cycleLife": [
-                {
-                    "cycles": 6000,
-                    "retentionPct": 70
-                }
-            ]
-        },
-        "charging": {
-            "acInputW": 1800,
-            "ac": {
-                "frequencyHz": [
-                    60
-                ],
-                "inputs": [
-                    {
-                        "id": "ac-120",
-                        "label": "AC Input",
-                        "connector": null,
-                        "plug": null,
-                        "voltageV": 120,
-                        "maxA": 15,
-                        "maxW": 1800,
-                        "chargeMaxW": 1800,
-                        "chargeMinW": null,
-                        "passThrough": true
-                    }
-                ],
-                "generator": {
-                    "supported": true,
-                    "waveform": null,
-                    "maxThdPct": null,
-                    "setup": []
-                }
-            },
-            "solar": {
-                "maxW": 1000,
-                "inputs": [
-                    {
-                        "id": "pv",
-                        "label": "DC Input",
-                        "count": 2,
-                        "connector": "DC8020",
-                        "minV": 12,
-                        "maxV": 60,
-                        "startV": null,
-                        "maxA": 12,
-                        "maxW": 500,
-                        "overCurrent": "limits",
-                        "matchedPorts": true
-                    }
-                ],
-                "includedCables": []
-            },
-            "car": {
-                "supportedV": [
-                    12
-                ],
-                "maxA": 8
-            },
-            "maxCombinedW": null
-        },
-        "physical": {
-            "weightKg": 35,
-            "dimensionsCm": {
-                "length": 38.5,
-                "width": 30.9,
-                "height": 49.1
-            }
-        },
-        "ports": {
-            "ac": {
-                "count": 5,
-                "voltageV": 120,
-                "totalMaxW": 3600
-            },
-            "usbA": {
-                "count": 2,
-                "maxWPerPort": 18
-            },
-            "usbC": {
-                "count": 2,
-                "maxWPerPort": 100
-            },
-            "car": {
-                "count": 0,
-                "voltageV": null,
-                "maxWPerPort": null
-            }
-        },
-        "features": {
-            "wifi": true,
-            "bluetooth": true,
-            "app": true
-        },
-        "warrantyYears": 3,
-        "lastChecked": "2026-11-17"
-    },
-    {
-        "id": "jackery-homepower-3600-plus-solarsaga-500x",
-        "brand": "Jackery",
-        "model": "HomePower 3600 Plus + SolarSaga 500 X",
-        "name": "Jackery HomePower 3600 Plus + SolarSaga 500 X",
-        "category": "portable-power-station",
-        "kind": "bundle",
-        "bundle": {
-            "baseStationId": "jackery-homepower-3600-plus",
-            "includes": [
-                {
-                    "type": "solar-panel",
-                    "panelId": "jackery-solarsaga-500x",
-                    "quantity": 1,
-                    "wiring": null
-                }
-            ]
-        },
-        "region": "US",
-        "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-plus?variant=41939887751255",
-        "asin": null,
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20%2B%20SolarSaga%20500%20X.webp",
-        "price": {
-            "currency": "USD",
-            "current": 2729,
-            "original": null
-        },
-        "capacity": {
-            "nominalWh": 3584,
-            "expandable": true,
-            "extraBattery": {
-                "model": "Battery Pack 3600",
-                "capacityWh": 3584,
-                "maxCount": 5
-            },
-            "maxWh": 21504
-        },
-        "power": {
-            "continuousW": 3600,
-            "surgeW": 7200,
-            "xBoostW": null
-        },
-        "battery": {
-            "chemistry": "LFP",
-            "cycleLife": [
-                {
-                    "cycles": 6000,
-                    "retentionPct": 70
-                }
-            ]
-        },
-        "charging": {
-            "acInputW": 1800,
-            "ac": {
-                "frequencyHz": [
-                    60
-                ],
-                "inputs": [
-                    {
-                        "id": "ac-120",
-                        "label": "AC Input",
-                        "connector": null,
-                        "plug": null,
-                        "voltageV": 120,
-                        "maxA": 15,
-                        "maxW": 1800,
-                        "chargeMaxW": 1800,
-                        "chargeMinW": null,
-                        "passThrough": true
-                    }
-                ],
-                "generator": {
-                    "supported": true,
-                    "waveform": null,
-                    "maxThdPct": null,
-                    "setup": []
-                }
-            },
-            "solar": {
-                "maxW": 1000,
-                "inputs": [
-                    {
-                        "id": "pv",
-                        "label": "DC Input",
-                        "count": 2,
-                        "connector": "DC8020",
-                        "minV": 12,
-                        "maxV": 60,
-                        "startV": null,
-                        "maxA": 12,
-                        "maxW": 500,
-                        "overCurrent": "limits",
-                        "matchedPorts": true
-                    }
-                ],
-                "includedCables": []
-            },
-            "car": {
-                "supportedV": [
-                    12
-                ],
-                "maxA": 8
-            },
-            "maxCombinedW": null
-        },
-        "physical": {
-            "weightKg": 35,
-            "dimensionsCm": {
-                "length": 38.5,
-                "width": 30.9,
-                "height": 49.1
-            }
-        },
-        "ports": {
-            "ac": {
-                "count": 5,
-                "voltageV": 120,
-                "totalMaxW": 3600
-            },
-            "usbA": {
-                "count": 2,
-                "maxWPerPort": 18
-            },
-            "usbC": {
-                "count": 2,
-                "maxWPerPort": 100
-            },
-            "car": {
-                "count": 0,
-                "voltageV": null,
-                "maxWPerPort": null
-            }
-        },
-        "features": {
-            "wifi": true,
-            "bluetooth": true,
-            "app": true
-        },
-        "warrantyYears": 3,
-        "lastChecked": "2026-11-17"
-    },
-    {
-        "id": "jackery-homepower-3600-plus",
-        "brand": "Jackery",
-        "model": "HomePower 3600 Plus",
-        "name": "Jackery HomePower 3600 Plus",
-        "category": "portable-power-station",
-        "kind": "station",
-        "bundle": null,
-        "region": "US",
-        "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-plus?variant=41939887521879",
-        "asin": "B0FM8653F1",
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20only.webp",
-        "price": {
-            "currency": "USD",
-            "current": 1899,
-            "original": null
-        },
-        "capacity": {
-            "nominalWh": 3584,
-            "expandable": true,
-            "extraBattery": {
-                "model": "Battery Pack 3600",
-                "capacityWh": 3584,
-                "maxCount": 5
-            },
-            "maxWh": 21504
-        },
-        "power": {
-            "continuousW": 3600,
-            "surgeW": 7200,
-            "xBoostW": null
-        },
-        "battery": {
-            "chemistry": "LFP",
-            "cycleLife": [
-                {
-                    "cycles": 6000,
-                    "retentionPct": 70
-                }
-            ]
-        },
-        "charging": {
-            "acInputW": 1800,
-            "ac": {
-                "frequencyHz": [
-                    60
-                ],
-                "inputs": [
-                    {
-                        "id": "ac-120",
-                        "label": "AC Input",
-                        "connector": null,
-                        "plug": null,
-                        "voltageV": 120,
-                        "maxA": 15,
-                        "maxW": 1800,
-                        "chargeMaxW": 1800,
-                        "chargeMinW": null,
-                        "passThrough": true
-                    }
-                ],
-                "generator": {
-                    "supported": true,
-                    "waveform": null,
-                    "maxThdPct": null,
-                    "setup": []
-                }
-            },
-            "solar": {
-                "maxW": 1000,
-                "inputs": [
-                    {
-                        "id": "pv",
-                        "label": "DC Input",
-                        "count": 2,
-                        "connector": "DC8020",
-                        "minV": 12,
-                        "maxV": 60,
-                        "startV": null,
-                        "maxA": 12,
-                        "maxW": 500,
-                        "overCurrent": "limits",
-                        "matchedPorts": true
-                    }
-                ],
-                "includedCables": []
-            },
-            "car": {
-                "supportedV": [
-                    12
-                ],
-                "maxA": 8
-            },
-            "maxCombinedW": null
-        },
-        "physical": {
-            "weightKg": 35,
-            "dimensionsCm": {
-                "length": 38.5,
-                "width": 30.9,
-                "height": 49.1
-            }
-        },
-        "ports": {
-            "ac": {
-                "count": 5,
-                "voltageV": 120,
-                "totalMaxW": 3600
-            },
-            "usbA": {
-                "count": 2,
-                "maxWPerPort": 18
-            },
-            "usbC": {
-                "count": 2,
-                "maxWPerPort": 100
-            },
-            "car": {
-                "count": 0,
-                "voltageV": null,
-                "maxWPerPort": null
-            }
-        },
-        "features": {
-            "wifi": true,
-            "bluetooth": true,
-            "app": true
-        },
-        "warrantyYears": 3,
-        "lastChecked": "2026-11-17"
-    },
-    {
-        "id": "jackery-homepower-3600-plus-double-kit",
-        "brand": "Jackery",
-        "model": "HomePower 3600 Plus Double Kit",
-        "name": "Jackery HomePower 3600 Plus Double Kit",
-        "category": "portable-power-station",
-        "kind": "bundle",
-        "bundle": {
-            "baseStationId": "jackery-homepower-3600-plus",
-            "includes": [
-                {
-                    "type": "station",
-                    "stationId": "jackery-homepower-3600-plus",
-                    "quantity": 1
-                },
-                {
-                    "type": "accessory",
-                    "model": "Jackery Connector",
-                    "quantity": 1
-                }
-            ]
-        },
-        "region": "US",
-        "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-plus?variant=41939888275543",
-        "asin": "B0FM8653F1",
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20Double%20Kit.webp",
-        "price": {
-            "currency": "USD",
-            "current": 3979,
-            "original": null
-        },
-        "capacity": {
-            "nominalWh": 7168,
-            "expandable": true,
-            "extraBattery": {
-                "model": "Battery Pack 3600",
-                "capacityWh": 3584,
-                "maxCount": 10
-            },
-            "maxWh": 43008
-        },
-        "power": {
-            "continuousW": 7200,
-            "surgeW": 14400,
-            "xBoostW": null
-        },
-        "battery": {
-            "chemistry": "LFP",
-            "cycleLife": [
-                {
-                    "cycles": 6000,
-                    "retentionPct": 70
-                }
-            ]
-        },
-        "charging": {
-            "acInputW": 3600,
-            "ac": {
-                "frequencyHz": [
-                    60
-                ],
-                "inputs": [
-                    {
-                        "id": "ac-120-1",
-                        "label": "AC Input",
-                        "connector": null,
-                        "plug": null,
-                        "voltageV": 120,
-                        "maxA": 15,
-                        "maxW": 1800,
-                        "chargeMaxW": 1800,
-                        "chargeMinW": null,
-                        "passThrough": true
-                    },
-                    {
-                        "id": "ac-120-2",
-                        "label": "AC Input",
-                        "connector": null,
-                        "plug": null,
-                        "voltageV": 120,
-                        "maxA": 15,
-                        "maxW": 1800,
-                        "chargeMaxW": 1800,
-                        "chargeMinW": null,
-                        "passThrough": true
-                    }
-                ],
-                "generator": {
-                    "supported": true,
-                    "waveform": null,
-                    "maxThdPct": null,
-                    "setup": []
-                }
-            },
-            "solar": {
-                "maxW": 2000,
-                "inputs": [
-                    {
-                        "id": "pv",
-                        "label": "DC Input",
-                        "count": 4,
-                        "connector": "DC8020",
-                        "minV": 12,
-                        "maxV": 60,
-                        "startV": null,
-                        "maxA": 12,
-                        "maxW": 500,
-                        "overCurrent": "limits",
-                        "matchedPorts": true
-                    }
-                ],
-                "includedCables": []
-            },
-            "car": {
-                "supportedV": [
-                    12
-                ],
-                "maxA": 8
-            },
-            "maxCombinedW": null
-        },
-        "physical": {
-            "weightKg": 70,
-            "dimensionsCm": {
-                "length": null,
-                "width": null,
-                "height": null
-            }
-        },
-        "ports": {
-            "ac": {
-                "count": 12,
-                "voltageV": 120,
-                "totalMaxW": 7200
-            },
-            "usbA": {
-                "count": 4,
-                "maxWPerPort": 18
-            },
-            "usbC": {
-                "count": 4,
                 "maxWPerPort": 100
             },
             "car": {
@@ -39065,7 +38348,7 @@
             "official": "unavailable",
             "amazon": null
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%205000%20Plus%20%2B%20SolarSaga%20500%20X%20x%202%20%2B%20Smart%20Transfer%20Switch.webp",
         "price": {
             "currency": "USD",
             "current": 6089,
@@ -39207,6 +38490,1035 @@
             "app": true
         },
         "warrantyYears": 5,
+        "lastChecked": "2026-11-18"
+    },
+    {
+        "id": "jackery-homepower-3600-plus-battery-pack-solarsaga-500x",
+        "brand": "Jackery",
+        "model": "HomePower 3600 Plus (7.2kWh) + SolarSaga 500 X",
+        "name": "Jackery HomePower 3600 Plus (7.2kWh) + SolarSaga 500 X",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-homepower-3600-plus",
+            "includes": [
+                {
+                    "type": "extra-battery",
+                    "model": "Battery Pack 3600",
+                    "quantity": 1,
+                    "capacityWh": 3584
+                },
+                {
+                    "type": "solar-panel",
+                    "panelId": "jackery-solarsaga-500x",
+                    "quantity": 1,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-homepower-3600-plus?variant=41939879395415",
+        "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20(7.2kWh)%20%2B%20SolarSaga%20500%20X.webp",
+        "price": {
+            "currency": "USD",
+            "current": 4139,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 7168,
+            "expandable": true,
+            "extraBattery": {
+                "model": "Battery Pack 3600",
+                "capacityWh": 3584,
+                "maxCount": 4
+            },
+            "maxWh": 21504
+        },
+        "power": {
+            "continuousW": 3600,
+            "surgeW": 7200,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 1000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 2,
+                        "connector": "DC8020",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 12,
+                        "maxW": 500,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 60,
+            "dimensionsCm": {
+                "length": null,
+                "width": null,
+                "height": null
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 5,
+                "voltageV": 120,
+                "totalMaxW": 3600
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-18"
+    },
+    {
+        "id": "jackery-homepower-3600-plus-battery-pack-3600",
+        "brand": "Jackery",
+        "model": "HomePower 3600 Plus + Battery Pack 3600",
+        "name": "Jackery HomePower 3600 Plus + Battery Pack 3600",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-homepower-3600-plus",
+            "includes": [
+                {
+                    "type": "extra-battery",
+                    "model": "Battery Pack 3600",
+                    "quantity": 1,
+                    "capacityWh": 3584
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-homepower-3600-plus?variant=42158471970903",
+        "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus.webp",
+        "price": {
+            "currency": "USD",
+            "current": 3309,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 7168,
+            "expandable": true,
+            "extraBattery": {
+                "model": "Battery Pack 3600",
+                "capacityWh": 3584,
+                "maxCount": 4
+            },
+            "maxWh": 21504
+        },
+        "power": {
+            "continuousW": 3600,
+            "surgeW": 7200,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 1000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 2,
+                        "connector": "DC8020",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 12,
+                        "maxW": 500,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 60,
+            "dimensionsCm": {
+                "length": null,
+                "width": null,
+                "height": null
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 5,
+                "voltageV": 120,
+                "totalMaxW": 3600
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-18"
+    },
+    {
+        "id": "jackery-homepower-3600-plus-2x-solarsaga-200w",
+        "brand": "Jackery",
+        "model": "HomePower 3600 Plus + SolarSaga 200W x 2",
+        "name": "Jackery HomePower 3600 Plus + SolarSaga 200W x 2",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-homepower-3600-plus",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "jackery-solarsaga-200w",
+                    "quantity": 2,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-homepower-3600-plus?variant=42066659672151",
+        "asin": "B0FMXCPWBN",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "available"
+        },
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20%2B%20SolarSaga%20200W%20x%202.webp",
+        "price": {
+            "currency": "USD",
+            "current": 2549,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 3584,
+            "expandable": true,
+            "extraBattery": {
+                "model": "Battery Pack 3600",
+                "capacityWh": 3584,
+                "maxCount": 5
+            },
+            "maxWh": 21504
+        },
+        "power": {
+            "continuousW": 3600,
+            "surgeW": 7200,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 1000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 2,
+                        "connector": "DC8020",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 12,
+                        "maxW": 500,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 35,
+            "dimensionsCm": {
+                "length": 38.5,
+                "width": 30.9,
+                "height": 49.1
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 5,
+                "voltageV": 120,
+                "totalMaxW": 3600
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-18"
+    },
+    {
+        "id": "jackery-homepower-3600-plus-solarsaga-500x",
+        "brand": "Jackery",
+        "model": "HomePower 3600 Plus + SolarSaga 500 X",
+        "name": "Jackery HomePower 3600 Plus + SolarSaga 500 X",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-homepower-3600-plus",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "jackery-solarsaga-500x",
+                    "quantity": 1,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-homepower-3600-plus?variant=41939875168343",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20%2B%20SolarSaga%20500%20X.webp",
+        "price": {
+            "currency": "USD",
+            "current": 2729,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 3584,
+            "expandable": true,
+            "extraBattery": {
+                "model": "Battery Pack 3600",
+                "capacityWh": 3584,
+                "maxCount": 5
+            },
+            "maxWh": 21504
+        },
+        "power": {
+            "continuousW": 3600,
+            "surgeW": 7200,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 1000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 2,
+                        "connector": "DC8020",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 12,
+                        "maxW": 500,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 35,
+            "dimensionsCm": {
+                "length": 38.5,
+                "width": 30.9,
+                "height": 49.1
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 5,
+                "voltageV": 120,
+                "totalMaxW": 3600
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-18"
+    },
+    {
+        "id": "jackery-homepower-3600-plus",
+        "brand": "Jackery",
+        "model": "HomePower 3600 Plus",
+        "name": "Jackery HomePower 3600 Plus",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-homepower-3600-plus?variant=41939875102807",
+        "asin": "B0FM8653F1",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "available"
+        },
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20only.webp",
+        "price": {
+            "currency": "USD",
+            "current": 1899,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 3584,
+            "expandable": true,
+            "extraBattery": {
+                "model": "Battery Pack 3600",
+                "capacityWh": 3584,
+                "maxCount": 5
+            },
+            "maxWh": 21504
+        },
+        "power": {
+            "continuousW": 3600,
+            "surgeW": 7200,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 1000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 2,
+                        "connector": "DC8020",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 12,
+                        "maxW": 500,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 35,
+            "dimensionsCm": {
+                "length": 38.5,
+                "width": 30.9,
+                "height": 49.1
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 5,
+                "voltageV": 120,
+                "totalMaxW": 3600
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-18"
+    },
+    {
+        "id": "jackery-homepower-3600-plus-double-kit",
+        "brand": "Jackery",
+        "model": "HomePower 3600 Plus Double Kit",
+        "name": "Jackery HomePower 3600 Plus Double Kit",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-homepower-3600-plus",
+            "includes": [
+                {
+                    "type": "station",
+                    "stationId": "jackery-homepower-3600-plus",
+                    "quantity": 1
+                },
+                {
+                    "type": "accessory",
+                    "model": "Jackery Connector",
+                    "quantity": 1
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-homepower-3600-plus?variant=41939885293655",
+        "asin": "B0FM8653F1",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "available"
+        },
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20Double%20Kit.webp",
+        "price": {
+            "currency": "USD",
+            "current": 3979,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 7168,
+            "expandable": true,
+            "extraBattery": {
+                "model": "Battery Pack 3600",
+                "capacityWh": 3584,
+                "maxCount": 10
+            },
+            "maxWh": 43008
+        },
+        "power": {
+            "continuousW": 7200,
+            "surgeW": 14400,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 3600,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120-1",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-120-2",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 2000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 4,
+                        "connector": "DC8020",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 12,
+                        "maxW": 500,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 70,
+            "dimensionsCm": {
+                "length": null,
+                "width": null,
+                "height": null
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 12,
+                "voltageV": 120,
+                "totalMaxW": 7200
+            },
+            "usbA": {
+                "count": 4,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 4,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-18"
+    },
+    {
+        "id": "jackery-homepower-3600-pro-max",
+        "brand": "Jackery",
+        "model": "HomePower 3600 Pro Max",
+        "name": "Jackery HomePower 3600 Pro Max",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-homepower-3600-pro-max?variant=43933854597207",
+        "asin": "B0H33PBCHP",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 2099,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 3584,
+            "expandable": true,
+            "extraBattery": {
+                "model": "Battery Pack 3600",
+                "capacityWh": 3584,
+                "maxCount": 5
+            },
+            "maxWh": 21504
+        },
+        "power": {
+            "continuousW": 4000,
+            "surgeW": 8000,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-240",
+                        "label": "AC Expansion Port",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 16.7,
+                        "maxW": 4000,
+                        "chargeMaxW": null,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": null,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 1200,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 2,
+                        "connector": "DC8020",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 12,
+                        "maxW": 600,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 33.5,
+            "dimensionsCm": {
+                "length": 37.5,
+                "width": 27.5,
+                "height": 45
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 3,
+                "voltageV": 120,
+                "totalMaxW": 4000
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
         "lastChecked": "2026-11-18"
     }
 ]
