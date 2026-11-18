@@ -2246,7 +2246,7 @@
             "official": "unavailable",
             "amazon": "unavailable"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20SolarSaga%2040%20Air.webp",
         "datasheetUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/Jackery_SolarSaga_40Air_User_Manual_inbox.pdf?v=1785488094",
         "price": {
             "currency": "USD",
