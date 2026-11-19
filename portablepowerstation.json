@@ -40926,10 +40926,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 100
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 100
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
