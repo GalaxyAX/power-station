@@ -41269,5 +41269,163 @@
         },
         "warrantyYears": 3,
         "lastChecked": "2026-11-19"
+    },
+    {
+        "id": "jackery-2x-explorer-1000-v2",
+        "brand": "Jackery",
+        "model": "Explorer 1000 v2 + Explorer 1000 v2",
+        "name": "Jackery Explorer 1000 v2 + Explorer 1000 v2",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-explorer-1000-v2",
+            "includes": [
+                {
+                    "type": "station",
+                    "stationId": "jackery-explorer-1000-v2",
+                    "quantity": 1
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-explorer-1000-v2?variant=41931834458199",
+        "asin": "B0D7PPG25F",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 1099,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 2140,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 2140
+        },
+        "power": {
+            "continuousW": 3000,
+            "surgeW": null,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 2000,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120-1",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1000,
+                        "chargeMaxW": 1000,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-120-2",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1000,
+                        "chargeMaxW": 1000,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 800,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 4,
+                        "connector": "DC8020",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 10.5,
+                        "maxW": 200,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 21.6,
+            "dimensionsCm": {
+                "length": null,
+                "width": null,
+                "height": null
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 6,
+                "voltageV": 120,
+                "totalMaxW": 3000
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": [
+                {
+                    "count": 2,
+                    "maxWPerPort": 100
+                },
+                {
+                    "count": 2,
+                    "maxWPerPort": 30
+                }
+            ],
+            "car": {
+                "count": 2,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-19"
     }
 ]
