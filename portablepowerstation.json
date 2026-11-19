@@ -40828,7 +40828,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%202000%20v2.webp",
         "price": {
             "currency": "USD",
             "current": 999,
