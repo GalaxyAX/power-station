@@ -2116,7 +2116,12 @@
             "maxSeriesFuseA": null,
             "maxSeries": null,
             "maxParallel": null,
-            "bifacial": null
+            "bifacial": {
+                "rearRatedW": null,
+                "rearIscA": null,
+                "rearImpA": null,
+                "maxGainPct": 12.5
+            }
         },
         "cell": {
             "type": "monocrystalline",
@@ -2155,7 +2160,7 @@
             }
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-17"
+        "lastChecked": "2026-11-19"
     },
     {
         "id": "jackery-solarsaga-100-air",
