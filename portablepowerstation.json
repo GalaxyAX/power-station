@@ -31925,10 +31925,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -32072,10 +32078,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -32163,7 +32175,7 @@
                 ],
                 "generator": {
                     "supported": true,
-                    "waveform": null,
+                    "waveform": "pure-sine",
                     "maxThdPct": null,
                     "setup": []
                 }
@@ -32213,10 +32225,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 2,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -32304,7 +32322,7 @@
                 ],
                 "generator": {
                     "supported": true,
-                    "waveform": null,
+                    "waveform": "pure-sine",
                     "maxThdPct": null,
                     "setup": []
                 }
@@ -32354,10 +32372,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 2,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -32585,7 +32609,7 @@
                     }
                 ],
                 "generator": {
-                    "supported": null,
+                    "supported": true,
                     "waveform": null,
                     "maxThdPct": null,
                     "setup": []
@@ -32636,10 +32660,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 2,
-                "maxWPerPort": 100
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 100
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -32726,7 +32756,7 @@
                     }
                 ],
                 "generator": {
-                    "supported": null,
+                    "supported": true,
                     "waveform": null,
                     "maxThdPct": null,
                     "setup": []
@@ -32777,10 +32807,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 2,
-                "maxWPerPort": 100
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 100
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -32867,7 +32903,7 @@
                     }
                 ],
                 "generator": {
-                    "supported": null,
+                    "supported": true,
                     "waveform": null,
                     "maxThdPct": null,
                     "setup": []
@@ -32918,10 +32954,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 2,
-                "maxWPerPort": 100
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 100
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -33008,7 +33050,7 @@
                     }
                 ],
                 "generator": {
-                    "supported": null,
+                    "supported": true,
                     "waveform": null,
                     "maxThdPct": null,
                     "setup": []
@@ -33059,10 +33101,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 2,
-                "maxWPerPort": 100
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 100
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -38211,10 +38259,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -38349,10 +38403,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -38494,10 +38554,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -38645,10 +38711,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -38796,10 +38868,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -38947,10 +39025,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -39227,10 +39311,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -39372,10 +39462,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -39507,10 +39603,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -39652,10 +39754,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -39803,10 +39911,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -39954,10 +40068,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -40099,10 +40219,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
@@ -40243,10 +40369,16 @@
                 "count": 1,
                 "maxWPerPort": 18
             },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
             "car": {
                 "count": 1,
                 "voltageV": 12,
