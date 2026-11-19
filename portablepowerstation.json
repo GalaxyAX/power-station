@@ -32832,147 +32832,6 @@
         "lastChecked": "2026-11-18"
     },
     {
-        "id": "jackery-explorer-1500-ultra-2x-solarsaga-200w",
-        "brand": "Jackery",
-        "model": "Explorer 1500 Ultra + SolarSaga 200W x 2",
-        "name": "Jackery Explorer 1500 Ultra + SolarSaga 200W x 2",
-        "category": "portable-power-station",
-        "kind": "bundle",
-        "bundle": {
-            "baseStationId": "jackery-explorer-1500-ultra",
-            "includes": [
-                {
-                    "type": "solar-panel",
-                    "panelId": "jackery-solarsaga-200w",
-                    "quantity": 2,
-                    "wiring": null
-                }
-            ]
-        },
-        "region": "US",
-        "url": "https://www.jackery.com/products/jackery-solar-generator-1500-ultra?variant=42447259107415",
-        "asin": null,
-        "availability": {
-            "official": "available",
-            "amazon": null
-        },
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%201500%20Ultra%20%2B%20SolarSaga%20200W%20x%202.webp",
-        "price": {
-            "currency": "USD",
-            "current": 1849,
-            "original": null
-        },
-        "capacity": {
-            "nominalWh": 1536,
-            "expandable": false,
-            "extraBattery": null,
-            "maxWh": 1536
-        },
-        "power": {
-            "continuousW": 1800,
-            "surgeW": 3600,
-            "xBoostW": null
-        },
-        "battery": {
-            "chemistry": "LFP",
-            "cycleLife": [
-                {
-                    "cycles": 4000,
-                    "retentionPct": 70
-                }
-            ]
-        },
-        "charging": {
-            "acInputW": 1600,
-            "ac": {
-                "frequencyHz": [
-                    60
-                ],
-                "inputs": [
-                    {
-                        "id": "ac-120",
-                        "label": "AC Input",
-                        "connector": null,
-                        "plug": null,
-                        "voltageV": 120,
-                        "maxA": 15,
-                        "maxW": 1600,
-                        "chargeMaxW": 1600,
-                        "chargeMinW": null,
-                        "passThrough": true
-                    }
-                ],
-                "generator": {
-                    "supported": null,
-                    "waveform": null,
-                    "maxThdPct": null,
-                    "setup": []
-                }
-            },
-            "solar": {
-                "maxW": 800,
-                "inputs": [
-                    {
-                        "id": "pv",
-                        "label": "DC Input",
-                        "count": 2,
-                        "connector": "DC8020",
-                        "minV": 12,
-                        "maxV": 60,
-                        "startV": null,
-                        "maxA": 12,
-                        "maxW": 400,
-                        "overCurrent": "limits",
-                        "matchedPorts": true
-                    }
-                ],
-                "includedCables": []
-            },
-            "car": {
-                "supportedV": [
-                    12
-                ],
-                "maxA": 8
-            },
-            "maxCombinedW": null
-        },
-        "physical": {
-            "weightKg": 17.5,
-            "dimensionsCm": {
-                "length": 33.6,
-                "width": 26.4,
-                "height": 29.5
-            }
-        },
-        "ports": {
-            "ac": {
-                "count": 3,
-                "voltageV": 120,
-                "totalMaxW": 1800
-            },
-            "usbA": {
-                "count": 1,
-                "maxWPerPort": 18
-            },
-            "usbC": {
-                "count": 2,
-                "maxWPerPort": 100
-            },
-            "car": {
-                "count": 1,
-                "voltageV": 12,
-                "maxWPerPort": 120
-            }
-        },
-        "features": {
-            "wifi": true,
-            "bluetooth": true,
-            "app": true
-        },
-        "warrantyYears": 3,
-        "lastChecked": "2026-11-18"
-    },
-    {
         "id": "jackery-explorer-1500-ultra-2x-solarsaga-100-prime",
         "brand": "Jackery",
         "model": "Explorer 1500 Ultra + SolarSaga 100 Prime x 2",
@@ -41122,6 +40981,153 @@
         "price": {
             "currency": "USD",
             "current": 1199,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 1536,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 1536
+        },
+        "power": {
+            "continuousW": 1800,
+            "surgeW": 3600,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1600,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1600,
+                        "chargeMaxW": 1600,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 800,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 2,
+                        "connector": "DC8020",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 12,
+                        "maxW": 400,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 17.5,
+            "dimensionsCm": {
+                "length": 33.6,
+                "width": 26.4,
+                "height": 29.5
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 3,
+                "voltageV": 120,
+                "totalMaxW": 1800
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 18
+            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 100
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 30
+                }
+            ],
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-19"
+    },
+    {
+        "id": "jackery-explorer-1500-ultra-2x-solarsaga-200w",
+        "brand": "Jackery",
+        "model": "Explorer 1500 Ultra + SolarSaga 200W x 2",
+        "name": "Jackery Explorer 1500 Ultra + SolarSaga 200W x 2",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-explorer-1500-ultra",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "jackery-solarsaga-200w",
+                    "quantity": 2,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-explorer-1500-ultra-portable-power-station?variant=42447145467991",
+        "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%201500%20Ultra%20%2B%20SolarSaga%20200W%20x%202.webp",
+        "price": {
+            "currency": "USD",
+            "current": 1849,
             "original": null
         },
         "capacity": {
