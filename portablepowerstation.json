@@ -39444,7 +39444,7 @@
             "official": "unavailable",
             "amazon": "unavailable"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Pro%20Max%20%2B%20Extra%20Battery%20%2B%20500W%20%2B%20MTS%20%2B%2040A%20Charging%20Cable.webp",
         "price": {
             "currency": "USD",
             "current": 4929,
@@ -39560,6 +39560,189 @@
             },
             "usbC": {
                 "count": 1,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-19"
+    },
+    {
+        "id": "jackery-homepower-3600-pro-max-7.2kwh-mts-40a-cable-parallel-communication-cable",
+        "brand": "Jackery",
+        "model": "HomePower 3600 Pro Max (7.2kWh) + MTS + 40A Charging Cable + Parallel Communication Cable",
+        "name": "Jackery HomePower 3600 Pro Max (7.2kWh) + MTS + 40A Charging Cable + Parallel Communication Cable",
+        "category": "home-backup-power",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-homepower-3600-pro-max",
+            "includes": [
+                {
+                    "type": "station",
+                    "stationId": "jackery-homepower-3600-pro-max",
+                    "quantity": 1
+                },
+                {
+                    "type": "accessory",
+                    "model": "Jackery Manual Transfer Switch",
+                    "quantity": 1
+                },
+                {
+                    "type": "accessory",
+                    "model": "Jackery 40A Charging Cable",
+                    "quantity": 1
+                },
+                {
+                    "type": "accessory",
+                    "model": "Jackery Parallel Communication Cable",
+                    "quantity": 1
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-homepower-3600-pro-max?variant=44001027063895",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 6599,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 7168,
+            "expandable": true,
+            "extraBattery": {
+                "model": "Battery Pack 3600",
+                "capacityWh": 3584,
+                "maxCount": 10
+            },
+            "maxWh": 43008
+        },
+        "power": {
+            "continuousW": 8000,
+            "surgeW": null,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 3600,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120-1",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-120-2",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-240",
+                        "label": "AC Expansion Port",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 16.7,
+                        "maxW": 4000,
+                        "chargeMaxW": null,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 2400,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 4,
+                        "connector": "DC8020",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 12,
+                        "maxW": 600,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 67,
+            "dimensionsCm": {
+                "length": null,
+                "width": null,
+                "height": null
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 6,
+                "voltageV": 120,
+                "totalMaxW": 8000
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
                 "maxWPerPort": 100
             },
             "car": {
