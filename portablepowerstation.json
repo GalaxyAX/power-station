@@ -32424,7 +32424,7 @@
             ]
         },
         "charging": {
-            "acInputW": 1800,
+            "acInputW": 1720,
             "ac": {
                 "frequencyHz": [
                     60
@@ -32438,7 +32438,7 @@
                         "voltageV": 120,
                         "maxA": 15,
                         "maxW": 1800,
-                        "chargeMaxW": 1800,
+                        "chargeMaxW": 1720,
                         "chargeMinW": null,
                         "passThrough": true
                     }
@@ -32511,7 +32511,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-19"
     },
     {
         "id": "jackery-explorer-2000-v2-2x-solarsaga-100-air",
