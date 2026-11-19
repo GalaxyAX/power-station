@@ -2213,7 +2213,7 @@
             {
                 "from": "DC8020",
                 "to": "DC7909",
-                "lengthM": null,
+                "lengthM": 3,
                 "quantity": 1
             }
         ],
