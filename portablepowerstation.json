@@ -41582,5 +41582,126 @@
         },
         "warrantyYears": 3,
         "lastChecked": "2026-11-20"
+    },
+    {
+        "id": "jackery-explorer-300d",
+        "brand": "Jackery",
+        "model": "Explorer 300D",
+        "name": "Jackery Explorer 300D",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-explorer-300d-portable-power-station?variant=42204275408983",
+        "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 249,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 288,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 288
+        },
+        "power": {
+            "continuousW": 300,
+            "surgeW": null,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 0,
+            "ac": {
+                "frequencyHz": [],
+                "inputs": [],
+                "generator": {
+                    "supported": false,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 100,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC8020 Port",
+                        "count": 1,
+                        "connector": "DC8020",
+                        "minV": 11,
+                        "maxV": 28,
+                        "startV": null,
+                        "maxA": 6,
+                        "maxW": 100,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 6
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 2.5,
+            "dimensionsCm": {
+                "length": 11.86,
+                "width": 12.02,
+                "height": 18.3
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 0,
+                "voltageV": null,
+                "totalMaxW": null
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 15
+            },
+            "usbC": [
+                {
+                    "count": 2,
+                    "maxWPerPort": 140
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 65
+                }
+            ],
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-20"
     }
 ]
