@@ -42112,7 +42112,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%201000%20Plus%20v2%20Red%20Cross%20Edition.webp",
         "price": {
             "currency": "USD",
             "current": 749,
