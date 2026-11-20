@@ -31502,140 +31502,6 @@
         "lastChecked": "2026-11-17"
     },
     {
-        "id": "jackery-homepower-3600-plus-red-cross-edition",
-        "brand": "Jackery",
-        "model": "HomePower 3600 Plus Red Cross Edition",
-        "name": "Jackery HomePower 3600 Plus Red Cross Edition",
-        "category": "portable-power-station",
-        "kind": "bundle",
-        "bundle": {
-            "baseStationId": "jackery-homepower-3600-plus",
-            "includes": []
-        },
-        "region": "US",
-        "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-plus?variant=44615749894231",
-        "asin": null,
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20Red%20Cross%20Edition.webp",
-        "price": {
-            "currency": "USD",
-            "current": 1999,
-            "original": null
-        },
-        "capacity": {
-            "nominalWh": 3584,
-            "expandable": true,
-            "extraBattery": {
-                "model": "Battery Pack 3600",
-                "capacityWh": 3584,
-                "maxCount": 5
-            },
-            "maxWh": 21504
-        },
-        "power": {
-            "continuousW": 3600,
-            "surgeW": 7200,
-            "xBoostW": null
-        },
-        "battery": {
-            "chemistry": "LFP",
-            "cycleLife": [
-                {
-                    "cycles": 6000,
-                    "retentionPct": 70
-                }
-            ]
-        },
-        "charging": {
-            "acInputW": 1800,
-            "ac": {
-                "frequencyHz": [
-                    60
-                ],
-                "inputs": [
-                    {
-                        "id": "ac-120",
-                        "label": "AC Input",
-                        "connector": null,
-                        "plug": null,
-                        "voltageV": 120,
-                        "maxA": 15,
-                        "maxW": 1800,
-                        "chargeMaxW": 1800,
-                        "chargeMinW": null,
-                        "passThrough": true
-                    }
-                ],
-                "generator": {
-                    "supported": true,
-                    "waveform": null,
-                    "maxThdPct": null,
-                    "setup": []
-                }
-            },
-            "solar": {
-                "maxW": 1000,
-                "inputs": [
-                    {
-                        "id": "pv",
-                        "label": "DC Input",
-                        "count": 2,
-                        "connector": "DC8020",
-                        "minV": 12,
-                        "maxV": 60,
-                        "startV": null,
-                        "maxA": 12,
-                        "maxW": 500,
-                        "overCurrent": "limits",
-                        "matchedPorts": true
-                    }
-                ],
-                "includedCables": []
-            },
-            "car": {
-                "supportedV": [
-                    12
-                ],
-                "maxA": 8
-            },
-            "maxCombinedW": null
-        },
-        "physical": {
-            "weightKg": 35,
-            "dimensionsCm": {
-                "length": 38.5,
-                "width": 30.9,
-                "height": 49.1
-            }
-        },
-        "ports": {
-            "ac": {
-                "count": 5,
-                "voltageV": 120,
-                "totalMaxW": 3600
-            },
-            "usbA": {
-                "count": 2,
-                "maxWPerPort": 18
-            },
-            "usbC": {
-                "count": 2,
-                "maxWPerPort": 100
-            },
-            "car": {
-                "count": 0,
-                "voltageV": null,
-                "maxWPerPort": null
-            }
-        },
-        "features": {
-            "wifi": true,
-            "bluetooth": true,
-            "app": true
-        },
-        "warrantyYears": 3,
-        "lastChecked": "2026-11-17"
-    },
-    {
         "id": "jackery-homepower-3600-pro-max-mts-40a-cable",
         "brand": "Jackery",
         "model": "HomePower 3600 Pro Max + MTS + 40A Charging Cable",
@@ -41989,7 +41855,7 @@
             "official": "unavailable",
             "amazon": null
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%20100D.webp",
         "price": {
             "currency": "USD",
             "current": 119,
@@ -42088,6 +41954,144 @@
             "app": false
         },
         "warrantyYears": 2,
+        "lastChecked": "2026-11-20"
+    },
+    {
+        "id": "jackery-homepower-3600-plus-red-cross-edition",
+        "brand": "Jackery",
+        "model": "HomePower 3600 Plus Red Cross Edition",
+        "name": "Jackery HomePower 3600 Plus Red Cross Edition",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-homepower-3600-plus",
+            "includes": []
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-homepower-3600-plus-red-cross-edition?variant=44266968940631",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20Red%20Cross%20Edition.webp",
+        "price": {
+            "currency": "USD",
+            "current": 1999,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 3584,
+            "expandable": true,
+            "extraBattery": {
+                "model": "Battery Pack 3600",
+                "capacityWh": 3584,
+                "maxCount": 5
+            },
+            "maxWh": 21504
+        },
+        "power": {
+            "continuousW": 3600,
+            "surgeW": 7200,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 6000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1720,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1720,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 1000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 2,
+                        "connector": "DC8020",
+                        "minV": 12,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 12,
+                        "maxW": 500,
+                        "overCurrent": "limits",
+                        "matchedPorts": true
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 35,
+            "dimensionsCm": {
+                "length": 38.5,
+                "width": 30.9,
+                "height": 49.1
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 5,
+                "voltageV": 120,
+                "totalMaxW": 3600
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 3,
         "lastChecked": "2026-11-20"
     }
 ]
