@@ -36641,10 +36641,10 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-homepower-2000-plus-v2?variant=44612451401815",
-        "asin": "B0HL8G54KR",
+        "asin": "B0H33MZZ95",
         "availability": {
             "official": "available",
-            "amazon": null
+            "amazon": "available"
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%202000%20Plus%20v2%20Red%20Cross%20Edition.webp",
         "price": {
@@ -36770,7 +36770,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-19"
+        "lastChecked": "2026-11-20"
     },
     {
         "id": "jackery-homepower-2000-plus-v2-red-cross-edition-battery-pack-2000-plus-v2",
