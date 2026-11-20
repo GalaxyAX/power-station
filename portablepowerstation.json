@@ -41859,7 +41859,7 @@
             "official": "unavailable",
             "amazon": null
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%20300%20%2B%20SolarSaga%2040%20Air.webp",
         "price": {
             "currency": "USD",
             "current": 379,
@@ -41972,6 +41972,122 @@
             "app": false
         },
         "warrantyYears": 3,
+        "lastChecked": "2026-11-20"
+    },
+    {
+        "id": "jackery-explorer-100d",
+        "brand": "Jackery",
+        "model": "Explorer 100D",
+        "name": "Jackery Explorer 100D",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-explorer-100d-portable-power-station?variant=44508192473175",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 119,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 96,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 96
+        },
+        "power": {
+            "continuousW": 158,
+            "surgeW": null,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 3000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 0,
+            "ac": {
+                "frequencyHz": [],
+                "inputs": [],
+                "generator": {
+                    "supported": false,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 100,
+                "inputs": [
+                    {
+                        "id": "usb-c1",
+                        "label": "USB-C1 Input (USB-C to DC8020 adapter, sold separately)",
+                        "count": 1,
+                        "connector": "DC8020",
+                        "minV": null,
+                        "maxV": null,
+                        "startV": null,
+                        "maxA": null,
+                        "maxW": 100,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24
+                ],
+                "maxA": null
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 0.855,
+            "dimensionsCm": {
+                "length": 11.87,
+                "width": 8.26,
+                "height": 8.57
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 0,
+                "voltageV": null,
+                "totalMaxW": null
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 2,
+                "maxWPerPort": 140
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 2,
         "lastChecked": "2026-11-20"
     }
 ]
