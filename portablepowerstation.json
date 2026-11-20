@@ -41719,10 +41719,150 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%20300.webp",
         "price": {
             "currency": "USD",
             "current": 289,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 291.84,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 291.84
+        },
+        "power": {
+            "continuousW": 300,
+            "surgeW": 600,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 70
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 65,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-adapter",
+                        "label": "65W AC Adapter",
+                        "connector": "DC8020",
+                        "plug": null,
+                        "voltageV": 120,
+                        "maxA": null,
+                        "maxW": 65,
+                        "chargeMaxW": 65,
+                        "chargeMinW": 65,
+                        "passThrough": false
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 100,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC Input",
+                        "count": 1,
+                        "connector": "DC8020",
+                        "minV": 11,
+                        "maxV": 28,
+                        "startV": null,
+                        "maxA": 6,
+                        "maxW": 100,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12
+                ],
+                "maxA": 6
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 3.4,
+            "dimensionsCm": {
+                "length": 23,
+                "width": 15.3,
+                "height": 19.9
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 2,
+                "voltageV": 120,
+                "totalMaxW": 300
+            },
+            "usbA": {
+                "count": 2,
+                "maxWPerPort": 15
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12,
+                "maxWPerPort": 120
+            }
+        },
+        "features": {
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-20"
+    },
+    {
+        "id": "jackery-explorer-300-solarsaga-40-air",
+        "brand": "Jackery",
+        "model": "Explorer 300 + SolarSaga 40 Air",
+        "name": "Jackery Explorer 300 + SolarSaga 40 Air",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "jackery-explorer-300",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "jackery-solarsaga-40-air",
+                    "quantity": 1,
+                    "wiring": null
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.jackery.com/products/explorer-300-portable-power-station?variant=44638374527063",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 379,
             "original": null
         },
         "capacity": {
