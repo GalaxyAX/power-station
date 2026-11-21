@@ -43361,5 +43361,161 @@
         },
         "warrantyYears": 5,
         "lastChecked": "2026-11-21"
+    },
+    {
+        "id": "anker-solix-e10-smart-generator-5500-tri-fuel",
+        "brand": "Anker",
+        "model": "SOLIX E10 + Smart Generator 5500 (Tri-Fuel)",
+        "name": "Anker SOLIX E10 + Smart Generator 5500 (Tri-Fuel)",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "anker-solix-e10",
+            "includes": [
+                {
+                    "type": "generator",
+                    "generatorId": "anker-solix-smart-generator-5500-tri-fuel",
+                    "quantity": 1
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.ankersolix.com/products/smart-generator-5500?s_main=G17E1141&varId=61009012130122",
+        "asin": "B0GFJ881DJ",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 5798,
+            "original": 6098
+        },
+        "capacity": {
+            "nominalWh": 6144,
+            "expandable": true,
+            "extraBattery": {
+                "model": "B6000 Battery Module",
+                "capacityWh": 6144,
+                "maxCount": 4
+            },
+            "maxWh": 30720
+        },
+        "power": {
+            "continuousW": 7680,
+            "surgeW": null,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input Port",
+                        "connector": null,
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": false
+                    },
+                    {
+                        "id": "ac-240",
+                        "label": "AC Input Port",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 40,
+                        "maxW": 9600,
+                        "chargeMaxW": 6000,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": 10,
+                    "setup": [
+                        "A 120/240 V generator connects to the AC Input Port through the Anker SOLIX E10 AC Generator Adapter, sold separately, and the generator's own output cable with a NEMA SS2-50R end.",
+                        "Set the generator's rated output power in the Anker app."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 9000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "PV Input",
+                        "count": 2,
+                        "connector": "MC4",
+                        "minV": 30,
+                        "maxV": 450,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 4500,
+                        "overCurrent": "prohibited"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [],
+                "maxA": null
+            },
+            "maxCombinedW": 6000
+        },
+        "physical": {
+            "weightKg": 86.5,
+            "dimensionsCm": {
+                "length": 67,
+                "width": 28.1,
+                "height": 58.5
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 1,
+                "voltageV": 240,
+                "totalMaxW": 7680
+            },
+            "usbA": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "usbC": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-21"
     }
 ]

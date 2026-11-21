@@ -594,7 +594,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20SOLIX%20Smart%20Generator%205500%20(Tri-Fuel).webp",
         "manualUrl": "https://support.ankersolix.com/s/article/Anker-SOLIX-Smart-Generator-5500-Tri-Fuel-A7320J40-User-Guide",
         "price": {
             "currency": "USD",
