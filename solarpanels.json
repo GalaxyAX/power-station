@@ -1996,86 +1996,6 @@
         "lastChecked": "2026-11-13"
     },
     {
-        "id": "jackery-solarsaga-500x",
-        "brand": "Jackery",
-        "model": "SolarSaga 500 X",
-        "name": "Jackery SolarSaga 500 X",
-        "category": "solar-panel",
-        "formFactor": "portable",
-        "region": "US",
-        "url": "https://www.jackery.com/products/jackery-solarsaga-500-x?variant=41317177000023",
-        "asin": "B0HMQDZSDF",
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20SolarSaga%20500%20X.webp",
-        "datasheetUrl": "https://r.jackery.net/productGuide/Jackery%20500X%20User%20Manual.pdf",
-        "price": {
-            "currency": "USD",
-            "current": 999,
-            "original": null
-        },
-        "unitsPerPack": 1,
-        "electrical": {
-            "ratedW": 500,
-            "toleranceW": 25,
-            "vocV": 48.5,
-            "vmpV": 41.7,
-            "iscA": 13.02,
-            "impA": 12.0,
-            "tempCoeff": {
-                "pmaxPctPerC": -0.32,
-                "vocPctPerC": -0.26,
-                "iscPctPerC": null
-            },
-            "maxSystemV": 90,
-            "maxSeriesFuseA": null,
-            "maxSeries": 1,
-            "maxParallel": 1,
-            "bifacial": {
-                "rearRatedW": null,
-                "rearIscA": null,
-                "rearImpA": null,
-                "maxGainPct": 9
-            }
-        },
-        "cell": {
-            "type": null,
-            "technology": "TOPCon",
-            "efficiencyPct": 25
-        },
-        "connector": "Anderson",
-        "includedCables": [
-            {
-                "from": "Anderson",
-                "to": "DC8020",
-                "lengthM": 5,
-                "quantity": 1
-            }
-        ],
-        "stand": {
-            "tiltMinDeg": null,
-            "tiltMaxDeg": 35
-        },
-        "physical": {
-            "weightKg": 10.5,
-            "dimensionsCm": {
-                "length": 249.3,
-                "width": 99.6,
-                "height": 29.4
-            },
-            "foldedCm": {
-                "length": 99.6,
-                "width": 52.6,
-                "height": 9.7
-            },
-            "ipRating": "IP68",
-            "operatingTempC": {
-                "min": -40,
-                "max": 85
-            }
-        },
-        "warrantyYears": 5,
-        "lastChecked": "2026-11-17"
-    },
-    {
         "id": "jackery-solarsaga-200w",
         "brand": "Jackery",
         "model": "SolarSaga 200W",
@@ -2315,5 +2235,89 @@
         },
         "warrantyYears": 1,
         "lastChecked": "2026-11-18"
+    },
+    {
+        "id": "jackery-solarsaga-500x",
+        "brand": "Jackery",
+        "model": "SolarSaga 500 X",
+        "name": "Jackery SolarSaga 500 X",
+        "category": "solar-panel",
+        "formFactor": "portable",
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-solarsaga-500-x?variant=41317177000023",
+        "asin": "B0HMQDZSDF",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20SolarSaga%20500%20X.webp",
+        "datasheetUrl": "https://r.jackery.net/productGuide/Jackery%20500X%20User%20Manual.pdf",
+        "price": {
+            "currency": "USD",
+            "current": 999,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 500,
+            "toleranceW": 25,
+            "vocV": 48.5,
+            "vmpV": 41.7,
+            "iscA": 13.02,
+            "impA": 12.0,
+            "tempCoeff": {
+                "pmaxPctPerC": -0.32,
+                "vocPctPerC": -0.26,
+                "iscPctPerC": null
+            },
+            "maxSystemV": 90,
+            "maxSeriesFuseA": null,
+            "maxSeries": 1,
+            "maxParallel": 1,
+            "bifacial": {
+                "rearRatedW": null,
+                "rearIscA": null,
+                "rearImpA": null,
+                "maxGainPct": 9
+            }
+        },
+        "cell": {
+            "type": null,
+            "technology": "TOPCon",
+            "efficiencyPct": 25
+        },
+        "connector": "Anderson",
+        "includedCables": [
+            {
+                "from": "Anderson",
+                "to": "DC8020",
+                "lengthM": 5,
+                "quantity": 1
+            }
+        ],
+        "stand": {
+            "tiltMinDeg": null,
+            "tiltMaxDeg": 35
+        },
+        "physical": {
+            "weightKg": 10.5,
+            "dimensionsCm": {
+                "length": 249.3,
+                "width": 99.6,
+                "height": 29.4
+            },
+            "foldedCm": {
+                "length": 99.6,
+                "width": 52.6,
+                "height": 9.7
+            },
+            "ipRating": "IP68",
+            "operatingTempC": {
+                "min": -40,
+                "max": 85
+            }
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-21"
     }
 ]
