@@ -23,7 +23,7 @@
         "capacity": {
             "nominalWh": 153.6,
             "mAh": 48000,
-            "mAhAtV": 3.2
+            "mAhAtV": null
         },
         "power": {
             "totalMaxW": 288
@@ -43,13 +43,16 @@
                     "id": "usb-c",
                     "label": "Bidirectional USB-C Port",
                     "connector": "USB-C",
+                    "builtIn": null,
                     "count": 1,
                     "minV": 5,
                     "maxV": 20,
                     "maxA": 5,
-                    "maxW": 100
+                    "maxW": 100,
+                    "proprietary": null
                 }
             ],
+            "totalMaxW": 100,
             "passThrough": true,
             "adapterIncluded": false
         },
@@ -58,6 +61,7 @@
                 "id": "usb-c",
                 "label": "Bidirectional USB-C Port",
                 "connector": "USB-C",
+                "builtIn": null,
                 "count": 1,
                 "voltageV": [
                     5,
@@ -74,24 +78,28 @@
                     "SCP",
                     "FCP",
                     "AFC"
-                ]
+                ],
+                "proprietary": null
             },
             {
                 "id": "dc093",
                 "label": "DC093 Port",
                 "connector": "DC093",
+                "builtIn": null,
                 "count": 1,
                 "voltageV": [
                     20
                 ],
                 "maxA": 8,
                 "maxW": 160,
-                "protocols": []
+                "protocols": [],
+                "proprietary": null
             },
             {
                 "id": "usb-a-qc",
                 "label": "18W USB-A Port",
                 "connector": "USB-A",
+                "builtIn": null,
                 "count": 1,
                 "voltageV": [
                     5,
@@ -102,19 +110,22 @@
                 "maxW": 18,
                 "protocols": [
                     "QC 3.0"
-                ]
+                ],
+                "proprietary": null
             },
             {
                 "id": "usb-a",
                 "label": "10.5W USB-A Port",
                 "connector": "USB-A",
+                "builtIn": null,
                 "count": 1,
                 "voltageV": [
                     5
                 ],
                 "maxA": 2.1,
                 "maxW": 10.5,
-                "protocols": []
+                "protocols": [],
+                "proprietary": null
             }
         ],
         "includedCables": [
@@ -143,12 +154,13 @@
         "features": {
             "display": true,
             "wirelessCharging": false,
+            "magnetic": false,
             "wifi": false,
             "bluetooth": false,
             "app": false
         },
         "warrantyYears": 2,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-22"
     },
     {
         "id": "bluetti-x60",
@@ -174,14 +186,19 @@
         "capacity": {
             "nominalWh": 614,
             "mAh": 192000,
-            "mAhAtV": 3.2
+            "mAhAtV": null
         },
         "power": {
             "totalMaxW": null
         },
         "battery": {
             "chemistry": "LFP",
-            "cycleLife": []
+            "cycleLife": [
+                {
+                    "cycles": 2000,
+                    "retentionPct": null
+                }
+            ]
         },
         "charging": {
             "inputs": [
@@ -189,13 +206,16 @@
                     "id": "dc",
                     "label": "Charging Port",
                     "connector": "DC7909",
+                    "builtIn": null,
                     "count": 1,
                     "minV": 12.5,
                     "maxV": 26,
                     "maxA": 8,
-                    "maxW": 200
+                    "maxW": 200,
+                    "proprietary": null
                 }
             ],
+            "totalMaxW": 200,
             "passThrough": true,
             "adapterIncluded": true
         },
@@ -204,6 +224,7 @@
                 "id": "usb-c",
                 "label": "USB-C Port",
                 "connector": "USB-C",
+                "builtIn": null,
                 "count": 1,
                 "voltageV": [
                     5,
@@ -214,55 +235,64 @@
                 ],
                 "maxA": 5,
                 "maxW": 100,
-                "protocols": null
+                "protocols": null,
+                "proprietary": null
             },
             {
                 "id": "usb-a",
                 "label": "USB-A Port",
                 "connector": "USB-A",
+                "builtIn": null,
                 "count": 1,
                 "voltageV": [
                     5
                 ],
                 "maxA": 3,
-                "maxW": 15,
-                "protocols": []
+                "maxW": null,
+                "protocols": [],
+                "proprietary": null
             },
             {
                 "id": "dc-12v",
                 "label": "DC Output (12V/5A)",
                 "connector": "DC4017",
+                "builtIn": null,
                 "count": 1,
                 "voltageV": [
                     12
                 ],
                 "maxA": 5,
-                "maxW": 60,
-                "protocols": []
+                "maxW": null,
+                "protocols": [],
+                "proprietary": null
             },
             {
                 "id": "dc-16v",
                 "label": "DC Output (16V/4A)",
                 "connector": "DC6530",
+                "builtIn": null,
                 "count": 1,
                 "voltageV": [
                     16
                 ],
                 "maxA": 4,
-                "maxW": 64,
-                "protocols": []
+                "maxW": null,
+                "protocols": [],
+                "proprietary": null
             },
             {
                 "id": "dc-24v",
                 "label": "DC Output (24V/4A)",
                 "connector": "DC5525",
+                "builtIn": null,
                 "count": 1,
                 "voltageV": [
                     24
                 ],
                 "maxA": 4,
-                "maxW": 96,
-                "protocols": []
+                "maxW": null,
+                "protocols": [],
+                "proprietary": null
             }
         ],
         "includedCables": [
@@ -327,11 +357,152 @@
         "features": {
             "display": true,
             "wirelessCharging": false,
+            "magnetic": false,
             "wifi": false,
             "bluetooth": false,
             "app": false
         },
         "warrantyYears": 1,
-        "lastChecked": "2026-11-13"
+        "lastChecked": "2026-11-22"
+    },
+    {
+        "id": "anker-prime-power-bank-26k-300w",
+        "brand": "Anker",
+        "model": "Prime Power Bank (26K, 300W)",
+        "name": "Anker Prime Power Bank (26K, 300W)",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a110a-anker-prime-26k-300w-power-bank?variant=46383111110806",
+        "asin": "B0F66LNB8D",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 159.99,
+            "original": 229.99
+        },
+        "capacity": {
+            "nominalWh": 99.75,
+            "mAh": 26250,
+            "mAhAtV": null
+        },
+        "power": {
+            "totalMaxW": 300
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 2,
+                    "minV": 5,
+                    "maxV": 28,
+                    "maxA": 5,
+                    "maxW": 140,
+                    "proprietary": {
+                        "with": "Anker Protocol",
+                        "maxV": 28,
+                        "maxA": 5.36,
+                        "maxW": 150
+                    }
+                },
+                {
+                    "id": "pogo-pin",
+                    "label": "Pogo Pin Connector",
+                    "connector": "Pogo pin",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": null,
+                    "maxV": null,
+                    "maxA": null,
+                    "maxW": null,
+                    "proprietary": {
+                        "with": "Anker Prime Charging Base",
+                        "maxV": null,
+                        "maxA": null,
+                        "maxW": 150
+                    }
+                }
+            ],
+            "totalMaxW": 250,
+            "passThrough": true,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 2,
+                "voltageV": [
+                    5,
+                    9,
+                    12,
+                    15,
+                    20,
+                    28
+                ],
+                "maxA": 5,
+                "maxW": 140,
+                "protocols": null,
+                "proprietary": null
+            },
+            {
+                "id": "usb-a",
+                "label": "USB-A Port",
+                "connector": "USB-A",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12
+                ],
+                "maxA": 3,
+                "maxW": 22.5,
+                "protocols": null,
+                "proprietary": null
+            }
+        ],
+        "includedCables": [
+            {
+                "from": "USB-C",
+                "to": "USB-C",
+                "lengthM": 1,
+                "quantity": 1
+            }
+        ],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.6,
+            "dimensionsCm": {
+                "length": 15.99,
+                "width": 3.8,
+                "height": 6.27
+            }
+        },
+        "features": {
+            "display": true,
+            "wirelessCharging": false,
+            "magnetic": false,
+            "wifi": false,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 2,
+        "lastChecked": "2026-11-22"
     }
 ]
