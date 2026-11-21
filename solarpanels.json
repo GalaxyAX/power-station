@@ -2338,7 +2338,7 @@
             "official": "unavailable",
             "amazon": null
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20SolarSaga%20100%20Prime.webp",
         "datasheetUrl": "https://r.jackery.net/productGuide/Jackery%20SolarSaga%20100%20Prime%20User%20Guide.pdf",
         "price": {
             "currency": "USD",
@@ -2390,6 +2390,89 @@
                 "length": 98.6,
                 "width": 55.2,
                 "height": 2.9
+            },
+            "foldedCm": null,
+            "ipRating": "IP68",
+            "operatingTempC": {
+                "min": -40,
+                "max": 85
+            }
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-21"
+    },
+    {
+        "id": "jackery-solarsaga-100-light",
+        "brand": "Jackery",
+        "model": "SolarSaga 100 Light",
+        "name": "Jackery SolarSaga 100 Light",
+        "category": "solar-panel",
+        "formFactor": "flexible",
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-solarsaga-100-light?variant=44179203948631",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
+        "image": null,
+        "datasheetUrl": "https://r.jackery.net/productGuide/Jackery%20SolarSaga%20100%20Light%20US.pdf",
+        "price": {
+            "currency": "USD",
+            "current": 299,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 100,
+            "toleranceW": 5,
+            "vocV": 24.8,
+            "vmpV": 21.1,
+            "iscA": 5.15,
+            "impA": 4.85,
+            "tempCoeff": {
+                "pmaxPctPerC": -0.3,
+                "vocPctPerC": -0.268,
+                "iscPctPerC": null
+            },
+            "maxSystemV": 600,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": {
+                "rearRatedW": null,
+                "rearIscA": null,
+                "rearImpA": null,
+                "maxGainPct": 10
+            }
+        },
+        "cell": {
+            "type": null,
+            "technology": "IBC",
+            "efficiencyPct": 25
+        },
+        "connector": "Anderson",
+        "includedCables": [
+            {
+                "from": "Anderson",
+                "to": "DC8020",
+                "lengthM": null,
+                "quantity": 1
+            },
+            {
+                "from": "Anderson",
+                "to": "DC7909",
+                "lengthM": null,
+                "quantity": 1
+            }
+        ],
+        "stand": null,
+        "physical": {
+            "weightKg": 2.05,
+            "dimensionsCm": {
+                "length": 106,
+                "width": 56,
+                "height": 1.6
             },
             "foldedCm": null,
             "ipRating": "IP68",
