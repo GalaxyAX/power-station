@@ -1996,86 +1996,6 @@
         "lastChecked": "2026-11-13"
     },
     {
-        "id": "jackery-solarsaga-200w",
-        "brand": "Jackery",
-        "model": "SolarSaga 200W",
-        "name": "Jackery SolarSaga 200W",
-        "category": "solar-panel",
-        "formFactor": "portable",
-        "region": "US",
-        "url": "https://www.jackery.com/products/solarsaga-200w-solar-panel?variant=44628888879191",
-        "asin": null,
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20SolarSaga%20200W.webp",
-        "datasheetUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/Jackery_SolarSaga_200_User_Manual_-_666E.pdf?v=1763004158",
-        "price": {
-            "currency": "USD",
-            "current": 429,
-            "original": null
-        },
-        "unitsPerPack": 1,
-        "electrical": {
-            "ratedW": 200,
-            "toleranceW": 10,
-            "vocV": 22,
-            "vmpV": 18,
-            "iscA": 12.5,
-            "impA": 11.5,
-            "tempCoeff": {
-                "pmaxPctPerC": -0.33,
-                "vocPctPerC": -0.27,
-                "iscPctPerC": null
-            },
-            "maxSystemV": 60,
-            "maxSeriesFuseA": null,
-            "maxSeries": null,
-            "maxParallel": null,
-            "bifacial": {
-                "rearRatedW": null,
-                "rearIscA": null,
-                "rearImpA": null,
-                "maxGainPct": 12.5
-            }
-        },
-        "cell": {
-            "type": "monocrystalline",
-            "technology": "TOPCon",
-            "efficiencyPct": 25
-        },
-        "connector": "DC8020",
-        "includedCables": [
-            {
-                "from": "DC8020",
-                "to": "DC7909",
-                "lengthM": null,
-                "quantity": 1
-            }
-        ],
-        "stand": {
-            "tiltMinDeg": null,
-            "tiltMaxDeg": null
-        },
-        "physical": {
-            "weightKg": 6.5,
-            "dimensionsCm": {
-                "length": 227.9,
-                "width": 59.7,
-                "height": 2.5
-            },
-            "foldedCm": {
-                "length": 60,
-                "width": 59.7,
-                "height": 4
-            },
-            "ipRating": "IP68",
-            "operatingTempC": {
-                "min": -20,
-                "max": 65
-            }
-        },
-        "warrantyYears": 3,
-        "lastChecked": "2026-11-19"
-    },
-    {
         "id": "jackery-solarsaga-100-air",
         "brand": "Jackery",
         "model": "SolarSaga 100 Air",
@@ -2318,6 +2238,90 @@
             }
         },
         "warrantyYears": 5,
+        "lastChecked": "2026-11-21"
+    },
+    {
+        "id": "jackery-solarsaga-200w",
+        "brand": "Jackery",
+        "model": "SolarSaga 200W",
+        "name": "Jackery SolarSaga 200W",
+        "category": "solar-panel",
+        "formFactor": "portable",
+        "region": "US",
+        "url": "https://www.jackery.com/products/solarsaga-200w-solar-panel?variant=44628888879191",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20SolarSaga%20200W.webp",
+        "datasheetUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/Jackery_SolarSaga_200_User_Manual_-_666E.pdf?v=1763004158",
+        "price": {
+            "currency": "USD",
+            "current": 429,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 200,
+            "toleranceW": 10,
+            "vocV": 22,
+            "vmpV": 18,
+            "iscA": 12.5,
+            "impA": 11.5,
+            "tempCoeff": {
+                "pmaxPctPerC": -0.33,
+                "vocPctPerC": -0.27,
+                "iscPctPerC": null
+            },
+            "maxSystemV": 60,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": {
+                "rearRatedW": null,
+                "rearIscA": null,
+                "rearImpA": null,
+                "maxGainPct": 12.5
+            }
+        },
+        "cell": {
+            "type": "monocrystalline",
+            "technology": "TOPCon",
+            "efficiencyPct": 25
+        },
+        "connector": "DC8020",
+        "includedCables": [
+            {
+                "from": "DC8020",
+                "to": "DC7909",
+                "lengthM": null,
+                "quantity": 1
+            }
+        ],
+        "stand": {
+            "tiltMinDeg": null,
+            "tiltMaxDeg": null
+        },
+        "physical": {
+            "weightKg": 6.5,
+            "dimensionsCm": {
+                "length": 227.9,
+                "width": 59.7,
+                "height": 2.5
+            },
+            "foldedCm": {
+                "length": 60,
+                "width": 59.7,
+                "height": 4
+            },
+            "ipRating": "IP68",
+            "operatingTempC": {
+                "min": -20,
+                "max": 65
+            }
+        },
+        "warrantyYears": 3,
         "lastChecked": "2026-11-21"
     }
 ]
