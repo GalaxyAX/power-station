@@ -1996,167 +1996,6 @@
         "lastChecked": "2026-11-13"
     },
     {
-        "id": "jackery-solarsaga-100-air",
-        "brand": "Jackery",
-        "model": "SolarSaga 100 Air",
-        "name": "Jackery SolarSaga 100 Air",
-        "category": "solar-panel",
-        "formFactor": "portable",
-        "region": "US",
-        "url": "https://www.jackery.com/products/jackery-solarsaga-100-air?variant=42058495721559",
-        "asin": "B0FX8P4JST",
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20SolarSaga%20100%20Air.webp",
-        "datasheetUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/Jackery_SolarSaga_100_Air_User_Manual.pdf?v=1758778870",
-        "price": {
-            "currency": "USD",
-            "current": 299,
-            "original": null
-        },
-        "unitsPerPack": 1,
-        "electrical": {
-            "ratedW": 100,
-            "toleranceW": 5,
-            "vocV": 29.7,
-            "vmpV": 25.4,
-            "iscA": 4.1,
-            "impA": 3.95,
-            "tempCoeff": {
-                "pmaxPctPerC": -0.22,
-                "vocPctPerC": -0.25,
-                "iscPctPerC": null
-            },
-            "maxSystemV": 80,
-            "maxSeriesFuseA": null,
-            "maxSeries": null,
-            "maxParallel": null,
-            "bifacial": {
-                "rearRatedW": null,
-                "rearIscA": null,
-                "rearImpA": null,
-                "maxGainPct": 10
-            }
-        },
-        "cell": {
-            "type": null,
-            "technology": "PERC",
-            "efficiencyPct": 23
-        },
-        "connector": "DC8020",
-        "includedCables": [
-            {
-                "from": "DC8020",
-                "to": "DC7909",
-                "lengthM": 3,
-                "quantity": 1
-            }
-        ],
-        "stand": {
-            "tiltMinDeg": null,
-            "tiltMaxDeg": null
-        },
-        "physical": {
-            "weightKg": 3.2,
-            "dimensionsCm": {
-                "length": 166.8,
-                "width": 42.3,
-                "height": 1.7
-            },
-            "foldedCm": {
-                "length": 43.3,
-                "width": 42.3,
-                "height": 4.7
-            },
-            "ipRating": "IP68",
-            "operatingTempC": {
-                "min": -20,
-                "max": 65
-            }
-        },
-        "warrantyYears": 1,
-        "lastChecked": "2026-11-17"
-    },
-    {
-        "id": "jackery-solarsaga-40-air",
-        "brand": "Jackery",
-        "model": "SolarSaga 40 Air",
-        "name": "Jackery SolarSaga 40 Air",
-        "category": "solar-panel",
-        "formFactor": "portable",
-        "region": "US",
-        "url": "https://www.jackery.com/products/jackery-solarsaga-40-air?variant=42127515025495",
-        "asin": "B0FX8PBZLR",
-        "availability": {
-            "official": "unavailable",
-            "amazon": "unavailable"
-        },
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20SolarSaga%2040%20Air.webp",
-        "datasheetUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/Jackery_SolarSaga_40Air_User_Manual_inbox.pdf?v=1785488094",
-        "price": {
-            "currency": "USD",
-            "current": 129,
-            "original": null
-        },
-        "unitsPerPack": 1,
-        "electrical": {
-            "ratedW": 40,
-            "toleranceW": 2,
-            "vocV": 25,
-            "vmpV": 20.5,
-            "iscA": 2.07,
-            "impA": 1.96,
-            "tempCoeff": {
-                "pmaxPctPerC": -0.39,
-                "vocPctPerC": -0.3,
-                "iscPctPerC": null
-            },
-            "maxSystemV": 30,
-            "maxSeriesFuseA": null,
-            "maxSeries": null,
-            "maxParallel": null,
-            "bifacial": {
-                "rearRatedW": null,
-                "rearIscA": null,
-                "rearImpA": null,
-                "maxGainPct": 10
-            }
-        },
-        "cell": {
-            "type": null,
-            "technology": "PERC",
-            "efficiencyPct": 23
-        },
-        "connector": "DC8020",
-        "includedCables": [
-            {
-                "from": "DC8020",
-                "to": "DC7909",
-                "lengthM": null,
-                "quantity": 1
-            }
-        ],
-        "stand": null,
-        "physical": {
-            "weightKg": 0.9,
-            "dimensionsCm": {
-                "length": 96.2,
-                "width": 33.9,
-                "height": 0.25
-            },
-            "foldedCm": {
-                "length": 23.2,
-                "width": 33.9,
-                "height": 2
-            },
-            "ipRating": "IP68",
-            "operatingTempC": {
-                "min": -20,
-                "max": 65
-            }
-        },
-        "warrantyYears": 1,
-        "lastChecked": "2026-11-18"
-    },
-    {
         "id": "jackery-solarsaga-500x",
         "brand": "Jackery",
         "model": "SolarSaga 500 X",
@@ -2415,7 +2254,7 @@
             "official": "unavailable",
             "amazon": null
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20SolarSaga%20100%20Light.webp",
         "datasheetUrl": "https://r.jackery.net/productGuide/Jackery%20SolarSaga%20100%20Light%20US.pdf",
         "price": {
             "currency": "USD",
@@ -2482,6 +2321,164 @@
             }
         },
         "warrantyYears": 5,
+        "lastChecked": "2026-11-21"
+    },
+    {
+        "id": "jackery-solarsaga-100-air",
+        "brand": "Jackery",
+        "model": "SolarSaga 100 Air",
+        "name": "Jackery SolarSaga 100 Air",
+        "category": "solar-panel",
+        "formFactor": "portable",
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-solarsaga-100-air?variant=42058495721559",
+        "asin": "B0FX8P4JST",
+        "availability": {
+            "official": "available",
+            "amazon": "unavailable"
+        },
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20SolarSaga%20100%20Air.webp",
+        "datasheetUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/Jackery_SolarSaga_100_Air_User_Manual.pdf?v=1758778870",
+        "price": {
+            "currency": "USD",
+            "current": 299,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 100,
+            "toleranceW": 5,
+            "vocV": 29.7,
+            "vmpV": 25.4,
+            "iscA": 4.1,
+            "impA": 3.95,
+            "tempCoeff": {
+                "pmaxPctPerC": -0.22,
+                "vocPctPerC": -0.25,
+                "iscPctPerC": null
+            },
+            "maxSystemV": 80,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": {
+                "rearRatedW": null,
+                "rearIscA": null,
+                "rearImpA": null,
+                "maxGainPct": 10
+            }
+        },
+        "cell": {
+            "type": null,
+            "technology": "PERC",
+            "efficiencyPct": 23
+        },
+        "connector": "DC8020",
+        "includedCables": [
+            {
+                "from": "DC8020",
+                "to": "DC7909",
+                "lengthM": null,
+                "quantity": 1
+            }
+        ],
+        "stand": {
+            "tiltMinDeg": null,
+            "tiltMaxDeg": null
+        },
+        "physical": {
+            "weightKg": 3.2,
+            "dimensionsCm": {
+                "length": 166.8,
+                "width": 42.3,
+                "height": 1.7
+            },
+            "foldedCm": {
+                "length": 43.3,
+                "width": 42.3,
+                "height": 4.7
+            },
+            "ipRating": "IP68",
+            "operatingTempC": {
+                "min": -20,
+                "max": 65
+            }
+        },
+        "warrantyYears": 1,
+        "lastChecked": "2026-11-21"
+    },
+    {
+        "id": "jackery-solarsaga-40-air",
+        "brand": "Jackery",
+        "model": "SolarSaga 40 Air",
+        "name": "Jackery SolarSaga 40 Air",
+        "category": "solar-panel",
+        "formFactor": "portable",
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-solarsaga-40-air?variant=42127515025495",
+        "asin": "B0FX8PBZLR",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20SolarSaga%2040%20Air.webp",
+        "datasheetUrl": "https://cdn.shopify.com/s/files/1/0970/9262/files/Jackery_SolarSaga_40Air_User_Manual_inbox.pdf?v=1785488094",
+        "price": {
+            "currency": "USD",
+            "current": 129,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 42,
+            "toleranceW": 2.1,
+            "vocV": 26,
+            "vmpV": 22.5,
+            "iscA": 2.1,
+            "impA": 1.9,
+            "tempCoeff": {
+                "pmaxPctPerC": -0.33,
+                "vocPctPerC": -0.27,
+                "iscPctPerC": null
+            },
+            "maxSystemV": 30,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": {
+                "rearRatedW": null,
+                "rearIscA": null,
+                "rearImpA": null,
+                "maxGainPct": 11.9
+            }
+        },
+        "cell": {
+            "type": null,
+            "technology": "PERC",
+            "efficiencyPct": 23
+        },
+        "connector": "DC8020",
+        "includedCables": [],
+        "stand": null,
+        "physical": {
+            "weightKg": 0.9,
+            "dimensionsCm": {
+                "length": 96.2,
+                "width": 33.9,
+                "height": 0.25
+            },
+            "foldedCm": {
+                "length": 23.2,
+                "width": 33.9,
+                "height": 2
+            },
+            "ipRating": "IP68",
+            "operatingTempC": {
+                "min": -20,
+                "max": 65
+            }
+        },
+        "warrantyYears": 1,
         "lastChecked": "2026-11-21"
     }
 ]
