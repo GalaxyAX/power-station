@@ -2323,5 +2323,82 @@
         },
         "warrantyYears": 3,
         "lastChecked": "2026-11-21"
+    },
+    {
+        "id": "jackery-solarsaga-100-prime",
+        "brand": "Jackery",
+        "model": "SolarSaga 100 Prime",
+        "name": "Jackery SolarSaga 100 Prime",
+        "category": "solar-panel",
+        "formFactor": "rigid",
+        "region": "US",
+        "url": "https://www.jackery.com/products/jackery-solarsaga-100-prime-solar-panel?variant=40995852484695",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
+        "image": null,
+        "datasheetUrl": "https://r.jackery.net/productGuide/Jackery%20SolarSaga%20100%20Prime%20User%20Guide.pdf",
+        "price": {
+            "currency": "USD",
+            "current": 249,
+            "original": null
+        },
+        "unitsPerPack": 1,
+        "electrical": {
+            "ratedW": 100,
+            "toleranceW": 5,
+            "vocV": 22.7,
+            "vmpV": 18.7,
+            "iscA": 5.53,
+            "impA": 5.3,
+            "tempCoeff": {
+                "pmaxPctPerC": -0.29,
+                "vocPctPerC": -0.268,
+                "iscPctPerC": null
+            },
+            "maxSystemV": 600,
+            "maxSeriesFuseA": null,
+            "maxSeries": null,
+            "maxParallel": null,
+            "bifacial": {
+                "rearRatedW": null,
+                "rearIscA": null,
+                "rearImpA": null,
+                "maxGainPct": 20
+            }
+        },
+        "cell": {
+            "type": null,
+            "technology": "IBC",
+            "efficiencyPct": 25
+        },
+        "connector": "Anderson",
+        "includedCables": [
+            {
+                "from": "Anderson",
+                "to": "DC8020",
+                "lengthM": null,
+                "quantity": 1
+            }
+        ],
+        "stand": null,
+        "physical": {
+            "weightKg": 6,
+            "dimensionsCm": {
+                "length": 98.6,
+                "width": 55.2,
+                "height": 2.9
+            },
+            "foldedCm": null,
+            "ipRating": "IP68",
+            "operatingTempC": {
+                "min": -40,
+                "max": 85
+            }
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-21"
     }
 ]
