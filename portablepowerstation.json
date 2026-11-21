@@ -42572,7 +42572,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20SOLIX%20E10%20(Power%20Module%20%2B%202×%20Battery)%20%2B%20Smart%20Inlet%20Box.webp",
         "price": {
             "currency": "USD",
             "current": 6099,
@@ -42642,6 +42642,169 @@
                         "A 120/240 V generator connects to the AC Input Port through the Anker SOLIX E10 AC Generator Adapter, sold separately, and the generator's own output cable with a NEMA SS2-50R end.",
                         "Set the generator's rated output power in the Anker app.",
                         "With a third-party solar system on the main panel, turn off its solar breaker and set \"Third-Party Solar System\" to \"Not Installed\" in the Anker app before starting the generator."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 9000,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "PV Input",
+                        "count": 2,
+                        "connector": "MC4",
+                        "minV": 30,
+                        "maxV": 450,
+                        "startV": null,
+                        "maxA": 15,
+                        "maxW": 4500,
+                        "overCurrent": "prohibited"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [],
+                "maxA": null
+            },
+            "maxCombinedW": 9000
+        },
+        "physical": {
+            "weightKg": 145.5,
+            "dimensionsCm": {
+                "length": 67,
+                "width": 28.1,
+                "height": 90.7
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 1,
+                "voltageV": 240,
+                "totalMaxW": 7680
+            },
+            "usbA": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "usbC": {
+                "count": 0,
+                "maxWPerPort": null
+            },
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-21"
+    },
+    {
+        "id": "anker-solix-e10-2x-battery-power-dock",
+        "brand": "Anker",
+        "model": "SOLIX E10 (Power Module + 2× Battery) + Power Dock",
+        "name": "Anker SOLIX E10 (Power Module + 2× Battery) + Power Dock",
+        "category": "home-backup-power",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "anker-solix-e10",
+            "includes": [
+                {
+                    "type": "extra-battery",
+                    "model": "B6000 Battery Module",
+                    "quantity": 1,
+                    "capacityWh": 6144
+                },
+                {
+                    "type": "accessory",
+                    "model": "Anker SOLIX Power Dock",
+                    "quantity": 1
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://www.ankersolix.com/products/e10-b?s_main=B17E114A&varId=53782270443850",
+        "asin": "B0GFKD7DD7",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 7299,
+            "original": 7799
+        },
+        "capacity": {
+            "nominalWh": 12288,
+            "expandable": true,
+            "extraBattery": {
+                "model": "B6000 Battery Module",
+                "capacityWh": 6144,
+                "maxCount": 3
+            },
+            "maxWh": 30720
+        },
+        "power": {
+            "continuousW": 7680,
+            "surgeW": 37200,
+            "xBoostW": null
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 4000,
+                    "retentionPct": 80
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input Port",
+                        "connector": null,
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": false
+                    },
+                    {
+                        "id": "ac-240",
+                        "label": "AC Input Port",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 40,
+                        "maxW": 9600,
+                        "chargeMaxW": 7680,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": 10,
+                    "setup": [
+                        "A 120/240 V generator connects to the AC Input Port through the Anker SOLIX E10 AC Generator Adapter, sold separately, and the generator's own output cable with a NEMA SS2-50R end.",
+                        "Set the generator's rated output power in the Anker app.",
+                        "A 240 V standby generator, or a 240 V portable generator through an inlet box, can instead be wired to branch circuits 1 and 2 of the Power Dock. Connect only one AC generator, to the Power Dock or to the E10, never to both."
                     ]
                 }
             },
