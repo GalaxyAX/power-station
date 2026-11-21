@@ -520,7 +520,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20Laptop%20Power%20Bank%20(25K%2C%20165W%2C%20Built-In%20and%20Retractable%20Cables).webp",
         "price": {
             "currency": "USD",
             "current": 91.19,
@@ -691,6 +691,142 @@
             "app": false
         },
         "warrantyYears": 1.5,
+        "lastChecked": "2026-11-22"
+    },
+    {
+        "id": "anker-prime-power-bank-20k-220w",
+        "brand": "Anker",
+        "model": "Prime Power Bank (20K, 220W)",
+        "name": "Anker Prime Power Bank (20K, 220W)",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a110b-anker-prime-20k-220w-power-bank?variant=45578450862230",
+        "asin": "B0F66NH2ZX",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 119.99,
+            "original": 179.99
+        },
+        "capacity": {
+            "nominalWh": 72.36,
+            "mAh": 20100,
+            "mAhAtV": null
+        },
+        "power": {
+            "totalMaxW": 220
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 2,
+                    "minV": 5,
+                    "maxV": 20,
+                    "maxA": 5,
+                    "maxW": 100,
+                    "proprietary": null
+                },
+                {
+                    "id": "pogo-pin",
+                    "label": "Pogo Pin Connector",
+                    "connector": "Pogo pin",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": null,
+                    "maxV": null,
+                    "maxA": null,
+                    "maxW": null,
+                    "proprietary": {
+                        "with": "Anker Prime Charging Base",
+                        "maxV": 25.2,
+                        "maxA": 5,
+                        "maxW": 100
+                    }
+                }
+            ],
+            "totalMaxW": 100,
+            "passThrough": true,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 2,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12,
+                    15,
+                    20,
+                    28
+                ],
+                "maxA": 5,
+                "maxW": 140,
+                "protocols": null,
+                "proprietary": null
+            },
+            {
+                "id": "usb-a",
+                "label": "USB-A Port",
+                "connector": "USB-A",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12
+                ],
+                "maxA": 3,
+                "maxW": 22.5,
+                "protocols": null,
+                "proprietary": null
+            }
+        ],
+        "includedCables": [
+            {
+                "from": "USB-C",
+                "to": "USB-C",
+                "lengthM": 1,
+                "quantity": 1
+            }
+        ],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.51,
+            "dimensionsCm": {
+                "length": 4.4,
+                "width": 5,
+                "height": 14.7
+            }
+        },
+        "features": {
+            "display": true,
+            "wirelessCharging": false,
+            "magnetic": false,
+            "wifi": false,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 2,
         "lastChecked": "2026-11-22"
     }
 ]
