@@ -380,7 +380,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20Prime%20Power%20Bank%20(26K%2C%20300W).webp",
         "price": {
             "currency": "USD",
             "current": 159.99,
@@ -503,6 +503,194 @@
             "app": true
         },
         "warrantyYears": 2,
+        "lastChecked": "2026-11-22"
+    },
+    {
+        "id": "anker-laptop-power-bank-25k-165w-built-in-and-retractable-cables",
+        "brand": "Anker",
+        "model": "Laptop Power Bank (25K, 165W, Built-In and Retractable Cables)",
+        "name": "Anker Laptop Power Bank (25K, 165W, Built-In and Retractable Cables)",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a1695-anker-power-bank-25000mah-165w?variant=44320657997974",
+        "asin": "B0DCBB2YTR",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 91.19,
+            "original": 119.99
+        },
+        "capacity": {
+            "nominalWh": 90,
+            "mAh": 25000,
+            "mAhAtV": null
+        },
+        "power": {
+            "totalMaxW": 165
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "usb-c-retractable",
+                    "label": "Retractable USB-C Cable",
+                    "connector": "USB-C",
+                    "builtIn": {
+                        "type": "cable",
+                        "lengthM": 0.69,
+                        "retractable": true
+                    },
+                    "count": 1,
+                    "minV": 3,
+                    "maxV": 20,
+                    "maxA": 5,
+                    "maxW": 100,
+                    "proprietary": null
+                },
+                {
+                    "id": "usb-c-lanyard",
+                    "label": "USB-C Lanyard Cable",
+                    "connector": "USB-C",
+                    "builtIn": {
+                        "type": "cable",
+                        "lengthM": 0.3,
+                        "retractable": false
+                    },
+                    "count": 1,
+                    "minV": 3,
+                    "maxV": 20,
+                    "maxA": 5,
+                    "maxW": 100,
+                    "proprietary": null
+                },
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": 3,
+                    "maxV": 20,
+                    "maxA": 5,
+                    "maxW": 100,
+                    "proprietary": null
+                }
+            ],
+            "totalMaxW": 100,
+            "passThrough": true,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c-retractable",
+                "label": "Retractable USB-C Cable",
+                "connector": "USB-C",
+                "builtIn": {
+                    "type": "cable",
+                    "lengthM": 0.69,
+                    "retractable": true
+                },
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12,
+                    15,
+                    20
+                ],
+                "maxA": 5,
+                "maxW": 100,
+                "protocols": null,
+                "proprietary": null
+            },
+            {
+                "id": "usb-c-lanyard",
+                "label": "USB-C Lanyard Cable",
+                "connector": "USB-C",
+                "builtIn": {
+                    "type": "cable",
+                    "lengthM": 0.3,
+                    "retractable": false
+                },
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12,
+                    15,
+                    20
+                ],
+                "maxA": 5,
+                "maxW": 100,
+                "protocols": null,
+                "proprietary": null
+            },
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12,
+                    15,
+                    20
+                ],
+                "maxA": 5,
+                "maxW": 100,
+                "protocols": null,
+                "proprietary": null
+            },
+            {
+                "id": "usb-a",
+                "label": "USB-A Port",
+                "connector": "USB-A",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    12
+                ],
+                "maxA": 3,
+                "maxW": 33,
+                "protocols": null,
+                "proprietary": null
+            }
+        ],
+        "includedCables": [],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.595,
+            "dimensionsCm": {
+                "length": 15.697,
+                "width": 5.385,
+                "height": 4.902
+            }
+        },
+        "features": {
+            "display": true,
+            "wirelessCharging": false,
+            "magnetic": false,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 1.5,
         "lastChecked": "2026-11-22"
     }
 ]
