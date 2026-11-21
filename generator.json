@@ -151,7 +151,7 @@
         "name": "EcoFlow Smart Generator 3000 (Dual Fuel)",
         "category": "generator",
         "type": "inverter",
-        "region": "US", 
+        "region": "US",
         "url": "https://us.ecoflow.com/products/smart-generator-3000-dual-fuel?variant=41631793250377",
         "asin": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20Smart%20Generator%203000%20(Dual%20Fuel).webp",
@@ -579,5 +579,136 @@
         "includedCables": [],
         "warrantyYears": 3,
         "lastChecked": "2026-10-09"
+    },
+    {
+        "id": "anker-solix-smart-generator-5500-tri-fuel",
+        "brand": "Anker",
+        "model": "SOLIX Smart Generator 5500 (Tri-Fuel)",
+        "name": "Anker SOLIX Smart Generator 5500 (Tri-Fuel)",
+        "category": "generator",
+        "type": "inverter",
+        "region": "US",
+        "url": "https://www.ankersolix.com/products/smart-generator-5500?s_main=A7320J40&varId=61010009293130",
+        "asin": "B0GFLQ4JQJ",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "manualUrl": "https://support.ankersolix.com/s/article/Anker-SOLIX-Smart-Generator-5500-Tri-Fuel-A7320J40-User-Guide",
+        "price": {
+            "currency": "USD",
+            "current": 1999,
+            "original": null
+        },
+        "output": {
+            "voltageV": [
+                120
+            ],
+            "frequencyHz": 60,
+            "thdPct": null,
+            "neutral": "floating",
+            "parallelCapable": null
+        },
+        "fuels": [
+            {
+                "type": "gasoline",
+                "runningW": 3600,
+                "startingW": 5500,
+                "tankGal": 2.64,
+                "cylinderLb": null,
+                "runtime": null,
+                "statedKwh": 17
+            },
+            {
+                "type": "propane",
+                "runningW": 3600,
+                "startingW": 5500,
+                "tankGal": null,
+                "cylinderLb": null,
+                "runtime": null,
+                "statedKwh": null
+            },
+            {
+                "type": "natural-gas",
+                "runningW": 3600,
+                "startingW": 5500,
+                "tankGal": null,
+                "cylinderLb": null,
+                "runtime": null,
+                "statedKwh": null
+            }
+        ],
+        "outlets": [
+            {
+                "type": "TT-30R",
+                "voltageV": 120,
+                "maxA": 30,
+                "count": 1,
+                "gfci": null
+            },
+            {
+                "type": "5-20R",
+                "voltageV": 120,
+                "maxA": 20,
+                "count": 1,
+                "gfci": null
+            }
+        ],
+        "dcOutput": {
+            "connector": null,
+            "minV": null,
+            "maxV": 400,
+            "maxA": null,
+            "maxW": 4500
+        },
+        "integrations": [
+            {
+                "stationId": "anker-solix-e10",
+                "path": "dc",
+                "stationPort": "DC Input Port",
+                "maxW": 4500,
+                "autoStartStop": true,
+                "requires": []
+            }
+        ],
+        "engine": {
+            "displacementCc": 224,
+            "efi": false
+        },
+        "start": [
+            "recoil",
+            "electric",
+            "app",
+            "auto"
+        ],
+        "noise": {
+            "dBA": 69,
+            "distanceM": 7,
+            "loadPct": null
+        },
+        "coShutoff": true,
+        "compliance": {
+            "epa": true,
+            "carb": null
+        },
+        "physical": {
+            "weightKg": 50.24,
+            "dimensionsCm": {
+                "length": 70.9,
+                "width": 42,
+                "height": 56.5
+            }
+        },
+        "includedCables": [
+            {
+                "from": "Smart Generator DC Output Port",
+                "to": "E10 DC Input Port",
+                "lengthM": 3,
+                "quantity": 1
+            }
+        ],
+        "warrantyYears": 3,
+        "lastChecked": "2026-11-21"
     }
 ]
