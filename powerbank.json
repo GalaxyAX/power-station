@@ -708,7 +708,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20Prime%20Power%20Bank%20(20K%2C%20220W).webp",
         "price": {
             "currency": "USD",
             "current": 119.99,
@@ -827,6 +827,156 @@
             "app": true
         },
         "warrantyYears": 2,
+        "lastChecked": "2026-11-22"
+    },
+    {
+        "id": "anker-power-bank-20k-87w-built-in-usb-c-cable",
+        "brand": "Anker",
+        "model": "Power Bank (20K, 87W, Built-In USB-C Cable)",
+        "name": "Anker Power Bank (20K, 87W, Built-In USB-C Cable)",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a1383?variant=44358650265750",
+        "asin": "B0CXDXP8VR",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 55.99,
+            "original": 69.99
+        },
+        "capacity": {
+            "nominalWh": 72,
+            "mAh": 20000,
+            "mAhAtV": null
+        },
+        "power": {
+            "totalMaxW": 87
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "usb-c-cable",
+                    "label": "Built-In USB-C Cable",
+                    "connector": "USB-C",
+                    "builtIn": {
+                        "type": "cable",
+                        "lengthM": null,
+                        "retractable": false
+                    },
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 20,
+                    "maxA": 3.25,
+                    "maxW": 65,
+                    "proprietary": null
+                },
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 20,
+                    "maxA": 3.25,
+                    "maxW": 65,
+                    "proprietary": null
+                }
+            ],
+            "totalMaxW": 65,
+            "passThrough": null,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c-cable",
+                "label": "Built-In USB-C Cable",
+                "connector": "USB-C",
+                "builtIn": {
+                    "type": "cable",
+                    "lengthM": null,
+                    "retractable": false
+                },
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12,
+                    15,
+                    20
+                ],
+                "maxA": 3.25,
+                "maxW": 65,
+                "protocols": null,
+                "proprietary": null
+            },
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12,
+                    15,
+                    20
+                ],
+                "maxA": 3.25,
+                "maxW": 65,
+                "protocols": null,
+                "proprietary": null
+            },
+            {
+                "id": "usb-a",
+                "label": "USB-A Port",
+                "connector": "USB-A",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12
+                ],
+                "maxA": 3,
+                "maxW": 22.5,
+                "protocols": null,
+                "proprietary": null
+            }
+        ],
+        "includedCables": [],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.43091,
+            "dimensionsCm": {
+                "length": 15.75,
+                "width": 7.35,
+                "height": 2.6
+            }
+        },
+        "features": {
+            "display": true,
+            "wirelessCharging": false,
+            "magnetic": false,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 1.5,
         "lastChecked": "2026-11-22"
     }
 ]
