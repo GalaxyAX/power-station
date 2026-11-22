@@ -1507,7 +1507,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20Nano%20Power%20Bank%20(10K%2C%2045W%2C%20Built-In%20Retractable%20USB-C%20Cable).webp",
         "price": {
             "currency": "USD",
             "current": 45.99,
@@ -1731,6 +1731,211 @@
                 "length": 8.2,
                 "width": 5.1,
                 "height": 3.6
+            }
+        },
+        "features": {
+            "display": true,
+            "wirelessCharging": false,
+            "magnetic": false,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 2,
+        "lastChecked": "2026-11-22"
+    },
+    {
+        "id": "anker-prime-power-bank-9-6k-65w-fusion",
+        "brand": "Anker",
+        "model": "Prime Power Bank (9.6K, 65W, Fusion)",
+        "name": "Anker Prime Power Bank (9.6K, 65W, Fusion)",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a1339-anker-prime-power-bank-9600mah-65w-fusion?variant=43931966210198",
+        "asin": "B0CZ9J3QMY",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 69.98,
+            "original": 89.99
+        },
+        "capacity": {
+            "nominalWh": null,
+            "mAh": 9600,
+            "mAhAtV": null
+        },
+        "power": {
+            "totalMaxW": 65
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "ac",
+                    "label": "Foldable AC Plug",
+                    "connector": "AC plug",
+                    "builtIn": {
+                        "type": "connector",
+                        "lengthM": null,
+                        "retractable": false
+                    },
+                    "count": 1,
+                    "minV": 100,
+                    "maxV": 240,
+                    "maxA": 2,
+                    "maxW": null,
+                    "proprietary": null
+                },
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 2,
+                    "minV": 5,
+                    "maxV": 20,
+                    "maxA": 3,
+                    "maxW": null,
+                    "proprietary": null
+                }
+            ],
+            "totalMaxW": null,
+            "passThrough": true,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 2,
+                "voltageV": [
+                    5,
+                    9,
+                    12,
+                    15,
+                    20
+                ],
+                "maxA": 3.25,
+                "maxW": 65,
+                "protocols": [
+                    "BC1.2",
+                    "Apple 2.4A",
+                    "QC 3.0",
+                    "FCP",
+                    "SCP",
+                    "AFC",
+                    "UFCS",
+                    "PD 3.0",
+                    "PPS"
+                ],
+                "proprietary": null
+            }
+        ],
+        "compatibility": [
+            {
+                "via": "cable",
+                "complete": false,
+                "phones": [
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 15",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 14",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 13",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 12",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone SE",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 11",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone XS",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone XR",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone X",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 8",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S23",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S22",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 6",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 5",
+                        "condition": null
+                    }
+                ],
+                "notCompatible": []
+            }
+        ],
+        "includedCables": [
+            {
+                "from": "USB-C",
+                "to": "USB-C",
+                "lengthM": null,
+                "quantity": 1
+            }
+        ],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.305,
+            "dimensionsCm": {
+                "length": 4.35,
+                "width": 4.2,
+                "height": 11.5
             }
         },
         "features": {
