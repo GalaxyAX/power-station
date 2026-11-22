@@ -994,7 +994,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20MagGo%20Power%20Bank%20(10K%2C%20Slim).webp",
         "price": {
             "currency": "USD",
             "current": 62.99,
@@ -1084,6 +1084,161 @@
         },
         "features": {
             "display": false,
+            "wirelessCharging": true,
+            "magnetic": true,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 2,
+        "lastChecked": "2026-11-22"
+    },
+    {
+        "id": "anker-maggo-power-bank-10k",
+        "brand": "Anker",
+        "model": "MagGo Power Bank (10K)",
+        "name": "Anker MagGo Power Bank (10K)",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a1654-maggo-10000mah-qi2-power-bank-magsafe-compatible?variant=43008117473430",
+        "asin": "B0CFDPQXN4",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 75.99,
+            "original": 89.99
+        },
+        "capacity": {
+            "nominalWh": 38.5,
+            "mAh": 10000,
+            "mAhAtV": 3.85
+        },
+        "power": {
+            "totalMaxW": 18
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 9,
+                    "maxA": 3,
+                    "maxW": null,
+                    "proprietary": null
+                }
+            ],
+            "totalMaxW": null,
+            "passThrough": true,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9
+                ],
+                "maxA": 3,
+                "maxW": 27,
+                "protocols": null,
+                "proprietary": null
+            },
+            {
+                "id": "wireless",
+                "label": "Wireless Charging Pad",
+                "connector": "Wireless",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [],
+                "maxA": null,
+                "maxW": 15,
+                "protocols": [
+                    "Qi2"
+                ],
+                "proprietary": null
+            }
+        ],
+        "compatibility": [
+            {
+                "via": "wireless",
+                "complete": true,
+                "phones": [
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 12",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 13",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 14",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 15",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 16",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 17",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S25",
+                        "condition": "With a magnetic Qi2 or MagSafe-compatible case"
+                    }
+                ],
+                "notCompatible": []
+            }
+        ],
+        "includedCables": [
+            {
+                "from": "USB-C",
+                "to": "USB-C",
+                "lengthM": 0.6,
+                "quantity": 1
+            }
+        ],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.25,
+            "dimensionsCm": {
+                "length": 10.73,
+                "width": 6.88,
+                "height": 1.98
+            }
+        },
+        "features": {
+            "display": true,
             "wirelessCharging": true,
             "magnetic": true,
             "wifi": false,
