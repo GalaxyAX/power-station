@@ -1491,5 +1491,257 @@
         },
         "warrantyYears": 2,
         "lastChecked": "2026-11-22"
+    },
+    {
+        "id": "anker-nano-power-bank-10k-45w-built-in-retractable-usb-c-cable",
+        "brand": "Anker",
+        "model": "Nano Power Bank (10K, 45W, Built-In Retractable USB-C Cable)",
+        "name": "Anker Nano Power Bank (10K, 45W, Built-In Retractable USB-C Cable)",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a1638-10k-45w-power-bank?variant=45218249998486",
+        "asin": "B0DGKWTQQC",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 45.99,
+            "original": 59.99
+        },
+        "capacity": {
+            "nominalWh": 36,
+            "mAh": 10000,
+            "mAhAtV": null
+        },
+        "power": {
+            "totalMaxW": 22.5
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "usb-c-cable",
+                    "label": "Retractable USB-C Cable",
+                    "connector": "USB-C",
+                    "builtIn": {
+                        "type": "cable",
+                        "lengthM": 0.7,
+                        "retractable": true
+                    },
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 15,
+                    "maxA": 3,
+                    "maxW": 30,
+                    "proprietary": null
+                },
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 15,
+                    "maxA": 3,
+                    "maxW": 30,
+                    "proprietary": null
+                }
+            ],
+            "totalMaxW": 30,
+            "passThrough": true,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c-cable",
+                "label": "Retractable USB-C Cable",
+                "connector": "USB-C",
+                "builtIn": {
+                    "type": "cable",
+                    "lengthM": 0.7,
+                    "retractable": true
+                },
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    15,
+                    20
+                ],
+                "maxA": 3,
+                "maxW": 45,
+                "protocols": [
+                    "Samsung Fast Charging 2.0"
+                ],
+                "proprietary": null
+            },
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    15,
+                    20
+                ],
+                "maxA": 3,
+                "maxW": 45,
+                "protocols": [
+                    "Samsung Fast Charging 2.0",
+                    "PPS 2.0"
+                ],
+                "proprietary": null
+            },
+            {
+                "id": "usb-a",
+                "label": "USB-A Port",
+                "connector": "USB-A",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12
+                ],
+                "maxA": 3,
+                "maxW": 22.5,
+                "protocols": null,
+                "proprietary": null
+            }
+        ],
+        "compatibility": [
+            {
+                "via": "cable",
+                "complete": false,
+                "phones": [
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone SE",
+                        "condition": "With a USB-C to Lightning cable (not included)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 12",
+                        "condition": "With a USB-C to Lightning cable (not included)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 13",
+                        "condition": "With a USB-C to Lightning cable (not included)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 14",
+                        "condition": "With a USB-C to Lightning cable (not included)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 15",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 16",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 17",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S24",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S23",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S22",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy Note20",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy Note20 Ultra",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 6",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 7",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 8",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 9",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Huawei",
+                        "series": "Mate",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Huawei",
+                        "series": "P",
+                        "condition": null
+                    }
+                ],
+                "notCompatible": []
+            }
+        ],
+        "includedCables": [],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.23,
+            "dimensionsCm": {
+                "length": 8.2,
+                "width": 5.1,
+                "height": 3.6
+            }
+        },
+        "features": {
+            "display": true,
+            "wirelessCharging": false,
+            "magnetic": false,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 2,
+        "lastChecked": "2026-11-22"
     }
 ]
