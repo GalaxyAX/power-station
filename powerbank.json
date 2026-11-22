@@ -1759,7 +1759,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20Prime%20Power%20Bank%20(9.6K%2C%2065W%2C%20Fusion).webp",
         "price": {
             "currency": "USD",
             "current": 69.98,
@@ -1948,5 +1948,176 @@
         },
         "warrantyYears": 2,
         "lastChecked": "2026-11-22"
+    },
+    {
+        "id": "anker-power-bank-10k-fusion-built-in-cable",
+        "brand": "Anker",
+        "model": "Power Bank (10K, Fusion, Built-In Cable)",
+        "name": "Anker Power Bank (10K, Fusion, Built-In Cable)",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a1637?variant=43609981550742",
+        "asin": "B0CX4992Z8",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 37.99,
+            "original": 52.99
+        },
+        "capacity": {
+            "nominalWh": 36,
+            "mAh": 10000,
+            "mAhAtV": null
+        },
+        "power": {
+            "totalMaxW": null
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "ac",
+                    "label": "Foldable AC Plug",
+                    "connector": "AC plug",
+                    "builtIn": {
+                        "type": "connector",
+                        "lengthM": null,
+                        "retractable": false
+                    },
+                    "count": 1,
+                    "minV": 100,
+                    "maxV": 240,
+                    "maxA": 1.5,
+                    "maxW": null,
+                    "proprietary": null
+                },
+                {
+                    "id": "usb-c-cable",
+                    "label": "Built-In USB-C Cable",
+                    "connector": "USB-C",
+                    "builtIn": {
+                        "type": "cable",
+                        "lengthM": null,
+                        "retractable": false
+                    },
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 15,
+                    "maxA": 3,
+                    "maxW": 30,
+                    "proprietary": null
+                },
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 15,
+                    "maxA": 3,
+                    "maxW": 30,
+                    "proprietary": null
+                }
+            ],
+            "totalMaxW": 30,
+            "passThrough": true,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c-cable",
+                "label": "Built-In USB-C Cable",
+                "connector": "USB-C",
+                "builtIn": {
+                    "type": "cable",
+                    "lengthM": null,
+                    "retractable": false
+                },
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    15,
+                    20
+                ],
+                "maxA": 3,
+                "maxW": 30,
+                "protocols": null,
+                "proprietary": null
+            },
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    15,
+                    20
+                ],
+                "maxA": 3,
+                "maxW": 30,
+                "protocols": null,
+                "proprietary": null
+            }
+        ],
+        "compatibility": [
+            {
+                "via": "cable",
+                "complete": false,
+                "phones": [
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 16",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 15",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy",
+                        "condition": null
+                    }
+                ],
+                "notCompatible": []
+            }
+        ],
+        "includedCables": [],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.25,
+            "dimensionsCm": {
+                "length": 10.8,
+                "width": 5.1,
+                "height": 3.1
+            }
+        },
+        "features": {
+            "display": true,
+            "wirelessCharging": false,
+            "magnetic": false,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 1.5,
+        "lastChecked": "2026-11-23"
     }
 ]
