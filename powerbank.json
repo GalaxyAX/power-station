@@ -128,6 +128,7 @@
                 "proprietary": null
             }
         ],
+        "compatibility": [],
         "includedCables": [
             {
                 "from": "DC093",
@@ -295,6 +296,7 @@
                 "proprietary": null
             }
         ],
+        "compatibility": [],
         "includedCables": [
             {
                 "from": "DC4017",
@@ -475,6 +477,75 @@
                 "maxW": 22.5,
                 "protocols": null,
                 "proprietary": null
+            }
+        ],
+        "compatibility": [
+            {
+                "via": "cable",
+                "complete": false,
+                "phones": [
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone Air",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 17",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 16",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 15",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 14",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 13",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 12",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy Z",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 9",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 8",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Sony",
+                        "series": "Xperia",
+                        "condition": null
+                    }
+                ],
+                "notCompatible": []
             }
         ],
         "includedCables": [
@@ -672,6 +743,65 @@
                 "proprietary": null
             }
         ],
+        "compatibility": [
+            {
+                "via": "cable",
+                "complete": false,
+                "phones": [
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 16",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 15",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 14",
+                        "condition": "With a USB-C to Lightning adapter (not included)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 13",
+                        "condition": "With a USB-C to Lightning adapter (not included)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 12",
+                        "condition": "With a USB-C to Lightning adapter (not included)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone SE",
+                        "condition": "With a USB-C to Lightning adapter (not included)"
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S24",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S23",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 8",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 7",
+                        "condition": null
+                    }
+                ],
+                "notCompatible": []
+            }
+        ],
         "includedCables": [],
         "includedTips": 0,
         "physical": {
@@ -799,6 +929,75 @@
                 "maxW": 22.5,
                 "protocols": null,
                 "proprietary": null
+            }
+        ],
+        "compatibility": [
+            {
+                "via": "cable",
+                "complete": false,
+                "phones": [
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone Air",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 17",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 16",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 15",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 14",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 13",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 12",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy Z",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 9",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 8",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Sony",
+                        "series": "Xperia",
+                        "condition": null
+                    }
+                ],
+                "notCompatible": []
             }
         ],
         "includedCables": [
@@ -958,6 +1157,7 @@
                 "proprietary": null
             }
         ],
+        "compatibility": [],
         "includedCables": [],
         "includedTips": 0,
         "physical": {
