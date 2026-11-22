@@ -43709,7 +43709,7 @@
             "official": "available",
             "amazon": null
         },
-        "image": "https://github.com/GalaxyAX/power-station/blob/main/img/Anker%20SOLIX%20E10%20%2B%20Power%20Dock%20%2B%20Smart%20Generator%205500%20(Tri-Fuel).webp",
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20SOLIX%20E10%20%2B%20Power%20Dock%20%2B%20Smart%20Generator%205500%20(Tri-Fuel).webp",
         "price": {
             "currency": "USD",
             "current": 7798,
