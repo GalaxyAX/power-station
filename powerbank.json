@@ -1964,7 +1964,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20Power%20Bank%20(10K%2C%20Fusion%2C%20Built-In%20Cable).webp",
         "price": {
             "currency": "USD",
             "current": 37.99,
