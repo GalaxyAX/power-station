@@ -3049,7 +3049,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20MagGo%202%20Pro%20Magnetic%20Power%20Bank%20(10K%2C%20Qi2%2025W%2C%20Active%20Cooling).webp",
         "price": {
             "currency": "USD",
             "current": 85.99,
@@ -3185,6 +3185,171 @@
         },
         "features": {
             "display": true,
+            "wirelessCharging": true,
+            "magnetic": true,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 2,
+        "lastChecked": "2026-11-23"
+    },
+    {
+        "id": "anker-nano-power-bank-5k-maggo-slim",
+        "brand": "Anker",
+        "model": "Nano Power Bank (5K, MagGo, Slim)",
+        "name": "Anker Nano Power Bank (5K, MagGo, Slim)",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a1665-5k-ultra-slim-qi2-power-bank?variant=45217864089750",
+        "asin": "B0F8HXYD46",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 42.99,
+            "original": 54.99
+        },
+        "capacity": {
+            "nominalWh": null,
+            "mAh": 5000,
+            "mAhAtV": null
+        },
+        "power": {
+            "totalMaxW": 17
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 9,
+                    "maxA": 3,
+                    "maxW": 20,
+                    "proprietary": null
+                }
+            ],
+            "totalMaxW": 20,
+            "passThrough": true,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9
+                ],
+                "maxA": 3,
+                "maxW": 20,
+                "protocols": null,
+                "proprietary": null
+            },
+            {
+                "id": "wireless",
+                "label": "Wireless Charging Pad",
+                "connector": "Wireless",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [],
+                "maxA": null,
+                "maxW": 15,
+                "protocols": [
+                    "Qi2"
+                ],
+                "proprietary": null
+            }
+        ],
+        "compatibility": [
+            {
+                "via": "wireless",
+                "complete": false,
+                "phones": [
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 12",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 13",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 14",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 15",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 16",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 17",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 10",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S26",
+                        "condition": "With a Qi2-compatible magnetic case"
+                    }
+                ],
+                "notCompatible": [
+                    "iPhone 16e",
+                    "iPhone 12 mini",
+                    "iPhone 13 mini",
+                    "iPhone SE"
+                ]
+            }
+        ],
+        "includedCables": [
+            {
+                "from": "USB-C",
+                "to": "USB-C",
+                "lengthM": 0.6,
+                "quantity": 1
+            }
+        ],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.122,
+            "dimensionsCm": {
+                "length": 10.2,
+                "width": 7.06,
+                "height": 0.86
+            }
+        },
+        "features": {
+            "display": false,
             "wirelessCharging": true,
             "magnetic": true,
             "wifi": false,
