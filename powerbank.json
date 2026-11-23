@@ -3209,7 +3209,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20Nano%20Power%20Bank%20(5K%2C%20MagGo%2C%20Slim).webp",
         "price": {
             "currency": "USD",
             "current": 42.99,
@@ -3346,6 +3346,133 @@
                 "length": 10.2,
                 "width": 7.06,
                 "height": 0.86
+            }
+        },
+        "features": {
+            "display": false,
+            "wirelessCharging": true,
+            "magnetic": true,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 2,
+        "lastChecked": "2026-11-23"
+    },
+    {
+        "id": "anker-621-magnetic-battery-maggo",
+        "brand": "Anker",
+        "model": "621 Magnetic Battery (MagGo)",
+        "name": "Anker 621 Magnetic Battery (MagGo)",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a1610?variant=42116102979734",
+        "asin": "B099284SRR",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 27.99,
+            "original": 42.99
+        },
+        "capacity": {
+            "nominalWh": 19.25,
+            "mAh": 5000,
+            "mAhAtV": 3.85
+        },
+        "power": {
+            "totalMaxW": 12
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 5,
+                    "maxA": 2.4,
+                    "maxW": 12,
+                    "proprietary": null
+                }
+            ],
+            "totalMaxW": 12,
+            "passThrough": true,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5
+                ],
+                "maxA": 2.4,
+                "maxW": 12,
+                "protocols": null,
+                "proprietary": null
+            },
+            {
+                "id": "wireless",
+                "label": "Wireless Charging Pad",
+                "connector": "Wireless",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [],
+                "maxA": null,
+                "maxW": 7.5,
+                "protocols": null,
+                "proprietary": null
+            }
+        ],
+        "compatibility": [
+            {
+                "via": "wireless",
+                "complete": true,
+                "phones": [
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 12",
+                        "condition": "Not recommended for iPhone 12 mini because of its size"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 13",
+                        "condition": "Not recommended for iPhone 13 mini because of its size"
+                    }
+                ],
+                "notCompatible": []
+            }
+        ],
+        "includedCables": [
+            {
+                "from": "USB-C",
+                "to": "USB-C",
+                "lengthM": 0.6,
+                "quantity": 1
+            }
+        ],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.129,
+            "dimensionsCm": {
+                "length": 10.5,
+                "width": 6.65,
+                "height": 1.15
             }
         },
         "features": {
