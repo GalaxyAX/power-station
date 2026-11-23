@@ -2290,7 +2290,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20Zolo%20Magnetic%20Power%20Bank%20(10K%2C%2030W%2C%20Built-in%20USB-C%20Cable).webp",
         "price": {
             "currency": "USD",
             "current": 37.99,
@@ -2494,6 +2494,237 @@
             "app": false
         },
         "warrantyYears": 1.5,
+        "lastChecked": "2026-11-23"
+    },
+    {
+        "id": "anker-maggo-power-bank-10k-35w-for-apple-watch",
+        "brand": "Anker",
+        "model": "MagGo Power Bank (10K, 35W, For Apple Watch)",
+        "name": "Anker MagGo Power Bank (10K, 35W, For Apple Watch)",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a1657-maggo-10000mah-power-bank?variant=44058151485590",
+        "asin": "B0CZDFL2BY",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 69.99,
+            "original": 89.99
+        },
+        "capacity": {
+            "nominalWh": 37,
+            "mAh": 10000,
+            "mAhAtV": null
+        },
+        "power": {
+            "totalMaxW": 35
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "usb-c-cable",
+                    "label": "Built-In USB-C Cable",
+                    "connector": "USB-C",
+                    "builtIn": {
+                        "type": "cable",
+                        "lengthM": null,
+                        "retractable": false
+                    },
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 15,
+                    "maxA": 3,
+                    "maxW": 30,
+                    "proprietary": null
+                },
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 15,
+                    "maxA": 3,
+                    "maxW": 30,
+                    "proprietary": null
+                }
+            ],
+            "totalMaxW": 30,
+            "passThrough": true,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c-cable",
+                "label": "Built-In USB-C Cable",
+                "connector": "USB-C",
+                "builtIn": {
+                    "type": "cable",
+                    "lengthM": null,
+                    "retractable": false
+                },
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    12,
+                    15,
+                    20
+                ],
+                "maxA": 3,
+                "maxW": 30,
+                "protocols": [
+                    "Samsung Super Fast Charging"
+                ],
+                "proprietary": null
+            },
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    12,
+                    15,
+                    20
+                ],
+                "maxA": 3,
+                "maxW": 30,
+                "protocols": [
+                    "Samsung Super Fast Charging"
+                ],
+                "proprietary": null
+            },
+            {
+                "id": "apple-watch",
+                "label": "Apple Watch Wireless Charger",
+                "connector": "Apple Watch charger",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [],
+                "maxA": null,
+                "maxW": 5,
+                "protocols": null,
+                "proprietary": null
+            }
+        ],
+        "compatibility": [
+            {
+                "via": "cable",
+                "complete": false,
+                "phones": [
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 13",
+                        "condition": "With a separate USB-C to Lightning cable"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 14",
+                        "condition": "With a separate USB-C to Lightning cable"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 15",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S23",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S22",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S21",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy Note20",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy Note10",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy Z Flip",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy Z Fold",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 7",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 6",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 5",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Huawei",
+                        "series": "Mate",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Huawei",
+                        "series": "P",
+                        "condition": null
+                    }
+                ],
+                "notCompatible": []
+            }
+        ],
+        "includedCables": [],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.245,
+            "dimensionsCm": {
+                "length": 9.5,
+                "width": 5.1,
+                "height": 3.24
+            }
+        },
+        "features": {
+            "display": true,
+            "wirelessCharging": false,
+            "magnetic": false,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 2,
         "lastChecked": "2026-11-23"
     }
 ]
