@@ -3374,7 +3374,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20621%20Magnetic%20Battery%20(MagGo).webp",
         "price": {
             "currency": "USD",
             "current": 27.99,
@@ -3484,6 +3484,211 @@
             "app": false
         },
         "warrantyYears": 2,
+        "lastChecked": "2026-11-23"
+    },
+    {
+        "id": "anker-prime-power-bank-20k-220w-black-myth-wukong-edition",
+        "brand": "Anker",
+        "model": "Prime Power Bank (20K, 220W) Black Myth: Wukong Edition",
+        "name": "Anker Prime Power Bank (20K, 220W) Black Myth: Wukong Edition",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a110g-anker-prime-20k-220w-power-bank-black-myth-wukong-edition?variant=45736858321046",
+        "asin": "B0F936ZL31",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 129.99,
+            "original": 199.99
+        },
+        "capacity": {
+            "nominalWh": 72.36,
+            "mAh": 20100,
+            "mAhAtV": null
+        },
+        "power": {
+            "totalMaxW": 220
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 2,
+                    "minV": 5,
+                    "maxV": 20,
+                    "maxA": 5,
+                    "maxW": 100,
+                    "proprietary": null
+                },
+                {
+                    "id": "pogo-pin",
+                    "label": "Pogo Pin Connector",
+                    "connector": "Pogo pin",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": null,
+                    "maxV": null,
+                    "maxA": null,
+                    "maxW": null,
+                    "proprietary": {
+                        "with": "Anker Prime Charging Base",
+                        "maxV": 25.2,
+                        "maxA": 5,
+                        "maxW": 100
+                    }
+                }
+            ],
+            "totalMaxW": 100,
+            "passThrough": true,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 2,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12,
+                    15,
+                    20,
+                    28
+                ],
+                "maxA": 5,
+                "maxW": 140,
+                "protocols": null,
+                "proprietary": null
+            },
+            {
+                "id": "usb-a",
+                "label": "USB-A Port",
+                "connector": "USB-A",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12
+                ],
+                "maxA": 3,
+                "maxW": 22.5,
+                "protocols": null,
+                "proprietary": null
+            }
+        ],
+        "compatibility": [
+            {
+                "via": "cable",
+                "complete": false,
+                "phones": [
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone Air",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 17",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 16",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 15",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 14",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 13",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 12",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy Z",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 9",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 8",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Sony",
+                        "series": "Xperia",
+                        "condition": null
+                    }
+                ],
+                "notCompatible": []
+            }
+        ],
+        "includedCables": [
+            {
+                "from": "USB-C",
+                "to": "USB-C",
+                "lengthM": null,
+                "quantity": 1
+            }
+        ],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.51,
+            "dimensionsCm": {
+                "length": 4.4,
+                "width": 5,
+                "height": 14.7
+            }
+        },
+        "features": {
+            "display": true,
+            "wirelessCharging": false,
+            "magnetic": false,
+            "wifi": false,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": null,
         "lastChecked": "2026-11-23"
     }
 ]
