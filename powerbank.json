@@ -2119,5 +2119,160 @@
         },
         "warrantyYears": 1.5,
         "lastChecked": "2026-11-23"
+    },
+    {
+        "id": "anker-633-magnetic-battery",
+        "brand": "Anker",
+        "model": "633 Magnetic Battery",
+        "name": "Anker 633 Magnetic Battery",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a1641?variant=41830384828566",
+        "asin": "B09NRG4GK3",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 39.99,
+            "original": 59.99
+        },
+        "capacity": {
+            "nominalWh": null,
+            "mAh": 10000,
+            "mAhAtV": null
+        },
+        "power": {
+            "totalMaxW": null
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 9,
+                    "maxA": 3,
+                    "maxW": 20,
+                    "proprietary": null
+                }
+            ],
+            "totalMaxW": 20,
+            "passThrough": true,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9
+                ],
+                "maxA": 3,
+                "maxW": 20,
+                "protocols": [
+                    "PD"
+                ],
+                "proprietary": null
+            },
+            {
+                "id": "usb-a",
+                "label": "USB-A Port",
+                "connector": "USB-A",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9
+                ],
+                "maxA": 3,
+                "maxW": 18,
+                "protocols": null,
+                "proprietary": null
+            },
+            {
+                "id": "wireless",
+                "label": "Wireless Charging Pad",
+                "connector": "Wireless",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [],
+                "maxA": null,
+                "maxW": 7.5,
+                "protocols": null,
+                "proprietary": null
+            }
+        ],
+        "compatibility": [
+            {
+                "via": "wireless",
+                "complete": true,
+                "phones": [
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 12",
+                        "condition": "Not recommended for iPhone 12 mini because of its size"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 13",
+                        "condition": "Not recommended for iPhone 13 mini because of its size"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 14",
+                        "condition": null
+                    }
+                ],
+                "notCompatible": [
+                    "iPhone 11",
+                    "Samsung",
+                    "Sony",
+                    "OnePlus"
+                ]
+            }
+        ],
+        "includedCables": [
+            {
+                "from": "USB-C",
+                "to": "USB-C",
+                "lengthM": 0.6,
+                "quantity": 1
+            }
+        ],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.218,
+            "dimensionsCm": {
+                "length": 10.7,
+                "width": 6.65,
+                "height": 1.815
+            }
+        },
+        "features": {
+            "display": false,
+            "wirelessCharging": true,
+            "magnetic": true,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 2,
+        "lastChecked": "2026-11-23"
     }
 ]
