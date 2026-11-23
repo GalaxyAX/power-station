@@ -2869,7 +2869,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20Zolo%20Power%20Bank%20(10K%2C%2030W)%20with%20a%205.4-inch%20(13.7%20cm)%20built-in%20USB-C%20cable.webp",
         "price": {
             "currency": "USD",
             "current": 24.69,
@@ -3032,6 +3032,166 @@
             "app": false
         },
         "warrantyYears": 1.5,
+        "lastChecked": "2026-11-23"
+    },
+    {
+        "id": "anker-maggo-2-pro-magnetic-power-bank-10k-qi2-25w-active-cooling",
+        "brand": "Anker",
+        "model": "MagGo 2 Pro Magnetic Power Bank (10K, Qi2 25W, Active Cooling)",
+        "name": "Anker MagGo 2 Pro Magnetic Power Bank (10K, Qi2 25W, Active Cooling)",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a110r-qi2-maggo-2-pro-magnetic-power-bank?variant=46550444277910",
+        "asin": "B0GVYMQ3GT",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 85.99,
+            "original": 109.99
+        },
+        "capacity": {
+            "nominalWh": 39.2,
+            "mAh": 10000,
+            "mAhAtV": null
+        },
+        "power": {
+            "totalMaxW": 15
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 15,
+                    "maxA": 3,
+                    "maxW": 45,
+                    "proprietary": null
+                }
+            ],
+            "totalMaxW": 45,
+            "passThrough": true,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    15,
+                    20
+                ],
+                "maxA": 3,
+                "maxW": 45,
+                "protocols": null,
+                "proprietary": null
+            },
+            {
+                "id": "wireless",
+                "label": "Wireless Charging Pad",
+                "connector": "Wireless",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [],
+                "maxA": null,
+                "maxW": 25,
+                "protocols": [
+                    "Qi2.2"
+                ],
+                "proprietary": null
+            }
+        ],
+        "compatibility": [
+            {
+                "via": "wireless",
+                "complete": true,
+                "phones": [
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 12",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 13",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 14",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 15",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 16",
+                        "condition": "Except iPhone 16e"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 17",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 18",
+                        "condition": null
+                    }
+                ],
+                "notCompatible": [
+                    "Android"
+                ]
+            }
+        ],
+        "includedCables": [
+            {
+                "from": "USB-C",
+                "to": "USB-C",
+                "lengthM": 0.3,
+                "quantity": 1
+            }
+        ],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.22,
+            "dimensionsCm": {
+                "length": 10.5,
+                "width": 7.1,
+                "height": 1.8
+            }
+        },
+        "features": {
+            "display": true,
+            "wirelessCharging": true,
+            "magnetic": true,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 2,
         "lastChecked": "2026-11-23"
     }
 ]
