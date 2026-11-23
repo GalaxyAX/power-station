@@ -2511,7 +2511,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20MagGo%20Power%20Bank%20(10K%2C%2035W%2C%20For%20Apple%20Watch).webp",
         "price": {
             "currency": "USD",
             "current": 69.99,
@@ -2725,6 +2725,133 @@
             "app": false
         },
         "warrantyYears": 2,
+        "lastChecked": "2026-11-23"
+    },
+    {
+        "id": "anker-313-power-bank-powercore-10k",
+        "brand": "Anker",
+        "model": "313 Power Bank (PowerCore 10K)",
+        "name": "Anker 313 Power Bank (PowerCore 10K)",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a1229?variant=37438231806102",
+        "asin": "B0D5CLSMFB",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 19.84,
+            "original": 25.99
+        },
+        "capacity": {
+            "nominalWh": 37,
+            "mAh": 10000,
+            "mAhAtV": null
+        },
+        "power": {
+            "totalMaxW": 12
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "micro-usb",
+                    "label": "Micro-USB Port",
+                    "connector": "Micro-USB",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 5,
+                    "maxA": 2,
+                    "maxW": null,
+                    "proprietary": null
+                },
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port (Input Only)",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 5,
+                    "maxA": 2,
+                    "maxW": null,
+                    "proprietary": null
+                }
+            ],
+            "totalMaxW": null,
+            "passThrough": null,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-a",
+                "label": "USB-A Port",
+                "connector": "USB-A",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5
+                ],
+                "maxA": 2.4,
+                "maxW": 12,
+                "protocols": null,
+                "proprietary": null
+            }
+        ],
+        "compatibility": [
+            {
+                "via": "cable",
+                "complete": false,
+                "phones": [
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone XS",
+                        "condition": "With a Lightning cable (not included)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone XR",
+                        "condition": "With a Lightning cable (not included)"
+                    }
+                ],
+                "notCompatible": []
+            }
+        ],
+        "includedCables": [
+            {
+                "from": null,
+                "to": "Micro-USB",
+                "lengthM": null,
+                "quantity": 1
+            }
+        ],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.2065,
+            "dimensionsCm": {
+                "length": 14.95,
+                "width": 6.85,
+                "height": 1.45
+            }
+        },
+        "features": {
+            "display": false,
+            "wirelessCharging": false,
+            "magnetic": false,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 1.5,
         "lastChecked": "2026-11-23"
     }
 ]
