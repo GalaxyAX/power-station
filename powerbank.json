@@ -2742,7 +2742,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20313%20Power%20Bank%20(PowerCore%2010K).webp",
         "price": {
             "currency": "USD",
             "current": 19.84,
@@ -2845,6 +2845,186 @@
         },
         "features": {
             "display": false,
+            "wirelessCharging": false,
+            "magnetic": false,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 1.5,
+        "lastChecked": "2026-11-23"
+    },
+    {
+        "id": "anker-zolo-power-bank-10k-30w-built-in-usb-c-cable",
+        "brand": "Anker",
+        "model": "Zolo Power Bank (10K, 30W) with a 5.4-inch (13.7 cm) built-in USB-C cable",
+        "name": "Anker Zolo Power Bank (10K, 30W) with a 5.4-inch (13.7 cm) built-in USB-C cable",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a1688?variant=46336176423062",
+        "asin": "B0CZ9M6X8Q",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 24.69,
+            "original": 29.99
+        },
+        "capacity": {
+            "nominalWh": null,
+            "mAh": 10000,
+            "mAhAtV": null
+        },
+        "power": {
+            "totalMaxW": 15
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "usb-c-cable",
+                    "label": "Built-In USB-C Cable",
+                    "connector": "USB-C",
+                    "builtIn": {
+                        "type": "cable",
+                        "lengthM": 0.137,
+                        "retractable": false
+                    },
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 12,
+                    "maxA": 3,
+                    "maxW": 20,
+                    "proprietary": null
+                },
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 12,
+                    "maxA": 3,
+                    "maxW": 20,
+                    "proprietary": null
+                }
+            ],
+            "totalMaxW": 20,
+            "passThrough": true,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c-cable",
+                "label": "Built-In USB-C Cable",
+                "connector": "USB-C",
+                "builtIn": {
+                    "type": "cable",
+                    "lengthM": 0.137,
+                    "retractable": false
+                },
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12,
+                    15,
+                    20
+                ],
+                "maxA": 3,
+                "maxW": 30,
+                "protocols": [
+                    "SCP",
+                    "PPS"
+                ],
+                "proprietary": null
+            },
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12,
+                    15,
+                    20
+                ],
+                "maxA": 3,
+                "maxW": 30,
+                "protocols": [
+                    "SCP",
+                    "PPS"
+                ],
+                "proprietary": null
+            },
+            {
+                "id": "usb-a",
+                "label": "USB-A Port",
+                "connector": "USB-A",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12
+                ],
+                "maxA": 3,
+                "maxW": 22.5,
+                "protocols": null,
+                "proprietary": null
+            }
+        ],
+        "compatibility": [
+            {
+                "via": "cable",
+                "complete": false,
+                "phones": [
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 16",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 15",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy",
+                        "condition": null
+                    }
+                ],
+                "notCompatible": []
+            }
+        ],
+        "includedCables": [],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.212,
+            "dimensionsCm": {
+                "length": 10.9,
+                "width": 6.5,
+                "height": 2.5
+            }
+        },
+        "features": {
+            "display": true,
             "wirelessCharging": false,
             "magnetic": false,
             "wifi": false,
