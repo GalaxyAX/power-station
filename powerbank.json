@@ -3706,7 +3706,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20622%20Magnetic%20Battery%20(MagGo).webp",
         "price": {
             "currency": "USD",
             "current": 29.99,
@@ -3818,6 +3818,266 @@
             "display": false,
             "wirelessCharging": true,
             "magnetic": true,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 2,
+        "lastChecked": "2026-11-23"
+    },
+    {
+        "id": "anker-nano-power-bank-30w-built-in-usb-c-cable",
+        "brand": "Anker",
+        "model": "Nano Power Bank (30W, Built-In USB-C Cable)",
+        "name": "Anker Nano Power Bank (30W, Built-In USB-C Cable)",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a1259-built-in-cable-power-bank-10000mah?variant=42733233766550",
+        "asin": "B0C9CJKCH3",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 37.99,
+            "original": 49.99
+        },
+        "capacity": {
+            "nominalWh": null,
+            "mAh": 10000,
+            "mAhAtV": null
+        },
+        "power": {
+            "totalMaxW": 24
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "usb-c-cable",
+                    "label": "Built-In USB-C Cable",
+                    "connector": "USB-C",
+                    "builtIn": {
+                        "type": "cable",
+                        "lengthM": null,
+                        "retractable": false
+                    },
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 20,
+                    "maxA": 3,
+                    "maxW": 30,
+                    "proprietary": null
+                },
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 20,
+                    "maxA": 3,
+                    "maxW": 30,
+                    "proprietary": null
+                }
+            ],
+            "totalMaxW": 30,
+            "passThrough": false,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c-cable",
+                "label": "Built-In USB-C Cable",
+                "connector": "USB-C",
+                "builtIn": {
+                    "type": "cable",
+                    "lengthM": null,
+                    "retractable": false
+                },
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12,
+                    15,
+                    20
+                ],
+                "maxA": 3,
+                "maxW": 30,
+                "protocols": [
+                    "PD",
+                    "QC",
+                    "PPS",
+                    "SCP",
+                    "BC 1.2",
+                    "Apple"
+                ],
+                "proprietary": null
+            },
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12,
+                    15,
+                    20
+                ],
+                "maxA": 3,
+                "maxW": 30,
+                "protocols": [
+                    "PD",
+                    "QC",
+                    "PPS",
+                    "SCP",
+                    "BC 1.2",
+                    "Apple"
+                ],
+                "proprietary": null
+            },
+            {
+                "id": "usb-a",
+                "label": "USB-A Port",
+                "connector": "USB-A",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10,
+                    12
+                ],
+                "maxA": 3,
+                "maxW": 22.5,
+                "protocols": [
+                    "QC",
+                    "SCP",
+                    "BC 1.2",
+                    "FCP",
+                    "AFC",
+                    "Apple"
+                ],
+                "proprietary": null
+            }
+        ],
+        "compatibility": [
+            {
+                "via": "cable",
+                "complete": false,
+                "phones": [
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 15",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 14",
+                        "condition": "With a Lightning cable (sold separately)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 13",
+                        "condition": "With a Lightning cable (sold separately)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 12",
+                        "condition": "With a Lightning cable (sold separately)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 11",
+                        "condition": "With a Lightning cable (sold separately)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone SE",
+                        "condition": "With a Lightning cable (sold separately)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone XS",
+                        "condition": "With a Lightning cable (sold separately)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone XR",
+                        "condition": "With a Lightning cable (sold separately)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone X",
+                        "condition": "With a Lightning cable (sold separately)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 8",
+                        "condition": "With a Lightning cable (sold separately)"
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S23",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S22",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S21",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 7",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 6",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Google",
+                        "series": "Pixel 5",
+                        "condition": null
+                    }
+                ],
+                "notCompatible": []
+            }
+        ],
+        "includedCables": [],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.215,
+            "dimensionsCm": {
+                "length": 10.4,
+                "width": 5.23,
+                "height": 2.6
+            }
+        },
+        "features": {
+            "display": true,
+            "wirelessCharging": false,
+            "magnetic": false,
             "wifi": false,
             "bluetooth": false,
             "app": false
