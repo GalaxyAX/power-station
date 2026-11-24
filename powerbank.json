@@ -3840,7 +3840,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20Nano%20Power%20Bank%20(30W%2C%20Built-In%20USB-C%20Cable).webp",
         "price": {
             "currency": "USD",
             "current": 37.99,
@@ -4084,5 +4084,193 @@
         },
         "warrantyYears": 2,
         "lastChecked": "2026-11-23"
+    },
+    {
+        "id": "anker-nano-power-bank-22-5w-built-in-usb-c-connector",
+        "brand": "Anker",
+        "model": "Nano Power Bank (22.5W, Built-In USB-C Connector)",
+        "name": "Anker Nano Power Bank (22.5W, Built-In USB-C Connector)",
+        "category": "power-bank",
+        "kind": "power-bank",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.anker.com/products/a1653-usb-c-portable-charger-5000mah?variant=42733234258070",
+        "asin": "B0C6XK6DDL",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 21.99,
+            "original": 29.99
+        },
+        "capacity": {
+            "nominalWh": null,
+            "mAh": 5000,
+            "mAhAtV": null
+        },
+        "power": {
+            "totalMaxW": 18
+        },
+        "battery": {
+            "chemistry": null,
+            "cycleLife": []
+        },
+        "charging": {
+            "inputs": [
+                {
+                    "id": "usb-c-connector",
+                    "label": "Foldable USB-C Connector",
+                    "connector": "USB-C",
+                    "builtIn": {
+                        "type": "connector",
+                        "lengthM": null,
+                        "retractable": false
+                    },
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 9,
+                    "maxA": 3,
+                    "maxW": 18,
+                    "proprietary": null
+                },
+                {
+                    "id": "usb-c",
+                    "label": "USB-C Port",
+                    "connector": "USB-C",
+                    "builtIn": null,
+                    "count": 1,
+                    "minV": 5,
+                    "maxV": 9,
+                    "maxA": 3,
+                    "maxW": 18,
+                    "proprietary": null
+                }
+            ],
+            "totalMaxW": 18,
+            "passThrough": true,
+            "adapterIncluded": false
+        },
+        "outputs": [
+            {
+                "id": "usb-c-connector",
+                "label": "Foldable USB-C Connector",
+                "connector": "USB-C",
+                "builtIn": {
+                    "type": "connector",
+                    "lengthM": null,
+                    "retractable": false
+                },
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10
+                ],
+                "maxA": 3,
+                "maxW": 22.5,
+                "protocols": null,
+                "proprietary": null
+            },
+            {
+                "id": "usb-c",
+                "label": "USB-C Port",
+                "connector": "USB-C",
+                "builtIn": null,
+                "count": 1,
+                "voltageV": [
+                    5,
+                    9,
+                    10
+                ],
+                "maxA": 3,
+                "maxW": 22.5,
+                "protocols": null,
+                "proprietary": null
+            }
+        ],
+        "compatibility": [
+            {
+                "via": "cable",
+                "complete": false,
+                "phones": [
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S22",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy S23",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy Note20",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Samsung",
+                        "series": "Galaxy Note20 Ultra",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Huawei",
+                        "series": "Mate",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Huawei",
+                        "series": "P",
+                        "condition": null
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 12",
+                        "condition": "With a USB-C to Lightning cable (sold separately)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 13",
+                        "condition": "With a USB-C to Lightning cable (sold separately)"
+                    },
+                    {
+                        "brand": "Apple",
+                        "series": "iPhone 14",
+                        "condition": "With a USB-C to Lightning cable (sold separately)"
+                    }
+                ],
+                "notCompatible": []
+            }
+        ],
+        "includedCables": [
+            {
+                "from": "USB-C",
+                "to": "USB-C",
+                "lengthM": 0.6,
+                "quantity": 1
+            }
+        ],
+        "includedTips": 0,
+        "physical": {
+            "weightKg": 0.1,
+            "dimensionsCm": {
+                "length": 7.7,
+                "width": 3.7,
+                "height": 2.5
+            }
+        },
+        "features": {
+            "display": false,
+            "wirelessCharging": false,
+            "magnetic": false,
+            "wifi": false,
+            "bluetooth": false,
+            "app": false
+        },
+        "warrantyYears": 2,
+        "lastChecked": "2026-11-24"
     }
 ]
