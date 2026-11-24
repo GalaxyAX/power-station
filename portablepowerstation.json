@@ -43857,7 +43857,7 @@
             "official": "available",
             "amazon": null
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20SOLIX%20S5000.webp",
         "price": {
             "currency": "USD",
             "current": 2499.99,
