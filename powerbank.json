@@ -4100,7 +4100,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Anker%20Nano%20Power%20Bank%20(22.5W%2C%20Built-In%20USB-C%20Connector).webp",
         "price": {
             "currency": "USD",
             "current": 21.99,

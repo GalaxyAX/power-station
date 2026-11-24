@@ -43841,5 +43841,177 @@
         },
         "warrantyYears": 5,
         "lastChecked": "2026-11-21"
+    },
+    {
+        "id": "anker-solix-s5000",
+        "brand": "Anker",
+        "model": "SOLIX S5000",
+        "name": "Anker SOLIX S5000",
+        "category": "portable-power-station",
+        "kind": "station",
+        "bundle": null,
+        "region": "US",
+        "url": "https://www.ankersolix.com/products/s5000-portable-power-station?s_main=AS5101A1&varId=67782784450950",
+        "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
+        "image": null,
+        "price": {
+            "currency": "USD",
+            "current": 2499.99,
+            "original": 3599.99
+        },
+        "capacity": {
+            "nominalWh": 5024,
+            "expandable": true,
+            "extraBattery": {
+                "model": "BP5000 Expansion Battery",
+                "capacityWh": 5024,
+                "maxCount": 5
+            },
+            "maxWh": 30144
+        },
+        "power": {
+            "continuousW": 4500,
+            "surgeW": 8000,
+            "xBoostW": 6000
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": [
+                {
+                    "cycles": 10000,
+                    "retentionPct": 60
+                }
+            ]
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input Port",
+                        "connector": null,
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    },
+                    {
+                        "id": "ac-240",
+                        "label": "AC Input Port",
+                        "connector": null,
+                        "plug": null,
+                        "voltageV": 240,
+                        "maxA": 18.75,
+                        "maxW": 4500,
+                        "chargeMaxW": 4300,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": [
+                        "Connect the generator's AC output to the AC Input Port with the 120V AC Charging Cable (NEMA 5-15P), provided, or the 240V AC Charging Cable (L14-30P), sold separately.",
+                        "When charging from a 240V generator while using 120V AC output, use a generator rated above 4,500W to maintain full output power."
+                    ]
+                }
+            },
+            "solar": {
+                "maxW": 3000,
+                "inputs": [
+                    {
+                        "id": "pv-high",
+                        "label": "High-PV Input Port",
+                        "count": 1,
+                        "connector": "Proprietary",
+                        "minV": 16,
+                        "maxV": 165,
+                        "startV": null,
+                        "maxA": 17,
+                        "maxW": 2000,
+                        "overCurrent": "unknown"
+                    },
+                    {
+                        "id": "pv-low",
+                        "label": "Low-PV / Alternator Charger Input Port",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 17,
+                        "maxW": 1000,
+                        "overCurrent": "unknown"
+                    }
+                ],
+                "includedCables": [
+                    {
+                        "from": "MC4",
+                        "to": "Proprietary",
+                        "lengthM": null,
+                        "quantity": 1
+                    }
+                ]
+            },
+            "car": {
+                "supportedV": [],
+                "maxA": null
+            },
+            "maxCombinedW": 4300
+        },
+        "physical": {
+            "weightKg": 44,
+            "dimensionsCm": {
+                "length": 55.9,
+                "width": 26.9,
+                "height": 38.6
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 6,
+                "voltageV": 120,
+                "totalMaxW": 4500
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 12
+            },
+            "usbC": [
+                {
+                    "count": 1,
+                    "maxWPerPort": 100
+                },
+                {
+                    "count": 1,
+                    "maxWPerPort": 15
+                }
+            ],
+            "car": {
+                "count": 0,
+                "voltageV": null,
+                "maxWPerPort": null
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-24"
     }
 ]
