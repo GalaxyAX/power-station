@@ -15337,8 +15337,11 @@
         },
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3800-gen4?variant=67641628000329",
-        "asin": "B0HLVX4X18",
-        "aggregateRating": 4.5,
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203800%20Gen4%20%2B%204%20x%20160W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -15488,7 +15491,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-b300k?variant=688978f6d941837ed3457d6e",
-        "asin": "B0FJ1SV6JR",
+        "officialAffiliateUrl": "https://tidd.ly/4jbkq8h",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B300K.webp",
         "price": {
             "currency": "USD",
@@ -15666,7 +15674,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/2-apex-300-2-b300k-hub-a1?variant=6889c1e7d941837ed3457dd1",
+        "officialAffiliateUrl": "https://tidd.ly/4jeGkpQ",
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%202×Apex%20300%20%2B%202×B300K%20%2B%20Hub%20A1.webp",
         "price": {
             "currency": "USD",
@@ -15839,7 +15852,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-350w?variant=6889ccea9198d73afbea19ee",
-        "asin": "B0FJFHV4JF",
+        "officialAffiliateUrl": "https://tidd.ly/48E00Pa",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20350W.webp",
         "price": {
             "currency": "USD",
@@ -16012,7 +16030,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/charger-2-apex-300-dc-hub?variant=48103718486235",
+        "officialAffiliateUrl": "https://tidd.ly/4kwbwTK",
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20Charger%202%20%2B%20DC%20Hub.webp",
         "price": {
             "currency": "USD",
@@ -16192,7 +16215,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/b500k2-2-apex-300?variant=47914968219867",
+        "officialAffiliateUrl": "https://tidd.ly/4j2trjN",
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%202×B500K.webp",
         "price": {
             "currency": "USD",
@@ -16366,7 +16394,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/b500k2-2-apex-300-solarx-4k?variant=47914968350939",
+        "officialAffiliateUrl": "https://tidd.ly/4zFCbkY",
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%202×B500K%20%2B%20SolarX%204K.webp",
         "price": {
             "currency": "USD",
@@ -16546,7 +16579,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?id=6889cf919198d73afbea19fd&variant=47354130235611",
+        "officialAffiliateUrl": "https://tidd.ly/3WZbzhb",
         "asin": "B0FJ1XLM9H",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%2B2*200W.webp",
         "price": {
             "currency": "USD",
@@ -16730,7 +16768,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?id=6889e7339198d73afbea1a33&variant=47354313834715",
+        "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B300K%20%2B%20Charger%201%20%2B%20Hub%20D1%20%2B%202%20×%20350W.webp",
         "price": {
             "currency": "USD",
@@ -16914,7 +16957,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-400-500w?variant=49004795953371",
-        "asin": "B0HDS1SV6Y",
+        "officialAffiliateUrl": "https://tidd.ly/4eUlXwN",
+        "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20400%20%2B%20500W.webp",
         "price": {
             "currency": "USD",
@@ -17055,7 +17103,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/ac180p?variant=44696567316699",
+        "officialAffiliateUrl": "https://tidd.ly/3X5Idh8",
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20AC180P%2B200W%20Solar%20%7C%201800W%2C1440Wh%2C200W%20Solar%20Kit.webp",
         "price": {
             "currency": "USD",
@@ -17192,7 +17245,12 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=47351562174683",
+        "officialAffiliateUrl": "https://tidd.ly/49bW8oC",
         "asin": "B0F42JY551",
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300.webp",
         "price": {
             "currency": "USD",
@@ -17366,7 +17424,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=49004059197659",
+        "officialAffiliateUrl": "https://tidd.ly/4eZNKfo",
         "asin": "B0GK6V31XC",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20500W.webp",
         "price": {
             "currency": "USD",
@@ -17546,7 +17609,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=50538335961307",
+        "officialAffiliateUrl": "https://tidd.ly/49fSOJ6",
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B500K%20%2B%20500W.webp",
         "price": {
             "currency": "USD",
@@ -17714,7 +17782,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=47914967859419",
-        "asin": "B0FYNX9S89",
+        "officialAffiliateUrl": "https://tidd.ly/48LyEXh",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B500K.webp",
         "price": {
             "currency": "USD",
@@ -17882,7 +17955,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=47353679315163",
+        "officialAffiliateUrl": "https://tidd.ly/4fRI0o9",
         "asin": "B0F42XMPVR",
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%202×B300K.webp",
         "price": {
             "currency": "USD",
@@ -18056,7 +18134,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=47498682859739",
+        "officialAffiliateUrl": "https://tidd.ly/3WQz5gn",
         "asin": "B0F42GVJ5T",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%202×B300K%20%2B%202×200W.webp",
         "price": {
             "currency": "USD",
@@ -18230,7 +18313,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=50527191204059",
+        "officialAffiliateUrl": "https://tidd.ly/48BwgCv",
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%202×B300K%20%2B%202×500W.webp",
         "price": {
             "currency": "USD",
@@ -18408,7 +18496,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=48954102350043",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fapex-300-home-battery-backup%3Fvariant%3D48954102350043",
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%202×Apex%20300%20%2B%204×B300K%20%2B%20Hub%20A1.webp",
         "price": {
             "currency": "USD",
@@ -18585,7 +18678,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-home-battery-backup?variant=47914968416475",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fapex-300-home-battery-backup%3Fvariant%3D47914968416475",
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%202×Apex%20300%20%2B%202×B500K%20%2B%20Hub%20A1.webp",
         "price": {
             "currency": "USD",
@@ -18751,7 +18849,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-rv-power-solution?variant=47354308952283",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fapex-300-rv-power-solution%3Fvariant%3D47354308952283",
         "asin": "B0FJ1XXXGD",
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20Hub%20D1.webp",
         "price": {
             "currency": "USD",
@@ -18940,7 +19043,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/charger-2-apex-300-b300k2-dc-hub?variant=48103718748379",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fcharger-2-apex-300-b300k2-dc-hub%3Fvariant%3D48103718748379",
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B300K%20%2B%20Charger%202%20%2B%20DC%20Hub.webp",
         "price": {
             "currency": "USD",
@@ -19126,7 +19234,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-b300k-solarx-4k?variant=68b7f35e9198d73afbea23e9",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fapex-300-b300k-solarx-4k%3Fvariant%3D68b7f35e9198d73afbea23e9",
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B300K%20%2B%20SolarX%204K.webp",
         "price": {
             "currency": "USD",
@@ -19306,7 +19419,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/charger-2-apex-300?variant=48103718453467",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fcharger-2-apex-300%3Fvariant%3D48103718453467",
         "asin": "B0G4QFGQ5S",
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20Charger%202.webp",
         "price": {
             "currency": "USD",
@@ -19492,7 +19610,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-b500k-solarx-4k?variant=48058769178843",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fapex-300-b500k-solarx-4k%3Fvariant%3D48058769178843",
         "asin": "B0GWKJ2M1G",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B500K%20%2B%20SolarX%204K.webp",
         "price": {
             "currency": "USD",
@@ -19677,7 +19800,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-b300k-2-charger-1?variant=47498644160731",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fapex-300-b300k-2-charger-1%3Fvariant%3D47498644160731",
         "asin": "B0FJ1ZK9K3",
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B300K%20%2B%20Charger%201.webp",
         "price": {
             "currency": "USD",
@@ -19851,7 +19979,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-300-2-b300k-solarx-4k?variant=68b7f2999198d73afbea23e7",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fapex-300-2-b300k-solarx-4k%3Fvariant%3D68b7f2999198d73afbea23e7",
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%202×B300K%20%2B%20SolarX%204K.webp",
         "price": {
             "currency": "USD",
@@ -20036,7 +20169,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/b500k2-apex-300-home-integration-kit?variant=47914968252635",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fb500k2-apex-300-home-integration-kit%3Fvariant%3D47914968252635",
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B500K%20%2B%20Home%20Backup%20Kit.webp",
         "price": {
             "currency": "USD",
@@ -20193,8 +20331,13 @@
         "kind": "station",
         "bundle": null,
         "region": "US",
-        "url": "https://tidd.ly/4jaxcST",
-        "asin": null,
+        "url": "https://www.bluettipower.com/products/elite-300-portable-power-station?variant=48309260058843",
+        "officialAffiliateUrl": "https://tidd.ly/4jaxcST",
+        "asin": "B0GKRTX336",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20300.webp",
         "price": {
             "currency": "USD",
@@ -20340,7 +20483,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-300-portable-power-station?variant=49004091605211",
-        "asin": "B0GYXQ2KMG",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-300-portable-power-station%3Fvariant%3D49004091605211",
+        "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20300%20%2B%20500W.webp",
         "price": {
             "currency": "USD",
@@ -20486,7 +20634,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-300-portable-power-station?variant=48309261664475",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-300-portable-power-station%3Fvariant%3D48309261664475",
         "asin": "B0GWZPJNDR",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://github.com/GalaxyAX/power-station/blob/main/img/BLUETTI%20Elite%20300%20%2B%20350W.webp",
         "price": {
             "currency": "USD",
@@ -20626,7 +20779,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-300-portable-power-station?variant=48309261861083",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-300-portable-power-station%3Fvariant%3D48309261861083",
         "asin": "B0GKSKGKLX",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20300%20%2B%20Charger%202.webp",
         "price": {
             "currency": "USD",
@@ -20765,7 +20923,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-300-portable-power-station?variant=48309261828315",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-300-portable-power-station%3Fvariant%3D48309261828315",
         "asin": "B0GKRTJQGQ",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20300%20%2B%20Charger%201.webp",
         "price": {
             "currency": "USD",
@@ -20905,12 +21068,17 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-300-portable-power-station?variant=48309261697243",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-300-portable-power-station%3Fvariant%3D48309261697243",
         "asin": "B0GKRPD6GL",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": null,
         "price": {
             "currency": "USD",
-            "current": 1699,
-            "original": null
+            "current": 1499.99,
+            "original": 1699
         },
         "capacity": {
             "nominalWh": 3014.4,
@@ -21023,7 +21191,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-03"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-400",
