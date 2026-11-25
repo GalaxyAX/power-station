@@ -21074,7 +21074,7 @@
             "official": "available",
             "amazon": "available"
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20300%20%2B%202×200W.webp",
         "price": {
             "currency": "USD",
             "current": 1499.99,
@@ -21203,11 +21203,16 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-400-portable-power-station?variant=47915195498715",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-400-portable-power-station%3Fvariant%3D47915195498715",
         "asin": "B0G8Y8DCC1",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20400.webp",
         "price": {
             "currency": "USD",
-            "current": 1399,
+            "current": 1499,
             "original": null
         },
         "capacity": {
@@ -21316,7 +21321,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-03"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-400-350w",
@@ -21344,12 +21349,17 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-400-portable-power-station?variant=47915195760859",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-400-portable-power-station%3Fvariant%3D47915195760859",
         "asin": "B0G8XZ25BY",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20400%20%2B%20350W.webp",
         "price": {
             "currency": "USD",
-            "current": 1699,
-            "original": 1849
+            "current": 1849,
+            "original": null
         },
         "capacity": {
             "nominalWh": 3840,
@@ -21457,7 +21467,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-03"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-400-charger-2",
@@ -21479,12 +21489,17 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-400-portable-power-station?variant=48104621736155",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-400-portable-power-station%3Fvariant%3D48104621736155",
         "asin": "B0G8XH8HRF",
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20400%20%2B%20Charger%202.webp",
         "price": {
             "currency": "USD",
-            "current": 1799,
-            "original": null
+            "current": 1599,
+            "original": 1799
         },
         "capacity": {
             "nominalWh": 3840,
@@ -21592,7 +21607,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-04"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-400-2x-200w",
@@ -21614,7 +21629,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-400-portable-power-station?variant=47915195859163",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-400-portable-power-station%3Fvariant%3D47915195859163",
         "asin": "B0G8XP6GLQ",
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20400%20%2B%202×200W.webp",
         "price": {
             "currency": "USD",
@@ -21748,7 +21768,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-400-portable-power-station?variant=47915196776667",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-400-portable-power-station%3Fvariant%3D47915196776667",
         "asin": "B0G8XDJSNG",
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20400%20%2B%20Charger%201.webp",
         "price": {
             "currency": "USD",
@@ -21873,7 +21898,12 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-200-v2-portable-power-station?variant=672b33c5cb578dfba5143ca1",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-200-v2-portable-power-station%3Fvariant%3D672b33c5cb578dfba5143ca1",
         "asin": "B0DCJV9LTB",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20200%20V2.webp",
         "price": {
             "currency": "USD",
@@ -22019,7 +22049,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-200-v2-portable-power-station?variant=48163031548123",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-200-v2-portable-power-station%3Fvariant%3D48163031548123",
         "asin": "B0DMT2MHWG",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20200%20V2%20%2B%20350W.webp",
         "price": {
             "currency": "USD",
@@ -22159,7 +22194,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-200-v2-portable-power-station?variant=46252055363803",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-200-v2-portable-power-station%3Fvariant%3D46252055363803",
         "asin": "B0FSJM6NZC",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20200%20V2%20%2B%202×200W.webp",
         "price": {
             "currency": "USD",
@@ -22305,7 +22345,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-200-v2-portable-power-station?variant=46645791162587",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-200-v2-portable-power-station%3Fvariant%3D46645791162587",
         "asin": "B0DL5HVR29",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20200%20V2%20%2B%20200W.webp",
         "price": {
             "currency": "USD",
@@ -22444,12 +22489,17 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-200-v2-portable-power-station?variant=46252054347995",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-200-v2-portable-power-station%3Fvariant%3D46252054347995",
         "asin": "B0DP659FYP",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20200%20V2%20%2B%20Charger%201.webp",
         "price": {
             "currency": "USD",
-            "current": 1099,
-            "original": null
+            "current": 929.99,
+            "original": 1099
         },
         "capacity": {
             "nominalWh": 2073.6,
@@ -22569,7 +22619,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-06"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-200-v2-charger-2",
@@ -22591,7 +22641,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-200-v2-portable-power-station?variant=48105312321755",
-        "asin": "B0GCZRKJ6B",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-200-v2-portable-power-station%3Fvariant%3D48105312321755",
+        "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20200%20V2%20%2B%20Charger%202.webp",
         "price": {
             "currency": "USD",
@@ -22721,12 +22776,17 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-100-mini-portable-power-station?variant=49212162277595",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-100-mini-portable-power-station%3Fvariant%3D49212162277595",
         "asin": "B0HD6GN86Q",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20100%20mini.webp",
         "price": {
             "currency": "USD",
-            "current": 429,
-            "original": null
+            "current": 379,
+            "original": 429
         },
         "capacity": {
             "nominalWh": 1004.8,
@@ -22844,7 +22904,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-07"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-100-mini-200w",
@@ -22872,12 +22932,17 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-100-mini-portable-power-station?variant=49212173091035",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-100-mini-portable-power-station%3Fvariant%3D49212173091035",
         "asin": "B0HCZKMMQY",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20100%20mini%20%2B%20200W.webp",
         "price": {
             "currency": "USD",
-            "current": 649,
-            "original": null
+            "current": 609.99,
+            "original": 649
         },
         "capacity": {
             "nominalWh": 1004.8,
@@ -22995,7 +23060,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-07"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-100-mini-100w",
@@ -23023,11 +23088,16 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-100-mini-portable-power-station?variant=49212165259483",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-100-mini-portable-power-station%3Fvariant%3D49212165259483",
         "asin": "B0HCZ9Z8J7",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20100%20mini%20%2B%20100W.webp",
         "price": {
             "currency": "USD",
-            "current": 559,
+            "current": 529.99,
             "original": 599
         },
         "capacity": {
@@ -23153,7 +23223,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-07"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-100-mini-350w",
@@ -23181,7 +23251,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-100-mini-portable-power-station?variant=49212170731739",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-100-mini-portable-power-station%3Fvariant%3D49212170731739",
         "asin": "B0HCZ6BTLD",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20100%20mini%20%2B%20350W.webp",
         "price": {
             "currency": "USD",
@@ -23304,7 +23379,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-07"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-100-mini-charger-1",
@@ -23325,12 +23400,17 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-100-mini-portable-power-station?variant=49212172009691",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-100-mini-portable-power-station%3Fvariant%3D49212172009691",
         "asin": "B0HCZKFX8W",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20100%20mini%20%2B%20Charger%201.webp",
         "price": {
             "currency": "USD",
-            "current": 629,
-            "original": null
+            "current": 599.99,
+            "original": 629
         },
         "capacity": {
             "nominalWh": 1004.8,
@@ -23455,7 +23535,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-07"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-100-v2",
@@ -23467,11 +23547,16 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-100-v2-portable-power-station?variant=685b73e8258285bb41303d8c",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-100-v2-portable-power-station%3Fvariant%3D685b73e8258285bb41303d8c",
         "asin": "B0F42CSQWG",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20100%20V2.webp",
         "price": {
             "currency": "USD",
-            "current": 499,
+            "current": 549,
             "original": null
         },
         "capacity": {
@@ -23590,7 +23675,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-08"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-100-v2-bio-based",
@@ -23602,7 +23687,12 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-100-v2-portable-power-station?variant=48108775407835",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-100-v2-portable-power-station%3Fvariant%3D48108775407835",
         "asin": "B0GCCBYD21",
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20100%20V2%20Bio-based.webp",
         "price": {
             "currency": "USD",
@@ -23725,7 +23815,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-08"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-100-v2-200w",
@@ -23753,12 +23843,17 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-100-v2-portable-power-station?variant=47048301347035",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-100-v2-portable-power-station%3Fvariant%3D47048301347035",
         "asin": "B0FD3V9LF9",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20100%20V2%20%2B%20200W.webp",
         "price": {
             "currency": "USD",
             "current": 699,
-            "original": null
+            "original": 729
         },
         "capacity": {
             "nominalWh": 1024,
@@ -23876,7 +23971,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-08"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-100-v2-350w",
@@ -23904,7 +23999,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-100-v2-portable-power-station?variant=47048303444187",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-100-v2-portable-power-station%3Fvariant%3D47048303444187",
         "asin": "B0FHWFXYM5",
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20100%20V2%20%2B%20350W.webp",
         "price": {
             "currency": "USD",
@@ -24027,7 +24127,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-08"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-100-v2-100w",
@@ -24055,7 +24155,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-100-v2-portable-power-station?variant=47048300232923",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-100-v2-portable-power-station%3Fvariant%3D47048300232923",
         "asin": "B0F4253JB6",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20100%20V2%20%2B%20100W.webp",
         "price": {
             "currency": "USD",
@@ -24185,7 +24290,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-08"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-100-v2-charger-2",
@@ -24207,11 +24312,16 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-100-v2-portable-power-station?variant=48105312157915",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-100-v2-portable-power-station%3Fvariant%3D48105312157915",
         "asin": "B0G8VZB47Z",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20100%20V2%20%2B%20Charger%202.webp",
         "price": {
             "currency": "USD",
-            "current": 898,
+            "current": 759.99,
             "original": 899
         },
         "capacity": {
@@ -24330,7 +24440,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-08"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-ac180",
@@ -24342,11 +24452,16 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/ac180?variant=44099774480603",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fac180%3Fvariant%3D44099774480603",
         "asin": "B0C1SMJTDT",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20AC180.webp",
         "price": {
             "currency": "USD",
-            "current": 499,
+            "current": 549,
             "original": null
         },
         "capacity": {
@@ -24467,7 +24582,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-ac180-charger-2",
@@ -24489,7 +24604,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/ac180?variant=48115658752219",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fac180%3Fvariant%3D48115658752219",
         "asin": "B0G8VP3CY8",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20AC180%20%2B%20Charger%202.webp",
         "price": {
             "currency": "USD",
@@ -24607,7 +24727,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-ac180-sp100l",
@@ -24635,7 +24755,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/ac180?variant=44868697620699",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fac180%3Fvariant%3D44868697620699",
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20AC180%20%2B%20SP100L.webp",
         "price": {
             "currency": "USD",
@@ -24760,7 +24885,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-ac180-350w",
@@ -24788,7 +24913,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/ac180?variant=44143025029339",
-        "asin": "B0C2T8PLLB",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fac180%3Fvariant%3D44143025029339",
+        "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20AC180%20%2B%20350W.webp",
         "price": {
             "currency": "USD",
@@ -24913,7 +25043,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-ac180-200w",
@@ -24941,7 +25071,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/ac180?variant=45427542491355",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fac180%3Fvariant%3D45427542491355",
         "asin": "B0C2ZCPTNB",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20AC180%20%2B%20200W.webp",
         "price": {
             "currency": "USD",
@@ -25066,7 +25201,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-ac180-2x-200w",
@@ -25088,7 +25223,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/ac180?variant=45791800885467",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fac180%3Fvariant%3D45791800885467",
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": null,
         "price": {
             "currency": "USD",
