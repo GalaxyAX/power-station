@@ -34056,9 +34056,10 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-explorer-5000-plus?variant=44636686352471",
+        "officialAffiliateUrl": null,
         "asin": null,
         "availability": {
-            "official": "available",
+            "official": "unavailable",
             "amazon": null
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Home%20Backup%20Kit%205000%20Plus%20(20kWh)%20%2B%20Automatic%20Transfer%20Switch.webp",
@@ -34227,7 +34228,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-explorer-5000-plus-battery-pack-5000-plus-sts",
@@ -34254,9 +34255,10 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-explorer-5000-plus?variant=41389407567959",
+        "officialAffiliateUrl": null,
         "asin": null,
         "availability": {
-            "official": "unavailable",
+            "official": "available",
             "amazon": null
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%205000%20Plus%20(10kWh)%20%2B%20Smart%20Transfer%20Switch.webp",
@@ -34401,7 +34403,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-home-backup-kit-5000-plus-20kwh",
@@ -34433,9 +34435,10 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-explorer-5000-plus?variant=41647199387735",
+        "officialAffiliateUrl": null,
         "asin": null,
         "availability": {
-            "official": "unavailable",
+            "official": "available",
             "amazon": null
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Home%20Backup%20Kit%205000%20Plus%20(20kWh).webp",
@@ -34604,7 +34607,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-explorer-5000-plus-sts",
@@ -34625,6 +34628,7 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-explorer-5000-plus?variant=41961083961431",
+        "officialAffiliateUrl": null,
         "asin": "B0DKDYXLNP",
         "availability": {
             "official": "unavailable",
@@ -34772,7 +34776,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-explorer-5000-plus-2x-solarsaga-500x",
@@ -34805,6 +34809,7 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-explorer-5000-plus?variant=41341600038999",
+        "officialAffiliateUrl": null,
         "asin": "B0FBX7K2LT",
         "availability": {
             "official": "unavailable",
@@ -34952,7 +34957,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-explorer-5000-plus-2x-solarsaga-500x-sts",
@@ -34990,6 +34995,7 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-explorer-5000-plus?variant=41326127022167",
+        "officialAffiliateUrl": null,
         "asin": null,
         "availability": {
             "official": "unavailable",
@@ -35137,7 +35143,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-homepower-3600-plus-battery-pack-solarsaga-500x",
@@ -35165,9 +35171,10 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-homepower-3600-plus?variant=41939879395415",
+        "officialAffiliateUrl": null,
         "asin": null,
         "availability": {
-            "official": "available",
+            "official": "unavailable",
             "amazon": null
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20(7.2kWh)%20%2B%20SolarSaga%20500%20X.webp",
@@ -35288,7 +35295,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-homepower-3600-plus-battery-pack-3600",
@@ -35310,9 +35317,10 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-homepower-3600-plus?variant=42158471970903",
+        "officialAffiliateUrl": null,
         "asin": null,
         "availability": {
-            "official": "available",
+            "official": "unavailable",
             "amazon": null
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus.webp",
@@ -35433,7 +35441,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-homepower-3600-plus-2x-solarsaga-200w",
@@ -35455,9 +35463,10 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-homepower-3600-plus?variant=42066659672151",
+        "officialAffiliateUrl": null,
         "asin": "B0FMXCPWBN",
         "availability": {
-            "official": "unavailable",
+            "official": "available",
             "amazon": "available"
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20%2B%20SolarSaga%20200W%20x%202.webp",
@@ -35578,7 +35587,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-homepower-3600-plus-solarsaga-500x",
