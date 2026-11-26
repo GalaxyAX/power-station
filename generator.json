@@ -10,6 +10,10 @@
         "url": "https://us.ecoflow.com/products/smart-generator-4000-dual-fuel?variant=41434656637001",
         "officialAffiliateUrl": null,
         "asin": "B0D14F5KLQ",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20Smart%20Generator%204000%20(Dual%20Fuel).webp",
         "manualUrl": null,
         "price": {
@@ -143,7 +147,7 @@
             }
         ],
         "warrantyYears": 3,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "ecoflow-smart-generator-3000-dual-fuel",
@@ -156,6 +160,10 @@
         "url": "https://us.ecoflow.com/products/smart-generator-3000-dual-fuel?variant=41631793250377",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20Smart%20Generator%203000%20(Dual%20Fuel).webp",
         "manualUrl": "https://manuals.ecoflow.com/us/product/dual-fuel-smart-generator-3000?lang=en_US",
         "price": {
@@ -272,7 +280,7 @@
         },
         "includedCables": [],
         "warrantyYears": 2,
-        "lastChecked": "2026-10-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "westinghouse-igen5000dfc-efi",
@@ -284,13 +292,17 @@
         "region": "US",
         "url": "https://westinghouse.com/collections/dual-fuel-inverters/products/igen5000dfc-efi-inverter-generator-dual-fuel-with-co-sensor",
         "officialAffiliateUrl": null,
-        "asin": null,
+        "asin": "B099KSY4XG",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Westinghouse%20iGen5000DFc%20EFI%20Dual%20Fuel%20Inverter%20Generator.webp",
         "manualUrl": null,
         "price": {
             "currency": "USD",
-            "current": 1399,
-            "original": null
+            "current": 999,
+            "original": 1299
         },
         "output": {
             "voltageV": [
@@ -378,7 +390,7 @@
         },
         "includedCables": [],
         "warrantyYears": 3,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "champion-201511",
@@ -388,14 +400,18 @@
         "category": "generator",
         "type": "inverter",
         "region": "US",
-        "url": "https://www.championpowerequipment.com/product/201511-4000w-electric-start-dual-fuel-inverter/",
+        "url": "https://www.championpowerequipment.com/product/201050-4000w-dual-fuel-inverter/",
         "officialAffiliateUrl": null,
-        "asin": null,
+        "asin": "B0D6SQR1L1",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Champion%204000-Watt%20Electric%20Start%20Dual%20Fuel%20Inverter%20Generator.webp",
         "manualUrl": null,
         "price": {
             "currency": "USD",
-            "current": null,
+            "current": 740,
             "original": null
         },
         "output": {
@@ -483,7 +499,7 @@
         },
         "includedCables": [],
         "warrantyYears": 3,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "generac-iq5200-dual-fuel",
@@ -496,12 +512,16 @@
         "url": "https://www.generac.com/residential-products/portable-generators/5200-dual-fuel-portable-generator-8945/",
         "officialAffiliateUrl": null,
         "asin": "B0DT7PQLPQ",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Generac%20iQ5200%20Dual%20Fuel%20Portable%20Inverter%20Generator.webp",
         "manualUrl": null,
         "price": {
             "currency": "USD",
-            "current": 1039,
-            "original": null
+            "current": 999,
+            "original": 1069
         },
         "output": {
             "voltageV": [
@@ -583,7 +603,7 @@
         },
         "includedCables": [],
         "warrantyYears": 3,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "anker-solix-smart-generator-5500-tri-fuel",
@@ -715,6 +735,6 @@
             }
         ],
         "warrantyYears": 3,
-        "lastChecked": "2026-11-21"
+        "lastChecked": "2026-11-27"
     }
 ]
