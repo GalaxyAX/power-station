@@ -35609,6 +35609,7 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-homepower-3600-plus?variant=41939875168343",
+        "officialAffiliateUrl": null,
         "asin": null,
         "availability": {
             "official": "unavailable",
@@ -35732,7 +35733,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-homepower-3600-plus",
@@ -35744,6 +35745,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-homepower-3600-plus?variant=41939875102807",
+        "officialAffiliateUrl": null,
         "asin": "B0FM8653F1",
         "availability": {
             "official": "unavailable",
@@ -35867,7 +35869,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-homepower-3600-plus-double-kit",
@@ -35893,6 +35895,7 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-homepower-3600-plus?variant=41939885293655",
+        "officialAffiliateUrl": null,
         "asin": "B0FM8653F1",
         "availability": {
             "official": "unavailable",
@@ -36028,7 +36031,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-homepower-3600-pro-max",
@@ -36040,6 +36043,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-homepower-3600-pro-max?variant=43933854597207",
+        "officialAffiliateUrl": null,
         "asin": "B0H33PBCHP",
         "availability": {
             "official": "unavailable",
@@ -36175,7 +36179,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-homepower-3600-pro-max-battery-pack-3600",
@@ -36197,6 +36201,7 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-homepower-3600-pro-max?variant=43933854629975",
+        "officialAffiliateUrl": null,
         "asin": "B0H33QKWZ5",
         "availability": {
             "official": "unavailable",
@@ -36332,7 +36337,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-19"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-homepower-3600-pro-max-solarsaga-500x",
@@ -36354,6 +36359,7 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-homepower-3600-pro-max?variant=43938938585175",
+        "officialAffiliateUrl": null,
         "asin": "B0H33PBCHN",
         "availability": {
             "official": "unavailable",
@@ -36489,7 +36495,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-19"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-homepower-3600-pro-max-solarsaga-500x-mts-40a-cable",
@@ -36521,6 +36527,7 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-homepower-3600-pro-max?variant=43936421445719",
+        "officialAffiliateUrl": null,
         "asin": null,
         "availability": {
             "official": "unavailable",
@@ -36656,7 +36663,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-19"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-homepower-3600-pro-max-battery-pack-3600-solarsaga-500x-mts-40a-cable",
@@ -36694,6 +36701,7 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-homepower-3600-pro-max?variant=43936421478487",
+        "officialAffiliateUrl": null,
         "asin": "B0H33TXTT4",
         "availability": {
             "official": "unavailable",
@@ -36829,7 +36837,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-19"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-homepower-3600-pro-max-7.2kwh-mts-40a-cable-parallel-communication-cable",
@@ -36865,6 +36873,7 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-homepower-3600-pro-max?variant=44001027063895",
+        "officialAffiliateUrl": null,
         "asin": null,
         "availability": {
             "official": "unavailable",
@@ -37012,7 +37021,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-19"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-homepower-2000-plus-v2-battery-pack-2000-plus-v2",
@@ -37034,9 +37043,10 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-homepower-2000-plus-v2?variant=44024658886743",
+        "officialAffiliateUrl": null,
         "asin": null,
         "availability": {
-            "official": "available",
+            "official": "unavailable",
             "amazon": null
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%202000%20Plus%20v2%20%2B%20Battery%20Pack%202000%20Plus%20v2.webp",
@@ -37163,7 +37173,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-19"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-homepower-2000-plus-v2-red-cross-edition",
