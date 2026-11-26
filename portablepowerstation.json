@@ -25229,7 +25229,7 @@
             "official": "available",
             "amazon": null
         },
-        "image": null,
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20AC180%20%2B%202×200W.webp",
         "price": {
             "currency": "USD",
             "current": 1232,
@@ -25353,7 +25353,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-30-v2",
@@ -25365,11 +25365,16 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-30-v2-portable-power-station?variant=687e05cd63e18b529ef25f6a",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-30-v2-portable-power-station%3Fvariant%3D687e05cd63e18b529ef25f6a",
         "asin": "B0F42HLLSC",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%2030%20V2.webp",
         "price": {
             "currency": "USD",
-            "current": 289.99,
+            "current": 299.99,
             "original": null
         },
         "capacity": {
@@ -25488,7 +25493,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-30-v2-60w",
@@ -25516,7 +25521,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-30-v2-portable-power-station?variant=47636267729115",
-        "asin": "B0FKJLP6P3",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-30-v2-portable-power-station%3Fvariant%3D47636267729115",
+        "asin": "B0H8BWB8JP",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%2030%20V2%20%2B%2060W.webp",
         "price": {
             "currency": "USD",
@@ -25639,7 +25649,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-30-v2-100w",
@@ -25667,7 +25677,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-30-v2-portable-power-station?variant=47282470027483",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-30-v2-portable-power-station%3Fvariant%3D47282470027483",
         "asin": "B0FJDXXG85",
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%2030%20V2%20%2B%20100W.webp",
         "price": {
             "currency": "USD",
@@ -25797,7 +25812,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-10",
@@ -25809,11 +25824,16 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-10-mini-portable-power-station?variant=47915127439579",
-        "asin": "B0FS6CBVZG",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-10-mini-portable-power-station%3Fvariant%3D47915127439579",
+        "asin": "B0FS6429MD",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%2010.webp",
         "price": {
             "currency": "USD",
-            "current": 119,
+            "current": 129.99,
             "original": null
         },
         "capacity": {
@@ -25931,7 +25951,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-10-60w",
@@ -25959,7 +25979,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-10-mini-portable-power-station?variant=47917122617563",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-10-mini-portable-power-station%3Fvariant%3D47917122617563",
         "asin": "B0FS6LST8G",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%2010%20%2B%2060W.webp",
         "price": {
             "currency": "USD",
@@ -26081,7 +26106,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-10-100w",
@@ -26109,7 +26134,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-10-mini-portable-power-station?variant=47917131006171",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-10-mini-portable-power-station%3Fvariant%3D47917131006171",
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%2010%20%2B%20100W.webp",
         "price": {
             "currency": "USD",
@@ -26238,7 +26268,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-30-mini",
@@ -26250,11 +26280,16 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-30-mini-portable-power-station?variant=50885594087643",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-30-mini-portable-power-station%3Fvariant%3D50885594087643",
         "asin": "B0HMJ527CS",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%2030%20mini.webp",
         "price": {
             "currency": "USD",
-            "current": 239.99,
+            "current": 199,
             "original": 249.99
         },
         "capacity": {
@@ -26368,7 +26403,7 @@
             "app": true
         },
         "warrantyYears": null,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-30-mini-60w",
@@ -26396,11 +26431,16 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-30-mini-portable-power-station?variant=50948240900315",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-30-mini-portable-power-station%3Fvariant%3D50948240900315",
         "asin": "B0HMJ3SH62",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%2030%20mini%20%2B%2060W.webp",
         "price": {
             "currency": "USD",
-            "current": 339.99,
+            "current": 319.99,
             "original": 349.99
         },
         "capacity": {
@@ -26514,7 +26554,7 @@
             "app": true
         },
         "warrantyYears": null,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-elite-30-mini-100w",
@@ -26542,11 +26582,16 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-30-mini-portable-power-station?variant=50948257186011",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-30-mini-portable-power-station%3Fvariant%3D50948257186011",
         "asin": "B0HMKR7119",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%2030%20mini%20%2B%20100W.webp",
         "price": {
             "currency": "USD",
-            "current": 409.99,
+            "current": 389.99,
             "original": 429.99
         },
         "capacity": {
@@ -26667,7 +26712,7 @@
             "app": true
         },
         "warrantyYears": null,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-apex-200",
@@ -26679,11 +26724,16 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-200-expandable-power-station?variant=50933675655387",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fapex-200-expandable-power-station%3Fvariant%3D50933675655387",
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20200.webp",
         "price": {
             "currency": "USD",
-            "current": 1099,
+            "current": 1149,
             "original": 1399
         },
         "capacity": {
@@ -26830,7 +26880,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-apex-200-b300k",
@@ -26852,7 +26902,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-200-expandable-power-station?variant=50988785172699",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fapex-200-expandable-power-station%3Fvariant%3D50988785172699",
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20200%20%2B%20B300K.webp",
         "price": {
             "currency": "USD",
@@ -27003,7 +27058,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-apex-200-b500k",
@@ -27025,7 +27080,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-200-expandable-power-station?variant=51033777897691",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fapex-200-expandable-power-station%3Fvariant%3D51033777897691",
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20200%20%2B%20B500K.webp",
         "price": {
             "currency": "USD",
@@ -27176,7 +27236,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-apex-200-2x-b300k",
@@ -27198,7 +27258,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-200-expandable-power-station?variant=50988790874331",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fapex-200-expandable-power-station%3Fvariant%3D50988790874331",
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20200%20%2B%202×B300K.webp",
         "price": {
             "currency": "USD",
@@ -27349,7 +27414,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-apex-200-500w",
@@ -27377,7 +27442,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-200-expandable-power-station?variant=50988811092187",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fapex-200-expandable-power-station%3Fvariant%3D50988811092187",
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20200%20%2B%20500W.webp",
         "price": {
             "currency": "USD",
@@ -27528,7 +27598,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-apex-200-200w",
@@ -27556,7 +27626,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/apex-200-expandable-power-station?variant=51037246816475",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fapex-200-expandable-power-station%3Fvariant%3D51037246816475",
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20200%20%2B%20200W.webp",
         "price": {
             "currency": "USD",
@@ -27707,7 +27782,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-pioneer-na",
@@ -27719,7 +27794,12 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/sodium-ion-battery-pioneer-na?variant=68e9bc853ea82d50d0cca56c",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fsodium-ion-battery-pioneer-na%3Fvariant%3D68e9bc853ea82d50d0cca56c",
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Pioneer%20Na.webp",
         "price": {
             "currency": "USD",
@@ -27839,7 +27919,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-10"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-pioneer-na-200w",
@@ -27867,7 +27947,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/sodium-ion-battery-pioneer-na?variant=47699995295963",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fsodium-ion-battery-pioneer-na%3Fvariant%3D47699995295963",
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Pioneer%20Na%20%2B%20200W.webp",
         "price": {
             "currency": "USD",
@@ -27987,7 +28072,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-11"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-pioneer-na-charger-1",
@@ -28008,7 +28093,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/sodium-ion-battery-pioneer-na?variant=47699996279003",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fsodium-ion-battery-pioneer-na%3Fvariant%3D47699996279003",
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Pioneer%20Na%20%2B%20Charger%201.webp",
         "price": {
             "currency": "USD",
@@ -28128,7 +28218,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-11"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-pioneer-na-350w",
@@ -28156,7 +28246,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/sodium-ion-battery-pioneer-na?variant=47699995492571",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fsodium-ion-battery-pioneer-na%3Fvariant%3D47699995492571",
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Pioneer%20Na%20%2B%20350W.webp",
         "price": {
             "currency": "USD",
@@ -28276,7 +28371,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-11"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-pioneer-na-100w",
@@ -28304,8 +28399,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/sodium-ion-battery-pioneer-na?variant=47699993657563",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fsodium-ion-battery-pioneer-na%3Fvariant%3D47699993657563",
         "asin": null,
-        "aggregateRating": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Pioneer%20Na%20%2B%20100W.webp",
         "price": {
             "currency": "USD",
@@ -28425,7 +28524,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-11"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-premium-200-v2",
@@ -28437,7 +28536,12 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/bluetti-premium-200-v2-portable-power-station?variant=46705396678875",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fbluetti-premium-200-v2-portable-power-station%3Fvariant%3D46705396678875",
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "aggregateRating": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Premium%20200%20V2.webp",
         "price": {
@@ -28551,7 +28655,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-11"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-premium-200-v2-200w",
@@ -28579,8 +28683,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/bluetti-premium-200-v2-portable-power-station?variant=46705396744411",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fbluetti-premium-200-v2-portable-power-station%3Fvariant%3D46705396744411",
         "asin": null,
-        "aggregateRating": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Premium%20200%20V2%20%2B%20200W.webp",
         "price": {
             "currency": "USD",
@@ -28693,7 +28801,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-11"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-premium-200-v2-350w",
@@ -28721,8 +28829,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/bluetti-premium-200-v2-portable-power-station?variant=46705396711643",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fbluetti-premium-200-v2-portable-power-station%3Fvariant%3D46705396711643",
         "asin": null,
-        "aggregateRating": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Premium%20200%20V2%20%2B%20350W.webp",
         "price": {
             "currency": "USD",
@@ -28835,7 +28947,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-11"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-premium-100-v2",
@@ -28847,8 +28959,12 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/bluetti-premium-100-v2-portable-power-station?variant=49161674293467",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fbluetti-premium-100-v2-portable-power-station%3Fvariant%3D49161674293467",
         "asin": null,
-        "aggregateRating": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Premium%20100%20V2.webp",
         "price": {
             "currency": "USD",
@@ -28978,7 +29094,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-5kwh-rv-kit",
@@ -29019,8 +29135,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/rv5-b4810?variant=47637171503323",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Frv5-b4810%3Fvariant%3D47637171503323",
         "asin": null,
-        "aggregateRating": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%205kWh%20RV%20Kit.webp",
         "price": {
             "currency": "USD",
@@ -29150,7 +29270,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-10kwh-rv-kit",
@@ -29202,8 +29322,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/rv5-b4810?variant=47637191393499",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Frv5-b4810%3Fvariant%3D47637191393499",
         "asin": null,
-        "aggregateRating": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%2010kWh%20RV%20Kit.webp",
         "price": {
             "currency": "USD",
@@ -29333,7 +29457,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-rv5-b4810",
@@ -29365,8 +29489,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/rv5-b4810?variant=47637165342939",
-        "asin": null,
-        "aggregateRating": null,
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Frv5-b4810%3Fvariant%3D47637165342939",
+        "asin": "B0G13DFFL5",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20RV5%20%2B%20B4810.webp",
         "price": {
             "currency": "USD",
@@ -29496,7 +29624,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-5kwh-rv-kit-2x-100w",
@@ -29560,8 +29688,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/rv5-b4810?variant=47637297955035",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Frv5-b4810%3Fvariant%3D47637297955035",
         "asin": null,
-        "aggregateRating": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%205kWh%20RV%20Kit%20%2B%202%20×%20100W.webp",
         "price": {
             "currency": "USD",
@@ -29691,7 +29823,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-5kwh-rv-kit-4x-100w",
@@ -29755,8 +29887,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/rv5-b4810?variant=47637303886043",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Frv5-b4810%3Fvariant%3D47637303886043",
         "asin": null,
-        "aggregateRating": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%205kWh%20RV%20Kit%20%2B%204%20×%20100W.webp",
         "price": {
             "currency": "USD",
@@ -29886,7 +30022,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-handsfree-1",
@@ -29907,8 +30043,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/handsfree1-portable-backpack-power?variant=46443690754267",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fhandsfree1-portable-backpack-power%3Fvariant%3D46443690754267",
         "asin": "B0DCJX2RMQ",
-        "aggregateRating": 4.7,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Handsfree%201.webp",
         "price": {
             "currency": "USD",
@@ -30033,7 +30173,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-handsfree-1-60w",
@@ -30066,8 +30206,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/handsfree1-portable-backpack-power?variant=46443690787035",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fhandsfree1-portable-backpack-power%3Fvariant%3D46443690787035",
         "asin": "B0DK1J11LT",
-        "aggregateRating": 4.6,
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Handsfree%201%20%2B%2060W.webp",
         "price": {
             "currency": "USD",
@@ -30192,7 +30336,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-handsfree-1-sp100l",
@@ -30225,8 +30369,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/handsfree1-portable-backpack-power?variant=46443690819803",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fhandsfree1-portable-backpack-power%3Fvariant%3D46443690819803",
         "asin": "B0DK1GNGWZ",
-        "aggregateRating": 4.7,
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Handsfree%201%20%2B%20SP100L.webp",
         "price": {
             "currency": "USD",
@@ -30351,7 +30499,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-handsfree-1-power-station",
@@ -30363,7 +30511,12 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/handsfree1-portable-backpack-power?variant=47621716672731",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fhandsfree1-portable-backpack-power%3Fvariant%3D47621716672731",
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "aggregateRating": null,
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Handsfree%201%20Power%20Station.webp",
         "price": {
@@ -30482,7 +30635,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-handsfree-1-power-station-60w",
@@ -30510,8 +30663,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/handsfree1-portable-backpack-power?variant=47856860004571",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fhandsfree1-portable-backpack-power%3Fvariant%3D47856860004571",
         "asin": null,
-        "aggregateRating": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Handsfree%201%20Power%20Station%20%2B%2060W.webp",
         "price": {
             "currency": "USD",
@@ -30629,7 +30786,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-handsfree-1-power-station-100w",
@@ -30657,8 +30814,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/handsfree1-portable-backpack-power?variant=47856861216987",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fhandsfree1-portable-backpack-power%3Fvariant%3D47856861216987",
         "asin": null,
-        "aggregateRating": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Handsfree%201%20Power%20Station%20%2B%20100W.webp",
         "price": {
             "currency": "USD",
@@ -30776,7 +30937,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-handsfree-2",
@@ -30797,8 +30958,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/bluetti-handsfree-2-backpack-powerstation?variant=46474914070747",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fbluetti-handsfree-2-backpack-powerstation%3Fvariant%3D46474914070747",
         "asin": "B0DLPG4ZDG",
-        "aggregateRating": 4.7,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Handsfree%202.webp",
         "price": {
             "currency": "USD",
@@ -30923,7 +31088,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-handsfree-2-sp100l",
@@ -30956,8 +31121,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/bluetti-handsfree-2-backpack-powerstation?variant=46474914103515",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fbluetti-handsfree-2-backpack-powerstation%3Fvariant%3D46474914103515",
         "asin": "B0DJX56Q97",
-        "aggregateRating": 4.7,
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Handsfree%202%20%2B%20SP100L.webp",
         "price": {
             "currency": "USD",
@@ -31082,7 +31251,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-handsfree-2-pv60l",
@@ -31115,8 +31284,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/bluetti-handsfree-2-backpack-powerstation?variant=46474914136283",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fbluetti-handsfree-2-backpack-powerstation%3Fvariant%3D46474914136283",
         "asin": "B0DJX5RXRJ",
-        "aggregateRating": 3.7,
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Handsfree%202%20%2B%20PV60L.webp",
         "price": {
             "currency": "USD",
@@ -31241,7 +31414,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-handsfree-2-power-station",
@@ -31253,8 +31426,12 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/bluetti-handsfree-2-backpack-powerstation?variant=47621706973403",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fbluetti-handsfree-2-backpack-powerstation%3Fvariant%3D47621706973403",
         "asin": "B0CJ79FMTH",
-        "aggregateRating": 4.7,
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Handsfree%202%20Power%20Station.webp",
         "price": {
             "currency": "USD",
@@ -31372,7 +31549,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "bluetti-handsfree-2-power-station-100w",
@@ -31400,8 +31577,12 @@
         },
         "region": "US",
         "url": "https://www.bluettipower.com/products/bluetti-handsfree-2-backpack-powerstation?variant=47856861741275",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fbluetti-handsfree-2-backpack-powerstation%3Fvariant%3D47856861741275",
         "asin": "B0F93WFGFJ",
-        "aggregateRating": 4.7,
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Handsfree%202%20Power%20Station%20%2B%20100W.webp",
         "price": {
             "currency": "USD",
@@ -31519,7 +31700,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-12"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "jackery-homepower-3600-plus-battery-pack-2x-solarsaga-500x",
@@ -31547,7 +31728,12 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-plus?variant=44632068522071",
+        "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus%20(7.2kWh)%20%2B%20SolarSaga%20500%20X%20x%202.webp",
         "price": {
             "currency": "USD",
@@ -31688,7 +31874,12 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-plus?variant=44529510449239",
+        "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%203600%20Plus.webp",
         "price": {
             "currency": "USD",
@@ -31807,7 +31998,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-17"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "jackery-homepower-3600-pro-max-mts-40a-cable",
@@ -31833,6 +32024,7 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3600-pro-max?variant=43964669460567",
+        "officialAffiliateUrl": null,
         "asin": "B0H33W3SXC",
         "availability": {
             "official": "unavailable",
@@ -31968,7 +32160,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "jackery-homepower-2000-plus-v2-battery-pack-2000-plus-v2-2x-solarsaga-200w",
@@ -31996,7 +32188,12 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-2000-plus-v2?variant=44469566505047",
+        "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%202000%20Plus%20v2%20%2B%20Battery%20Pack%202000%20Plus%20v2%20%2B%20SolarSaga%20200W%20x%202.webp",
         "price": {
             "currency": "USD",
@@ -32121,7 +32318,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-17"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "jackery-homepower-2000-plus-v2-battery-pack-2000-plus-v2-solarsaga-500x",
@@ -32149,7 +32346,12 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-2000-plus-v2?variant=44469566537815",
+        "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%202000%20Plus%20v2%20%2B%20Battery%20Pack%202000%20Plus%20v2%20%2B%20SolarSaga%20500%20X.webp",
         "price": {
             "currency": "USD",
@@ -32274,7 +32476,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-17"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "jackery-homepower-1000-plus-v2-solarsaga-100-air",
@@ -32296,7 +32498,12 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-1000-plus-v2?variant=44632209195095",
+        "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%201000%20Plus%20v2%20%2B%20SolarSaga%20100%20Air.webp",
         "price": {
             "currency": "USD",
@@ -32421,7 +32628,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-17"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "jackery-homepower-1000-plus-v2-2x-solarsaga-100-air",
@@ -32443,7 +32650,12 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-1000-plus-v2?variant=44632209162327",
+        "officialAffiliateUrl": null,
         "asin": "B0HF84899N",
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20HomePower%201000%20Plus%20v2%20%2B%20SolarSaga%20100%20Air%20x%202.webp",
         "price": {
             "currency": "USD",
@@ -32568,7 +32780,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-17"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "jackery-homepower-3000-solarsaga-500x",
@@ -32590,6 +32802,7 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-3000?variant=41685843705943",
+        "officialAffiliateUrl": null,
         "asin": null,
         "availability": {
             "official": "unavailable",
@@ -32709,7 +32922,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-19"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "jackery-explorer-2000-v2-2x-solarsaga-200w",
@@ -32730,7 +32943,8 @@
             ]
         },
         "region": "US",
-        "url": "https://www.jackery.com/products/jackery-solar-generator-2000-v2?variant=41264595861591",
+        "url": "https://www.jackery.com/products/jackery-solar-generator-2000-v2?variant=44698376011863",
+        "officialAffiliateUrl": null,
         "asin": "B0DG8NXM21",
         "availability": {
             "official": "available",
@@ -32856,7 +33070,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "jackery-explorer-2000-v2-solarsaga-500x",
@@ -32878,6 +33092,7 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-2000-v2?variant=44024620580951",
+        "officialAffiliateUrl": null,
         "asin": null,
         "availability": {
             "official": "available",
@@ -33003,7 +33218,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "jackery-explorer-1500-ultra-2x-solarsaga-100-prime",
@@ -33025,16 +33240,17 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-1500-ultra?variant=42447259140183",
+        "officialAffiliateUrl": null,
         "asin": null,
         "availability": {
-            "official": "available",
+            "official": "unavailable",
             "amazon": null
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%201500%20Ultra%20%2B%20SolarSaga%20100%20Prime%20x%202.webp",
         "price": {
             "currency": "USD",
-            "current": 1399,
-            "original": 1579
+            "current": 1579,
+            "original": null
         },
         "capacity": {
             "nominalWh": 1536,
@@ -33144,7 +33360,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "jackery-homepower-1000-v2-2x-solarsaga-100-air",
@@ -33166,6 +33382,7 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-solar-generator-homepower-1000-v2?variant=44025373524055",
+        "officialAffiliateUrl": null,
         "asin": "B0H7RMLW79",
         "availability": {
             "official": "unavailable",
@@ -33285,7 +33502,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "jackery-explorer-5000-plus",
@@ -33297,6 +33514,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-explorer-5000-plus?variant=41317177917527",
+        "officialAffiliateUrl": null,
         "asin": "B0DFGLG35L",
         "availability": {
             "official": "unavailable",
@@ -33444,7 +33662,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "jackery-explorer-5000-plus-battery-pack-5000-plus",
@@ -33466,10 +33684,11 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-explorer-5000-plus?variant=44570006323287",
+        "officialAffiliateUrl": null,
         "asin": "B0FNLCSXBW",
         "availability": {
             "official": "available",
-            "amazon": "unavailable"
+            "amazon": "available"
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%205000%20Plus%20%2B%20Battery%20Pack%205000%20Plus.webp",
         "price": {
@@ -33613,7 +33832,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "jackery-explorer-5000-plus-battery-pack-2x-solarsaga-500x-ats",
@@ -33657,9 +33876,10 @@
         },
         "region": "US",
         "url": "https://www.jackery.com/products/jackery-explorer-5000-plus?variant=44636686319703",
+        "officialAffiliateUrl": null,
         "asin": null,
         "availability": {
-            "official": "available",
+            "official": "unavailable",
             "amazon": null
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Jackery%20Explorer%205000%20Plus%20(10kWh)%20%2B%20SolarSaga%20500%20X%20x%202%20%2B%20Automatic%20Transfer%20Switch.webp",
@@ -33804,7 +34024,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-18"
+        "lastChecked": "2026-11-25"
     },
     {
         "id": "jackery-home-backup-kit-5000-plus-20kwh-ats",
