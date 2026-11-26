@@ -9,6 +9,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/x20-portable-power-bank?variant=46173734699227",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fx20-portable-power-bank%3Fvariant%3D46173734699227",
         "asin": null,
         "availability": {
             "official": "available",
@@ -161,7 +162,7 @@
             "app": false
         },
         "warrantyYears": 2,
-        "lastChecked": "2026-11-22"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "bluetti-x60",
@@ -173,6 +174,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.bluettipower.com/products/bluetti-x60-614wh-cpap-power-bank?variant=44709150982363",
+        "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Fbluetti-x60-614wh-cpap-power-bank%3Fvariant%3D44709150982363",
         "asin": null,
         "availability": {
             "official": "available",
@@ -365,7 +367,7 @@
             "app": false
         },
         "warrantyYears": 1,
-        "lastChecked": "2026-11-22"
+        "lastChecked": "2026-11-26"
     },
     {
         "id": "anker-prime-power-bank-26k-300w",
@@ -377,6 +379,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a110a-anker-prime-26k-300w-power-bank?variant=46383111110806",
+        "officialAffiliateUrl": null,
         "asin": "B0F66LNB8D",
         "availability": {
             "official": "available",
@@ -586,6 +589,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1695-anker-power-bank-25000mah-165w?variant=44320657997974",
+        "officialAffiliateUrl": null,
         "asin": "B0DCBB2YTR",
         "availability": {
             "official": "available",
@@ -833,6 +837,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a110b-anker-prime-20k-220w-power-bank?variant=45578450862230",
+        "officialAffiliateUrl": null,
         "asin": "B0F66NH2ZX",
         "availability": {
             "official": "available",
@@ -1038,6 +1043,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1383?variant=44358650265750",
+        "officialAffiliateUrl": null,
         "asin": "B0CXDXP8VR",
         "availability": {
             "official": "available",
@@ -1189,6 +1195,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1664-maggo-10000mah-power-bank?variant=44058070515862",
+        "officialAffiliateUrl": null,
         "asin": "B0D7DKJ75M",
         "availability": {
             "official": "available",
@@ -1347,6 +1354,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1654-maggo-10000mah-qi2-power-bank-magsafe-compatible?variant=43008117473430",
+        "officialAffiliateUrl": null,
         "asin": "B0CFDPQXN4",
         "availability": {
             "official": "available",
@@ -1502,6 +1510,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1638-10k-45w-power-bank?variant=45218249998486",
+        "officialAffiliateUrl": null,
         "asin": "B0DGKWTQQC",
         "availability": {
             "official": "available",
@@ -1754,6 +1763,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1339-anker-prime-power-bank-9600mah-65w-fusion?variant=43931966210198",
+        "officialAffiliateUrl": null,
         "asin": "B0CZ9J3QMY",
         "availability": {
             "official": "available",
@@ -1959,6 +1969,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1637?variant=43609981550742",
+        "officialAffiliateUrl": null,
         "asin": "B0CX4992Z8",
         "availability": {
             "official": "available",
@@ -2130,6 +2141,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1641?variant=41830384828566",
+        "officialAffiliateUrl": null,
         "asin": "B09NRG4GK3",
         "availability": {
             "official": "available",
@@ -2285,6 +2297,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1685?variant=44427833180310",
+        "officialAffiliateUrl": null,
         "asin": "B0D8W2VNDF",
         "availability": {
             "official": "available",
@@ -2506,6 +2519,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1657-maggo-10000mah-power-bank?variant=44058151485590",
+        "officialAffiliateUrl": null,
         "asin": "B0CZDFL2BY",
         "availability": {
             "official": "available",
@@ -2737,6 +2751,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1229?variant=37438231806102",
+        "officialAffiliateUrl": null,
         "asin": "B0D5CLSMFB",
         "availability": {
             "official": "available",
@@ -2864,6 +2879,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1688?variant=46336176423062",
+        "officialAffiliateUrl": null,
         "asin": "B0CZ9M6X8Q",
         "availability": {
             "official": "available",
@@ -3044,6 +3060,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a110r-qi2-maggo-2-pro-magnetic-power-bank?variant=46550444277910",
+        "officialAffiliateUrl": null,
         "asin": "B0GVYMQ3GT",
         "availability": {
             "official": "available",
@@ -3204,6 +3221,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1665-5k-ultra-slim-qi2-power-bank?variant=45217864089750",
+        "officialAffiliateUrl": null,
         "asin": "B0F8HXYD46",
         "availability": {
             "official": "available",
@@ -3369,6 +3387,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1610?variant=42116102979734",
+        "officialAffiliateUrl": null,
         "asin": "B099284SRR",
         "availability": {
             "official": "available",
@@ -3496,6 +3515,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a110g-anker-prime-20k-220w-power-bank-black-myth-wukong-edition?variant=45736858321046",
+        "officialAffiliateUrl": null,
         "asin": "B0F936ZL31",
         "availability": {
             "official": "available",
@@ -3701,6 +3721,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1614?variant=42282832855190",
+        "officialAffiliateUrl": null,
         "asin": "B0B466YTT3",
         "availability": {
             "official": "available",
@@ -3835,6 +3856,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1259-built-in-cable-power-bank-10000mah?variant=42733233766550",
+        "officialAffiliateUrl": null,
         "asin": "B0C9CJKCH3",
         "availability": {
             "official": "available",
@@ -4095,6 +4117,7 @@
         "bundle": null,
         "region": "US",
         "url": "https://www.anker.com/products/a1653-usb-c-portable-charger-5000mah?variant=42733234258070",
+        "officialAffiliateUrl": null,
         "asin": "B0C6XK6DDL",
         "availability": {
             "official": "available",
