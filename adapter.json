@@ -56,7 +56,7 @@
         "Outlet type and amp rating."
       ]
     },
-    "lastChecked": "2026-10-11"
+    "lastChecked": "2026-10-26"
   },
   {
     "id": "hyundai-v2l-adapter-j1772",
@@ -73,7 +73,7 @@
       "official": "available",
       "amazon": "available"
     },
-    "image": null,
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Hyundai-Vehicle-to-Load-Adapter_Connector-_J1772_.webp",
     "price": {
       "currency": "USD",
       "current": 229.6,
@@ -121,7 +121,7 @@
         "Outlet type and amp rating; a teardown puts it at 120 V and 15 A."
       ]
     },
-    "lastChecked": "2026-10-11"
+    "lastChecked": "2026-10-26"
   },
   {
     "id": "tesla-outlet-adapter",
@@ -134,6 +134,10 @@
     "url": "https://shop.tesla.com/product/tesla-outlet-adapter",
     "officialAffiliateUrl": null,
     "asin": null,
+    "availability": {
+      "official": "available",
+      "amazon": null
+    },
     "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Tesla%20Outlet%20Adapter.webp",
     "price": {
       "currency": "USD",
@@ -176,7 +180,7 @@
         "Two outlets: from Electrek. Tesla's pages don't give the number."
       ]
     },
-    "lastChecked": "2026-10-11"
+    "lastChecked": "2026-10-26"
   },
   {
     "id": "tesla-gen-3-mobile-connector",
@@ -189,6 +193,10 @@
     "url": "https://shop.tesla.com/product/mobile-connector",
     "officialAffiliateUrl": null,
     "asin": "B0FN9YVHB2",
+    "availability": {
+      "official": "available",
+      "amazon": "available"
+    },
     "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Tesla%20Gen%203%20Mobile%20Connector.webp",
     "price": {
       "currency": "USD",
@@ -227,6 +235,6 @@
       ],
       "toConfirm": []
     },
-    "lastChecked": "2026-10-11"
+    "lastChecked": "2026-10-26"
   }
 ]
