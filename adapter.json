@@ -14,7 +14,7 @@
       "official": "available",
       "amazon": null
     },
-    "image": null,
+    "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/Hyundai-Vehicle-to-Load-Adapter_Connector-_NACS_.webp",
     "price": {
       "currency": "USD",
       "current": 218.12,
@@ -68,7 +68,11 @@
     "region": "US",
     "url": "https://www.hyundaipartsdeal.com/genuine/hyundai-vehicle-to-load-adaptor~gih68-ak0a0.html",
     "officialAffiliateUrl": null,
-    "asin": null,
+    "asin": "B0HMFD4F9F",
+    "availability": {
+      "official": "available",
+      "amazon": "available"
+    },
     "image": null,
     "price": {
       "currency": "USD",
