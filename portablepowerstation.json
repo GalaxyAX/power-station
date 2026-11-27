@@ -1430,10 +1430,14 @@
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=54714781237321",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20%2B%20Smart%20Gateway%20200A.webp",
         "price": {
             "currency": "USD",
-            "current": 9899,
+            "current": 9499,
             "original": null
         },
         "capacity": {
@@ -1562,7 +1566,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-19"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-ultra-x-powerpulse-ev-charger",
@@ -1585,10 +1589,14 @@
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=55621820350537",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20(2%20x%20Batteries)%20%2B%20PowerPulse%20EV%20Charger%20(96kW).webp",
         "price": {
             "currency": "USD",
-            "current": 8499,
+            "current": 8399,
             "original": null
         },
         "capacity": {
@@ -1727,7 +1735,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-19"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-ultra-x-delta-3-plus",
@@ -1750,6 +1758,10 @@
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=55989662449737",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20%2B%20DELTA%203%20Plus.webp",
         "price": {
             "currency": "USD",
@@ -1892,7 +1904,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-20"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-ultra-x-extra-battery-shp3",
@@ -1921,6 +1933,10 @@
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-x?variant=56139629428809",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20(3%20x%20Batteries)%20%2B%20Smart%20Home%20Panel%203.webp",
         "price": {
             "currency": "USD",
@@ -2052,7 +2068,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-20"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-ultra",
@@ -2066,6 +2082,10 @@
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=40758830071881",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra.webp",
         "price": {
             "currency": "USD",
@@ -2244,7 +2264,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-19"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-ultra-extra-battery",
@@ -2268,6 +2288,10 @@
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=41748275626057",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20DELTA%20Pro%20Ultra%20Extra%20Battery%20(2%20×%20Batteries).webp",
         "price": {
             "currency": "USD",
@@ -2446,7 +2470,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-19"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-ultra-2x-extra-battery",
@@ -2470,6 +2494,10 @@
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=55686961168457",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20DELTA%20Pro%20Ultra%20Extra%20Battery%20(3%20×%20Batteries).webp",
         "price": {
             "currency": "USD",
@@ -2648,13 +2676,13 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-19"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-ultra-shp2",
         "brand": "EcoFlow",
-        "model": "DELTA Pro Ultra + Smart Home Panel 2 + Monitor",
-        "name": "EcoFlow DELTA Pro Ultra + Smart Home Panel 2 + Monitor",
+        "model": "DELTA Pro Ultra + Smart Home Panel 2",
+        "name": "EcoFlow DELTA Pro Ultra + Smart Home Panel 2",
         "category": "portable-power-station",
         "kind": "bundle",
         "bundle": {
@@ -2676,6 +2704,10 @@
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=40758830104649",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20Smart%20Home%20Panel%202%20%2B%20Monitor.webp",
         "price": {
             "currency": "USD",
@@ -2832,7 +2864,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-19"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-ultra-extra-battery-shp2",
@@ -2861,10 +2893,14 @@
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=55444729987145",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20DELTA%20Pro%20Ultra%20Extra%20Battery%20%2B%20Smart%20Home%20Panel%202.webp",
         "price": {
             "currency": "USD",
-            "current": 7299,
+            "current": 7199,
             "original": null
         },
         "capacity": {
@@ -3017,7 +3053,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-19"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-ultra-2x-400w-solar-panel",
@@ -3041,10 +3077,14 @@
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=54740155072585",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%202%20×%20400W%20Portable%20Solar%20Panels.webp",
         "price": {
             "currency": "USD",
-            "current": 5099,
+            "current": 5399,
             "original": null
         },
         "capacity": {
@@ -3219,7 +3259,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-19"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-ultra-extra-battery-4x-400w-solar-panel",
@@ -3255,10 +3295,14 @@
         "url": "https://us.ecoflow.com/products/delta-pro-ultra?variant=55841262764105",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20DELTA%20Pro%20Ultra%20Extra%20Battery%20%2B%204%20×%20400W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 7999,
+            "current": 8599,
             "original": null
         },
         "capacity": {
@@ -3433,7 +3477,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-19"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-3",
@@ -3447,6 +3491,10 @@
         "url": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station?variant=41385721004105",
         "officialAffiliateUrl": null,
         "asin": "B0D14FMFZD",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203.webp",
         "price": {
             "currency": "USD",
@@ -3614,7 +3662,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-19"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-3-400w-solar-panel",
@@ -3638,6 +3686,10 @@
         "url": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station?variant=41385721069641",
         "officialAffiliateUrl": null,
         "asin": "B0D145TFFY",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203%20%2B%20400W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -3805,7 +3857,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-3-extra-battery",
