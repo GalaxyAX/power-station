@@ -14173,6 +14173,10 @@
         "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54392582766665",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20%2B%20Tesla%20Model%20Y%20290W%20EV%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -14301,7 +14305,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-28"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-plus-290w-ev-solar-panel-model-y",
@@ -14331,6 +14335,10 @@
         "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54376118714441",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Plus%20%2B%20Tesla%20Model%20Y%20290W%20EV%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -14454,7 +14462,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-28"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-2-max-290w-ev-solar-panel-model-y",
@@ -14484,6 +14492,10 @@
         "url": "https://us.ecoflow.com/products/ecoflow-heatguard-solar-film?variant=54376118747209",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max%20%2B%20Tesla%20Model%20Y%20290W%20EV%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -14612,7 +14624,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-28"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-ultra-x-4x-400w-solar-panel",
@@ -14636,10 +14648,14 @@
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-x-solar-generator?variant=54732699140169",
         "officialAffiliateUrl": null,
         "asin": "B0H2YQTDK7",
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20X%20%2B%204%20×%20400W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 9899,
+            "current": 10299,
             "original": null
         },
         "capacity": {
@@ -14778,7 +14794,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-28"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-ultra-400w-solar-panel",
@@ -14802,10 +14818,14 @@
         "url": "https://us.ecoflow.com/products/delta-pro-ultra-solar-generator?variant=41855315804233",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20Ultra%20%2B%20400W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 4649,
+            "current": 4799,
             "original": null
         },
         "capacity": {
@@ -14980,7 +15000,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-28"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-3-2x-400w-solar-panel",
@@ -15004,11 +15024,15 @@
         "url": "https://us.ecoflow.com/products/delta-pro-3-solar-generator?variant=55590273744969",
         "officialAffiliateUrl": null,
         "asin": "B0DB5TH7GN",
+        "availability": {
+            "official": null,
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203%20%2B%202%20×%20400W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 3499,
-            "original": 4399
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 4096,
@@ -15171,7 +15195,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-29"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3800-gen4",
@@ -15185,11 +15209,15 @@
         "url": "https://us.ecoflow.com/products/delta-3800-gen4?variant=67641627803721",
         "officialAffiliateUrl": null,
         "asin": "B0HLVQZPPN",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203800%20Gen4.webp",
         "price": {
             "currency": "USD",
-            "current": 2199,
-            "original": null
+            "current": 1699,
+            "original": 2199
         },
         "capacity": {
             "nominalWh": 3763,
@@ -15312,7 +15340,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-13"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3800-gen4-extra-battery-2x-160w-solar-panel",
@@ -15342,11 +15370,15 @@
         "url": "https://us.ecoflow.com/products/delta-3800-gen4?variant=67641627934793",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": null,
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203800%20Gen4%20%2B%20DELTA%203%20Max%20Plus%20Extra%20Battery%20%2B%202%20x%20160W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 2699,
-            "original": 3999
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 5811,
@@ -15469,7 +15501,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-13"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3800-gen4-2x-160w-solar-panel",
@@ -15492,7 +15524,11 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3800-gen4?variant=67641627836489",
         "officialAffiliateUrl": null,
-        "asin": "B0HLVRX2MW",
+        "asin": "B0HLVXR66W",
+        "availability": {
+            "official": null,
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203800%20Gen4%20%2B%202%20x%20160W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
@@ -15620,7 +15656,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-13"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3800-gen4-extra-battery",
@@ -15644,10 +15680,14 @@
         "url": "https://us.ecoflow.com/products/delta-3800-gen4?variant=67641627902025",
         "officialAffiliateUrl": null,
         "asin": "B0HLVVX2R2",
+        "availability": {
+            "official": null,
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203800%20Gen4%20%2B%20DELTA%203%20Max%20Plus%20Extra%20Battery.webp",
         "price": {
             "currency": "USD",
-            "current": 2999,
+            "current": null,
             "original": null
         },
         "capacity": {
@@ -15771,7 +15811,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-13"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3800-gen4-4x-160w-solar-panel",
@@ -15796,13 +15836,13 @@
         "officialAffiliateUrl": null,
         "asin": null,
         "availability": {
-            "official": "unavailable",
+            "official": null,
             "amazon": null
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203800%20Gen4%20%2B%204%20x%20160W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 3299,
+            "current": null,
             "original": null
         },
         "capacity": {
@@ -15926,7 +15966,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-14"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-b300k",
@@ -16099,7 +16139,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-2x-apex-300-2x-b300k-hub-a1",
@@ -16281,7 +16321,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-350w",
@@ -16460,7 +16500,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-charger-2-dc-hub",
@@ -16650,7 +16690,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-2x-b500k",
@@ -16681,8 +16721,8 @@
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%202×B500K.webp",
         "price": {
             "currency": "USD",
-            "current": 4399,
-            "original": 5399
+            "current": 5399,
+            "original": null
         },
         "capacity": {
             "nominalWh": 13004.8,
@@ -16823,7 +16863,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-2x-b500k-solarx-4k",
@@ -16860,8 +16900,8 @@
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%202×B500K%20%2B%20SolarX%204K.webp",
         "price": {
             "currency": "USD",
-            "current": 4999,
-            "original": 5998
+            "current": 5899,
+            "original": null
         },
         "capacity": {
             "nominalWh": 13004.8,
@@ -17014,7 +17054,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-2x-200w",
@@ -17187,7 +17227,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-b300k-charger-1-hub-d1-2x-350w",
@@ -17228,13 +17268,13 @@
         "officialAffiliateUrl": null,
         "asin": null,
         "availability": {
-            "official": "unavailable",
+            "official": null,
             "amazon": null
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20B300K%20%2B%20Charger%201%20%2B%20Hub%20D1%20%2B%202%20×%20350W.webp",
         "price": {
             "currency": "USD",
-            "current": 4596,
+            "current": null,
             "original": null
         },
         "capacity": {
@@ -17386,7 +17426,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-400-500w",
@@ -17532,7 +17572,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-ac180p-200w-solar",
@@ -17690,7 +17730,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300",
@@ -17711,8 +17751,8 @@
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300.webp",
         "price": {
             "currency": "USD",
-            "current": 1599,
-            "original": 1699
+            "current": 1699,
+            "original": null
         },
         "capacity": {
             "nominalWh": 2764.8,
@@ -17853,7 +17893,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-01"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-500w",
@@ -18032,7 +18072,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-01"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-b500k-500w",
@@ -18217,7 +18257,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-01"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-b500k",
@@ -18390,7 +18430,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-01"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-2x-b300k",
@@ -18563,7 +18603,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-01"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-2x-b300k-2x-200w",
@@ -18742,7 +18782,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-02"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-2x-b300k-2x-500w",
@@ -18921,7 +18961,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-02"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-2x-apex-300-4x-b300k-hub-a1",
@@ -19103,7 +19143,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-02"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-2x-apex-300-2x-b500k-hub-a1",
@@ -19285,7 +19325,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-02"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-hub-d1",
@@ -19315,8 +19355,8 @@
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Apex%20300%20%2B%20Hub%20D1.webp",
         "price": {
             "currency": "USD",
-            "current": 1798,
-            "original": 1899
+            "current": 1899,
+            "original": null
         },
         "capacity": {
             "nominalWh": 2764.8,
@@ -19467,7 +19507,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-02"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-b300k-charger-2-dc-hub",
@@ -19663,7 +19703,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-02"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-b300k-solarx-4k",
@@ -19854,7 +19894,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-02"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-charger-2",
@@ -20039,7 +20079,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-02"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-b500k-solarx-4k",
@@ -20230,7 +20270,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-02"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-b300k-charger-1",
@@ -20408,7 +20448,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-02"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-2x-b300k-solarx-4k",
@@ -20599,7 +20639,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-02"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-apex-300-b500k-home-backup-kit",
@@ -20777,7 +20817,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-02"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-300",
@@ -20792,14 +20832,14 @@
         "officialAffiliateUrl": "https://tidd.ly/4jaxcST",
         "asin": "B0GKRTX336",
         "availability": {
-            "official": "available",
+            "official": "unavailable",
             "amazon": "available"
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20300.webp",
         "price": {
             "currency": "USD",
-            "current": 1199,
-            "original": null
+            "current": 1099,
+            "original": 1199
         },
         "capacity": {
             "nominalWh": 3014.4,
@@ -20912,7 +20952,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-03"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-300-500w",
@@ -21063,7 +21103,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-03"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-300-350w",
@@ -21092,7 +21132,7 @@
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-300-portable-power-station?variant=48309261664475",
         "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-300-portable-power-station%3Fvariant%3D48309261664475",
-        "asin": "B0GWZPJNDR",
+        "asin": "B0GKRPD6GL",
         "availability": {
             "official": "available",
             "amazon": "available"
@@ -21100,8 +21140,8 @@
         "image": "https://github.com/GalaxyAX/power-station/blob/main/img/BLUETTI%20Elite%20300%20%2B%20350W.webp",
         "price": {
             "currency": "USD",
-            "current": 1499,
-            "original": 1649
+            "current": 1649,
+            "original": null
         },
         "capacity": {
             "nominalWh": 3014.4,
@@ -21214,7 +21254,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-03"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-300-charger-2",
@@ -21245,8 +21285,8 @@
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20300%20%2B%20Charger%202.webp",
         "price": {
             "currency": "USD",
-            "current": 1599,
-            "original": null
+            "current": 1399.99,
+            "original": 1599
         },
         "capacity": {
             "nominalWh": 3014.4,
@@ -21359,7 +21399,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-03"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-300-charger-1",
@@ -21389,8 +21429,8 @@
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20300%20%2B%20Charger%201.webp",
         "price": {
             "currency": "USD",
-            "current": 1399,
-            "original": null
+            "current": 1199.99,
+            "original": 1399
         },
         "capacity": {
             "nominalWh": 3014.4,
@@ -21503,7 +21543,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-03"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-300-2x-200w",
@@ -21648,7 +21688,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-400",
@@ -21778,7 +21818,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-400-350w",
@@ -21810,7 +21850,7 @@
         "asin": "B0G8XZ25BY",
         "availability": {
             "official": "available",
-            "amazon": "available"
+            "amazon": null
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20400%20%2B%20350W.webp",
         "price": {
@@ -21924,7 +21964,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-400-charger-2",
@@ -21950,12 +21990,12 @@
         "asin": "B0G8XH8HRF",
         "availability": {
             "official": "available",
-            "amazon": null
+            "amazon": "available"
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20400%20%2B%20Charger%202.webp",
         "price": {
             "currency": "USD",
-            "current": 1599,
+            "current": 1599.99,
             "original": 1799
         },
         "capacity": {
@@ -22064,7 +22104,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-400-2x-200w",
@@ -22204,7 +22244,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-04"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-400-charger-1",
@@ -22343,7 +22383,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-04"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-200-v2",
@@ -22478,7 +22518,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-06"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-200-v2-350w",
@@ -22507,7 +22547,7 @@
         "region": "US",
         "url": "https://www.bluettipower.com/products/elite-200-v2-portable-power-station?variant=48163031548123",
         "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-200-v2-portable-power-station%3Fvariant%3D48163031548123",
-        "asin": "B0DMT2MHWG",
+        "asin": "B0FSJM6NZC",
         "availability": {
             "official": "available",
             "amazon": "available"
@@ -22629,7 +22669,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-06"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-200-v2-2x-200w",
@@ -22774,7 +22814,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-06"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-200-v2-200w",
@@ -22925,7 +22965,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-06"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-200-v2-charger-1",
