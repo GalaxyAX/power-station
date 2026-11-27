@@ -3498,8 +3498,8 @@
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203.webp",
         "price": {
             "currency": "USD",
-            "current": 2799,
-            "original": 3299
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 4096,
@@ -3693,8 +3693,8 @@
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203%20%2B%20400W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 3099,
-            "original": 3999
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 4096,
@@ -3881,11 +3881,15 @@
         "url": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station?variant=41385721036873",
         "officialAffiliateUrl": null,
         "asin": "B0D143CMH9",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203%20%2B%20Extra%20Battery.webp",
         "price": {
             "currency": "USD",
-            "current": 4459,
-            "original": 5099
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 8192,
@@ -4048,7 +4052,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-19"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-3-smart-generator-4000-dual-fuel",
@@ -4071,11 +4075,15 @@
         "url": "https://us.ecoflow.com/products/smart-generator-4000-dual-fuel?variant=41434656669769",
         "officialAffiliateUrl": null,
         "asin": "B0DCFLM8M8",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203%20%2B%20Smart%20Generator%204000%20(Dual%20Fuel).webp",
         "price": {
             "currency": "USD",
-            "current": 3589,
-            "original": 4589
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 4096,
@@ -4214,7 +4222,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-3-extra-battery-400w-solar-panel",
@@ -4244,11 +4252,15 @@
         "url": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station?variant=56095773524041",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%203%20%2B%20Extra%20Battery%20%2B%20400W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 4789,
-            "original": 5599
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 8192,
@@ -4411,7 +4423,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-19"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro",
@@ -4425,6 +4437,10 @@
         "url": "https://us.ecoflow.com/products/delta-pro-portable-power-station",
         "officialAffiliateUrl": null,
         "asin": "B0C1Z4GLKS",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro.webp",
         "price": {
             "currency": "USD",
@@ -4574,7 +4590,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-09"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-2x-220w-solar-panel",
@@ -4597,12 +4613,16 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-pro-portable-power-station?variant=54703934013513",
         "officialAffiliateUrl": null,
-        "asin": "B0CPHZFH3Z",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20%2B%202%20x%20220W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 2199,
-            "original": 2997
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 3600,
@@ -4747,7 +4767,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-19"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-400w-solar-panel",
@@ -4777,11 +4797,15 @@
         "url": "https://us.ecoflow.com/products/delta-pro-portable-power-station?variant=40684178014281",
         "officialAffiliateUrl": null,
         "asin": "B0B1TCMZHZ",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20%2B%20400W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 2399,
-            "original": 3098
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 3600,
@@ -4926,7 +4950,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-19"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-pro-smart-generator-4000-dual-fuel",
@@ -4949,11 +4973,15 @@
         "url": "https://us.ecoflow.com/products/delta-pro-portable-power-station?variant=67658905157705",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%20Pro%20%2B%20Smart%20Generator%204000%20(Dual%20Fuel).webp",
         "price": {
             "currency": "USD",
-            "current": 2829,
-            "original": 3658
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 3600,
@@ -5098,7 +5126,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-19"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-max-plus",
@@ -5112,10 +5140,14 @@
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54718699962441&view=d3m-121-d3mp",
         "officialAffiliateUrl": null,
         "asin": "B0FQV9Q9J2",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20Plus.webp",
         "price": {
             "currency": "USD",
-            "current": 1199,
+            "current": 1149,
             "original": 1599
         },
         "capacity": {
@@ -5232,7 +5264,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-20"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-max-plus-500w-solar-kit",
@@ -5262,11 +5294,15 @@
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54718699995209&view=d3m-121-d3mp",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20Plus%20(2048Wh)%20%2B%20500W%20Solar%20Kit.webp",
         "price": {
             "currency": "USD",
-            "current": 1649,
-            "original": 2099
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 2048,
@@ -5401,7 +5437,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-20"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-max-plus-400w-solar-panel",
@@ -5431,11 +5467,15 @@
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54718700060745&view=d3m-121-d3mp",
         "officialAffiliateUrl": null,
         "asin": "B0FR9737RW",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20Plus%20(2048Wh)%20%2B%20400W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 1699,
-            "original": 1999
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 2048,
@@ -5551,7 +5591,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-20"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-max-plus-800w-alternator-charger",
@@ -5573,7 +5613,11 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54718700027977&view=d3m-121-d3mp",
         "officialAffiliateUrl": null,
-        "asin": "B0H4VWP2XQ",
+        "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20Plus%20(2048Wh)%20%2B%20800W%20Alternator%20Charger.webp",
         "price": {
             "currency": "USD",
@@ -5694,7 +5738,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-20"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-max-plus-extra-battery",
@@ -5718,11 +5762,15 @@
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54718700093513&view=d3m-121-d3mp",
         "officialAffiliateUrl": null,
         "asin": "B0FR96BGJW",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "unavailable"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20Plus%20%2B%20DELTA%203%20Max%20Plus%20Smart%20Extra%20Battery%20(4kWh).webp",
         "price": {
             "currency": "USD",
-            "current": 2049,
-            "original": 2499
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 4096,
@@ -5838,7 +5886,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-20"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-max",
@@ -5852,10 +5900,14 @@
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54692162764873&view=d3m-121",
         "officialAffiliateUrl": null,
         "asin": "B0FQV6LMVX",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20(2048Wh).webp",
         "price": {
             "currency": "USD",
-            "current": 899,
+            "current": 879,
             "original": 1199
         },
         "capacity": {
@@ -5963,7 +6015,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-20"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-max-500w-solar-panel",
@@ -5993,11 +6045,15 @@
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54692162895945&view=d3m-121",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20(2048Wh)%20%2B%20500W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 1449,
-            "original": 1998
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 2048,
@@ -6123,7 +6179,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-20"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-max-2x-220w-solar-panel",
@@ -6146,152 +6202,15 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54692162797641&view=d3m-121",
         "officialAffiliateUrl": null,
-        "asin": "B0FR97TXCN",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20(2048Wh)%20%2B%202%20×%20220W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 1449,
-            "original": 1499
-        },
-        "capacity": {
-            "nominalWh": 2048,
-            "expandable": false,
-            "extraBattery": null,
-            "maxWh": 2048
-        },
-        "power": {
-            "continuousW": 2400,
-            "surgeW": 4800,
-            "xBoostW": 3400
-        },
-        "battery": {
-            "chemistry": "LFP",
-            "cycleLife": []
-        },
-        "charging": {
-            "acInputW": 1800,
-            "ac": {
-                "frequencyHz": [
-                    50,
-                    60
-                ],
-                "inputs": [
-                    {
-                        "id": "ac-120",
-                        "label": "AC Input",
-                        "connector": "C14",
-                        "plug": "5-15P",
-                        "voltageV": 120,
-                        "maxA": 15,
-                        "maxW": 1800,
-                        "chargeMaxW": 1800,
-                        "chargeMinW": null,
-                        "passThrough": true
-                    }
-                ],
-                "generator": {
-                    "supported": true,
-                    "waveform": null,
-                    "maxThdPct": null,
-                    "setup": []
-                }
-            },
-            "solar": {
-                "maxW": 500,
-                "inputs": [
-                    {
-                        "id": "pv",
-                        "label": "DC/Solar Input",
-                        "count": 1,
-                        "connector": "XT60i",
-                        "minV": 11,
-                        "maxV": 60,
-                        "startV": null,
-                        "maxA": 13,
-                        "maxW": 500,
-                        "overCurrent": "prohibited"
-                    }
-                ],
-                "includedCables": []
-            },
-            "car": {
-                "supportedV": [
-                    12,
-                    24,
-                    48
-                ],
-                "maxA": 8
-            },
-            "maxCombinedW": null
-        },
-        "physical": {
-            "weightKg": 20.3,
-            "dimensionsCm": {
-                "length": 49.4,
-                "width": 23.9,
-                "height": 30.5
-            }
-        },
-        "ports": {
-            "ac": {
-                "count": 4,
-                "voltageV": 120,
-                "totalMaxW": 2400
-            },
-            "usbA": {
-                "count": 1,
-                "maxWPerPort": 18
-            },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 100
-            },
-            "car": {
-                "count": 1,
-                "voltageV": 12.6,
-                "maxWPerPort": 126
-            }
-        },
-        "features": {
-            "wifi": true,
-            "bluetooth": true,
-            "app": true
-        },
-        "warrantyYears": 5,
-        "lastChecked": "2026-10-20"
-    },
-    {
-        "id": "ecoflow-delta-3-max-400w-solar-panel",
-        "brand": "EcoFlow",
-        "model": "DELTA 3 Max (2048Wh) + 400W Solar Panel",
-        "name": "EcoFlow DELTA 3 Max (2048Wh) + 400W Solar Panel",
-        "category": "portable-power-station",
-        "kind": "bundle",
-        "bundle": {
-            "baseStationId": "ecoflow-delta-3-max",
-            "includes": [
-                {
-                    "type": "solar-panel",
-                    "panelId": "ecoflow-400w-portable",
-                    "quantity": 1,
-                    "wiring": [
-                        {
-                            "inputId": "pv",
-                            "series": 1,
-                            "parallel": 1
-                        }
-                    ]
-                }
-            ]
-        },
-        "region": "US",
-        "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54707787169865&view=d3m-121",
-        "officialAffiliateUrl": null,
-        "asin": "B0FR8VK9B8",
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20(2048Wh)%20%2B%20400W%20Solar%20Panel.webp",
-        "price": {
-            "currency": "USD",
-            "current": 1399,
+            "current": null,
             "original": null
         },
         "capacity": {
@@ -6399,7 +6318,152 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-20"
+        "lastChecked": "2026-11-27"
+    },
+    {
+        "id": "ecoflow-delta-3-max-400w-solar-panel",
+        "brand": "EcoFlow",
+        "model": "DELTA 3 Max (2048Wh) + 400W Solar Panel",
+        "name": "EcoFlow DELTA 3 Max (2048Wh) + 400W Solar Panel",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-3-max",
+            "includes": [
+                {
+                    "type": "solar-panel",
+                    "panelId": "ecoflow-400w-portable",
+                    "quantity": 1,
+                    "wiring": [
+                        {
+                            "inputId": "pv",
+                            "series": 1,
+                            "parallel": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54707787169865&view=d3m-121",
+        "officialAffiliateUrl": null,
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20(2048Wh)%20%2B%20400W%20Solar%20Panel.webp",
+        "price": {
+            "currency": "USD",
+            "current": null,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 2048,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 2048
+        },
+        "power": {
+            "continuousW": 2400,
+            "surgeW": 4800,
+            "xBoostW": 3400
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": []
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": "C14",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 500,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC/Solar Input",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 13,
+                        "maxW": 500,
+                        "overCurrent": "prohibited"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24,
+                    48
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 20.3,
+            "dimensionsCm": {
+                "length": 49.4,
+                "width": 23.9,
+                "height": 30.5
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 4,
+                "voltageV": 120,
+                "totalMaxW": 2400
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 100
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 126
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-max-500w-alternator-charger",
@@ -6422,6 +6486,10 @@
         "url": "https://us.ecoflow.com/products/delta-3-max-series-portable-power-station?variant=54692162928713&view=d3m-121",
         "officialAffiliateUrl": null,
         "asin": "B0FWRJRQMM",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Max%20(2048Wh)%20%2B%20500W%20Alternator%20Charger.webp",
         "price": {
             "currency": "USD",
@@ -6533,7 +6601,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-20"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-ultra-plus",
@@ -6547,6 +6615,10 @@
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station-3072wh?variant=55612118532169",
         "officialAffiliateUrl": null,
         "asin": "B0FQVG59LV",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20Plus.webp",
         "price": {
             "currency": "USD",
@@ -6667,7 +6739,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-ultra-plus-smart-generator-3000-dual-fuel",
@@ -6690,6 +6762,10 @@
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station-3072wh?variant=55902352965705",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20Plus%20(3072Wh)%20%2B%20Smart%20Generator%203000%20(Dual%20Fuel).webp",
         "price": {
             "currency": "USD",
@@ -6810,7 +6886,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-ultra-plus-400w-solar-panel",
@@ -6839,12 +6915,16 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station-3072wh?variant=55612118663241",
         "officialAffiliateUrl": null,
-        "asin": "B0G25VVX12",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20Plus%20(3072Wh)%20%2B%20400W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 1999,
-            "original": 2699
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 3072,
@@ -6960,7 +7040,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-ultra-plus-extra-battery",
@@ -6983,167 +7063,15 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station-3072wh?variant=55612118630473",
         "officialAffiliateUrl": null,
-        "asin": "B0FR8R9FC5",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20Plus%20(3072Wh)%20%2B%20DELTA%203%20Max%20Plus%20Extra%20Battery.webp",
         "price": {
             "currency": "USD",
-            "current": 2199,
-            "original": 2899
-        },
-        "capacity": {
-            "nominalWh": 5120,
-            "expandable": true,
-            "extraBattery": {
-                "model": "DELTA 3 Max Plus Smart Extra Battery",
-                "capacityWh": 2048,
-                "maxCount": 1
-            },
-            "maxWh": 11264
-        },
-        "power": {
-            "continuousW": 3600,
-            "surgeW": 7200,
-            "xBoostW": 4600
-        },
-        "battery": {
-            "chemistry": "LFP",
-            "cycleLife": []
-        },
-        "charging": {
-            "acInputW": 1800,
-            "ac": {
-                "frequencyHz": [
-                    50,
-                    60
-                ],
-                "inputs": [
-                    {
-                        "id": "ac-120",
-                        "label": "AC Input",
-                        "connector": "C14",
-                        "plug": "5-15P",
-                        "voltageV": 120,
-                        "maxA": 15,
-                        "maxW": 1800,
-                        "chargeMaxW": 1800,
-                        "chargeMinW": null,
-                        "passThrough": true
-                    }
-                ],
-                "generator": {
-                    "supported": true,
-                    "waveform": null,
-                    "maxThdPct": null,
-                    "setup": []
-                }
-            },
-            "solar": {
-                "maxW": 1600,
-                "inputs": [
-                    {
-                        "id": "pv",
-                        "label": "DC/Solar Input",
-                        "count": 2,
-                        "connector": "XT60i",
-                        "minV": 11,
-                        "maxV": 60,
-                        "startV": null,
-                        "maxA": 18,
-                        "maxW": 800,
-                        "overCurrent": "prohibited"
-                    }
-                ],
-                "includedCables": []
-            },
-            "car": {
-                "supportedV": [
-                    12,
-                    24,
-                    48
-                ],
-                "maxA": 8
-            },
-            "maxCombinedW": 3960
-        },
-        "physical": {
-            "weightKg": 49.7,
-            "dimensionsCm": {
-                "length": 61.3,
-                "width": 56.7,
-                "height": 39.5
-            }
-        },
-        "ports": {
-            "ac": {
-                "count": 5,
-                "voltageV": 120,
-                "totalMaxW": 3600
-            },
-            "usbA": {
-                "count": 1,
-                "maxWPerPort": 18
-            },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
-            "car": {
-                "count": 1,
-                "voltageV": 12.6,
-                "maxWPerPort": 126
-            },
-            "anderson": {
-                "count": 1,
-                "voltageV": 12.6,
-                "maxA": 30
-            }
-        },
-        "features": {
-            "wifi": true,
-            "bluetooth": true,
-            "app": true
-        },
-        "warrantyYears": 5,
-        "lastChecked": "2026-10-25"
-    },
-    {
-        "id": "ecoflow-delta-3-ultra-plus-extra-battery-400w-solar-panel",
-        "brand": "EcoFlow",
-        "model": "DELTA 3 Ultra Plus (3072Wh) + DELTA 3 Max Plus Extra Battery + 400W Solar Panel",
-        "name": "EcoFlow DELTA 3 Ultra Plus (3072Wh) + DELTA 3 Max Plus Extra Battery + 400W Solar Panel",
-        "category": "portable-power-station",
-        "kind": "bundle",
-        "bundle": {
-            "baseStationId": "ecoflow-delta-3-ultra-plus",
-            "includes": [
-                {
-                    "type": "extra-battery",
-                    "model": "DELTA 3 Max Plus Smart Extra Battery",
-                    "quantity": 1,
-                    "capacityWh": 2048
-                },
-                {
-                    "type": "solar-panel",
-                    "panelId": "ecoflow-400w-portable",
-                    "quantity": 1,
-                    "wiring": [
-                        {
-                            "inputId": "pv",
-                            "series": 1,
-                            "parallel": 1
-                        }
-                    ]
-                }
-            ]
-        },
-        "region": "US",
-        "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station-3072wh?variant=55612118597705",
-        "officialAffiliateUrl": null,
-        "asin": null,
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20Plus%20(3072Wh)%20%2B%20DELTA%203%20Max%20Plus%20Extra%20Battery%20%2B%20400W%20Solar%20Panel.webp",
-        "price": {
-            "currency": "USD",
-            "current": 2599,
+            "current": null,
             "original": null
         },
         "capacity": {
@@ -7260,7 +7188,167 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-25"
+        "lastChecked": "2026-11-27"
+    },
+    {
+        "id": "ecoflow-delta-3-ultra-plus-extra-battery-400w-solar-panel",
+        "brand": "EcoFlow",
+        "model": "DELTA 3 Ultra Plus (3072Wh) + DELTA 3 Max Plus Extra Battery + 400W Solar Panel",
+        "name": "EcoFlow DELTA 3 Ultra Plus (3072Wh) + DELTA 3 Max Plus Extra Battery + 400W Solar Panel",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-3-ultra-plus",
+            "includes": [
+                {
+                    "type": "extra-battery",
+                    "model": "DELTA 3 Max Plus Smart Extra Battery",
+                    "quantity": 1,
+                    "capacityWh": 2048
+                },
+                {
+                    "type": "solar-panel",
+                    "panelId": "ecoflow-400w-portable",
+                    "quantity": 1,
+                    "wiring": [
+                        {
+                            "inputId": "pv",
+                            "series": 1,
+                            "parallel": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station-3072wh?variant=55612118597705",
+        "officialAffiliateUrl": null,
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20Plus%20(3072Wh)%20%2B%20DELTA%203%20Max%20Plus%20Extra%20Battery%20%2B%20400W%20Solar%20Panel.webp",
+        "price": {
+            "currency": "USD",
+            "current": null,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 5120,
+            "expandable": true,
+            "extraBattery": {
+                "model": "DELTA 3 Max Plus Smart Extra Battery",
+                "capacityWh": 2048,
+                "maxCount": 1
+            },
+            "maxWh": 11264
+        },
+        "power": {
+            "continuousW": 3600,
+            "surgeW": 7200,
+            "xBoostW": 4600
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": []
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": "C14",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 1600,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC/Solar Input",
+                        "count": 2,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 18,
+                        "maxW": 800,
+                        "overCurrent": "prohibited"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24,
+                    48
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": 3960
+        },
+        "physical": {
+            "weightKg": 49.7,
+            "dimensionsCm": {
+                "length": 61.3,
+                "width": 56.7,
+                "height": 39.5
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 5,
+                "voltageV": 120,
+                "totalMaxW": 3600
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 140
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 126
+            },
+            "anderson": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxA": 30
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-ultra",
@@ -7274,10 +7362,14 @@
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-portable-power-station-3072wh?variant=55609357140041",
         "officialAffiliateUrl": null,
         "asin": "B0FQVBFLHL",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra.webp",
         "price": {
             "currency": "USD",
-            "current": 1299,
+            "current": 1369,
             "original": 1599
         },
         "capacity": {
@@ -7385,7 +7477,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-2x-delta-3-ultra",
@@ -7407,7 +7499,11 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-portable-power-station-3072wh?variant=55750387662921",
         "officialAffiliateUrl": null,
-        "asin": null,
+        "asin": "B0FQVBFLHL",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%202%20x%20DELTA%203%20Ultra%20(3072Wh).webp",
         "price": {
             "currency": "USD",
@@ -7531,7 +7627,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-ultra-2x-220w-solar-panel",
@@ -7554,145 +7650,15 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-portable-power-station-3072wh?variant=55609357172809",
         "officialAffiliateUrl": null,
-        "asin": "B0FR8LQV82",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20(3072Wh)%20%2B%202%20×%20220W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 1799,
-            "original": 1999
-        },
-        "capacity": {
-            "nominalWh": 3072,
-            "expandable": false,
-            "extraBattery": null,
-            "maxWh": 3072
-        },
-        "power": {
-            "continuousW": 3600,
-            "surgeW": 7200,
-            "xBoostW": 4600
-        },
-        "battery": {
-            "chemistry": "LFP",
-            "cycleLife": []
-        },
-        "charging": {
-            "acInputW": 1800,
-            "ac": {
-                "frequencyHz": [
-                    50,
-                    60
-                ],
-                "inputs": [
-                    {
-                        "id": "ac-120",
-                        "label": "AC Input",
-                        "connector": "C14",
-                        "plug": "5-15P",
-                        "voltageV": 120,
-                        "maxA": 15,
-                        "maxW": 1800,
-                        "chargeMaxW": 1800,
-                        "chargeMinW": null,
-                        "passThrough": true
-                    }
-                ],
-                "generator": {
-                    "supported": true,
-                    "waveform": null,
-                    "maxThdPct": null,
-                    "setup": []
-                }
-            },
-            "solar": {
-                "maxW": 800,
-                "inputs": [
-                    {
-                        "id": "pv",
-                        "label": "DC/Solar Input",
-                        "count": 1,
-                        "connector": "XT60i",
-                        "minV": 11,
-                        "maxV": 60,
-                        "startV": null,
-                        "maxA": 18,
-                        "maxW": 800,
-                        "overCurrent": "prohibited"
-                    }
-                ],
-                "includedCables": []
-            },
-            "car": {
-                "supportedV": [
-                    12,
-                    24,
-                    48
-                ],
-                "maxA": 8
-            },
-            "maxCombinedW": null
-        },
-        "physical": {
-            "weightKg": 32.7,
-            "dimensionsCm": {
-                "length": 62.6,
-                "width": 32.8,
-                "height": 39.5
-            }
-        },
-        "ports": {
-            "ac": {
-                "count": 5,
-                "voltageV": 120,
-                "totalMaxW": 3600
-            },
-            "usbA": {
-                "count": 1,
-                "maxWPerPort": 18
-            },
-            "usbC": {
-                "count": 1,
-                "maxWPerPort": 140
-            },
-            "car": {
-                "count": 1,
-                "voltageV": 12.6,
-                "maxWPerPort": 126
-            }
-        },
-        "features": {
-            "wifi": true,
-            "bluetooth": true,
-            "app": true
-        },
-        "warrantyYears": 5,
-        "lastChecked": "2026-10-25"
-    },
-    {
-        "id": "ecoflow-delta-3-ultra-smart-generator-3000-dual-fuel",
-        "brand": "EcoFlow",
-        "model": "DELTA 3 Ultra (3072Wh) + Smart Generator 3000 (Dual Fuel)",
-        "name": "EcoFlow DELTA 3 Ultra (3072Wh) + Smart Generator 3000 (Dual Fuel)",
-        "category": "portable-power-station",
-        "kind": "bundle",
-        "bundle": {
-            "baseStationId": "ecoflow-delta-3-ultra",
-            "includes": [
-                {
-                    "type": "generator",
-                    "generatorId": "ecoflow-smart-generator-3000-dual-fuel",
-                    "quantity": 1
-                }
-            ]
-        },
-        "region": "US",
-        "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-portable-power-station-3072wh?variant=56019045548105",
-        "officialAffiliateUrl": null,
-        "asin": null,
-        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20Plus%20(3072Wh)%20%2B%20Smart%20Generator%203000%20(Dual%20Fuel).webp",
-        "price": {
-            "currency": "USD",
-            "current": 1999,
+            "current": null,
             "original": null
         },
         "capacity": {
@@ -7800,7 +7766,145 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-25"
+        "lastChecked": "2026-11-27"
+    },
+    {
+        "id": "ecoflow-delta-3-ultra-smart-generator-3000-dual-fuel",
+        "brand": "EcoFlow",
+        "model": "DELTA 3 Ultra (3072Wh) + Smart Generator 3000 (Dual Fuel)",
+        "name": "EcoFlow DELTA 3 Ultra (3072Wh) + Smart Generator 3000 (Dual Fuel)",
+        "category": "portable-power-station",
+        "kind": "bundle",
+        "bundle": {
+            "baseStationId": "ecoflow-delta-3-ultra",
+            "includes": [
+                {
+                    "type": "generator",
+                    "generatorId": "ecoflow-smart-generator-3000-dual-fuel",
+                    "quantity": 1
+                }
+            ]
+        },
+        "region": "US",
+        "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-portable-power-station-3072wh?variant=56019045548105",
+        "officialAffiliateUrl": null,
+        "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
+        "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Ultra%20Plus%20(3072Wh)%20%2B%20Smart%20Generator%203000%20(Dual%20Fuel).webp",
+        "price": {
+            "currency": "USD",
+            "current": 1799,
+            "original": null
+        },
+        "capacity": {
+            "nominalWh": 3072,
+            "expandable": false,
+            "extraBattery": null,
+            "maxWh": 3072
+        },
+        "power": {
+            "continuousW": 3600,
+            "surgeW": 7200,
+            "xBoostW": 4600
+        },
+        "battery": {
+            "chemistry": "LFP",
+            "cycleLife": []
+        },
+        "charging": {
+            "acInputW": 1800,
+            "ac": {
+                "frequencyHz": [
+                    50,
+                    60
+                ],
+                "inputs": [
+                    {
+                        "id": "ac-120",
+                        "label": "AC Input",
+                        "connector": "C14",
+                        "plug": "5-15P",
+                        "voltageV": 120,
+                        "maxA": 15,
+                        "maxW": 1800,
+                        "chargeMaxW": 1800,
+                        "chargeMinW": null,
+                        "passThrough": true
+                    }
+                ],
+                "generator": {
+                    "supported": true,
+                    "waveform": null,
+                    "maxThdPct": null,
+                    "setup": []
+                }
+            },
+            "solar": {
+                "maxW": 800,
+                "inputs": [
+                    {
+                        "id": "pv",
+                        "label": "DC/Solar Input",
+                        "count": 1,
+                        "connector": "XT60i",
+                        "minV": 11,
+                        "maxV": 60,
+                        "startV": null,
+                        "maxA": 18,
+                        "maxW": 800,
+                        "overCurrent": "prohibited"
+                    }
+                ],
+                "includedCables": []
+            },
+            "car": {
+                "supportedV": [
+                    12,
+                    24,
+                    48
+                ],
+                "maxA": 8
+            },
+            "maxCombinedW": null
+        },
+        "physical": {
+            "weightKg": 32.7,
+            "dimensionsCm": {
+                "length": 62.6,
+                "width": 32.8,
+                "height": 39.5
+            }
+        },
+        "ports": {
+            "ac": {
+                "count": 5,
+                "voltageV": 120,
+                "totalMaxW": 3600
+            },
+            "usbA": {
+                "count": 1,
+                "maxWPerPort": 18
+            },
+            "usbC": {
+                "count": 1,
+                "maxWPerPort": 140
+            },
+            "car": {
+                "count": 1,
+                "voltageV": 12.6,
+                "maxWPerPort": 126
+            }
+        },
+        "features": {
+            "wifi": true,
+            "bluetooth": true,
+            "app": true
+        },
+        "warrantyYears": 5,
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-2-max",
@@ -7814,11 +7918,15 @@
         "url": "https://us.ecoflow.com/products/delta-2-max-portable-power-station?variant=54615943512137",
         "officialAffiliateUrl": null,
         "asin": "B0C4DW17PD",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max.webp",
         "price": {
             "currency": "USD",
-            "current": 1049,
-            "original": 1299
+            "current": 977,
+            "original": 1029
         },
         "capacity": {
             "nominalWh": 2048,
@@ -7942,7 +8050,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-2-max-extra-battery",
@@ -7966,10 +8074,14 @@
         "url": "https://us.ecoflow.com/products/delta-2-max-portable-power-station?variant=54796363563081",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max%20%2B%20DELTA%202%20Max%20Smart%20Extra%20Battery%20(4kWh).webp",
         "price": {
             "currency": "USD",
-            "current": 1899,
+            "current": 1849,
             "original": null
         },
         "capacity": {
@@ -8094,7 +8206,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-2-max-2x-220w-solar-panel-bag",
@@ -8123,10 +8235,14 @@
         "url": "https://us.ecoflow.com/products/delta-2-max-portable-power-station?variant=41751970021449",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max%20%2B%202%20x%20220W%20NextGen%20Bifacial%20Solar%20Panels%20%2B%20Free%20Bag.webp",
         "price": {
             "currency": "USD",
-            "current": 1599,
+            "current": null,
             "original": null
         },
         "capacity": {
@@ -8251,7 +8367,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-2-max-800w-alternator-charger-bag",
@@ -8278,7 +8394,11 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-2-max-portable-power-station?variant=54601067855945",
         "officialAffiliateUrl": null,
-        "asin": null,
+        "asin": "B0D1CN8MLS",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max%20%2B%20800W%20Alternator%20Charger%20%2B%20Free%20Bag.webp",
         "price": {
             "currency": "USD",
@@ -8407,7 +8527,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-2-max-extra-battery-220w-solar-panel",
@@ -8440,13 +8560,17 @@
             ]
         },
         "region": "US",
-        "url": "https://us.ecoflow.com/products/delta-2-max-portable-power-station?variant=54664486125641",
+        "url": "https://us.ecoflow.com/products/delta-2-max-portable-power-station?variant=67914849419337",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max%20%2B%20DELTA%202%20Max%20Extra%20Battery%20%2B%20220W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 2199,
+            "current": 2149,
             "original": null
         },
         "capacity": {
@@ -8571,7 +8695,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-2-max-400w-solar-panel",
@@ -8601,10 +8725,14 @@
         "url": "https://us.ecoflow.com/products/delta-2-max-portable-power-station?variant=54510105657417",
         "officialAffiliateUrl": null,
         "asin": "B0C8T7TW4X",
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%202%20Max%20%2B%20400W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 1549,
+            "current": null,
             "original": null
         },
         "capacity": {
@@ -8729,7 +8857,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-classic",
@@ -8740,13 +8868,17 @@
         "kind": "station",
         "bundle": null,
         "region": "US",
-        "url": "https://us.ecoflow.com/products/delta-3-classic-portable-power-station?variant=54691871227977",
+        "url": "https://us.ecoflow.com/products/delta-3-classic-portable-power-station?variant=67639241736265",
         "officialAffiliateUrl": null,
         "asin": "B0FQVC4RF5",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Classic%20(1024Wh).webp",
         "price": {
             "currency": "USD",
-            "current": 499,
+            "current": 459,
             "original": 599
         },
         "capacity": {
@@ -8852,7 +8984,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-2x-delta-3-classic",
@@ -8874,11 +9006,15 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-classic-portable-power-station?variant=55345327341641",
         "officialAffiliateUrl": null,
-        "asin": null,
+        "asin": "B0FQVC4RF5",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%202%20x%20DELTA%203%20Classic%20(1024Wh).webp",
         "price": {
             "currency": "USD",
-            "current": 998,
+            "current": 889,
             "original": 1198
         },
         "capacity": {
@@ -8996,7 +9132,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-classic-220w-solar-panel",
@@ -9025,12 +9161,16 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-classic-portable-power-station?variant=54691871260745",
         "officialAffiliateUrl": null,
-        "asin": "B0FRMQPZF6",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Classic%20(1024Wh)%20%2B%20220W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 699,
-            "original": 899
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 1024,
@@ -9135,7 +9275,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-classic-160w-solar-panel",
@@ -9164,11 +9304,15 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-classic-portable-power-station?variant=54787355934793",
         "officialAffiliateUrl": null,
-        "asin": null,
+        "asin": "B0G3NNJHFY",
+        "availability": {
+            "official": "unavailable",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Classic%20(1024Wh)%20%2B%20160W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 709,
+            "current": 699,
             "original": 759
         },
         "capacity": {
@@ -9274,7 +9418,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-classic-smart-generator-3000-dual-fuel",
@@ -9297,6 +9441,10 @@
         "url": "https://us.ecoflow.com/products/delta-3-classic-portable-power-station?variant=54692156801097",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Classic%20(1024Wh)%20%2B%20Smart%20Generator%203000%20(Dual%20Fuel).webp",
         "price": {
             "currency": "USD",
@@ -9406,7 +9554,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-classic-500w-alternator-charger",
@@ -9429,10 +9577,14 @@
         "url": "https://us.ecoflow.com/products/delta-3-classic-portable-power-station?variant=54692156833865",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Classic%20(1024Wh)%20%2B%20500W%20Alternator%20Charger.webp",
         "price": {
             "currency": "USD",
-            "current": 759,
+            "current": 629,
             "original": 799
         },
         "capacity": {
@@ -9538,7 +9690,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-plus",
@@ -9552,6 +9704,10 @@
         "url": "https://us.ecoflow.com/products/delta-3-plus-portable-power-station?variant=41826182496329",
         "officialAffiliateUrl": null,
         "asin": "B0DCC2BVFW",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Plus.webp",
         "price": {
             "currency": "USD",
@@ -9675,7 +9831,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-plus-160w-solar-panel",
@@ -9705,10 +9861,14 @@
         "url": "https://us.ecoflow.com/products/delta-3-plus-portable-power-station?variant=55819090100297",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Plus%20%2B%20160W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 819,
+            "current": null,
             "original": null
         },
         "capacity": {
@@ -9828,7 +9988,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-plus-220w-solar-panel",
@@ -9857,12 +10017,16 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-plus-portable-power-station?variant=41826183151689",
         "officialAffiliateUrl": null,
-        "asin": "B0DR7ZDMS6",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Plus%20%2B%20220W%20Portable%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 919,
-            "original": 1099
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 1024,
@@ -9981,7 +10145,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-plus-extra-battery",
@@ -10005,6 +10169,10 @@
         "url": "https://us.ecoflow.com/products/delta-3-plus-portable-power-station?variant=41975891984457",
         "officialAffiliateUrl": null,
         "asin": "B0DCBV939X",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Plus%20%2B%20DELTA%203%20Series%20Extra%20Battery.webp",
         "price": {
             "currency": "USD",
@@ -10128,7 +10296,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-plus-smart-generator-3000-dual-fuel",
@@ -10151,6 +10319,10 @@
         "url": "https://us.ecoflow.com/products/delta-3-plus-portable-power-station?variant=54522021019721",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Plus%20%2B%20Smart%20Generator%203000%20(Dual%20Fuel).webp",
         "price": {
             "currency": "USD",
@@ -10274,7 +10446,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-plus-800w-alternator-charger",
@@ -10296,7 +10468,11 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-plus-portable-power-station?variant=41826183249993",
         "officialAffiliateUrl": null,
-        "asin": "B0DFH7BJN6",
+        "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20Plus%20%2B%20800W%20Alternator%20Charger.webp",
         "price": {
             "currency": "USD",
@@ -10420,7 +10596,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3",
@@ -10434,10 +10610,14 @@
         "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=42015827492937",
         "officialAffiliateUrl": null,
         "asin": "B0DCBYMC9D",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203.webp",
         "price": {
             "currency": "USD",
-            "current": 600,
+            "current": 599,
             "original": 699
         },
         "capacity": {
@@ -10557,7 +10737,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-extra-battery",
@@ -10581,10 +10761,14 @@
         "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=42017992048713",
         "officialAffiliateUrl": null,
         "asin": "B0GVDV4J2M",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20%2B%20DELTA%203%20Extra%20Battery.webp",
         "price": {
             "currency": "USD",
-            "current": 1129,
+            "current": 919,
             "original": 1299
         },
         "capacity": {
@@ -10704,7 +10888,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-110w-solar-panel",
@@ -10734,10 +10918,14 @@
         "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=42017992474697",
         "officialAffiliateUrl": null,
         "asin": null,
+        "availability": {
+            "official": "available",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20%2B%20110W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 729,
+            "current": 679,
             "original": 799
         },
         "capacity": {
@@ -10857,7 +11045,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-2x-delta-3",
@@ -10879,7 +11067,11 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=54547932381257",
         "officialAffiliateUrl": null,
-        "asin": null,
+        "asin": "B0DCBYMC9D",
+        "availability": {
+            "official": "available",
+            "amazon": "available"
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%202%20x%20DELTA%203.webp",
         "price": {
             "currency": "USD",
@@ -11015,7 +11207,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-220w-solar-panel",
@@ -11044,12 +11236,16 @@
         "region": "US",
         "url": "https://us.ecoflow.com/products/delta-3-portable-power-station?variant=42017992540233",
         "officialAffiliateUrl": null,
-        "asin": "B0F9WJDRJ2",
+        "asin": null,
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20DELTA%203%20%2B%20220W%20Solar%20Panel.webp",
         "price": {
             "currency": "USD",
-            "current": 869,
-            "original": 999
+            "current": null,
+            "original": null
         },
         "capacity": {
             "nominalWh": 1024,
@@ -11168,7 +11364,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-10-26"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "ecoflow-delta-3-160w-solar-panel",
