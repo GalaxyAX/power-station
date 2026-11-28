@@ -23116,7 +23116,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-200-v2-charger-2",
@@ -23261,7 +23261,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-06"
+        "lastChecked": "2026-11-28"
     },
     {
         "id": "bluetti-elite-100-mini",
@@ -23401,7 +23401,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-100-mini-200w",
@@ -23557,7 +23557,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-25"
+        "lastChecked": "2026-11-28"
     },
     {
         "id": "bluetti-elite-100-mini-100w",
@@ -23720,7 +23720,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-100-mini-350w",
@@ -23752,7 +23752,7 @@
         "asin": "B0HCZ6BTLD",
         "availability": {
             "official": "available",
-            "amazon": "available"
+            "amazon": null
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20100%20mini%20%2B%20350W.webp",
         "price": {
@@ -23876,7 +23876,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-100-mini-charger-1",
@@ -24032,7 +24032,7 @@
             "app": true
         },
         "warrantyYears": 3,
-        "lastChecked": "2026-11-25"
+        "lastChecked": "2026-11-27"
     },
     {
         "id": "bluetti-elite-100-v2",
