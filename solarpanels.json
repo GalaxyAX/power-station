@@ -10,6 +10,10 @@
         "url": "https://us.ecoflow.com/products/400w-portable-solar-panel?variant=39998021697609",
         "officialAffiliateUrl": null,
         "asin": "B09TKKYW7G",
+        "availability": {
+            "official": "unavailable",
+            "amazon": null
+        },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/EcoFlow%20400W%20Portable%20Solar%20Panel.webp",
         "datasheetUrl": null,
         "price": {
