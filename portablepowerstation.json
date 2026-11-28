@@ -24172,7 +24172,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-25"
+        "lastChecked": "2026-11-28"
     },
     {
         "id": "bluetti-elite-100-v2-bio-based",
@@ -24187,7 +24187,7 @@
         "officialAffiliateUrl": "https://www.awin1.com/cread.php?awinmid=59271&awinaffid=3152954&ued=https%3A%2F%2Fwww.bluettipower.com%2Fproducts%2Felite-100-v2-portable-power-station%3Fvariant%3D48108775407835",
         "asin": "B0GCCBYD21",
         "availability": {
-            "official": "available",
+            "official": "unavailable",
             "amazon": null
         },
         "image": "https://raw.githubusercontent.com/GalaxyAX/power-station/refs/heads/main/img/BLUETTI%20Elite%20100%20V2%20Bio-based.webp",
@@ -24312,7 +24312,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-25"
+        "lastChecked": "2026-11-28"
     },
     {
         "id": "bluetti-elite-100-v2-200w",
@@ -24468,7 +24468,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-25"
+        "lastChecked": "2026-11-28"
     },
     {
         "id": "bluetti-elite-100-v2-350w",
@@ -24624,7 +24624,7 @@
             "app": true
         },
         "warrantyYears": 5,
-        "lastChecked": "2026-11-25"
+        "lastChecked": "2026-11-28"
     },
     {
         "id": "bluetti-elite-100-v2-100w",
